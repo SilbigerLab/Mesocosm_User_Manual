@@ -1,0 +1,16 @@
+# Apex Fusion
+
+
+**Dashboard**
+1. On your Dashboard you will see every outlet available to you and the current state of that outlet (ON or OFF), as well as the current readings for any probes enabled on the Apex.
+1. The top menu bar options (left to right):
+  1. Apex List: returns you to the menu of available Apexes linked to your Fusion account
+  1. Alarm Log: shows any daily alarms triggered by the system, as set by your parameters
+  1. Input Log: 
+  1. 
+
+
+**Outlet Setup**
+1. Click Expand along the top bar (depicted as three gears).
+1. Immediately next to the gear symbol is the Outputs icon (depicted as a three pronged outlet).  Click this icon to view your array of outlets and other outputs from the system, as well as manipulate these items.  These are arranged by the name you give them, the device they're connected to, the type of output, and whether or not you have chosen to log this item's history.
+1. Click any "outlet" type to 

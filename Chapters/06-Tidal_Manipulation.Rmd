@@ -1,0 +1,21 @@
+# Tidal Manipulation
+
+Controling the tidal cycle of each experimental tank with the Apex.  This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needles described in the [System Details], and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
+
+1. Set the flow rate of the supply line without using the solenoid (moving forward we will refer to this valve as N[#]FLW as named in the APEX Fusion dashboard), for example 4 GPH.
+  1. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should not have to adjust it again.
+2. Adjust the outgoing flow rate of the drain line D[#]FLW higher than the N[#]FLW, for example 6 GPH.
+3. With the above condition, the outgoing flow rate is higher than the incoming, so this will create the low tide effect.
+4. To set the high tide effect, manually turn the supply line S[#]FLW with solenoid ON, and adjust the flow rate, for example 4 GPH.
+5. Once the S[#]FLW is set, change setting to AUTO on the Fusion page. For a constant ON/OFF time within a 24 hour period the Advanced program should look something like the program below, note that time features in the Apex programming is based on 24 hour clock.
+
+
+Fallback OFF  
+Set OFF  
+If time 8:00 to 14:00 then ON  
+If time 20:00 to 2:00 then ON  
+
+
+For a more advance programming feature, start on Page 64 of the [Comprehensive Manual](Manuals/Apex_Comprehensive_Reference_Manual.pdf) for Seasonal Features and specifically Moon cycles. This should allow for a more realistic cycle.  
+
+In summary in a tidal cycle event the flow rates for the drain line and both supply lines are constant, and the tide effect is controlled via the solenoid increasing or decreasing the flow rate into the individual tanks.
