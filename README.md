@@ -15,13 +15,9 @@ danielle.barnas@csun.edu
 
 
 **System Information**  
-<<<<<<< HEAD
-[Full Manual](book-output/summary.html)
+[Full Manual](Mesocosm_Manual.pdf)
 
 [By Chapter](Chapters/)
- 
-=======
-[Full Manual](Mesocosm_Manual.pdf)
 
 By Chapter:  
 [Summary](Chapters/01-Summary.Rmd)  
@@ -32,5 +28,4 @@ By Chapter:
 [Tidal Manipulation](Chapters/06-Tidal_Manipulation.Rmd)  
 [Controlling pH](Chapters/07-Controlling_pH.Rmd)  
 [Apex Programming Guide](Chapters/08-Apex_Programming_Guide.Rmd)
-[Apex Fusion Guide](Chapters/09-Apex_Fusion_Guide.Rmd)
->>>>>>> 3210bf7a123f38f4531d7b686a3185bc0da13a20
+[Apex Fusion Guide](Chapters/09-Apex_Fusion_Guide.Rmd)  
