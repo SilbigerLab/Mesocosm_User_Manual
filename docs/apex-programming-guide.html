@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>8 Apex Programming Guide | Mesocosm User Manual</title>
+  <meta name="description" content="This is a guide for understanding the purpose and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="8 Apex Programming Guide | Mesocosm User Manual" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a guide for understanding the purpose and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="8 Apex Programming Guide | Mesocosm User Manual" />
+  
+  <meta name="twitter:description" content="This is a guide for understanding the purpose and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge." />
+  
+
+<meta name="author" content="Dr. Nyssa Silbiger  and Danielle Barnas">
+
+
+<meta name="date" content="2019-04-15">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="controlling-ph.html">
+<link rel="next" href="apex-fusion.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Mesocosm User Manual</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="summary.html"><a href="summary.html"><i class="fa fa-check"></i><b>1</b> Summary</a></li>
+<li class="chapter" data-level="2" data-path="contacts.html"><a href="contacts.html"><i class="fa fa-check"></i><b>2</b> Contacts</a></li>
+<li class="chapter" data-level="3" data-path="system-details.html"><a href="system-details.html"><i class="fa fa-check"></i><b>3</b> System Details</a></li>
+<li class="chapter" data-level="4" data-path="inventory.html"><a href="inventory.html"><i class="fa fa-check"></i><b>4</b> Inventory</a></li>
+<li class="chapter" data-level="5" data-path="start-up-guide.html"><a href="start-up-guide.html"><i class="fa fa-check"></i><b>5</b> Start-up Guide</a></li>
+<li class="chapter" data-level="6" data-path="tidal-manipulation.html"><a href="tidal-manipulation.html"><i class="fa fa-check"></i><b>6</b> Tidal Manipulation</a></li>
+<li class="chapter" data-level="7" data-path="controlling-ph.html"><a href="controlling-ph.html"><i class="fa fa-check"></i><b>7</b> Controlling pH</a></li>
+<li class="chapter" data-level="8" data-path="apex-programming-guide.html"><a href="apex-programming-guide.html"><i class="fa fa-check"></i><b>8</b> Apex Programming Guide</a></li>
+<li class="chapter" data-level="9" data-path="apex-fusion.html"><a href="apex-fusion.html"><i class="fa fa-check"></i><b>9</b> Apex Fusion</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mesocosm User Manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="apex-programming-guide" class="section level1">
+<h1><span class="header-section-number">8</span> Apex Programming Guide</h1>
+<p>Recommendations for programming the Apex aquarium controllers designated for the Silbiger Lab Mesocosm, located in the loading bay between Citrus Hall and Eucalyptus Hall at California State University, Northridge. These recommendations are for maintaining tanks at ambient conditions. Changes should be made according to your study aims.</p>
+<p>The following are using the numbered system of Apex_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks.</p>
+<p><strong>Probes</strong></p>
+<ul>
+<li>Tmp-1 (Base)</li>
+<li>pH-1 (Base)</li>
+<li>Tmp-2 (PM1_2)</li>
+<li>pH-2 (PM1_2)</li>
+<li>Tmp-3 (PM1_3)</li>
+<li>pH-3 (PM1_3)</li>
+<li>Tmp-4 (PM1_4)</li>
+<li>pH-4 (PM1_4)</li>
+</ul>
+<p><strong>Outlets and Ports</strong></p>
+<ul>
+<li>Base Unit</li>
+<li>WHITE-TNK-1</li>
+<li>BLUE-TNK-1</li>
+<li>WHITE-TNK-2</li>
+<li>BLUE-TNK-2</li>
+<li>SndAlm_I6</li>
+<li>SndWrn_I7</li>
+<li>EmailAlm_I5</li>
+<li>Email2Alm_I9</li>
+<li>EB832_1</li>
+<li>HEATER-1</li>
+<li>PWRHD-1</li>
+<li>SOL-TNK-1</li>
+<li>LIGHT-TNK-1</li>
+<li>PH-TNK-1</li>
+<li>HEATER-3</li>
+<li>PWRHD-3</li>
+<li>SOL-TNK-3</li>
+<li>LIGHT-TNK-3</li>
+<li>PH-TNK-3</li>
+<li>EB832_2</li>
+<li>HEATER-2</li>
+<li>PWRHD-2</li>
+<li>SOL-TNK-2</li>
+<li>LIGHT-TNK-2</li>
+<li>PH-TNK-2</li>
+<li>HEATER-4</li>
+<li>PWRHD-4</li>
+<li>SOL-TNK-4</li>
+<li>LIGHT-TNK-4</li>
+<li>PH-TNK-4</li>
+<li>VDM</li>
+<li>WHITE-TNK-3</li>
+<li>BLUE-TNK-3</li>
+<li>WHITE-TNK-4</li>
+<li>BLUE-TNK-4</li>
+<li>BluLED_11_5</li>
+<li>WhtLED_11_6</li>
+<li>FMM_1</li>
+<li>FMM_2</li>
+<li>FMM_3</li>
+<li><p>FMM_4</p></li>
+<li>LinkA_6_1 (FMM)</li>
+<li>LinkA_10_1 (FMM)</li>
+<li>LinkA_9_1 (FMM)</li>
+<li>LinkA_7_1 (FMM)</li>
+<li>PH-TNK-1 (EB832_1) - solenoid</li>
+<li>PH-TNK-2 (EB832_2) - solenoid</li>
+<li>PH-TNK-3 (EB832_1) - solenoid</li>
+<li><p>PH-TNK-4 (EB832_2) - solenoid</p></li>
+</ul>
+<p><strong>Outlet Setup in ApexFusion</strong></p>
+<ul>
+<li>LIGHT-TNK-#</li>
+<li>Fallback OFF</li>
+<li>Set OFF</li>
+<li>If Sun 0/0 Then ON</li>
+<li>If Moon 0/0 Then ON</li>
+<li>WHITE-TNK-#</li>
+<li>Fallback OFF</li>
+<li>Set OFF</li>
+<li>If Sun 0/0 Then RampUp</li>
+<li>BLUE-TNK-#</li>
+<li>Fallback OFF</li>
+<li>Set OFF</li>
+<li>If Moon 0/0 Then RampUp</li>
+<li>WhtLED_#</li>
+<li>Fallback OFF</li>
+<li>Set OFF</li>
+<li>If Sun 0/0 Then RampUp</li>
+<li>BluLED_#</li>
+<li>Fallback OFF</li>
+<li>Set OFF</li>
+<li>If Moon 0/0 Then MoonInt (?)</li>
+</ul>
+<p><strong>Profiles</strong> - RampUp: - Ramp Time: 30 min - Start Intensity: 0 - End Intensity: 100 -RampDwn: - Ramp Time: 30 min - Start Intensity: 100 - End Intensity: 0</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="controlling-ph.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="apex-fusion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["Mesocosm_Manual.pdf", "Mesocosm_Manual.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
