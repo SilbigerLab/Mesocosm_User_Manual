@@ -16,5 +16,5 @@ danielle.barnas@csun.edu
 
 **System Information**  
 
-[Full Manual](Mesocosm_Manual.pdf)  
+[Full Manual](docs/Mesocosm_Manual.pdf)  
 [By Chapter](Chapters/)  
