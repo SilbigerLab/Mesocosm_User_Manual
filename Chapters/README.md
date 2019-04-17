@@ -242,7 +242,7 @@ The pH is controlled with the addition of CO2 gas to the system. The gas is deli
   If pH > 8.2 Then ON  
   
   
-1. Refer to [Comprehensive Manual](Manuals/Apex_Comprehensive_Reference_Manual.pdf) for set point programming.
+Refer to [Comprehensive Manual](Manuals/Apex_Comprehensive_Reference_Manual.pdf) for set point programming.
 
 
 <a name="Apex_Programming_Guide"></a> **8. Apex Programming Guide**
