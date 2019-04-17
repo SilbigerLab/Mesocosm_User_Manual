@@ -35,18 +35,20 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
 
 <a name="System_Details"></a> **3. System Details**
 
-[**Aquaria System Component List**](#Tank_System)  
+
+[**Aquaria System**](#Tank_System)  
 [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 [**System Operational Sequence**](#System_Operational_Sequence)  
 [**Apex Connection Series**](#Apex_Connection_Series)  
 [**EB832 Outlet Connections**](#EB832_Outlet_Connections)  
 
-<a name="Tank_System"></a> __Aquaria System Component List__
+
+<a name="Tank_System"></a> **Aquaria System Component List**
 
 - Experimental Tanks (21.25” x 12.5” x 13.5”H) - Per tank:  
-  - 1 Submersible powerhead pump ([Hydor Nano Koralia 240 powerhead](Manuals/Hydor_Nano_Pump.pdf))  
-  - 1 200 W Heater ([Hydor aquarium heater](Manuals/Hydor_Heater.pdf))  
-  - 1 Light ([Halo Basic M-110](Manuals/Apex_Halo.pdf))  
+  - 1 Submersible powerhead pump ([Hydor Nano Koralia 240 powerhead](/Manuals/Hydor_Nano_Pump.pdf))  
+  - 1 200 W Heater ([Hydor aquarium heater](/Manuals/Hydor_Heater.pdf))  
+  - 1 Light ([Halo Basic M-110](/Manuals/Apex_Halo.pdf))  
   - 1 Temperature probe (Apex)  
   - 1 pH probe (Apex)  
   - 1 Solenoid valve (Apex)  
@@ -54,29 +56,29 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
   - 2 Supply lines: "N" and "S"
   - 1 Drain line: "D"
   - 1 Gate valve  
-  - 1 VDM ([Apex Variable Dimming Module](Manuals/VDM_manual.pdf), 1 unit for 4 tanks)  
+  - 1 VDM ([Apex Variable Dimming Module](/Manuals/VDM_manual.pdf), 1 unit for 4 tanks)  
   - 1 FMM ([Apex Fluid Metering Module](https://www.neptunesystems.com/getstarted/fmk/))  
-  - 1 PM1 ([Apex Probe Module 1](Manuals/PM1_manual.pdf))  
-  - 1 Base Unit ([Apex](Manuals/Apex_Comprehensive_Reference_Manual.pdf) processing unit, 1 unit for 4 tanks)  
-  - 1 EB832 ([Apex 8-outlet EnergyBar](Manuals/EB832_Guide.pdf), 1 unit for 2 tanks)  
-- 1 CO2 regulator valve ([Tunze pH Controller Set, pressure reducing valve   7077/3](Manuals/Tunze_CO2_Regulator.pdf))  
+  - 1 PM1 ([Apex Probe Module 1](/Manuals/PM1_manual.pdf))  
+  - 1 Base Unit ([Apex](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) processing unit, 1 unit for 4 tanks)  
+  - 1 EB832 ([Apex 8-outlet EnergyBar](/Manuals/EB832_Guide.pdf), 1 unit for 2 tanks)  
+- 1 CO2 regulator valve ([Tunze pH Controller Set, pressure reducing valve   7077/3](/Manuals/Tunze_CO2_Regulator.pdf))  
 - 1 Industrial Grade Carbon Dioxide, [50 pound cylinder](https://www.airgas.com/product/Gases/Industrial-Application-Gases/Carbon-Dioxide---Industrial/p/CD%2050)  
   
-<a name="Filtration_and_Recirculation_System"></a> __Filtration and Recirculation [System](Manuals/Filtration_Skid_Build_Package.pdf) Component List__
+<a name="Filtration_and_Recirculation_System"></a> **Filtration and Recirculation [System](Manuals/Filtration_Skid_Build_Package.pdf) Component List**
 
 - Sump (66.25” x 31.5” x 21”H)  
-- Chiller ([AquaLogic Multi-Temp and Titan Series](Manuals/AquaLogic_Chiller.pdf))  
-- Heat Pump ([AquaLogic Multi-Temp and Titan Series](Manuals/AquaLogic_Chiller.pdf))  
+- Chiller ([AquaLogic Multi-Temp and Titan Series](/Manuals/AquaLogic_Chiller.pdf))  
+- Heat Pump ([AquaLogic Multi-Temp and Titan Series](/Manuals/AquaLogic_Chiller.pdf))  
 - PM1 (Apex Probe Module 1)  
-- PhosBan chemical filter ([PhosBan Reactor 550](Manuals/Phosban_Reactor.pdf))  
-- Water pump ([PerformancePro Cascade pump](Manuals/Complete_Cascade.pdf))  
+- PhosBan chemical filter ([PhosBan Reactor 550](/Manuals/Phosban_Reactor.pdf))  
+- Water pump ([PerformancePro Cascade pump](/Manuals/Complete_Cascade.pdf))  
 - UV Sterilizer (Comet Series 95 Watt Lamp)  
 - CO2 Scrubber (4 outflow tubing ports) 
 - Airstones (4 units)  
 - Carbon filter cells (3 units, CF28AC,28in, ActC)  
 - Mesh filter (8 units, Matala Filter Media, interchanged 4 Blue high density and 4 Black low density sheets)  
 
-<a name="System_Operational_Sequence"></a> __System Operational Sequence__
+<a name="System_Operational_Sequence"></a> **System Operational Sequence**
 
 - This is a closed loop system where water from each individual tank will recirculate back to a main holding reservoir.  
 - Normal High Tide operating water level is approximately 12.5"H for a total water volume of 14.37 gal per tank (287.4 gal total for the 20-tank-system).  
@@ -104,7 +106,7 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
   - Controllable parameters are pH, temperature, tidal effect, and lighting.  
 - Air compressor connected to a CO2 scrubber will bubble air into the holding to bring pH to ambient or near-ambient conditions in the holding reservoir.  
 
-<a name="Apex_Connection_Series"></a> __Apex Connection Series__
+<a name="Apex_Connection_Series"></a> **Apex Connection Series**
 
 - Each EnergyBar connects to the Base Unit with an AquaBus cable via the AquaBus Ports for power.  (2) EB832 units per (1) Base Unit.  
 - Each Solenoid valve connects to the EnergyBar via the DC24 Accessory Port on the EB832.  (2) Solenoid valves per (1) EB832.  
@@ -112,11 +114,11 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
 - VDM connects to the last PM1 in series with an AquaBus cable via the AquaBus Ports for power.  
 - Temperature probe connects to the PM1 Temp Port or the Base Unit Temp Port.  (1) Temperature probe in each PM1, and (1) Temperature probe in the Base Unit.  
 - pH probe connects to the PM1 pH/ORP Port or the Base Unit pH/ORP Port.  Push the BNC female connector of the probe on to the male connector and turn 1/4 turn clockwise to lock the connector in place.  (1) pH probe in each PM1, and (1) pH probe in the Base Unit.  
-- [Halo light](Manuals/HALO_Quick_Start_Guide.pdf) connects to the VDM or Base Unit via the V1/V2 or V3/V4 Port.  (2) Light connections in the VDM and (2) Light connections in the Base Unit.  
+- [Halo light](/Manuals/HALO_Quick_Start_Guide.pdf) connects to the VDM or Base Unit via the V1/V2 or V3/V4 Port.  (2) Light connections in the VDM and (2) Light connections in the Base Unit.  
 - (1) FMM connects to the EnergyBar with an AquaBus cable via the AquaBus Ports, and all FMM connect in series with each other for power.  (1) FMM connection per (1) Base Unit.  
 - (3) Flow sensors connect to each FMM via (3) of the numbered ports.  
 
-<a name="EB832_Outlet_Connections"></a> __EB832 Outlet Connections__
+<a name="EB832_Outlet_Connections"></a> **EB832 Outlet Connections**
 
 Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlets per aquarium. In order:  
 
@@ -124,6 +126,7 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlet
 1. Hydor Powerhead 
 1. CO2 Solenoid  
 1. Halo Light  
+
 
 
 <a name="Inventory"></a> **4. Inventory**
@@ -219,7 +222,7 @@ If time 8:00 to 14:00 then ON
 If time 20:00 to 2:00 then ON  
 
 
-For a more advance programming feature, start on Page 64 of the [Comprehensive Manual](Manuals/Apex_Comprehensive_Reference_Manual.pdf) for Seasonal Features and specifically Moon cycles. This should allow for a more realistic cycle.  
+For a more advance programming feature, start on Page 64 of the [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for Seasonal Features and specifically Moon cycles. This should allow for a more realistic cycle.  
 
 In summary in a tidal cycle event the flow rates for the drain line and both supply lines are constant, and the tide effect is controlled via the solenoid increasing or decreasing the flow rate into the individual tanks.
 
@@ -242,7 +245,7 @@ The pH is controlled with the addition of CO2 gas to the system. The gas is deli
   If pH > 8.2 Then ON  
   
   
-Refer to [Comprehensive Manual](Manuals/Apex_Comprehensive_Reference_Manual.pdf) for set point programming.
+Refer to [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for set point programming.
 
 
 <a name="Apex_Programming_Guide"></a> **8. Apex Programming Guide**
