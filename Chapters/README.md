@@ -1,4 +1,4 @@
-# Chapters of the Mesocosm Manual
+# Mesocosm User Manual
 
 [**1. Summary**](#Summary)  
 [**2. Contacts**](#Contacts)  
