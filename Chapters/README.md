@@ -2,13 +2,13 @@
 
 [**1. Summary**](#Summary)  
 [**2. Contacts**](#Contacts)  
-[**3. System Details**](#System_Details)
-[**4. Inventory**](#Inventory)
-[**5. Startup Guide**](#Startup_Guide)
-[**6. Tidal Manipulation**](#Tidal_Manipulation)
-[**7. Controlling pH**](#Controlling_pH)
-[**8. Apex Programming Guide**](#Apex_Programming_Guide)
-[**9. Apex Fusion Guide**](#Apex_Fusion_Guide)
+[**3. System Details**](#System_Details)  
+[**4. Inventory**](#Inventory)  
+[**5. Startup Guide**](#Startup_Guide)   
+[**6. Tidal Manipulation**](#Tidal_Manipulation)  
+[**7. Controlling pH**](#Controlling_pH)  
+[**8. Apex Programming Guide**](#Apex_Programming_Guide)  
+[**9. Apex Fusion Guide**](#Apex_Fusion_Guide)  
 
 
 
@@ -32,10 +32,10 @@ Science Shop| CSUN College of Science and Math Machine Shop| 818-677-3055| Locat
 Perry Martin| Supervising Plumber<br /> PPM | perry.martin@csun.edu<br /> 818-677-2222| 
 Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6273| 
 
-<br />  
+
 <a name="System_Details"></a> **3. System Details**
 
-[**Aquaria System**](#Tank_System)  
+[**Aquaria System Component List**](#Tank_System)  
 [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 [**System Operational Sequence**](#System_Operational_Sequence)  
 [**Apex Connection Series**](#Apex_Connection_Series)  
@@ -188,7 +188,7 @@ Airstone | 29
 Halo Light Cable | 16
 
 
-<br />  
+
 <a name="Startup_Guide"></a> **5. Startup Guide**
 
 1. Operating level in the filtration sump should be about 1"‐2" above the filter cells.
@@ -206,7 +206,7 @@ Halo Light Cable | 16
 Controling the tidal cycle of each experimental tank with the Apex.  This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needles described in the [System Details], and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
 
 1. Set the flow rate of the supply line without using the solenoid (moving forward we will refer to this valve as N[#]FLW as named in the APEX Fusion dashboard), for example 4 GPH.
-  1. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should not have to adjust it again.
+  a. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should not have to adjust it again.
 2. Adjust the outgoing flow rate of the drain line D[#]FLW higher than the N[#]FLW, for example 6 GPH.
 3. With the above condition, the outgoing flow rate is higher than the incoming, so this will create the low tide effect.
 4. To set the high tide effect, manually turn the supply line S[#]FLW with solenoid ON, and adjust the flow rate, for example 4 GPH.
@@ -235,9 +235,13 @@ The pH is controlled with the addition of CO2 gas to the system. The gas is deli
 1. Programming the solenoid  
   a. The solenoid granting passage of CO2(g) to the tank is plugged into outlet 3 (or 7) on each EB832.  
   b. Outlet name: SOL-TNK-#  
+  
+  
   Fallback OFF  
   Set OFF  
   If pH > 8.2 Then ON  
+  
+  
 1. Refer to [Comprehensive Manual](Manuals/Apex_Comprehensive_Reference_Manual.pdf) for set point programming.
 
 
@@ -250,7 +254,13 @@ Recommendations for programming the Apex aquarium controllers designated for the
 The following are using the numbered system of Apex_39106, controlling tanks 1-4.  All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks. 
 
 
-**Probes**
+[**Probes**](#Probes)  
+[**Outlets and Ports**](#Outlets_and_Ports)
+[**Outlet Setup in ApexFusion**](#Outlet_Setup)  
+[**Profiles**](#Profiles)  
+
+
+<a name="Probes"></a> **Probes**
 
 - Tmp-1 (Base)
 - pH-1 (Base)
@@ -262,7 +272,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - pH-4 (PM1_4)
 
 
-**Outlets and Ports**
+<a name="Outlets_and_Ports"></a> **Outlets and Ports**
 
 - Base Unit
   - WHITE-TNK-1
@@ -318,7 +328,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - PH-TNK-3 (EB832_1) - solenoid
 - PH-TNK-4 (EB832_2) - solenoid
 
-**Outlet Setup in ApexFusion**
+<a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**
 
 - LIGHT-TNK-#
   - Fallback OFF
@@ -343,7 +353,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
   - If Moon 0/0 Then MoonInt (?)
   
 
-**Profiles**
+<a name="Profiles"></a> **Profiles**
 - RampUp:
   - Ramp Time: 30 min
   - Start Intensity: 0
