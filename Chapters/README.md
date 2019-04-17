@@ -21,7 +21,7 @@ Citrus Hall and Eucalyptus Hall at California State University, Northridge, fund
 <a name="Contacts"></a> **2. Contacts**
 
 Name | Involvement | Contact Info | Notes
-----|----|----|----
+:----|:------------|:-------------|:-----
 Dr. Nyssa Silbiger| System Design<br /> Asst. Professor, CSUN | nyssa.silbiger@csun.edu<br /> 818-677-4427| 
 Danielle Barnas| System Installation and Maintenance<br /> Silbiger Lab Tech, CSUN| danielle.barnas@csun.edu|
 Bill Krohmer| Administrative Operations| william.krohmer@csun.edu
