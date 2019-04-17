@@ -41,7 +41,7 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
 [**Apex Connection Series**](#Apex_Connection_Series)  
 [**EB832 Outlet Connections**](#EB832_Outlet_Connections)  
 
-<a name="Tank_System"></a> **Aquaria System Component List**
+<a name="Tank_System"></a> __Aquaria System Component List__
 
 - Experimental Tanks (21.25” x 12.5” x 13.5”H) - Per tank:  
   - 1 Submersible powerhead pump ([Hydor Nano Koralia 240 powerhead](Manuals/Hydor_Nano_Pump.pdf))  
@@ -62,7 +62,7 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
 - 1 CO2 regulator valve ([Tunze pH Controller Set, pressure reducing valve   7077/3](Manuals/Tunze_CO2_Regulator.pdf))  
 - 1 Industrial Grade Carbon Dioxide, [50 pound cylinder](https://www.airgas.com/product/Gases/Industrial-Application-Gases/Carbon-Dioxide---Industrial/p/CD%2050)  
   
-<a name="Filtration_and_Recirculation_System"></a> **Filtration and Recirculation [System](Manuals/Filtration_Skid_Build_Package.pdf) Component List**
+<a name="Filtration_and_Recirculation_System"></a> __Filtration and Recirculation [System](Manuals/Filtration_Skid_Build_Package.pdf) Component List__
 
 - Sump (66.25” x 31.5” x 21”H)  
 - Chiller ([AquaLogic Multi-Temp and Titan Series](Manuals/AquaLogic_Chiller.pdf))  
@@ -76,7 +76,7 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
 - Carbon filter cells (3 units, CF28AC,28in, ActC)  
 - Mesh filter (8 units, Matala Filter Media, interchanged 4 Blue high density and 4 Black low density sheets)  
 
-<a name="System_Operational_Sequence"></a> **System Operational Sequence**
+<a name="System_Operational_Sequence"></a> __System Operational Sequence__
 
 - This is a closed loop system where water from each individual tank will recirculate back to a main holding reservoir.  
 - Normal High Tide operating water level is approximately 12.5"H for a total water volume of 14.37 gal per tank (287.4 gal total for the 20-tank-system).  
@@ -104,7 +104,7 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
   - Controllable parameters are pH, temperature, tidal effect, and lighting.  
 - Air compressor connected to a CO2 scrubber will bubble air into the holding to bring pH to ambient or near-ambient conditions in the holding reservoir.  
 
-<a name="Apex_Connection_Series"></a> **Apex Connection Series**
+<a name="Apex_Connection_Series"></a> __Apex Connection Series__
 
 - Each EnergyBar connects to the Base Unit with an AquaBus cable via the AquaBus Ports for power.  (2) EB832 units per (1) Base Unit.  
 - Each Solenoid valve connects to the EnergyBar via the DC24 Accessory Port on the EB832.  (2) Solenoid valves per (1) EB832.  
@@ -116,7 +116,7 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
 - (1) FMM connects to the EnergyBar with an AquaBus cable via the AquaBus Ports, and all FMM connect in series with each other for power.  (1) FMM connection per (1) Base Unit.  
 - (3) Flow sensors connect to each FMM via (3) of the numbered ports.  
 
-<a name="EB832_Outlet_Connections"></a> **EB832 Outlet Connections**
+<a name="EB832_Outlet_Connections"></a> __EB832 Outlet Connections__
 
 Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlets per aquarium. In order:  
 
@@ -128,7 +128,7 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlet
 
 <a name="Inventory"></a> **4. Inventory**
 
-<br /> **Experimental Mesocosm**
+<br /> __Experimental Mesocosm__
 
 Item | Quantity
 :-----|:---------
@@ -163,7 +163,7 @@ Chiller | 1
 Heat Pump | 1
 
 
-<br /> **Filtration**
+<br /> __Filtration__
 
 Item | Quantity
 :-----|:---------
@@ -179,7 +179,7 @@ Matala Filter, High Density (Blue) | 4
 Matala Filter, Low Density (Black) | 4
 
 
-<br /> **Spare Items**
+<br /> __Spare Items__
 
 Item | Quantity
 :-----|:---------
@@ -193,9 +193,9 @@ Halo Light Cable | 16
 
 1. Operating level in the filtration sump should be about 1"‐2" above the filter cells.
 2. Water from the container will gravity feed back to the filtration skid, and from there it is pumped through the UV sterilizer and chiller barrel and back to the container.
-3. There are two valves located after the chiller
-  1. One controls the flow directly back to the container
-  1. The other valve is the bypass valve which diverts the flow back to the filtration sump.  This is used to regulate the line pressure going back to the container. The more closed the higher the pressure in the line, the more open the lower the pressure. The chiller has a safety flow switch that requires a minimum flow rate for the chiller to operate, so the bypass valve is used in this case to regulate the chiller flow as well as the container flow.
+3. There are two valves located after the chiller  
+  a. One controls the flow directly back to the container  
+  b. The other valve is the bypass valve which diverts the flow back to the filtration sump.  This is used to regulate the line pressure going back to the container. The more closed the higher the pressure in the line, the more open the lower the pressure. The chiller has a safety flow switch that requires a minimum flow rate for the chiller to operate, so the bypass valve is used in this case to regulate the chiller flow as well as the container flow.  
 4. Before filling the tanks make sure the drain valve located under the tank is closed.
 5. Fill each rack one at a time and make sure rack and filtration skid flows are balanced before moving on to the next rack.
 6. Make sure the complete system reaches equilibrium in standard recirculation mode before setting up the tidal cycle.
@@ -205,7 +205,7 @@ Halo Light Cable | 16
 
 Controling the tidal cycle of each experimental tank with the Apex.  This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needles described in the [System Details], and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
 
-1. Set the flow rate of the supply line without using the solenoid (moving forward we will refer to this valve as N[#]FLW as named in the APEX Fusion dashboard), for example 4 GPH.
+1. Set the flow rate of the supply line without using the solenoid (moving forward we will refer to this valve as N[#]FLW as named in the APEX Fusion dashboard), for example 4 GPH.  
   a. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should not have to adjust it again.
 2. Adjust the outgoing flow rate of the drain line D[#]FLW higher than the N[#]FLW, for example 6 GPH.
 3. With the above condition, the outgoing flow rate is higher than the incoming, so this will create the low tide effect.
@@ -255,12 +255,12 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 
 
 [**Probes**](#Probes)  
-[**Outlets and Ports**](#Outlets_and_Ports)
+[**Outlets and Ports**](#Outlets_and_Ports)  
 [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
 [**Profiles**](#Profiles)  
 
 
-<a name="Probes"></a> **Probes**
+<a name="Probes"></a> __Probes__
 
 - Tmp-1 (Base)
 - pH-1 (Base)
@@ -272,7 +272,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - pH-4 (PM1_4)
 
 
-<a name="Outlets_and_Ports"></a> **Outlets and Ports**
+<a name="Outlets_and_Ports"></a> __Outlets and Ports__
 
 - Base Unit
   - WHITE-TNK-1
@@ -328,7 +328,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - PH-TNK-3 (EB832_1) - solenoid
 - PH-TNK-4 (EB832_2) - solenoid
 
-<a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**
+<a name="Outlet_Setup"></a> __Outlet Setup in ApexFusion__
 
 - LIGHT-TNK-#
   - Fallback OFF
@@ -353,7 +353,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
   - If Moon 0/0 Then MoonInt (?)
   
 
-<a name="Profiles"></a> **Profiles**
+<a name="Profiles"></a> __Profiles__
 - RampUp:
   - Ramp Time: 30 min
   - Start Intensity: 0
@@ -362,7 +362,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 
 <a name="Apex_Fusion_Guide"></a> **9. Apex Fusion Guide**
 
-**Dashboard**
+__Dashboard__
 1. On your Dashboard you will see every outlet available to you and the current state of that outlet (ON or OFF), as well as the current readings for any probes enabled on the Apex.
 1. The top menu bar options (left to right):
   1. Apex List: returns you to the menu of available Apexes linked to your Fusion account
@@ -371,7 +371,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
   1. 
 
 
-**Outlet Setup**
+__Outlet Setup__
 1. Click Expand along the top bar (depicted as three gears).
 1. Immediately next to the gear symbol is the Outputs icon (depicted as a three pronged outlet).  Click this icon to view your array of outlets and other outputs from the system, as well as manipulate these items.  These are arranged by the name you give them, the device they're connected to, the type of output, and whether or not you have chosen to log this item's history.
 1. Click any "outlet" type to 
