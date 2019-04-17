@@ -1,1 +1,1 @@
-# Reference Manuals for the equipment and prodcuts of the mobile mesocosm system
+# Reference Manuals for equipment used in the Silbiger Lab Mesocosm
