@@ -1,1 +1,1 @@
-# Manuals for the products used in the mobile mesocosm system
+# Reference Manuals for the equipment and prodcuts of the mobile mesocosm system
