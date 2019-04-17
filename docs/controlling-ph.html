@@ -25,7 +25,7 @@
 <meta name="author" content="Dr. Nyssa Silbiger  and Danielle Barnas">
 
 
-<meta name="date" content="2019-04-15">
+<meta name="date" content="2019-04-17">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -103,10 +103,20 @@
 <ol style="list-style-type: decimal">
 <li>Once the CO2 regulator is connected to a tank, open the main tank valve.</li>
 <li>Use the pressure adjusting screw to adjust the pressure (in bar) on the pressure gauge. Turning <strong>clockwise will open</strong> thus increasing pressure, while turning <strong>counterclockwise will close</strong> thus reducing pressure.</li>
-<li>The pressure should be set to 0.5 up to 1 bar on the gauge.</li>
+<li>The pressure should be set to 0.5 up to 1 bar on the gauge (~7.5psi)</li>
 <li>Open the fine adjustment valve to allow gas to the tank solenoid. If the pressure on the gauge is too high this may prevent the CO2 solenoid from completely closing, which will inject excess CO2 into the system.</li>
-<li>Refer to <a href="Manuals/Apex_Comprehensive_Reference_Manual.pdf">Comprehensive Manual</a> for set point programming.</li>
+<li>Programming the solenoid<br />
+</li>
 </ol>
+<ol style="list-style-type: lower-alpha">
+<li>The solenoid granting passage of CO2(g) to the tank is plugged into outlet 3 (or 7) on each EB832.<br />
+</li>
+<li>Outlet name: SOL-TNK-#</li>
+</ol>
+<p>Fallback OFF<br />
+Set OFF<br />
+If pH &gt; 8.2 Then ON</p>
+<p>Refer to <a href="/Manuals/Apex_Comprehensive_Reference_Manual.pdf">Comprehensive Manual</a> for set point programming.</p>
 
 </div>
             </section>

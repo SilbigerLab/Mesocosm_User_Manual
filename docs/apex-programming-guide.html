@@ -25,7 +25,7 @@
 <meta name="author" content="Dr. Nyssa Silbiger  and Danielle Barnas">
 
 
-<meta name="date" content="2019-04-15">
+<meta name="date" content="2019-04-17">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -101,7 +101,11 @@
 <h1><span class="header-section-number">8</span> Apex Programming Guide</h1>
 <p>Recommendations for programming the Apex aquarium controllers designated for the Silbiger Lab Mesocosm, located in the loading bay between Citrus Hall and Eucalyptus Hall at California State University, Northridge. These recommendations are for maintaining tanks at ambient conditions. Changes should be made according to your study aims.</p>
 <p>The following are using the numbered system of Apex_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks.</p>
-<p><strong>Probes</strong></p>
+<p><a href="#Probes"><strong>Probes</strong></a><br />
+<a href="#Outlets_and_Ports"><strong>Outlets and Ports</strong></a><br />
+<a href="#Outlet_Setup"><strong>Outlet Setup in ApexFusion</strong></a><br />
+<a href="#Profiles"><strong>Profiles</strong></a></p>
+<p><a name="Probes"></a> <strong>Probes</strong></p>
 <ul>
 <li>Tmp-1 (Base)</li>
 <li>pH-1 (Base)</li>
@@ -112,7 +116,7 @@
 <li>Tmp-4 (PM1_4)</li>
 <li>pH-4 (PM1_4)</li>
 </ul>
-<p><strong>Outlets and Ports</strong></p>
+<p><a name="Outlets_and_Ports"></a> <strong>Outlets and Ports</strong></p>
 <ul>
 <li>Base Unit</li>
 <li>WHITE-TNK-1</li>
@@ -165,7 +169,7 @@
 <li>PH-TNK-3 (EB832_1) - solenoid</li>
 <li><p>PH-TNK-4 (EB832_2) - solenoid</p></li>
 </ul>
-<p><strong>Outlet Setup in ApexFusion</strong></p>
+<p><a name="Outlet_Setup"></a> <strong>Outlet Setup in ApexFusion</strong></p>
 <ul>
 <li>LIGHT-TNK-#</li>
 <li>Fallback OFF</li>
@@ -179,7 +183,7 @@
 <li>BLUE-TNK-#</li>
 <li>Fallback OFF</li>
 <li>Set OFF</li>
-<li>If Moon 0/0 Then RampUp</li>
+<li>If Moon 0/0 Then ON</li>
 <li>WhtLED_#</li>
 <li>Fallback OFF</li>
 <li>Set OFF</li>
@@ -189,7 +193,7 @@
 <li>Set OFF</li>
 <li>If Moon 0/0 Then MoonInt (?)</li>
 </ul>
-<p><strong>Profiles</strong> - RampUp: - Ramp Time: 30 min - Start Intensity: 0 - End Intensity: 100 -RampDwn: - Ramp Time: 30 min - Start Intensity: 100 - End Intensity: 0</p>
+<p><a name="Profiles"></a> <strong>Profiles</strong> - RampUp: - Ramp Time: 30 min - Start Intensity: 0 - End Intensity: 100</p>
 
 </div>
             </section>
