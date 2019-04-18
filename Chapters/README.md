@@ -222,7 +222,7 @@ If time 8:00 to 14:00 then ON
 If time 20:00 to 2:00 then ON  
 
 
-For a more advance programming feature, start on Page 64 of the [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for Seasonal Features and specifically Moon cycles. This should allow for a more realistic cycle.  
+For a more advance programming feature, start on Page 65 of the [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for Seasonal Features and specifically Moon cycles. This should allow for a more realistic cycle.  
 
 In summary in a tidal cycle event the flow rates for the drain line and both supply lines are constant, and the tide effect is controlled via the solenoid increasing or decreasing the flow rate into the individual tanks.
 
