@@ -53,7 +53,8 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
   - 1 pH probe (Apex)  
   - 1 Solenoid valve (Apex)  
   - 3 Flow sensors (Apex, FS-25 1/4" fitting, flow rates from 3-12 gph)  
-  - 2 Supply lines: "N" and "S"
+  - 1 Main Supply line: "N"
+  - 1 Solenoid Supply line: "S"
   - 1 Drain line: "D"
   - 1 Gate valve  
   - 1 VDM ([Apex Variable Dimming Module](/Manuals/VDM_manual.pdf), 1 unit for 4 tanks)  
@@ -80,42 +81,44 @@ Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6
 
 <a name="System_Operational_Sequence"></a> **System Operational Sequence**
 
-- This is a closed loop system where water from each individual tank will recirculate back to a main holding reservoir.  
+- This is a closed loop system where water from each individual tank will recirculate back to a main holding reservoir (sump).  
 - Normal High Tide operating water level is approximately 12.5"H for a total water volume of 14.37 gal per tank (287.4 gal total for the 20-tank-system).  
 - Normal Low Tide operating water level is approximately 4"H for a total water volume of 4.60 gal per tank (92.0 gal total for the 20-tank-system).  
 - Excess water volume to sump at low tide is 9.77 gal per tank (195.4 gal total for the 20-tank-system).  
 - Normal sump operating water level is 7" water in the filter cell compartment, which has an approximate volume of 82.32 gal.  Sump freeboard volume is 107.39 gal.  
 - Aquaria drain line is in line with a 30 gal sump pump, which will draw water from the aquaria drain line and pump water to the sump.
 - Sump is in line with a secondary holding tank for sump overflow at Low Tide.
-  - 195.4 gal returning to sump
+  - 195.4 gal returning to sump in a Low Tide scenario
   - 30 gal in sump pump
   - 107.39 gal in sump (freeboard volume)
   - 58.01 gal necessarily pumped to secondary holding tank
 - Flow rate for each tank is  2-6 GPH.  
-- Chiller is plumbed inline with the filtration skid which includes mechanical/biological filtration as well as UV sterilization (chemical filtration).  
-- One main pump will be used to recirculate the water flow throughout the experimental tanks and the main holding reservoir.  
-- Each tank will have an immersion heater that will allow tank temperatures to be set 15 degF (8.3 degC) above the main holding tank reservoir.  
+- Chiller is plumbed inline with the [filtration skid](/Manuals/Filtration_Skid_Build_Package.pdf) which includes mechanical/biological filtration as well as UV sterilization (chemical filtration).  
+- One main pump recirculates the water flow throughout the experimental tanks and the main holding reservoir.  
+- Each tank has an immersion heater that allows tank temperatures to be set 15 degF (8.3 degC) above the main holding tank reservoir.  
   - **Note: The tank needs to be static in order to heat up to a desired temp.  Once the temperature has been reached then it can be set to flow through mode.**  
-- Small sumbersible powerhead in each tank will provide water circulation throughout the tank.  
-- Each tank will have (1) supply line with (2) flow sensors, (1) solenoid valve for CO2 input, and (1) gate   valve for tidal effect, and (2) drain lines with (1) flow sensor.  Incoming and outgoing flow rates will have to be manually adjusted for the tidal effect.  
+- A small sumbersible powerhead in each tank provides water circulation throughout the tank.  
+- Each tank has (2) supply lines, each with (1) flow sensor, and (1) gate valve in line with (1) supply line for tidal effect.  Each tank also has (2) drain lines with (1) flow sensor.  Incoming and outgoing flow rates have to be manually adjusted for the tidal effect.  
   - outgoing tide: incoming flow rate to be lower than outgoing flow rate.  
   - incoming tide: incoming flow rate to be greater than outgoing flow rate.  
   - Note: The tank will not be completely empty during low tide events to prevent the recirculating powerhead from running dry.  
-- Each tank will have individual LED lighting.  
-- Tanks controlled via Neptune Systems Apex Controller.  Each Apex will control (4) tanks.  
+- Each tank has (1) CO2 supply line with an airstone connected to (1) solenoid valve to lower pH in tanks.  
+- Air compressor connected to a CO2 scrubber will bubble air into the sump to bring pH to ambient or near-ambient conditions in the holding reservoir.  
+- Each tank has individual LED lighting.  
+- Tanks controlled via Neptune Systems Apex Controllers.  Each Apex controls (4) tanks.  
   - Controllable parameters are pH, temperature, tidal effect, and lighting.  
-- Air compressor connected to a CO2 scrubber will bubble air into the holding to bring pH to ambient or near-ambient conditions in the holding reservoir.  
+
 
 <a name="Apex_Connection_Series"></a> **Apex Connection Series**
 
-- Each EnergyBar connects to the Base Unit with an AquaBus cable via the AquaBus Ports for power.  (2) EB832 units per (1) Base Unit.  
-- Each Solenoid valve connects to the EnergyBar via the DC24 Accessory Port on the EB832.  (2) Solenoid valves per (1) EB832.  
-- (1) PM1 connects to the EnergyBar with an AquaBus cable via the AquaBus Ports, and all PM1 connect in series with each other for power.  (1) PM1 connection per (1) Base Unit.  
+- Each EnergyBar connects to the Base Unit with an AquaBus cable via the AquaBus Ports for power.  (2) EB832 units connect to (1) Base Unit.  
+- Each CO2 Solenoid valve connects to the EnergyBar via the DC24 Accessory Port on the side of the EB832.  (2) Solenoid valves connect in (1) EB832.  
+- (1) PM1 connects to (1) EnergyBar with an AquaBus cable via the AquaBus Ports, and all PM1 modules connect in series with each other for power.    
 - VDM connects to the last PM1 in series with an AquaBus cable via the AquaBus Ports for power.  
-- Temperature probe connects to the PM1 Temp Port or the Base Unit Temp Port.  (1) Temperature probe in each PM1, and (1) Temperature probe in the Base Unit.  
-- pH probe connects to the PM1 pH/ORP Port or the Base Unit pH/ORP Port.  Push the BNC female connector of the probe on to the male connector and turn 1/4 turn clockwise to lock the connector in place.  (1) pH probe in each PM1, and (1) pH probe in the Base Unit.  
+- Temperature probes connect to the PM1 Temp Port or the Base Unit Temp Port.  (1) Temperature probe in each PM1, and (1) Temperature probe in the Base Unit.  
+- pH probes connect to the PM1 pH/ORP Port or the Base Unit pH/ORP Port.  Push the BNC female connector of the probe on to the male connector and turn 1/4 turn clockwise to lock the connector in place.  (1) pH probe in each PM1, and (1) pH probe in the Base Unit.  
 - [Halo light](/Manuals/HALO_Quick_Start_Guide.pdf) connects to the VDM or Base Unit via the V1/V2 or V3/V4 Port.  (2) Light connections in the VDM and (2) Light connections in the Base Unit.  
-- (1) FMM connects to the EnergyBar with an AquaBus cable via the AquaBus Ports, and all FMM connect in series with each other for power.  (1) FMM connection per (1) Base Unit.  
+- (1) FMM connects to (1) EnergyBar (whichever EB832 is not powering the PM1 modules) with an AquaBus cable via the AquaBus Ports, and all FMM connect in series with each other for power.  
 - (3) Flow sensors connect to each FMM via (3) of the numbered ports.  
 
 <a name="EB832_Outlet_Connections"></a> **EB832 Outlet Connections**
@@ -124,7 +127,7 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlet
 
 1. 200W Heater  
 1. Hydor Powerhead 
-1. CO2 Solenoid  
+1. Water supply line "S" Solenoid  
 1. Halo Light  
 
 
@@ -208,18 +211,24 @@ Halo Light Cable | 16
 
 Controling the tidal cycle of each experimental tank with the Apex.  This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needles described in the [System Details], and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
 
-1. Set the flow rate of the supply line without using the solenoid (moving forward we will refer to this valve as N[#]FLW as named in the APEX Fusion dashboard), for example 4 GPH.  
+1. Set the flow rate of the supply line without using the solenoid (moving forward we will refer to this valve as N[#]FLW as named in the APEX Fusion dashboard), for example 4 GPH.
   a. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should not have to adjust it again.
 2. Adjust the outgoing flow rate of the drain line D[#]FLW higher than the N[#]FLW, for example 6 GPH.
 3. With the above condition, the outgoing flow rate is higher than the incoming, so this will create the low tide effect.
 4. To set the high tide effect, manually turn the supply line S[#]FLW with solenoid ON, and adjust the flow rate, for example 4 GPH.
-5. Once the S[#]FLW is set, change setting to AUTO on the Fusion page. For a constant ON/OFF time within a 24 hour period the Advanced program should look something like the program below, note that time features in the Apex programming is based on 24 hour clock.
+5. Once the S[#]FLW is set, change setting of SOL-TNK-# (outlet 3 or 7 on each EB832) to AUTO on the Fusion page. For a constant ON/OFF time within a 24 hour period the Advanced program should look something like the program below, note that time features in the Apex programming is based on 24 hour clock.
 
 
-Fallback OFF  
+Fallback ON  
 Set OFF  
 If time 8:00 to 14:00 then ON  
 If time 20:00 to 2:00 then ON  
+
+
+Option2:
+Fallback ON
+If Moon 0/0 then ON
+If Moon 720/0 then ON
 
 
 For a more advance programming feature, start on Page 65 of the [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for Seasonal Features and specifically Moon cycles. This should allow for a more realistic cycle.  
@@ -227,22 +236,23 @@ For a more advance programming feature, start on Page 65 of the [Comprehensive M
 In summary in a tidal cycle event the flow rates for the drain line and both supply lines are constant, and the tide effect is controlled via the solenoid increasing or decreasing the flow rate into the individual tanks.
 
 
+
 <a name="Controlling_pH"></a> **7. Controlling pH**
 
 The pH is controlled with the addition of CO2 gas to the system. The gas is delivered to the tank by air stone and is controlled through the Apex Controls with a solenoid valve connected to the EB832.
 
 1. Once the CO2 regulator is connected to a tank, open the main tank valve.
-1. Use the pressure adjusting screw to adjust the pressure (in bar) on the pressure gauge. Turning **clockwise will open** thus increasing pressure, while turning **counterclockwise will close** thus reducing pressure.
+1. Use the pressure adjusting screw to adjust the pressure (in bar) on the pressure gauge. Turning **clockwise to open**, thus increasing pressure, while turning **counterclockwise to close**, thus reducing pressure.
 1. The pressure should be set to 0.5 up to 1 bar on the gauge (~7.5psi)
 1. Open the fine adjustment valve to allow gas to the tank solenoid. If the pressure on the gauge is too high this may prevent the CO2 solenoid from completely closing, which will inject excess CO2 into the system.
-1. Programming the solenoid  
-  a. The solenoid granting passage of CO2(g) to the tank is plugged into outlet 3 (or 7) on each EB832.  
-  b. Outlet name: SOL-TNK-#  
+1. Programming the solenoid: pH-TNK-#  
   
-  
-  Fallback OFF  
-  Set OFF  
-  If pH > 8.2 Then ON  
+  Control type: pH Control
+  Probe name: pH
+  Fallback: OFF  
+  High Value: 8.2
+  Low Value: 7.9
+  On when: High
   
   
 Refer to [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for set point programming.
