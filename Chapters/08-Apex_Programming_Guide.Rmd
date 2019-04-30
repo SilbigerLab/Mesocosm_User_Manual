@@ -5,7 +5,7 @@ Recommendations for programming the Apex aquarium controllers designated for the
 
 The following are using the numbered system of Apex_39106, controlling tanks 1-4.  All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks. 
 
-**Contents**
+**Contents**  
 [**Probes**](#Probes)  
 [**Outlets and Ports**](#Outlets_and_Ports)  
 [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
@@ -65,20 +65,22 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
   - BluLED_11_5
   - WhtLED_11_6
 - FMM_1
+  - S1-FLW
+  - N1-FLW
+  - D1-FLW
 - FMM_2
+  - S2-FLW
+  - N2-FLW
+  - D2-FLW
 - FMM_3
+  - S3-FLW
+  - N3-FLW
+  - D3-FLW
 - FMM_4
+  - S4-FLW
+  - N4-FLW
+  - D4-FLW
 
-
-
-- LinkA_6_1 (FMM)
-- LinkA_10_1 (FMM)
-- LinkA_9_1 (FMM)
-- LinkA_7_1 (FMM)
-- PH-TNK-1 (EB832_1) - solenoid
-- PH-TNK-2 (EB832_2) - solenoid
-- PH-TNK-3 (EB832_1) - solenoid
-- PH-TNK-4 (EB832_2) - solenoid
 
 <a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**
 
@@ -94,7 +96,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - BLUE-TNK-#
   - Fallback OFF
   - Set OFF
-  - If Moon 0/0 Then ON
+  - If Moon 0/0 Then RampUp
 - WhtLED_#
   - Fallback OFF
   - Set OFF
@@ -102,10 +104,11 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - BluLED_#
   - Fallback OFF
   - Set OFF
-  - If Moon 0/0 Then MoonInt (?)
+  - If Moon 0/0 Then RampUp
   
 
 <a name="Profiles"></a> **Profiles**
+
 - RampUp:
   - Ramp Time: 30 min
   - Start Intensity: 0
