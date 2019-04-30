@@ -9,7 +9,7 @@
 [**7. Controlling pH**](#Controlling_pH)  
 [**8. Apex Programming Guide**](#Apex_Programming_Guide)  
 [**9. Apex Fusion Guide**](#Apex_Fusion_Guide)  
-[**Breaker Box Connections**](#Breaker_Box) 
+[**10. Breaker Box Connections**](#Breaker_Box)  
 
 
 
@@ -38,7 +38,7 @@ Willy Martinez| Lead Electrician<br /> PPM Electric Shop | willy.martinez@csun.e
 <a name="System_Details"></a> **3. System Details**
 
 
-**Contents**
+**Contents**  
 [**Aquaria System**](#Tank_System)  
 [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 [**System Operational Sequence**](#System_Operational_Sequence)  
@@ -54,12 +54,12 @@ Willy Martinez| Lead Electrician<br /> PPM Electric Shop | willy.martinez@csun.e
   - 1 Light ([Halo Basic M-110](/Manuals/Apex_Halo.pdf))  
   - 1 Temperature probe (Apex)  
   - 1 pH probe (Apex)  
-  - 1 Solenoid valve (Apex)  
+  - 1 Solenoid valve for pH (Apex)  
   - 3 Flow sensors (Apex, FS-25 1/4" fitting, flow rates from 3-12 gph)  
   - 1 Main Supply line: "N"
   - 1 Solenoid Supply line: "S"
   - 1 Drain line: "D"
-  - 1 Gate valve  
+  - 1 Gate valve (solenoid for water inflow)  
   - 1 VDM ([Apex Variable Dimming Module](/Manuals/VDM_manual.pdf), 1 unit for 4 tanks)  
   - 1 FMM ([Apex Fluid Metering Module](https://www.neptunesystems.com/getstarted/fmk/))  
   - 1 PM1 ([Apex Probe Module 1](/Manuals/PM1_manual.pdf))  
@@ -137,7 +137,7 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlet
 
 <a name="Inventory"></a> **4. Inventory**
 
-<br /> __Experimental Mesocosm__
+<br /> **Experimental Mesocosm**
 
 Item | Quantity
 :-----|:---------
@@ -172,7 +172,7 @@ Chiller | 1
 Heat Pump | 1
 
 
-<br /> __Filtration__
+<br /> **Filtration**
 
 Item | Quantity
 :-----|:---------
@@ -188,7 +188,7 @@ Matala Filter, High Density (Blue) | 4
 Matala Filter, Low Density (Black) | 4
 
 
-<br /> __Spare Items__
+<br /> **Spare Items**
 
 Item | Quantity
 :-----|:---------
@@ -200,11 +200,11 @@ Halo Light Cable | 16
 
 <a name="Startup_Guide"></a> **5. Startup Guide**
 
-1. Operating level in the filtration sump should be about 1"‐2" above the filter cells.
-2. Water from the container will gravity feed back to the filtration skid, and from there it is pumped through the UV sterilizer and chiller barrel and back to the container.
-3. There are two valves located after the chiller  
-  a. One controls the flow directly back to the container  
-  b. The other valve is the bypass valve which diverts the flow back to the filtration sump.  This is used to regulate the line pressure going back to the container. The more closed the higher the pressure in the line, the more open the lower the pressure. The chiller has a safety flow switch that requires a minimum flow rate for the chiller to operate, so the bypass valve is used in this case to regulate the chiller flow as well as the container flow.  
+1. Operating water level in the filtration sump should be 7" in the filter cell compartment.
+2. Water from the container will feed back to the filtration skid, and from there it is pumped through the UV sterilizer and chiller barrel, then back to the container.
+3. There are two valves located after the chiller
+ a. One controls the flow directly back to the tanks
+ b. The other valve is the bypass valve which diverts the flow back to the sump  This is used to regulate the line pressure going back to the container. The more closed, the higher the pressure in the line, and the more open, the lower the pressure. The chiller has a safety flow switch that requires a minimum flow rate for the chiller to operate, so the bypass valve is used in this case to regulate the chiller flow as well as the container flow.
 4. Before filling the tanks make sure the drain valve located under the tank is closed.
 5. Fill each rack one at a time and make sure rack and filtration skid flows are balanced before moving on to the next rack.
 6. Make sure the complete system reaches equilibrium in standard recirculation mode before setting up the tidal cycle.
@@ -215,15 +215,15 @@ Halo Light Cable | 16
 Controling the tidal cycle of each experimental tank with the Apex.  This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needles described in the [System Details], and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
 
 1. Set the flow rate of the supply line N[#]FLW, the one without the solenoid, for example 12 Liters/Hr, by slowly turning the black knob.  
-  a. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should check periodically to make sure the rate has not changed using a graduated cylinder and a timer.  
+ a. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should check periodically to make sure the rate has not changed using a graduated cylinder and a timer.  
 2. Adjust the outgoing flow rate of the drain line D[#]FLW higher than the N[#]FLW, for example 19.04 Liters/Hr.
-  a. With the above condition, the outgoing flow rate is higher than the incoming, so this will create the low tide effect.  
+ a. With the above condition, the outgoing flow rate is higher than the incoming, so this will create the low tide effect.  
 3. To set the high tide effect, manually turn on and adjust the flow rate of the supply line S[#]FLW , for example 14.08 Liters/Hr.  
 4. Once the S[#]FLW is set, change setting of SOL-TNK-# (outlets 3 and 7 on each EB832) to AUTO on the Fusion page or using the Display Module. For a constant ON/OFF cycle over a 12.5 hour period, the Advanced program should look something like the program below.
 
 
-Fallback ON
-Osc 000:00/375:00/375:00 then ON
+Fallback ON  
+Osc 000:00/375:00/375:00 then ON  
 
 
 5. In the event the EnergyBar loses connection with the Apex Base, Fallback: ON will keep the solenoid open, allowing water to continuously flow from S[#]FLW.  
@@ -232,7 +232,6 @@ Osc 000:00/375:00/375:00 then ON
 
 
 For more advanced programming features, see the [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf).  Start on Page 65 for Seasonal Features and Moon cycles.  
-
 
 
 <a name="Controlling_pH"></a> **7. Controlling pH**
@@ -245,12 +244,12 @@ The pH is controlled with the addition of CO2 gas to the system. The gas is deli
 1. Open the fine adjustment valve to allow gas to the tank solenoid. If the pressure on the gauge is too high this may prevent the CO2 solenoid from completely closing, which will inject excess CO2 into the system.
 1. Programming the solenoid: pH-TNK-#  
   
-  Control type: pH Control
-  Probe name: pH
+  Control type: pH Control  
+  Probe name: pH  
   Fallback: OFF  
-  High Value: 8.2
-  Low Value: 7.9
-  On when: High
+  High Value: 8.2  
+  Low Value: 7.9  
+  On when: High  
   
   
 Refer to [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for set point programming.
@@ -265,14 +264,14 @@ Recommendations for programming the Apex aquarium controllers designated for the
 The following are using the numbered system of Apex_39106, controlling tanks 1-4.  All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks. 
 
 
-**Contents**
+**Contents**  
 [**Probes**](#Probes)  
 [**Outlets and Ports**](#Outlets_and_Ports)  
 [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
 [**Profiles**](#Profiles)  
 
 
-<a name="Probes"></a> __Probes__
+<a name="Probes"></a> **Probes**
 
 - Tmp-1 (Base)
 - pH-1 (Base)
@@ -284,7 +283,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - pH-4 (PM1_4)
 
 
-<a name="Outlets_and_Ports"></a> __Outlets and Ports__
+<a name="Outlets_and_Ports"></a> **Outlets and Ports**
 
 - Base Unit
   - WHITE-TNK-1
@@ -325,22 +324,24 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
   - BluLED_11_5
   - WhtLED_11_6
 - FMM_1
+  - S1-FLW
+  - N1-FLW
+  - D1-FLW
 - FMM_2
+  - S2-FLW
+  - N2-FLW
+  - D2-FLW
 - FMM_3
+  - S3-FLW
+  - N3-FLW
+  - D3-FLW
 - FMM_4
+  - S4-FLW
+  - N4-FLW
+  - D4-FLW
 
 
-
-- LinkA_6_1 (FMM)
-- LinkA_10_1 (FMM)
-- LinkA_9_1 (FMM)
-- LinkA_7_1 (FMM)
-- PH-TNK-1 (EB832_1) - solenoid
-- PH-TNK-2 (EB832_2) - solenoid
-- PH-TNK-3 (EB832_1) - solenoid
-- PH-TNK-4 (EB832_2) - solenoid
-
-<a name="Outlet_Setup"></a> __Outlet Setup in ApexFusion__
+<a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**
 
 - LIGHT-TNK-#
   - Fallback OFF
@@ -354,7 +355,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - BLUE-TNK-#
   - Fallback OFF
   - Set OFF
-  - If Moon 0/0 Then ON
+  - If Moon 0/0 Then RampUp
 - WhtLED_#
   - Fallback OFF
   - Set OFF
@@ -362,10 +363,11 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 - BluLED_#
   - Fallback OFF
   - Set OFF
-  - If Moon 0/0 Then MoonInt (?)
+  - If Moon 0/0 Then RampUp
   
 
-<a name="Profiles"></a> __Profiles__
+<a name="Profiles"></a> **Profiles**
+
 - RampUp:
   - Ramp Time: 30 min
   - Start Intensity: 0
@@ -378,10 +380,10 @@ To access the Silbiger Lab Fusion account, click [here](apexfusion.com), click "
 Username: SilbigerLab  
 Password: silbigerlab  
 
-**Contents**
-[**Dashboard**](#Dashboard)
-[**Outlet Setup**](#Outlet_Setup)
-[**Downloading Data Logs**](#Data_Logs)
+**Contents**  
+[**Dashboard**](#Dashboard)  
+[**Outlet Setup**](#Outlet_Setup)  
+[**Downloading Data Logs**](#Data_Logs)  
 
 
 <a name="Dashboard"></a> **Dashboard**
@@ -411,9 +413,7 @@ http://130.166.116.174/cgi-bin/datalog.xml?sdate=190426&days=7
 - the value after sdate= is the start date for when you want logged information, and days=n yields data n days after that start date.
 
 
-
-
-<a name="Break_Box"></a> **10. Breaker Box Connections**
+<a name="Breaker_Box"></a> **10. Breaker Box Connections**
 
 Following switches from top-down, then left-right.
 
