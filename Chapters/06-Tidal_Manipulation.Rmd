@@ -9,17 +9,21 @@ Controling the tidal cycle of each experimental tank with the Apex.  This is ach
 4. To set the high tide effect, manually turn the supply line S[#]FLW with solenoid ON, and adjust the flow rate, for example 4 GPH.
 5. Once the S[#]FLW is set, change setting of SOL-TNK-# (outlet 3 or 7 on each EB832) to AUTO on the Fusion page. For a constant ON/OFF time within a 24 hour period the Advanced program should look something like the program below, note that time features in the Apex programming is based on 24 hour clock.
 
-
+Louis' original program:
 Fallback ON  
 Set OFF  
 If time 8:00 to 14:00 then ON  
 If time 20:00 to 2:00 then ON  
 
 
-Option2:
+Silbiger program:
 Fallback ON
-If Moon 0/0 then ON
-If Moon 720/0 then ON
+Osc 000:00/375:00/375:00 then ON
+
+
+- In the event the EnergyBar loses connection with the Apex Base, Fallback: ON will keep the solenoid open, allowing water to continuously flow from S[#]FLW.  
+- The oscillate command as written will open flow from S[#]FLW for 6.25 hours, initiating the High Tide scenario, then close for 6.25 hours, initiating the Low Tide scenario.  This will provide the effect of two high and two low tides of a simulated semidiurnal tidal cycle over a 25 hour period.
+
 
 
 For a more advance programming feature, start on Page 65 of the [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for Seasonal Features and specifically Moon cycles. This should allow for a more realistic cycle.  
