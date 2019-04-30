@@ -5,13 +5,14 @@ To access the Silbiger Lab Fusion account, click [here](apexfusion.com), click "
 Username: SilbigerLab  
 Password: silbigerlab  
 
-**Contents**
-[**Dashboard**](#Dashboard)
-[**Outlet Setup**](#Outlet_Setup)
-[**Downloading Data Logs**](#Data_Logs)
+**Contents**  
+[**Dashboard**](#Dashboard)  
+[**Outlet Setup**](#Outlet_Setup)  
+[**Downloading Data Logs**](#Data_Logs)  
 
 
 <a name="Dashboard"></a> **Dashboard**
+
 - On your Dashboard you will see every outlet available to you and the current state of that outlet (ON or OFF), as well as the current readings for any probes enabled on the Apex.
 - On the left are graphical logs of Salinity, pH and Temperature in the first of all four tanks controlled by the Apex
 - The top menu bar options (left to right):
@@ -21,6 +22,7 @@ Password: silbigerlab
   - 
 
 <a name="Outlet_Setup"></a> **Outlet Setup**
+
 1. Click Expand along the top bar (depicted as three gears).
 1. Immediately next to the gear symbol is the Outputs icon (depicted as a three pronged outlet).  Click this icon to view your array of outlets and other outputs from the system, as well as manipulate these items.  These are arranged by the name you give them, the device they're connected to, the type of output, and whether or not you have chosen to log this item's history.
 1. Click any "outlet" type to 
