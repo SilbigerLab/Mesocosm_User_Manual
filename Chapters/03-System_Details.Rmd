@@ -1,5 +1,6 @@
 # System Details
 
+**Contents**
 [**Aquaria System**](#Tank_System)  
 [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 [**System Operational Sequence**](#System_Operational_Sequence)  
@@ -93,4 +94,3 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlet
 1. Hydor Powerhead 
 1. Water supply line "S" Solenoid  
 1. Halo Light  
-
