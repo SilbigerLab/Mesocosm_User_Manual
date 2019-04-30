@@ -1,6 +1,6 @@
 # System Details
 
-**Contents**
+**Contents**  
 [**Aquaria System**](#Tank_System)  
 [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 [**System Operational Sequence**](#System_Operational_Sequence)  
@@ -16,12 +16,12 @@
   - 1 Light ([Halo Basic M-110](/Manuals/Apex_Halo.pdf))  
   - 1 Temperature probe (Apex)  
   - 1 pH probe (Apex)  
-  - 1 Solenoid valve (Apex)  
+  - 1 Solenoid valve for pH (Apex)  
   - 3 Flow sensors (Apex, FS-25 1/4" fitting, flow rates from 3-12 gph)  
   - 1 Main Supply line: "N"
   - 1 Solenoid Supply line: "S"
   - 1 Drain line: "D"
-  - 1 Gate valve  
+  - 1 Gate valve (solenoid for water inflow)  
   - 1 VDM ([Apex Variable Dimming Module](/Manuals/VDM_manual.pdf), 1 unit for 4 tanks)  
   - 1 FMM ([Apex Fluid Metering Module](https://www.neptunesystems.com/getstarted/fmk/))  
   - 1 PM1 ([Apex Probe Module 1](/Manuals/PM1_manual.pdf))  
