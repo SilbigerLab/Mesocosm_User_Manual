@@ -5,7 +5,13 @@ To access the Silbiger Lab Fusion account, click [here](apexfusion.com), click "
 Username: SilbigerLab  
 Password: silbigerlab  
 
-**Dashboard**
+**Contents**
+[**Dashboard**](#Dashboard)
+[**Outlet Setup**](#Outlet_Setup)
+[**Downloading Data Logs**](#Data_Logs)
+
+
+<a name="Dashboard"></a> **Dashboard**
 - On your Dashboard you will see every outlet available to you and the current state of that outlet (ON or OFF), as well as the current readings for any probes enabled on the Apex.
 - On the left are graphical logs of Salinity, pH and Temperature in the first of all four tanks controlled by the Apex
 - The top menu bar options (left to right):
@@ -14,13 +20,13 @@ Password: silbigerlab
   - Input Log: 
   - 
 
-**Outlet Setup**
+<a name="Outlet_Setup"></a> **Outlet Setup**
 1. Click Expand along the top bar (depicted as three gears).
 1. Immediately next to the gear symbol is the Outputs icon (depicted as a three pronged outlet).  Click this icon to view your array of outlets and other outputs from the system, as well as manipulate these items.  These are arranged by the name you give them, the device they're connected to, the type of output, and whether or not you have chosen to log this item's history.
 1. Click any "outlet" type to 
 
 
-**Downloading Data Logs**
+<a name="Data_Logs"></a> **Downloading Data Logs**
 
 Format of what to enter into your internet browser:  
 http://<your IP address or DynDNS name>:<port#>/cgi-bin/outlog.xml?sdate=yymmddhhmm&days=n  
@@ -29,5 +35,5 @@ Examples of what to enter into your internet browser:
 http://130.166.116.174/cgi-bin/outlog.xml?sdate=190426  
 http://130.166.116.174/cgi-bin/datalog.xml?sdate=190426&days=7  
 
-**the value after sdate= is teh start date for when you want logged information and days=n yields data n days after that start date
+- the value after sdate= is the start date for when you want logged information, and days=n yields data n days after that start date.
 
