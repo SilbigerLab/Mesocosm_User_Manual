@@ -9,6 +9,7 @@
 [**7. Controlling pH**](#Controlling_pH)  
 [**8. Apex Programming Guide**](#Apex_Programming_Guide)  
 [**9. Apex Fusion Guide**](#Apex_Fusion_Guide)  
+[**Breaker Box Connections**](#Breaker_Box) 
 
 
 
@@ -31,11 +32,13 @@ Dickson Lab| Seawater CO2 CRMs| co2crms@ucsd.edu<br /> 858-534-2582| Marine Phys
 Science Shop| CSUN College of Science and Math Machine Shop| 818-677-3055| Location: EH 2014<br /> Available M-Th 0600-1630<br /> [www.csun.edu/Science-Shop](http://www.csun.edu/science-mathematics/science-shop)  
 Perry Martin| Supervising Plumber<br /> PPM | perry.martin@csun.edu<br /> 818-677-2222| 
 Will Moran| Network Engineer<br /> CSUN IT | will.moran@csun.edu<br /> 818-677-6273| 
+Willy Martinez| Lead Electrician<br /> PPM Electric Shop | willy.martinez@csun.edu<br /> 818-677-6273| 
 
 
 <a name="System_Details"></a> **3. System Details**
 
 
+**Contents**
 [**Aquaria System**](#Tank_System)  
 [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 [**System Operational Sequence**](#System_Operational_Sequence)  
@@ -211,29 +214,24 @@ Halo Light Cable | 16
 
 Controling the tidal cycle of each experimental tank with the Apex.  This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needles described in the [System Details], and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
 
-1. Set the flow rate of the supply line without using the solenoid (moving forward we will refer to this valve as N[#]FLW as named in the APEX Fusion dashboard), for example 4 GPH.
-  a. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should not have to adjust it again.
-2. Adjust the outgoing flow rate of the drain line D[#]FLW higher than the N[#]FLW, for example 6 GPH.
-3. With the above condition, the outgoing flow rate is higher than the incoming, so this will create the low tide effect.
-4. To set the high tide effect, manually turn the supply line S[#]FLW with solenoid ON, and adjust the flow rate, for example 4 GPH.
-5. Once the S[#]FLW is set, change setting of SOL-TNK-# (outlet 3 or 7 on each EB832) to AUTO on the Fusion page. For a constant ON/OFF time within a 24 hour period the Advanced program should look something like the program below, note that time features in the Apex programming is based on 24 hour clock.
+1. Set the flow rate of the supply line N[#]FLW, the one without the solenoid, for example 12 Liters/Hr, by slowly turning the black knob.  
+  a. Note that the Apex controller has some lag time in registering the flow rate after the valve has been adjusted, the delay can be up to 30 seconds or more. Once the rate is set you should check periodically to make sure the rate has not changed using a graduated cylinder and a timer.  
+2. Adjust the outgoing flow rate of the drain line D[#]FLW higher than the N[#]FLW, for example 19.04 Liters/Hr.
+  a. With the above condition, the outgoing flow rate is higher than the incoming, so this will create the low tide effect.  
+3. To set the high tide effect, manually turn on and adjust the flow rate of the supply line S[#]FLW , for example 14.08 Liters/Hr.  
+4. Once the S[#]FLW is set, change setting of SOL-TNK-# (outlets 3 and 7 on each EB832) to AUTO on the Fusion page or using the Display Module. For a constant ON/OFF cycle over a 12.5 hour period, the Advanced program should look something like the program below.
 
 
-Fallback ON  
-Set OFF  
-If time 8:00 to 14:00 then ON  
-If time 20:00 to 2:00 then ON  
-
-
-Option2:
 Fallback ON
-If Moon 0/0 then ON
-If Moon 720/0 then ON
+Osc 000:00/375:00/375:00 then ON
 
 
-For a more advance programming feature, start on Page 65 of the [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for Seasonal Features and specifically Moon cycles. This should allow for a more realistic cycle.  
+5. In the event the EnergyBar loses connection with the Apex Base, Fallback: ON will keep the solenoid open, allowing water to continuously flow from S[#]FLW.  
+6. The oscillate command as written will open flow from S[#]FLW for 6.25 hours, initiating the High Tide scenario, then close for 6.25 hours, initiating the Low Tide scenario.  This will provide the effect of two high and two low tides of a semidiurnal tidal cycle over a 25 hour period.  
+7. Using the flow rates stated above, each tidal shift will last 5.25 hours and maintain the tide for 1 hour.  
 
-In summary in a tidal cycle event the flow rates for the drain line and both supply lines are constant, and the tide effect is controlled via the solenoid increasing or decreasing the flow rate into the individual tanks.
+
+For more advanced programming features, see the [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf).  Start on Page 65 for Seasonal Features and Moon cycles.  
 
 
 
@@ -267,6 +265,7 @@ Recommendations for programming the Apex aquarium controllers designated for the
 The following are using the numbered system of Apex_39106, controlling tanks 1-4.  All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks. 
 
 
+**Contents**
 [**Probes**](#Probes)  
 [**Outlets and Ports**](#Outlets_and_Ports)  
 [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
@@ -375,19 +374,62 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 
 <a name="Apex_Fusion_Guide"></a> **9. Apex Fusion Guide**
 
-__Dashboard__
-1. On your Dashboard you will see every outlet available to you and the current state of that outlet (ON or OFF), as well as the current readings for any probes enabled on the Apex.
-1. The top menu bar options (left to right):
-  1. Apex List: returns you to the menu of available Apexes linked to your Fusion account
-  1. Alarm Log: shows any daily alarms triggered by the system, as set by your parameters
-  1. Input Log: 
-  1. 
+To access the Silbiger Lab Fusion account, click [here](apexfusion.com), click "Get Control" and enter the login information:  
+Username: SilbigerLab  
+Password: silbigerlab  
+
+**Contents**
+[**Dashboard**](#Dashboard)
+[**Outlet Setup**](#Outlet_Setup)
+[**Downloading Data Logs**](#Data_Logs)
 
 
-__Outlet Setup__
+<a name="Dashboard"></a> **Dashboard**
+- On your Dashboard you will see every outlet available to you and the current state of that outlet (ON or OFF), as well as the current readings for any probes enabled on the Apex.
+- On the left are graphical logs of Salinity, pH and Temperature in the first of all four tanks controlled by the Apex
+- The top menu bar options (left to right):
+  - Apex List: returns you to the menu of available Apexes linked to your Fusion account
+  - Alarm Log: shows any daily alarms triggered by the system, as set by your parameters
+  - Input Log: 
+  - 
+
+<a name="Outlet_Setup"></a> **Outlet Setup**
 1. Click Expand along the top bar (depicted as three gears).
 1. Immediately next to the gear symbol is the Outputs icon (depicted as a three pronged outlet).  Click this icon to view your array of outlets and other outputs from the system, as well as manipulate these items.  These are arranged by the name you give them, the device they're connected to, the type of output, and whether or not you have chosen to log this item's history.
 1. Click any "outlet" type to 
 
 
+<a name="Data_Logs"></a> **Downloading Data Logs**
 
+Format of what to enter into your internet browser:  
+http://<your IP address or DynDNS name>:<port#>/cgi-bin/outlog.xml?sdate=yymmddhhmm&days=n  
+
+Examples of what to enter into your internet browser:  
+http://130.166.116.174/cgi-bin/outlog.xml?sdate=190426  
+http://130.166.116.174/cgi-bin/datalog.xml?sdate=190426&days=7  
+
+- the value after sdate= is the start date for when you want logged information, and days=n yields data n days after that start date.
+
+
+
+
+<a name="Break_Box"></a> **10. Breaker Box Connections**
+
+Following switches from top-down, then left-right.
+
+1,3: Main Disconnect  
+5,7: Air Conditioner  
+9,11: Condenser (Chiller, Filtration)  
+2: General Power (Lights and Outlet Box #1)  
+4: Outlet Box #2 (Tanks 17-20)  
+6: Outlet Box #3 (Tanks 13-16)  
+8: Outlet Box #4 (Tanks 9-12)  
+10: Outlet Box #5 (Tanks 5-8)  
+12: Outlet Box #6 (Tanks 1-4)  
+
+Powering the container: 
+1. Turn on (flip left to right) the Main Disconnect switches.  Once powered, the remaining switches will supply power to their individual breakers.
+1. Turn on (flip right to left) the General Power switch.  Once powered, the light switch to the right of the entrance will turn on/off the overhead light, the O2 sensor above the light switch will be activated, and all outlets in Outlet Box #1 will be active.
+1. Turn on (flip left to right) the Air Conditioner switches.  Once powered, the A/C unit can be controlled via remote control or the front display panel on the unit.
+1. Switches 4, 6, 8, 10, and 12 all correspond to outlet boxes lining the upper perimeter of the container.  Each box is used to power up to two (2) Apex units and enough modules and other devices for up to four (4) tanks.  Each outlet covering has a number corresponding to the labeling for these switches.  To turn any or all on, flip the switch(es) right to left.
+1. Leave the Condenser switches (9 and 11) in the "off" position unless the chiller and filtration system become connected 
