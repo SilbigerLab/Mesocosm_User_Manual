@@ -9,12 +9,12 @@ The pH is controlled with the addition of CO2 gas to the system. The gas is deli
 1. Open the fine adjustment valve to allow gas to the tank solenoid. If the pressure on the gauge is too high this may prevent the CO2 solenoid from completely closing, which will inject excess CO2 into the system.
 1. Programming the solenoid: pH-TNK-#  
   
-  Control type: pH Control
-  Probe name: pH
-  Fallback: OFF  
-  High Value: 8.2
-  Low Value: 7.9
-  On when: High
+  Control type: pH Control  
+  Probe name: pH  
+  Fallback: OFF 
+  High Value: 8.2  
+  Low Value: 7.9  
+  On when: High  
   
   
 Refer to [Comprehensive Manual](/Manuals/Apex_Comprehensive_Reference_Manual.pdf) for set point programming.
