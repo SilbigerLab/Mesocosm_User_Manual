@@ -128,10 +128,10 @@ Willy Martinez| Lead Electrician<br /> PPM Electric Shop | willy.martinez@csun.e
 
 Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlets per aquarium. In order:  
 
-1. 200W Heater  
-1. Hydor Powerhead 
-1. Water supply line "S" Solenoid  
-1. Halo Light  
+1. 200W Heater
+1. Hydor Powerhead
+1. Water supply line "S" Solenoid
+1. Halo Light
 
 
 
