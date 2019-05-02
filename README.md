@@ -1,6 +1,7 @@
 # Silbiger Lab Mesocosm
 
-Silbiger Lab  
+Quantitative Marine Ecology Lab
+Biology Department
 California State University, Northridge  
 18111 Nordhoff St  
 Northridge, CA 91330 USA
