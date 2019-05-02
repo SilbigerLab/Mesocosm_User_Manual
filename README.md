@@ -19,3 +19,4 @@ danielle.barnas@csun.edu
 
 [Full Manual (GitBook)](https://silbigerlab.gitbook.io/mesocosm-user-manual/)  
 [Full Manual (pdf)](docs/Mesocosm_Manual.pdf)  
+[By Chapter](chapters/)
