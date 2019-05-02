@@ -1,4 +1,4 @@
-# Mesocosm User Manual
+# Silbiger Lab Mesocosm
 
 Silbiger Lab  
 California State University, Northridge  
@@ -16,6 +16,6 @@ danielle.barnas@csun.edu
 
 **System Information**  
 
-[Full Manual (GitBook)](https://silbigerlab.gitbook.io/mesocosm-user-manual/)
+[Full Manual (GitBook)](https://silbigerlab.gitbook.io/mesocosm-user-manual/)  
 [Full Manual (pdf)](docs/Mesocosm_Manual.pdf)  
 [Full Manual](Chapters/README.md)  
