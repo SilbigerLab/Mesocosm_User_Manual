@@ -5,21 +5,21 @@ Recommendations for programming the Apex aquarium controllers designated for the
 The following are using the numbered system of Apex\_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks.
 
 **Contents**  
-[**Probes**](08-apex_programming_guide.md#Probes)  
-[**Outlets and Ports**](08-apex_programming_guide.md#Outlets_and_Ports)  
-[**Outlet Setup in ApexFusion**](08-apex_programming_guide.md#Outlet_Setup)  
-[**Profiles**](08-apex_programming_guide.md#Profiles)
+[**Probes**](#Probes)  
+[**Outlets and Ports**](#Outlets_and_Ports)  
+[**Outlet Setup in ApexFusion**](#Outlet_Setup)  
+[**Profiles**](#Profiles)
 
  **Probes**
 
-* Tmp-1 \(Base\)
-* pH-1 \(Base\)
-* Tmp-2 \(PM1\_2\)
-* pH-2 \(PM1\_2\)
-* Tmp-3 \(PM1\_3\)
-* pH-3 \(PM1\_3\)
-* Tmp-4 \(PM1\_4\)
-* pH-4 \(PM1\_4\)
+* Tmp-1 (Base)
+* pH-1 (Base)
+* Tmp-2 (PM1_2)
+* pH-2 (PM1_2)
+* Tmp-3 (PM1_3)
+* pH-3 (PM1_3)
+* Tmp-4 (PM1_4)
+* pH-4 (PM1_4)
 
  **Outlets and Ports**
 
@@ -28,11 +28,11 @@ The following are using the numbered system of Apex\_39106, controlling tanks 1-
   * BLUE-TNK-1
   * WHITE-TNK-2
   * BLUE-TNK-2
-  * SndAlm\_I6
-  * SndWrn\_I7
-  * EmailAlm\_I5
-  * Email2Alm\_I9
-* EB832\_1
+  * SndAlm_I6
+  * SndWrn_I7
+  * EmailAlm_I5
+  * Email2Alm_I9
+* EB832_1
   * HEATER-1
   * PWRHD-1
   * SOL-TNK-1
@@ -43,7 +43,7 @@ The following are using the numbered system of Apex\_39106, controlling tanks 1-
   * SOL-TNK-3
   * LIGHT-TNK-3
   * PH-TNK-3
-* EB832\_2
+* EB832_2
   * HEATER-2
   * PWRHD-2
   * SOL-TNK-2
@@ -59,45 +59,45 @@ The following are using the numbered system of Apex\_39106, controlling tanks 1-
   * BLUE-TNK-3
   * WHITE-TNK-4
   * BLUE-TNK-4
-  * BluLED\_11\_5
-  * WhtLED\_11\_6
-* FMM\_1
+  * BluLED_11_5
+  * WhtLED_11_6
+* FMM_1
   * S1-FLW
   * N1-FLW
   * D1-FLW
-* FMM\_2
+* FMM_2
   * S2-FLW
   * N2-FLW
   * D2-FLW
-* FMM\_3
+* FMM_3
   * S3-FLW
   * N3-FLW
   * D3-FLW
-* FMM\_4
+* FMM_4
   * S4-FLW
   * N4-FLW
   * D4-FLW
 
  **Outlet Setup in ApexFusion**
 
-* LIGHT-TNK-\#
+* LIGHT-TNK-#
   * Fallback OFF
   * Set OFF
   * If Sun 0/0 Then ON
   * If Moon 0/0 Then ON
-* WHITE-TNK-\#
+* WHITE-TNK-#
   * Fallback OFF
   * Set OFF
   * If Sun 0/0 Then RampUp
-* BLUE-TNK-\#
+* BLUE-TNK-#
   * Fallback OFF
   * Set OFF
   * If Moon 0/0 Then RampUp
-* WhtLED\_\#
+* WhtLED_#
   * Fallback OFF
   * Set OFF
   * If Sun 0/0 Then RampUp
-* BluLED\_\#
+* BluLED_#
   * Fallback OFF
   * Set OFF
   * If Moon 0/0 Then RampUp
