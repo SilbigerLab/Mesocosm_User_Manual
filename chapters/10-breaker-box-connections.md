@@ -1,6 +1,6 @@
 # Breaker Box Connections
 
-Following switches from top-down, then left-right.
+**Following switches from top-down, then left-right:**
 
 1,3: Main Disconnect  
 5,7: Air Conditioner  
@@ -12,7 +12,8 @@ Following switches from top-down, then left-right.
 10: Outlet Box #5 (Tanks 5-8)  
 12: Outlet Box #6 (Tanks 1-4)  
 
-Powering the container: 
+**Powering the container:**
+
 1. Turn on (flip left to right) the Main Disconnect switches.  Once powered, the remaining switches will supply power to their individual breakers.
 1. Turn on (flip right to left) the General Power switch.  Once powered, the light switch to the right of the entrance will turn on/off the overhead light, the O2 sensor above the light switch will be activated, and all outlets in Outlet Box #1 will be active.
 1. Turn on (flip left to right) the Air Conditioner switches.  Once powered, the A/C unit can be controlled via remote control or the front display panel on the unit.
