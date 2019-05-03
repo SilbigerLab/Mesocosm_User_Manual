@@ -5,12 +5,12 @@ Recommendations for programming the Apex aquarium controllers designated for the
 The following are using the numbered system of Apex\_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks.
 
 **Contents**  
-[**Probes**](#Probes)  
-[**Outlets and Ports**](#Outlets_and_Ports)  
-[**Outlet Setup in ApexFusion**](#Outlet_Setup)  
-[**Profiles**](#Profiles)
+- [**Probes**](#Probes)  
+- [**Outlets and Ports**](#Outlets_and_Ports)  
+- [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
+- [**Profiles**](#Profiles)
 
- **Probes**
+ <a name="Probes"></a> **Probes**
 
 * Tmp-1 (Base)
 * pH-1 (Base)
@@ -21,7 +21,7 @@ The following are using the numbered system of Apex\_39106, controlling tanks 1-
 * Tmp-4 (PM1_4)
 * pH-4 (PM1_4)
 
- **Outlets and Ports**
+ <a name="Outlets_and_Ports"></a> **Outlets and Ports**
 
 * Base Unit
   * WHITE-TNK-1
@@ -78,7 +78,7 @@ The following are using the numbered system of Apex\_39106, controlling tanks 1-
   * N4-FLW
   * D4-FLW
 
- **Outlet Setup in ApexFusion**
+ <a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**
 
 * LIGHT-TNK-#
   * Fallback OFF
@@ -102,7 +102,7 @@ The following are using the numbered system of Apex\_39106, controlling tanks 1-
   * Set OFF
   * If Moon 0/0 Then RampUp
 
- **Profiles**
+ <a name="Profiles"></a> **Profiles**
 
 * RampUp:
   * Ramp Time: 30 min
