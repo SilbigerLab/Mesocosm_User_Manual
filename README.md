@@ -7,7 +7,7 @@ California State University, Northridge
 Northridge, CA 91330 USA
 
 
-Dr. Nyssa Silbiger  
+Dr. Nyssa Silbiger, Assistant Professor  
 nyssa.silbiger@csun.edu  
 
 
