@@ -1,13 +1,13 @@
 # System Details
 
 **Contents**  
-- [**Aquaria System**](#Tank_System)  
+- [**Aquaria System**](#Aquaria_System_List)  
 - [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 - [**System Operational Sequence**](#System_Operational_Sequence)  
 - [**Apex Connection Series**](#Apex_Connection_Series)  
-- [**EB832 Outlet Connections**](d#EB832_Outlet_Connections)
+- [**EB832 Outlet Connections**](#EB832_Outlet_Connections)
 
-<a name="Tank_System"></a> **Aquaria System Component List**
+<a name="Aquaria_System_List"></a> **Aquaria System Component List**
  
 * Experimental Tanks (21.25” x 12.5” x 13.5”H) - Per tank:  
   * 1 Submersible powerhead pump ([Hydor Nano Koralia 240 powerhead](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Hydor_Nano_Pump.pdf))  
