@@ -1,7 +1,12 @@
 # Inventory
 
+**Contents**  
+- [**Experimental Mesocosm**](#Experimental_Mesocosm)
+- [**Filtration**](#Filtration)
+- [**Spare Items**](#Spare_Items)
   
- **Experimental Mesocosm**
+  
+<a name="Experimental_Mesocosm"></a> **Experimental Mesocosm**
 
 | Item | Quantity |
 | :--- | :--- |
@@ -36,7 +41,7 @@
 | Heat Pump | 1 |
 
   
- **Filtration**
+<a name="Filtration"></a> **Filtration**
 
 | Item | Quantity |
 | :--- | :--- |
@@ -48,11 +53,11 @@
 | Airflow Tubing | 4 |
 | Airstone | 4 |
 | Carbon Filter Cell | 3 |
-| Matala Filter, High Density \(Blue\) | 4 |
-| Matala Filter, Low Density \(Black\) | 4 |
+| Matala Filter, High Density (Blue) | 4 |
+| Matala Filter, Low Density (Black) | 4 |
 
   
- **Spare Items**
+<a name="Spare_Items"></a> **Spare Items**
 
 | Item | Quantity |
 | :--- | :--- |
