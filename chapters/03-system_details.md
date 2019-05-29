@@ -10,9 +10,9 @@
 <a name="Aquaria_System_List"></a> **Aquaria System Component List**
  
 * Experimental Tanks (21.25” x 12.5” x 13.5”H) - Per tank:  
-  * 1 Submersible powerhead pump ([Hydor Nano Koralia 240 powerhead](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Hydor_Nano_Pump.pdf))  
-  * 1 200 W Heater ([Hydor aquarium heater](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Hydor_Heater.pdf))  
-  * 1 Light ([Halo Basic M-110](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Apex_Halo.pdf))  
+  * 1 Submersible powerhead pump ([Hydor Nano Koralia 240 powerhead](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Hydor_Nano_Pump.pdf))  
+  * 1 200 W Heater ([Hydor aquarium heater](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Hydor_Heater.pdf))  
+  * 1 Light ([Halo Basic M-110](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Apex_Halo.pdf))  
   * 1 Temperature probe (Apex)  
   * 1 pH probe (Apex)  
   * 1 Solenoid valve for pH (Apex)  
@@ -21,22 +21,22 @@
   * 1 Solenoid Supply line: "S"
   * 1 Drain line: "D"
   * 1 Gate valve (solenoid for water inflow)  
-  * 1 VDM ([Apex Variable Dimming Module](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/VDM_manual.pdf), 1 unit for 4 tanks)  
+  * 1 VDM ([Apex Variable Dimming Module](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/VDM_manual.pdf), 1 unit for 4 tanks)  
   * 1 FMM ([Apex Fluid Metering Module](https://www.neptunesystems.com/getstarted/fmk/))  
-  * 1 PM1 ([Apex Probe Module 1](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/PM1_manual.pdf))  
-  * 1 Base Unit ([Apex](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Apex_Comprehensive_Reference_Manual.pdf) processing unit, 1 unit for 4 tanks)  
-  * 1 EB832 ([Apex 8-outlet EnergyBar](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/EB832_Guide.pdf), 1 unit for 2 tanks)  
-* 1 CO2 regulator valve ([Tunze pH Controller Set, pressure reducing valve   7077/3](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Tunze_CO2_Regulator.pdf))  
+  * 1 PM1 ([Apex Probe Module 1](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/PM1_manual.pdf))  
+  * 1 Base Unit ([Apex](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Apex_Comprehensive_Reference_Manual.pdf) processing unit, 1 unit for 4 tanks)  
+  * 1 EB832 ([Apex 8-outlet EnergyBar](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/EB832_Guide.pdf), 1 unit for 2 tanks)  
+* 1 CO2 regulator valve ([Tunze pH Controller Set, pressure reducing valve   7077/3](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Tunze_CO2_Regulator.pdf))  
 * 1 Industrial Grade Carbon Dioxide, [50 pound cylinder](https://www.airgas.com/product/Gases/Industrial-Application-Gases/Carbon-Dioxide---Industrial/p/CD%2050)  
 
-<a name="Filtration_and_Recirculation_System"></a> **Filtration and Recirculation** [**System**](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Filtration_Skid_Build_Package.pdf) **Component List**
+<a name="Filtration_and_Recirculation_System"></a> **Filtration and Recirculation** [**System**](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Filtration_Skid_Build_Package.pdf) **Component List**
 
-* Sump (66.25” x 31.5” x 21”H\  
-* Chiller ([AquaLogic Multi-Temp and Titan Series](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/AquaLogic_Chiller.pdf))  
-* Heat Pump ([AquaLogic Multi-Temp and Titan Series](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/AquaLogic_Chiller.pdf))  
-* PM1 (Apex Probe Module 1)  
-* PhosBan chemical filter ([PhosBan Reactor 550](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Phosban_Reactor.pdf))  
-* Water pump ([PerformancePro Cascade pump](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Complete_Cascade.pdf))  
+* Sump (66.25” x 31.5” x 21”H)  
+* Chiller ([AquaLogic Multi-Temp and Titan Series](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/AquaLogic_Chiller.pdf))  
+* Heat Pump ([AquaLogic Multi-Temp and Titan Series](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/AquaLogic_Chiller.pdf))  
+* PM1 ([Apex Probe Module 1](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/PM1_manual.pdf))  
+* PhosBan chemical filter ([PhosBan Reactor 550](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Phosban_Reactor.pdf))  
+* Water pump ([PerformancePro Cascade pump](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Complete_Cascade.pdf))  
 * UV Sterilizer (Comet Series 95 Watt Lamp)  
 * CO2 Scrubber (4 outflow tubing ports) 
 * Airstones (4 units)  
@@ -57,7 +57,7 @@
   * 107.39 gal in sump (freeboard volume)
   * 58.01 gal necessarily pumped to secondary holding tank
 * Flow rate for each tank is  2-6 GPH (See [Tidal Manipulation](chapters/06-tidal_manipulation.md) for specific flow rates).  
-* Chiller is plumbed inline with the [filtration skid](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/Filtration_Skid_Build_Package.pdf) which includes mechanical/biological filtration as well as UV sterilization (chemical filtration).  
+* Chiller is plumbed inline with the [filtration skid](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Filtration_Skid_Build_Package.pdf) which includes mechanical/biological filtration as well as UV sterilization (chemical filtration).  
 * One main pump recirculates the water flow throughout the experimental tanks and the main holding reservoir.  
 * Each tank has an immersion heater that allows tank temperatures to be set 15 degF (8.3 degC) above the main holding tank reservoir.  
   * **Note: The tank needs to be static in order to heat up to a desired temp.  Once the temperature has been reached then it can be set to flow through mode.**  
