@@ -39,15 +39,34 @@ Password: silbigerlab
 
 <a name="Data_Logs"></a> **Downloading Data Logs**
 
-Format of what to enter into your internet browser:  
-http://:/cgi-bin/outlog.xml?sdate=yymmddhhmm&days=n
+When connected to the same network as the Apex units, you can download data logs for the systems following the directions below.  
+**Note** To connect to the same network, you must plug your device into one of the live ethernet cables in the Mesocosm.  
 
+Format for your internet browser URL:  
+http://:/cgi-bin/outlog.xml?sdate=yymmddhhmm&days=n  
+http://:/cgi-bin/datalog.xml?sdate=yymmddhhmm&days=n  
+* Accessible logs:
+  * Outlog – every time the Apex changes the state of an outlet a record is written to this log. If no outlet ever changed state you would have zero records in this log. A new log is started daily at midnight. Log is named “yymmdd.odat”.
+  * Datalog – records probe value snapshots (Temp, pH, ORP, etc.) based on the logging interval you define (default = 20 minutes). You can change the interval via the Display module under Data Log – Log Interval. A new log is started daily at midnight. Log is named “yymmdd.pdat”.
+  
 Examples of what to enter into your internet browser:  
-http://130.166.116.174/cgi-bin/outlog.xml?sdate=190426  
-http://130.166.116.174/cgi-bin/datalog.xml?sdate=190426&days=7  
+http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005  
+http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005&days=7  
 
-* the value after date= is the start date for when you want logged information, and days=n yields data n days after that start date.
+* The value after date= is the start date for when you want logged information, and days=n yields data n days after that start date.
+* Hours and Minutes are optional in the date parameter.
 
+1. Following the above format, enter the unique IP address for the Apex containing the logs you want to access.
+    1. Apex_39106: 172.24.113.25
+       Apex_40216: 172.24.113.22
+       Apex_39952: 172.24.113.23
+       Apex_37810: 172.24.113.21
+       Apex_41239: 172.24.113.24
+1. Import Log Data
+    1. Open a new Excel file and go to the Data tab
+    1. Select From Web in the Get External Data box
+    1. A New Web Query dialog box will open.  Type or copy the url from your browser into the data source Address field.  Click Import.
+    1. Your XML data should be imported into your empty spreadsheet and automatic filters created for each column making it easy to select and analyze data.
 
 <a name="Update"></a> **Update System**
 
