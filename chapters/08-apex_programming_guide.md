@@ -2,26 +2,26 @@
 
 Recommendations for programming the Apex aquarium controllers designated for the Silbiger Lab Mesocosm, located in the loading bay between Citrus Hall and Eucalyptus Hall at California State University, Northridge. These recommendations are for maintaining tanks at ambient conditions. Changes should be made according to your study aims.
 
-The following are using the numbered system of Apex\_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks.
+The following are using the numbered system of Apex_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks.
 
 **Contents**  
 - [**Probes**](#Probes)  
-- [**Outlets and Ports**](#Outlets_and_Ports)  
+- [**Modules, Outlets, and Ports**](#Modules_Outlets_and_Ports)  
 - [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
 - [**Profiles**](#Profiles)
 
  <a name="Probes"></a> **Probes**
 
-* Tmp-1 (Base)
-* pH-1 (Base)
-* Tmp-2 (PM1_2)
-* pH-2 (PM1_2)
-* Tmp-3 (PM1_3)
-* pH-3 (PM1_3)
-* Tmp-4 (PM1_4)
-* pH-4 (PM1_4)
+* TMP-1 (Base)
+* PH-1 (Base)
+* TMP-2 (PM1_2)
+* PH-2 (PM1_2)
+* TMP-3 (PM1_3)
+* PH-3 (PM1_3)
+* TMP-4 (PM1_4)
+* PH-4 (PM1_4)
 
- <a name="Outlets_and_Ports"></a> **Outlets and Ports**
+ <a name="Modules_Outlets_and_Ports"></a> **Modules, Outlets, and Ports**
 
 * Base Unit
   * WHITE-TNK-1
@@ -78,33 +78,50 @@ The following are using the numbered system of Apex\_39106, controlling tanks 1-
   * N4-FLW
   * D4-FLW
 
- <a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**
+ <a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**  
+All configurations are for Control Type: Advanced  
 
+* HEATER-#
+  * Fallback OFF  
+    Set OFF  
+    If Tmp-# < 15.0 Then ON  
+* PWRHD-#
+  * Fallback ON  
+    Set ON  
+  * Alternative program is to set Control Type: Always  
+* SOL-TNK-#
+  * Fallback ON  
+    OSC 000:00/375:00/375:00 Then ON  
 * LIGHT-TNK-#
-  * Fallback OFF
-  * Set OFF
-  * If Sun 0/0 Then ON
-  * If Moon 0/0 Then ON
+  * Fallback OFF  
+    Set OFF  
+    If Sun 0/0 Then RampUp  
+    If Moon 0/0 Then ON  
 * WHITE-TNK-#
-  * Fallback OFF
-  * Set OFF
-  * If Sun 0/0 Then RampUp
+  * Fallback OFF  
+    Set OFF  
+    If Sun 0/0 Then ON  
 * BLUE-TNK-#
-  * Fallback OFF
-  * Set OFF
-  * If Moon 0/0 Then RampUp
+  * Fallback OFF  
+    Set OFF  
+    If Moon 0/0 Then RampUp  
 * WhtLED_#
-  * Fallback OFF
-  * Set OFF
-  * If Sun 0/0 Then RampUp
+  * Fallback OFF  
+    Set OFF  
+    If Sun 0/0 Then ON  
+    If Tmp-# > 35.0 Then OFF  
+    Min Time 030:00 Then OFF
 * BluLED_#
-  * Fallback OFF
-  * Set OFF
-  * If Moon 0/0 Then RampUp
+  * Fallback OFF  
+    Set OFF  
+    If Moon 0/0 Then ON  
+    If Tmp-# > 35.0 Then OFF  
+    Min Time 030:00 Then OFF  
 
  <a name="Profiles"></a> **Profiles**
 
 * RampUp:
+  * Type: Ramp
   * Ramp Time: 30 min
   * Start Intensity: 0
   * End Intensity: 100
