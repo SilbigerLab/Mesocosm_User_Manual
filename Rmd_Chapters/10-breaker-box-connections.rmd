@@ -10,7 +10,7 @@
 6: Outlet Box #3 (Tanks 13-16)  
 8: Outlet Box #4 (Tanks 9-12)  
 10: Outlet Box #5 (Tanks 5-8)  
-12: Outlet Box #6 (Tanks 1-4)  
+12: Outlet Box #6 (Tanks 1-4, outdoor sump pump)  
 
 **Powering the container:**
 
