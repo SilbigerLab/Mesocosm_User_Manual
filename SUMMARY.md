@@ -12,5 +12,6 @@
   * [Apex Programming Guide](chapters/08-apex_programming_guide.md)
   * [Apex Fusion](chapters/09-apex_fusion_guide.md)
   * [Breaker Box Connections](chapters/10-breaker-box-connections.md)
-* [References](11-references.md)
+  * [Troubleshooting Guide](chapters/11-troubleshooting_guide.md)
+* [References](12-references.md)
 
