@@ -8,37 +8,37 @@
   
 <a name="Experimental_Mesocosm"></a> **Experimental Mesocosm**
 
-| Item | Quantity |
-| :--- | :--- |
-| Experimental Aquarium | 20 |
-| Aquarium Lid | 20 |
-| 200W Heater | 20 |
+| Item | Quantity | Purchase Replacement |
+| :--- | :--- | :--- |
+| Experimental Aquarium | 20 | 
+| Aquarium Lid | 20 | 
+| 200W Heater | 20 | [$24.99 Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B00061UQ7K) |
 | Suction Heater Slip | 40 |
-| Halo Light | 20 |
+| Halo Light | 20 | [$299.99 Amazon](https://www.amazon.com/Aquatic-Life-Halo-Basic-Fixture/dp/B00T6FGDJW) |
 | Halo Light Power Cords | 20 |
-| Hydor Powerhead | 20 |
-| Temperature Probe | 20 |
+| Hydor Powerhead | 20 | [$34.99 Amazon](https://www.amazon.com/Hydor-Koralia-Nano-Aquarium-Circulation/dp/B0036S70ZG/ref=sr_1_2?keywords=hydor+powerhead&qid=1572981966&s=pet-supplies&sr=1-2) |
+| Temperature Probe | 20 | [$29.95 Bulk Reef Supply](https://www.bulkreefsupply.com/temperature-probe-neptune-systems.html) |
 | Suction Temperature Probe Slip | 20 |
-| pH Probe | 20 |
+| pH Probe | 20 | [$74.95 Bulk Reef Supply](https://www.bulkreefsupply.com/lab-grade-double-junction-ph-probe-neptune-systems.html) |
 | Suction pH Probe Slip | 20 |
-| pH Calibration Pack \(4,7,10\) | 10 |
-| Solenoid Valve | 20 |
-| Solenoid Power Supply | 20 |
-| Flow Sensor | 60 |
-| Gate Valve | 20 |
+| Salinity Probe | 5 | [124.95 Bulk Reef Supply](https://www.bulkreefsupply.com/neptune-systems-lab-grade-conductivity-probe.html) |
+| pH and Salinity Calibration Pack \(7,10\) | 10 | [$6.85 Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
+| CO2 Solenoid Valve | 20 | [$29.95 Bulk Reef Supply](https://www.bulkreefsupply.com/sv-1-solenoid-valve-neptune-systems.html) |
+| FS-25 1/4" Flow Sensor | 60 | [$19.95 Bulk Reef Supply](https://www.bulkreefsupply.com/1-4-flow-sensor-fs25-neptune-systems.html) |
+| Flow Solenoid/Gate Valve | 20 | [$16.99 Electric Solenoid Valves](https://www.electricsolenoidvalves.com/1-4-120v-ac-electric-plastic-solenoid-valve/) |
 | Inflow Seawater Tubing | 40 |
 | Inflow CO2 Tubing | 20 |
-| Airstone | 20 |
+| Airstone | 20 | [$5.99x10pack Amazon](https://www.amazon.com/Pawfly-Cylinder-Diffuser-Airstones-Hydroponics/dp/B075QCWGZQ/ref=sr_1_5?crid=3EXLLKKDA2NYZ&keywords=airstones+for+aquariums&qid=1572983301&sprefix=airstone%2Caps%2C197&sr=8-5) |
 | Inflow Tubing Stand | 40 |
-| VDM | 5 |
-| FMM | 20 |
-| PM1 | 16 |
-| Apex Base Unit | 5 |
-| Apex EB832 | 10 |
+| VDM | 5 | [$99.95 Bulk Reef Supply](https://www.bulkreefsupply.com/led-pumps-control-module-vdm-neptune-systems.html) |
+| FMM | 20 | [$99.95 Bulk Reef Supply](https://www.bulkreefsupply.com/fmm-fluid-monitoring-module-neptune-systems.html) |
+| PM1 | 16 | [$84.95 Bulk Reef Supply](https://www.bulkreefsupply.com/ph-orp-probe-module-pm1-neptune-systems.html) |
+| Display Module | 1 | [$99.95 Bulk Reef Supply](https://www.bulkreefsupply.com/apex-display-module-neptune-systems.html) |
+| Apex Base Unit | 5 | [$399.95 Bulk Reef Supply](https://www.bulkreefsupply.com/apex-controller-base-unit-neptune-systems.html) |
+| Apex EB832 | 10 | [$249.95 Bulk Reef Supply](https://www.bulkreefsupply.com/energybar-832-neptune-systems.html) |
 | Tunze CO2 Regulator Valve | 1 |
 | 180gal Sump | 1 |
 | Chiller | 1 |
-| Heat Pump | 1 |
 
   
 <a name="Filtration"></a> **Filtration**
@@ -63,5 +63,5 @@
 | :--- | :--- |
 | Solenoid Valve | 4 |
 | Airstone | 29 |
-| Halo Light Cable | 16 |
+| Halo Light-to-Light Cable | 16 |
 
