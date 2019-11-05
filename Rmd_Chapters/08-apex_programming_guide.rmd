@@ -12,6 +12,7 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 
  <a name="Probes"></a> **Probes**
 
+* Salt-1 (Base)
 * TMP-1 (Base)
 * PH-1 (Base)
 * TMP-2 (PM1_2)
@@ -23,36 +24,36 @@ The following are using the numbered system of Apex_39106, controlling tanks 1-4
 
  <a name="Modules_Outlets_and_Ports"></a> **Modules, Outlets, and Ports**
 
-* Base Unit
+* Base Unit Variables
   * WHITE-TNK-1
   * BLUE-TNK-1
   * WHITE-TNK-2
   * BLUE-TNK-2
+* Base Unit Alarms  
   * SndAlm_I6
   * SndWrn_I7
   * EmailAlm_I5
-  * Email2Alm_I9
 * EB832_1
   * HEATER-1
   * PWRHD-1
   * SOL-TNK-1
   * LIGHT-TNK-1
-  * PH-TNK-1
   * HEATER-3
   * PWRHD-3
   * SOL-TNK-3
   * LIGHT-TNK-3
+  * PH-TNK-1
   * PH-TNK-3
 * EB832_2
   * HEATER-2
   * PWRHD-2
   * SOL-TNK-2
   * LIGHT-TNK-2
-  * PH-TNK-2
   * HEATER-4
   * PWRHD-4
   * SOL-TNK-4
   * LIGHT-TNK-4
+  * PH-TNK-2
   * PH-TNK-4
 * VDM
   * WHITE-TNK-3
@@ -98,6 +99,11 @@ All configurations are for Control Type: Advanced
     Set OFF  
     If Sun 0/0 Then ON  
     If Moon 0/0 Then ON  
+  * Log Enabled  
+* PH-TNK-#
+  * Fallback OFF  
+    Set OFF  
+    If pH-1 > 8.20 Then ON  
   * Log Enabled  
 * WHITE-TNK-#
   * Fallback OFF  
