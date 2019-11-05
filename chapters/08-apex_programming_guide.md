@@ -92,15 +92,17 @@ All configurations are for Control Type: Advanced
 * SOL-TNK-#
   * Fallback ON  
     OSC 000:00/375:00/375:00 Then ON  
+  * Log Enabled  
 * LIGHT-TNK-#
   * Fallback OFF  
     Set OFF  
-    If Sun 0/0 Then RampUp  
+    If Sun 0/0 Then ON  
     If Moon 0/0 Then ON  
+  * Log Enabled  
 * WHITE-TNK-#
   * Fallback OFF  
     Set OFF  
-    If Sun 0/0 Then ON  
+    If Sun 0/0 Then RampUp  
 * BLUE-TNK-#
   * Fallback OFF  
     Set OFF  
@@ -125,4 +127,3 @@ All configurations are for Control Type: Advanced
   * Ramp Time: 30 min
   * Start Intensity: 0
   * End Intensity: 100
-
