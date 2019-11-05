@@ -11,10 +11,12 @@
 1. Overflow water from the tanks will feed down to the outside sump pump, then into to the filtration skid inside the Citrus Hall Field Room.  The water will flow through mesh filters and be pumped through carbon filters, the UV sterilizer, and chiller, then back to the tanks.
 
 <a name="Filtration"></a> **Filtration**
+
 1. Water from the Mesocosm tanks is pumped into the sump by passing through 6 mesh filters.  These filters have an accumulated biofilm to biologically filter the water before it enters the sump.
 1. Water in the sump is pulled through the three carbon filters by a pump and pushed up into the UV sterilizer, where is is then directed through the chiller chamber.
 
 <a name="System"></a> **System**
+
 1. Inflow from the filtration sump to the mesocosm tanks
     1. Water from the chiller can be directed either back into the sump (t valve 1 is parallel with the pvc, opening flow to the sump, and t valve 2 is perpendicular to the pvc, closing flow to the tanks) or to the mesocosm tanks (t valve 1 is angled to allow partial flow to the sump and tanks, and t valve 2 is parallel with the pvc, opening flow to the tanks).
     1. T valve 1 is used to regulate the line pressure going back to the mesocosm tanks.  The more closed, the higher the pressure in the line, and the more open, the lower the pressure.
