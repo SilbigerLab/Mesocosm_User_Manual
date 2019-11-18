@@ -62,6 +62,14 @@
 | Item | Quantity |
 | :--- | :--- |
 | Solenoid Valve | 4 |
+| Flow Solenoid/Gate Valve | 5 |
+| Halo Light | 1 |
 | Airstone | 29 |
 | Halo Light-to-Light Cable | 16 |
-
+| pH Calibration Pack \(7,10\) | 3 |
+| Salinity Calibration Pack \(53,000 uS\) | 3 |
+| FS-25 1/4" Flow Sensor | 0 |
+| pH Probe | 0 |
+| Conductivity Probe | 0 |
+| Temperature Probe | 0 |
+| Hydor Powerhead | 0 |
