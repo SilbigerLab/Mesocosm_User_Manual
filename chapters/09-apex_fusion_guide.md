@@ -45,6 +45,7 @@ When connected to the same network as the Apex units, you can download data logs
 Format for your internet browser URL:  
 http://:/cgi-bin/outlog.xml?sdate=yymmddhhmm&days=n  
 http://:/cgi-bin/datalog.xml?sdate=yymmddhhmm&days=n  
+
 * Accessible logs:
   * Outlog – every time the Apex changes the state of an outlet a record is written to this log. If no outlet ever changed state you would have zero records in this log. A new log is started daily at midnight. Log is named “yymmdd.odat”.
   * Datalog – records probe value snapshots (Temp, pH, ORP, etc.) based on the logging interval you define (default = 20 minutes). You can change the interval via the Display module under Data Log – Log Interval. A new log is started daily at midnight. Log is named “yymmdd.pdat”.
@@ -62,11 +63,17 @@ http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005&days=7
        Apex_39952: 172.24.113.23
        Apex_37810: 172.24.113.21
        Apex_41239: 172.24.113.24
-1. Import Log Data
+1. Import Log Data (Windows/PC)
     1. Open a new Excel file and go to the Data tab
     1. Select From Web in the Get External Data box
     1. A New Web Query dialog box will open.  Type or copy the url from your browser into the data source Address field.  Click Import.
     1. Your XML data should be imported into your empty spreadsheet and automatic filters created for each column making it easy to select and analyze data.
+1. Import Log Data (Mac)
+    1. Open the web browser for the apex data you want to downlaod
+    1. Wait for the page to fully load (the top line of the page will read "This XML file does not appear to have any style information associated with it.  The documnet tree is shown below.")
+    1. Right click somewhere on the webpage and click Save As.
+    1. Save your file in an accesible location or in your R workspace with a name identifying the apex unit and date. Ex. 39106_191127d6.csv identifies Apex_39106, that data starts on 11-27-2019, and that data is saved for up to 6 days after the start date (12-3-2019).  Manually type .csv to save the file as a csv instead of an xml file.
+    1. Refer to [Mesocosm_Environmental_Data/Datalog_Data_Tidy.R](https://github.com/SilbigerLab/Mesocosm_Environmental_Data/blob/master/Datalog_Data_Tidy.R) for a guide to clean up the data into a usable format.
 
 <a name="Update"></a> **Update System**
 
