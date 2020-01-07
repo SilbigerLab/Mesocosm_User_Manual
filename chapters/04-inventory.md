@@ -43,14 +43,16 @@
   
 <a name="Filtration"></a> **Filtration**
 
-| Item | Quantity |
-| :--- | :--- |
-| PhosBan Chemical Filter with Media | 1 |
+| Item | Quantity | Purchase Replacement |
+| :--- | :--- | :--- |
+| PhosBan Reactor 550 | 1 | [$85.14 Bulk Reef Supply](https://www.bulkreefsupply.com/phosban-reactor-550.html) |
+| PhosBan CDX Carbon Dioxide Absorption Media 3L | 1 | [$44.38 Bulk Reef Supply](https://www.bulkreefsupply.com/cdx-carbon-dioxide-adsorption-media-two-little-fishies.html) |
 | Cascade Water Pump | 1 |
 | UV Sterilizer | 1 |
 | UV Light | 1 |
-| CO2 Scrubber | 1 |
-| Airflow Tubing | 4 |
+| Air Pump | 1 |
+| Air Pump tubing to Phosban Reactor 3/8" ID x 10' | 2 | [$4.93 Home Depot](https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141) |
+| Airflow Tubing 3/16" ID x 8' | 4 | [$2.69 Petsmart](https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html) | 
 | Airstone | 4 |
 | Carbon Filter Cell | 3 |
 | Matala Filter, High Density (Blue) | 4 |
