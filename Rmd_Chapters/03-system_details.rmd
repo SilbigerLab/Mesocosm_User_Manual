@@ -3,9 +3,10 @@
 **Contents**  
 - [**Aquaria System**](#Aquaria_System_List)  
 - [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
-- [**System Operational Sequence**](#System_Operational_Sequence)  
+- [**System Operational Parameters**](#System_Operational_Parameters)  
 - [**Apex Connection Series**](#Apex_Connection_Series)  
 - [**EB832 Outlet Connections**](#EB832_Outlet_Connections)
+- [**Water Flow Operation**](#Water_Flow_Operation)  
 
 <a name="Aquaria_System_List"></a> **Aquaria System Component List**
  
@@ -35,15 +36,15 @@
 * Chiller ([AquaLogic Multi-Temp and Titan Series](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/AquaLogic_Chiller.pdf))  
 * Heat Pump ([AquaLogic Multi-Temp and Titan Series](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/AquaLogic_Chiller.pdf))  
 * PM1 ([Apex Probe Module 1](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/PM1_manual.pdf))  
-* PhosBan chemical filter ([PhosBan Reactor 550](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Phosban_Reactor.pdf))  
 * Water pump ([PerformancePro Cascade pump](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Complete_Cascade.pdf))  
 * UV Sterilizer (Comet Series 95 Watt Lamp)  
-* CO2 Scrubber (4 outflow tubing ports) 
-* Airstones (4 units)  
+* PhosBan chemical filter ([PhosBan Reactor 550](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Phosban_Reactor.pdf))  
+* Air compressor 
+* Airstones (4 units on 4 outflow tubes)  
 * Carbon filter cells (3 units, CF28AC,28in, ActC)  
 * Mesh filter (8 units, Matala Filter Media, interchanged 4 Blue high density and 4 Black low density sheets)  
 
-<a name="System_Operational_Sequence"></a> **System Operational Sequence**
+<a name="System_Operation_Parameters"></a> **System Operational Parameters**
 
 * This is a closed loop system where water from each individual tank will recirculate back to a main holding reservoir (sump).  
 * Normal High Tide operating water level is approximately 12.5"H for a total water volume of 14.37 gal per tank (287.4 gal total for the 20-tank-system).  
@@ -60,16 +61,21 @@
 * Chiller is plumbed inline with the [filtration skid](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Filtration_Skid_Build_Package.pdf) which includes mechanical/biological filtration as well as UV sterilization (chemical filtration).  
 * One main pump recirculates the water flow throughout the experimental tanks and the main holding reservoir.  
 * Each tank has an immersion heater that allows tank temperatures to be set 15 degF (8.3 degC) above the main holding tank reservoir.  
-  * **Note: The tank needs to be static in order to heat up to a desired temp.  Once the temperature has been reached then it can be set to flow through mode.**  
+  * **Note: The tank needs to have low flow or be static in order to heat up to a desired temp.  Once the temperature has been reached then it can be set to normal operating flow through mode.**  
 * A small sumbersible powerhead in each tank provides water circulation throughout the tank.  
-* Each tank has (2) supply lines, each with (1) flow sensor, and (1) gate valve in line with (1) supply line for tidal effect.  Each tank also has (2) drain lines with (1) flow sensor.  Incoming and outgoing flow rates have to be manually adjusted for the tidal effect.  
-  * outgoing tide: incoming flow rate to be lower than outgoing flow rate.  
-  * incoming tide: incoming flow rate to be greater than outgoing flow rate.  
+* Each tank has (2) supply lines, each with (1) Neptune Systems flow sensor and (1) needle valve for incoming flow rate control, and (1) gate solenoid valve in line with (1) supply line for tidal effect.  Each tank also has (2) drain lines with (1) flow sensor in line with (1) needle valve for outgoing flow rate control.  Incoming and outgoing flow rates have to be manually adjusted for the tidal effect.  
+* Flow metered water lines
+  * N: Main supply
+  * S: Solenoid-controlled supply
+  * D: Drain
+* Tidal effect
+  * outgoing tide: incoming flow rate (N + S) is lower than outgoing flow rate (D).  
+  * incoming tide: incoming flow rate (N + S) is greater than outgoing flow rate (D).  
   * Note: The tank will not be completely empty during low tide events to prevent the recirculating powerhead from running dry.  
-* Each tank has (1) CO2 supply line with an airstone connected to (1) solenoid valve to lower pH in tanks.  
-* Air compressor connected to a CO2 scrubber will bubble air into the sump to bring pH to ambient or near-ambient conditions in the holding reservoir.  
-* Each tank has individual LED lighting.  
-* Tanks controlled via Neptune Systems Apex Controllers.  Each Apex controls (4) tanks.  
+* Each tank has (1) CO2 supply line with an airstone connected to (1) Neptune Systems solenoid valve to control and lower pH in tanks.  
+* CO2 scrubber comprised of an air compressor connected to a Phosban Reactor will bubble air into the sump to bring pH to ambient or near-ambient conditions in the holding reservoir.  
+* Each tank has individual LED lighting, which can be controlled for white or blue light by specific times or natural daily light cycles.  
+* Certain tank conditions can be controlled via Neptune Systems Apex Controllers.  Each Apex controls (4) tanks.  
   * Controllable parameters are pH, temperature, tidal effect, and lighting.  
 
 <a name="Apex_Connection_Series"></a> **Apex Connection Series**
@@ -86,10 +92,22 @@
 
 <a name="EB832_Outlet_Connections"></a> **EB832 Outlet Connections**
 
-Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlets per aquarium. In order:
+Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlets per aquarium. Current outlet order, left to right:
 
 1. 200W Heater
 2. Hydor Powerhead
 3. Water supply line "S" Solenoid
 4. Halo Light
+
+<a name="Water_Flow_Operation"></a> **Water Flow Operation**
+
+* Inflow from the filtration sump to the mesocosm tanks
+    1. Water from the chiller can be directed either back into the sump (the bypass t-valve is parallel to the pvc, opening flow to the sump, and the tank t-valve is perpendicular to the pvc, closing flow to the tanks) or to the mesocosm tanks (the bypass valve is angled to allow partial flow to the sump and tanks, and the tank valve is parallel or angled with the pvc, opening flow to the tanks).
+    1. The bypass valve is used to regulate the line pressure going back to the mesocosm tanks.  The more closed, the higher the pressure in the line, and the more open, the lower the pressure.
+    1. The chiller has a safety flow switch that requires a minimum flow rate for the chiller to operate, so the bypass valve can be used to regulate the chiller flow as well as the container flow.
+* Outflow from the mesocosm tanks to the filtration sump
+    1. Water from the tanks drains to an outdoor underground sump pump, which will automatically pump water out when a certain water level is reached.  This water can be directed either back into the sump (the sump inflow t-valve is opened parallel to the pvc, allowing flow to the three dump pipes into the filtration skid), or if you intend to drain water in the event of a water change or the end of an experiment, water can be directed to a drain port (the sump inflow valve is closed and the drain t-valve along the South wall is opened parallel to the pvc).
+* Overflow from sump to secondary containment
+    1. When mesocosm water level falls from a high tide to low tide sequence, more water will drain to the sump than what the main sump can individually hold.  Excess water can be redirected from the sump (S1) to the secondary containment (S2) by opening the S2 inflow t-valve (allows simultaneous flow of filtered, chilled water to both S2 and the mesocosm tanks), and the overflow t-valve (allows continuous flow exchange between S1 and S2).
+
 
