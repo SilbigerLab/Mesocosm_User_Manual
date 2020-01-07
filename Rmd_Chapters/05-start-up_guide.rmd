@@ -3,29 +3,42 @@
 **Contents**  
 - [**Basic Operation**](#Basic_Operation)  
 - [**Filtration**](#Filtration)  
-- [**System**](#System)  
+- [**System**](#System) 
+- [**Sump Flow**](#Sump_Flow)
+- [**CO2 Scrubber**](#CO2_Scrubber)  
 
 <a name="Basic_Operation"></a> **Basic Operation**
 
 1. Operating water level in the filtration sump should be 7" in the filter cell compartment.
-1. Overflow water from the tanks will feed down to the outside sump pump, then into to the filtration skid inside the Citrus Hall Field Room.  The water will flow through mesh filters and be pumped through carbon filters, the UV sterilizer, and chiller, then back to the tanks.
+1. Overflow water from the tanks will feed down to the outside underground sump pump, then into to the filtration skid inside the Citrus Hall Field Room.  The water will flow through mesh filters and be pumped through carbon filters, the UV sterilizer, and chiller, then back to the tanks.
 
 <a name="Filtration"></a> **Filtration**
 
-1. Water from the Mesocosm tanks is pumped into the sump by passing through 6 mesh filters.  These filters have an accumulated biofilm to biologically filter the water before it enters the sump.
-1. Water in the sump is pulled through the three carbon filters by a pump and pushed up into the UV sterilizer, where is is then directed through the chiller chamber.
+* Biological and Mechanical Filtration: Water from the Mesocosm tanks is pumped into the sump by passing through 6 mesh filters.  These filters have an accumulated biofilm to biologically filter the water before it enters the sump.
+* Chemical and Mechanical Filtration: Water in the sump is pulled through the three carbon filters with mesh filter sleeves by a pump and pushed up into the UV sterilizer, where is is then directed through the chiller chamber.
 
-<a name="System"></a> **System**
+<a name="System"></a> **System Details**
 
-1. Inflow from the filtration sump to the mesocosm tanks
-    1. Water from the chiller can be directed either back into the sump (t valve 1 is parallel with the pvc, opening flow to the sump, and t valve 2 is perpendicular to the pvc, closing flow to the tanks) or to the mesocosm tanks (t valve 1 is angled to allow partial flow to the sump and tanks, and t valve 2 is parallel with the pvc, opening flow to the tanks).
-    1. T valve 1 is used to regulate the line pressure going back to the mesocosm tanks.  The more closed, the higher the pressure in the line, and the more open, the lower the pressure.
-    1. The chiller has a safety flow switch that requires a minimum flow rate for the chiller to operate, so the bypass valve can be used to regulate the chiller flow as well as the container flow.
-1. Outflow from the mesocosm tanks to the filtration sump
-    1. Water from the tanks drains to an outdoor sump pump, which will automatically pump water out when a certain water level is reached.  This water can be directed either back into the sump (t valve 3 is opened parallel with the pvc, allowing flow to the three dump pipes into the filtration skid), or if you intend to drain water in the event of a water change or the end of an experiment, water can be directed to a drain port (t valve 3 is closed and t valve 4 is opened parallel with the pvc).
-1. Overflow from sump to secondary containment
-    1. When mesocosm water level falls from a high tide to low tide sequence, more water will drain to the sump than what the sump can individually hold.  Excess water can be redirected from the sump (S1) to the secondary containment (S2) by opening t valve 5 (allows simultaneous flow of filtered, chilled water to both S2 and the mesocosm tanks), and t valve 6 (allows continuous flow exchange between S1 and S2).
-1. Before filling the tanks 
-    1. Make sure the drain valve located under the tank is closed.
+![PracticePic](images/flowmeter.PNG)
+a
+
+<a name="Sump_Flow"></a> **Sump Flow**
+
+
+
+1. Filling the mesocosm tanks 
+    1. Make sure the drain valve located under each tank is closed (turned clockwise all the way, finger-tight).
+    1. Open the N flow valve for each tanks (and S flow valve if you're turning the Solenoid ON to fill the tanks).
+    1. To open flow from the sump to the tanks, first 
     1. Fill each rack one at a time and make sure rack and filtration skid flows are balanced before moving on to the next rack.
     1. Make sure the complete system reaches equilibrium in standard recirculation mode before setting up the tidal cycle.
+1. Set flow in tanks
+    1. Calculate your desired residence time.  When full, each tank holds 55 liters, so divide 55L by your desired residence time and use that estimated value as your flow rate.  Example: for a RT of 8 hours: 55L/8hr = 6.88 L/hr or 114.67 mL/min
+    1. If you have an acceptable range for your residence time, set flow rate to within that range, as close to your desired flow as possible.  Example: for a RT of 7.5-8.5 hours: RT = 6.47-7.33 L/hr or 107.83-122.17 mL/min
+    1. Use the Neptune Systems flow meters as a guide for setting the flow, but for the most accurate flow rates, use a graduated cylinder to estimate flow into each tank.
+    1. Flow will slightly change throughout the day, so it is recommended to set flow twice per day: once in the morning and once in the afternoon/evening.
+
+
+<a name="CO2_Scrubber"></a> **CO2 Scrubber**
+1. Connect tubing to the back outtake port of the white airpump and to the phosban reactor, leaving the intake port on the airpump free
+1. 
