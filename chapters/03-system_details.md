@@ -82,13 +82,13 @@
 
 * Each EnergyBar connects to the Base Unit with an AquaBus cable via the AquaBus Ports for power.  (2) EB832 units connect to (1) Base Unit.  
 * Each CO2 Solenoid valve connects to the EnergyBar via the DC24 Accessory Port on the side of the EB832.  (2) Solenoid valves connect in (1) EB832.  
-* (1) PM1 connects to (1) EnergyBar with an AquaBus cable via the AquaBus Ports, and all PM1 modules connect in series with each other for power.  
+* (1)PM1 connects to (1) EnergyBar with an AquaBus cable via the AquaBus Ports, and all PM1 modules connect in series with each other for power.  
 * VDM connects to the last PM1 in series with an AquaBus cable via the AquaBus Ports for power.  
 * Temperature probes connect to the PM1 Temp Port or the Base Unit Temp Port.  (1) Temperature probe in each PM1, and (1) Temperature probe in the Base Unit.  
 * pH probes connect to the PM1 pH/ORP Port or the Base Unit pH/ORP Port.  Push the BNC female connector of the probe on to the male connector and turn 1/4 turn clockwise to lock the connector in place.  (1) pH probe in each PM1, and (1) pH probe in the Base Unit.  
 * [Halo light](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/394a3f7d9fed8765e4152f9fdd11d00a2ea87a93/Manuals/HALO_Quick_Start_Guide.pdf) connects to the VDM or Base Unit via the V1/V2 or V3/V4 Port.  (2) Light connections in the VDM and (2) Light connections in the Base Unit.  
-* (1) FMM connects to (1) EnergyBar (whichever EB832 is not powering the PM1 modules) with an AquaBus cable via the AquaBus Ports, and all FMM connect in series with each other for power.  
-* (3) Flow sensors connect to each FMM via (3) of the numbered ports.  
+* (1)FMM connects to (1) EnergyBar (whichever EB832 is not powering the PM1 modules) with an AquaBus cable via the AquaBus Ports, and all FMM connect in series with each other for power.  
+* (3)Flow sensors connect to each FMM via (3) of the numbered ports.  
 
 <a name="EB832_Outlet_Connections"></a> **EB832 Outlet Connections**
 
@@ -109,5 +109,3 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlet
     * Water from the tanks drains to an outdoor underground sump pump, which will automatically pump water out when a certain water level is reached.  This water can be directed either back into the sump (the sump inflow t-valve is opened parallel to the pvc, allowing flow to the three dump pipes into the filtration skid), or if you intend to drain water in the event of a water change or the end of an experiment, water can be directed to a drain port (the sump inflow valve is closed and the drain t-valve along the South wall is opened parallel to the pvc).
 * Overflow from sump to secondary containment
     * When mesocosm water level falls from a high tide to low tide sequence, more water will drain to the sump than what the main sump can individually hold.  Excess water can be redirected from the sump (S1) to the secondary containment (S2) by opening the S2 inflow t-valve (allows simultaneous flow of filtered, chilled water to both S2 and the mesocosm tanks), and the overflow t-valve (allows continuous flow exchange between S1 and S2).
-
-
