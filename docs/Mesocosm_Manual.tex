@@ -21,7 +21,6 @@
 \usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
             pdftitle={Mesocosm User Manual},
@@ -32,7 +31,11 @@
 \usepackage{natbib}
 \bibliographystyle{apalike}
 \usepackage{longtable,booktabs}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
+% grffile has become a legacy package: https://ctan.org/pkg/grffile
+\IfFileExists{grffile.sty}{%
+\usepackage{grffile}
+}{}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -69,7 +72,7 @@
 \usepackage{titling}
 
 % Create subtitle command for use in maketitle
-\newcommand{\subtitle}[1]{
+\providecommand{\subtitle}[1]{
   \posttitle{
     \begin{center}\large#1\end{center}
     }
@@ -85,7 +88,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-10-28}
+    \date{2020-01-13}
 
 \usepackage{booktabs}
 
@@ -107,113 +110,113 @@ operated by Dr.~Nyssa Silbiger.
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
-\begin{minipage}[b]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[b]{0.18\columnwidth}\raggedright\strut
 Name\strut
-\end{minipage} & \begin{minipage}[b]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[b]{0.25\columnwidth}\raggedright\strut
 Involvement\strut
-\end{minipage} & \begin{minipage}[b]{0.06\columnwidth}\raggedright\strut
-Contact Info\strut
-\end{minipage} & \begin{minipage}[b]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[b]{0.28\columnwidth}\raggedright\strut
+Contact Information\strut
+\end{minipage} & \begin{minipage}[b]{0.18\columnwidth}\raggedright\strut
 Notes\strut
 \end{minipage}\tabularnewline
 \midrule
 \endhead
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
-Dr.~Nyssa Silbiger\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Nyssa Silbiger\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 System Design Asst. Professor, CSUN\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:nyssa.silbiger@csun.edu}{\nolinkurl{nyssa.silbiger@csun.edu}}
 818-677-4427\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 \strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Danielle Barnas\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 System Installation and Maintenance Silbiger Lab Tech, CSUN\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:danielle.barnas@csun.edu}{\nolinkurl{danielle.barnas@csun.edu}}\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 \strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Louis Dang\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 Systems Engineer\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:louis@aqualogicinc.com}{\nolinkurl{louis@aqualogicinc.com}}\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 \href{http://www.aqualogicinc.com}{www.aqualogicinc.com}\strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Bill Krohmer\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 Administrative Operations\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:william.krohmer@csun.edu}{\nolinkurl{william.krohmer@csun.edu}}\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 \strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Science Shop\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 CSUN College of Science and Math Machine Shop\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 818-677-3055\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Location: EH 2014 Available M-Th 0600-1630
 \href{http://www.csun.edu/science-mathematics/science-shop}{www.csun.edu/Science-Shop}\strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Perry Martin\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
-Supervising Plumber PPM\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
+Supervising Plumber, PPM\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:perry.martin@csun.edu}{\nolinkurl{perry.martin@csun.edu}}
-818-677-2222\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+818-677-2222 (PPM) 818-677-2237\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 \strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Will Moran\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
-Network Engineer CSUN IT\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
+Network Engineer, CSUN IT\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:will.moran@csun.edu}{\nolinkurl{will.moran@csun.edu}}
 818-677-6273\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 \strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Willy Martinez\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
-Lead Electrician PPM Electric Shop\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
+Lead Electrician, PPM Electric Shop\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:willy.martinez@csun.edu}{\nolinkurl{willy.martinez@csun.edu}}
 818-677-6273\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 \strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Neptune Systems\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 Apex Support Team\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:support@neptunesystems.com}{\nolinkurl{support@neptunesystems.com}}\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 \href{http://www.neptunesystems.com}{www.neptunesystems.com}\strut
 \end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Dickson Lab\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 Seawater CO2 CRMs\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
 \href{mailto:co2crms@ucsd.edu}{\nolinkurl{co2crms@ucsd.edu}}
 858-534-2582\strut
-\end{minipage} & \begin{minipage}[t]{0.06\columnwidth}\raggedright\strut
-Marine Physical Lab Scripps Institution of Oceanography University of
-CA, San Diego 9500 Gilman Drive La Jolla, CA 92093-0244 USA\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Marine Physical Lab, Scripps Institution of Oceanography University of
+CA, San Diego 9500 Gilman Drive, La Jolla, CA 92093-0244 USA\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
@@ -226,12 +229,13 @@ Details}\label{system-details}}
 -
 \protect\hyperlink{Filtration_and_Recirculation_System}{\textbf{Filtration
 and Recirculation System}}\\
-- \protect\hyperlink{System_Operational_Sequence}{\textbf{System
-Operational Sequence}}\\
+- \protect\hyperlink{System_Operational_Parameters}{\textbf{System
+Operational Parameters}}\\
 - \protect\hyperlink{Apex_Connection_Series}{\textbf{Apex Connection
 Series}}\\
 - \protect\hyperlink{EB832_Outlet_Connections}{\textbf{EB832 Outlet
-Connections}}
+Connections}} - \protect\hyperlink{Water_Flow_Operation}{\textbf{Water
+Flow Operation}}
 
  \textbf{Aquaria System Component List}
 
@@ -318,19 +322,19 @@ Connections}}
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/PM1_manual.pdf}{Apex
   Probe Module 1})\\
 \item
-  PhosBan chemical filter
-  (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Phosban_Reactor.pdf}{PhosBan
-  Reactor 550})\\
-\item
   Water pump
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Complete_Cascade.pdf}{PerformancePro
   Cascade pump})\\
 \item
   UV Sterilizer (Comet Series 95 Watt Lamp)\\
 \item
-  CO2 Scrubber (4 outflow tubing ports)
+  PhosBan chemical filter
+  (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Phosban_Reactor.pdf}{PhosBan
+  Reactor 550})\\
 \item
-  Airstones (4 units)\\
+  Air compressor\\
+\item
+  Airstones (4 units on 4 outflow tubes)\\
 \item
   Carbon filter cells (3 units, CF28AC,28in, ActC)\\
 \item
@@ -338,7 +342,7 @@ Connections}}
   density and 4 Black low density sheets)
 \end{itemize}
 
- \textbf{System Operational Sequence}
+ \textbf{System Operational Parameters}
 
 \begin{itemize}
 \tightlist
@@ -362,7 +366,7 @@ Connections}}
   freeboard volume is 107.39 gal.\\
 \item
   Aquaria drain line is in line with a 30 gal sump pump, which will draw
-  water from the aquaria drain line and pump water to the sump.
+  water from the aquaria drain line and pump water to the sump.\\
 \item
   Sump is in line with a secondary holding tank for sump overflow at Low
   Tide.
@@ -390,38 +394,51 @@ Connections}}
   Each tank has an immersion heater that allows tank temperatures to be
   set 15 degF (8.3 degC) above the main holding tank reservoir.\\
 \item
-  \textbf{Note: The tank needs to be static in order to heat up to a
-  desired temp. Once the temperature has been reached then it can be set
-  to flow through mode.}\\
+  \textbf{Note: The tank needs to have low flow or be static in order to
+  heat up to a desired temp. Once the temperature has been reached then
+  it can be set to normal operating flow through mode.}\\
 \item
   A small sumbersible powerhead in each tank provides water circulation
   throughout the tank.\\
 \item
-  Each tank has (2) supply lines, each with (1) flow sensor, and (1)
-  gate valve in line with (1) supply line for tidal effect. Each tank
-  also has (2) drain lines with (1) flow sensor. Incoming and outgoing
+  Each tank has (2) supply lines, each with (1) Neptune Systems flow
+  sensor and (1) needle valve for incoming flow rate control, and (1)
+  gate solenoid valve in line with (1) supply line for tidal effect.
+  Each tank also has (2) drain lines with (1) flow sensor in line with
+  (1) needle valve for outgoing flow rate control. Incoming and outgoing
   flow rates have to be manually adjusted for the tidal effect.\\
 \item
-  outgoing tide: incoming flow rate to be lower than outgoing flow
-  rate.\\
+  Flow metered water lines
 \item
-  incoming tide: incoming flow rate to be greater than outgoing flow
-  rate.\\
+  N: Main supply
+\item
+  S: Solenoid-controlled supply
+\item
+  D: Drain
+\item
+  Tidal effect
+\item
+  outgoing tide: incoming flow rate (N + S) is lower than outgoing flow
+  rate (D).\\
+\item
+  incoming tide: incoming flow rate (N + S) is greater than outgoing
+  flow rate (D).\\
 \item
   Note: The tank will not be completely empty during low tide events to
   prevent the recirculating powerhead from running dry.\\
 \item
   Each tank has (1) CO2 supply line with an airstone connected to (1)
-  solenoid valve to lower pH in tanks.\\
+  Neptune Systems solenoid valve to control and lower pH in tanks.\\
 \item
-  Air compressor connected to a CO2 scrubber will bubble air into the
-  sump to bring pH to ambient or near-ambient conditions in the holding
-  reservoir.\\
+  CO2 scrubber comprised of an air compressor connected to a Phosban
+  Reactor will bubble air into the sump to bring pH to ambient or
+  near-ambient conditions in the holding reservoir.\\
 \item
-  Each tank has individual LED lighting.\\
+  Each tank has individual LED lighting, which can be controlled for
+  white or blue light by specific times or natural daily light cycles.\\
 \item
-  Tanks controlled via Neptune Systems Apex Controllers. Each Apex
-  controls (4) tanks.\\
+  Certain tank conditions can be controlled via Neptune Systems Apex
+  Controllers. Each Apex controls (4) tanks.\\
 \item
   Controllable parameters are pH, temperature, tidal effect, and
   lighting.
@@ -485,7 +502,7 @@ Connections}}
  \textbf{EB832 Outlet Connections}
 
 Note: Each horizontal row on an EB832 corresponds to one tank, yielding
-4 outlets per aquarium. In order:
+4 outlets per aquarium. Current outlet order, left to right:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -500,6 +517,66 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding
   Halo Light
 \end{enumerate}
 
+ \textbf{Water Flow Operation}
+
+\begin{itemize}
+\tightlist
+\item
+  Inflow from the filtration sump to the mesocosm tanks
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Water from the chiller can be directed either back into the sump
+    (the bypass t-valve is parallel to the pvc, opening flow to the
+    sump, and the tank t-valve is perpendicular to the pvc, closing flow
+    to the tanks) or to the mesocosm tanks (the bypass valve is angled
+    to allow partial flow to the sump and tanks, and the tank valve is
+    parallel or angled with the pvc, opening flow to the tanks).
+  \item
+    The bypass valve is used to regulate the line pressure going back to
+    the mesocosm tanks. The more closed, the higher the pressure in the
+    line, and the more open, the lower the pressure.
+  \item
+    The chiller has a safety flow switch that requires a minimum flow
+    rate for the chiller to operate, so the bypass valve can be used to
+    regulate the chiller flow as well as the container flow.
+  \end{enumerate}
+\item
+  Outflow from the mesocosm tanks to the filtration sump
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Water from the tanks drains to an outdoor underground sump pump,
+    which will automatically pump water out when a certain water level
+    is reached. This water can be directed either back into the sump
+    (the sump inflow t-valve is opened parallel to the pvc, allowing
+    flow to the three dump pipes into the filtration skid), or if you
+    intend to drain water in the event of a water change or the end of
+    an experiment, water can be directed to a drain port (the sump
+    inflow valve is closed and the drain t-valve along the South wall is
+    opened parallel to the pvc).
+  \end{enumerate}
+\item
+  Overflow from sump to secondary containment
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    When mesocosm water level falls from a high tide to low tide
+    sequence, more water will drain to the sump than what the main sump
+    can individually hold. Excess water can be redirected from the sump
+    (S1) to the secondary containment (S2) by opening the S2 inflow
+    t-valve (allows simultaneous flow of filtered, chilled water to both
+    S2 and the mesocosm tanks), and the overflow t-valve (allows
+    continuous flow exchange between S1 and S2).
+  \end{enumerate}
+\end{itemize}
+
 \chapter{Inventory}\label{inventory}
 
 \textbf{Contents}\\
@@ -509,60 +586,104 @@ Mesocosm}} - \protect\hyperlink{Filtration}{\textbf{Filtration}} -
 
  \textbf{Experimental Mesocosm}
 
-\begin{longtable}[]{@{}ll@{}}
+\begin{longtable}[]{@{}lll@{}}
 \toprule
-Item & Quantity\tabularnewline
+Item & Quantity & Purchase Replacement\tabularnewline
 \midrule
 \endhead
-Experimental Aquarium & 20\tabularnewline
-Aquarium Lid & 20\tabularnewline
-200W Heater & 20\tabularnewline
-Suction Heater Slip & 40\tabularnewline
-Halo Light & 20\tabularnewline
-Halo Light Power Cords & 20\tabularnewline
-Hydor Powerhead & 20\tabularnewline
-Temperature Probe & 20\tabularnewline
-Suction Temperature Probe Slip & 20\tabularnewline
-pH Probe & 20\tabularnewline
-Suction pH Probe Slip & 20\tabularnewline
-pH Calibration Pack \(4,7,10\) & 10\tabularnewline
-Solenoid Valve & 20\tabularnewline
-Solenoid Power Supply & 20\tabularnewline
-Flow Sensor & 60\tabularnewline
-Gate Valve & 20\tabularnewline
-Inflow Seawater Tubing & 40\tabularnewline
-Inflow CO2 Tubing & 20\tabularnewline
-Airstone & 20\tabularnewline
-Inflow Tubing Stand & 40\tabularnewline
-VDM & 5\tabularnewline
-FMM & 20\tabularnewline
-PM1 & 16\tabularnewline
-Apex Base Unit & 5\tabularnewline
-Apex EB832 & 10\tabularnewline
-Tunze CO2 Regulator Valve & 1\tabularnewline
-180gal Sump & 1\tabularnewline
-Chiller & 1\tabularnewline
-Heat Pump & 1\tabularnewline
+Experimental Aquarium & 20 &\tabularnewline
+Aquarium Lid & 20 &\tabularnewline
+200W Heater & 20 &
+\href{https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B00061UQ7K}{\$24.99
+Amazon}\tabularnewline
+Suction Heater Slip & 40 &\tabularnewline
+Halo Light & 20 &
+\href{https://www.amazon.com/Aquatic-Life-Halo-Basic-Fixture/dp/B00T6FGDJW}{\$299.99
+Amazon}\tabularnewline
+Halo Light Power Cords & 20 &\tabularnewline
+Hydor Powerhead & 20 &
+\href{https://www.amazon.com/Hydor-Koralia-Nano-Aquarium-Circulation/dp/B0036S70ZG/ref=sr_1_2?keywords=hydor+powerhead\&qid=1572981966\&s=pet-supplies\&sr=1-2}{\$34.99
+Amazon}\tabularnewline
+Temperature Probe & 20 &
+\href{https://www.bulkreefsupply.com/temperature-probe-neptune-systems.html}{\$29.95
+Bulk Reef Supply}\tabularnewline
+Suction Temperature Probe Slip & 20 &\tabularnewline
+pH Probe & 20 &
+\href{https://www.bulkreefsupply.com/lab-grade-double-junction-ph-probe-neptune-systems.html}{\$74.95
+Bulk Reef Supply}\tabularnewline
+Suction pH Probe Slip & 20 &\tabularnewline
+Salinity Probe & 5 &
+\href{https://www.bulkreefsupply.com/neptune-systems-lab-grade-conductivity-probe.html}{124.95
+Bulk Reef Supply}\tabularnewline
+pH and Salinity Calibration Pack \(7,10\) & 10 &
+\href{https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html}{\$6.85
+Bulk Reef Supply}\tabularnewline
+CO2 Solenoid Valve & 20 &
+\href{https://www.bulkreefsupply.com/sv-1-solenoid-valve-neptune-systems.html}{\$29.95
+Bulk Reef Supply}\tabularnewline
+FS-25 1/4" Flow Sensor & 60 &
+\href{https://www.bulkreefsupply.com/1-4-flow-sensor-fs25-neptune-systems.html}{\$19.95
+Bulk Reef Supply}\tabularnewline
+Flow Solenoid/Gate Valve & 20 &
+\href{https://www.electricsolenoidvalves.com/1-4-120v-ac-electric-plastic-solenoid-valve/}{\$16.99
+Electric Solenoid Valves}\tabularnewline
+Inflow Seawater Tubing & 40 &\tabularnewline
+Inflow CO2 Tubing & 20 &\tabularnewline
+Airstone & 20 &
+\href{https://www.amazon.com/Pawfly-Cylinder-Diffuser-Airstones-Hydroponics/dp/B075QCWGZQ/ref=sr_1_5?crid=3EXLLKKDA2NYZ\&keywords=airstones+for+aquariums\&qid=1572983301\&sprefix=airstone\%2Caps\%2C197\&sr=8-5}{\$5.99x10pack
+Amazon}\tabularnewline
+Inflow Tubing Stand & 40 &\tabularnewline
+VDM & 5 &
+\href{https://www.bulkreefsupply.com/led-pumps-control-module-vdm-neptune-systems.html}{\$99.95
+Bulk Reef Supply}\tabularnewline
+FMM & 20 &
+\href{https://www.bulkreefsupply.com/fmm-fluid-monitoring-module-neptune-systems.html}{\$99.95
+Bulk Reef Supply}\tabularnewline
+PM1 & 16 &
+\href{https://www.bulkreefsupply.com/ph-orp-probe-module-pm1-neptune-systems.html}{\$84.95
+Bulk Reef Supply}\tabularnewline
+Display Module & 1 &
+\href{https://www.bulkreefsupply.com/apex-display-module-neptune-systems.html}{\$99.95
+Bulk Reef Supply}\tabularnewline
+Apex Base Unit & 5 &
+\href{https://www.bulkreefsupply.com/apex-controller-base-unit-neptune-systems.html}{\$399.95
+Bulk Reef Supply}\tabularnewline
+Apex EB832 & 10 &
+\href{https://www.bulkreefsupply.com/energybar-832-neptune-systems.html}{\$249.95
+Bulk Reef Supply}\tabularnewline
+Tunze CO2 Regulator Valve & 1 &\tabularnewline
+180gal Sump & 1 &\tabularnewline
+Chiller & 1 &\tabularnewline
 \bottomrule
 \end{longtable}
 
  \textbf{Filtration}
 
-\begin{longtable}[]{@{}ll@{}}
+\begin{longtable}[]{@{}lll@{}}
 \toprule
-Item & Quantity\tabularnewline
+Item & Quantity & Purchase Replacement\tabularnewline
 \midrule
 \endhead
-PhosBan Chemical Filter with Media & 1\tabularnewline
-Cascade Water Pump & 1\tabularnewline
-UV Sterilizer & 1\tabularnewline
-UV Light & 1\tabularnewline
-CO2 Scrubber & 1\tabularnewline
-Airflow Tubing & 4\tabularnewline
-Airstone & 4\tabularnewline
-Carbon Filter Cell & 3\tabularnewline
-Matala Filter, High Density (Blue) & 4\tabularnewline
-Matala Filter, Low Density (Black) & 4\tabularnewline
+PhosBan Reactor 550 & 1 &
+\href{https://www.bulkreefsupply.com/phosban-reactor-550.html}{\$85.14
+Bulk Reef Supply}\tabularnewline
+PhosBan CDX Carbon Dioxide Absorption Media 3L & 1 &
+\href{https://www.bulkreefsupply.com/cdx-carbon-dioxide-adsorption-media-two-little-fishies.html}{\$44.38
+Bulk Reef Supply}\tabularnewline
+Cascade Water Pump & 1 &\tabularnewline
+UV Sterilizer & 1 &\tabularnewline
+UV Light & 1 &\tabularnewline
+Air Pump & 1 &\tabularnewline
+Air Pump tubing to Phosban Reactor 3/8" ID x 10' & 2 &
+\href{https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141}{\$4.93
+Home Depot}\tabularnewline
+Airflow Tubing 3/16" ID x 8' & 4 &
+\href{https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html}{\$2.69
+Petsmart}\tabularnewline
+Airstone & 4 &\tabularnewline
+Carbon Filter Cell & 3 &\tabularnewline
+Matala Filter, High Density (Blue) & 4 &\tabularnewline
+Matala Filter, Low Density (Black) & 4 &\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -574,8 +695,17 @@ Item & Quantity\tabularnewline
 \midrule
 \endhead
 Solenoid Valve & 4\tabularnewline
+Flow Solenoid/Gate Valve & 5\tabularnewline
+Halo Light & 1\tabularnewline
 Airstone & 29\tabularnewline
-Halo Light Cable & 16\tabularnewline
+Halo Light-to-Light Cable & 16\tabularnewline
+pH Calibration Pack \(7,10\) & 3\tabularnewline
+Salinity Calibration Pack \(53,000 uS\) & 3\tabularnewline
+FS-25 1/4" Flow Sensor & 0\tabularnewline
+pH Probe & 0\tabularnewline
+Conductivity Probe & 0\tabularnewline
+Temperature Probe & 0\tabularnewline
+Hydor Powerhead & 0\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -584,7 +714,9 @@ Halo Light Cable & 16\tabularnewline
 \textbf{Contents}\\
 - \protect\hyperlink{Basic_Operation}{\textbf{Basic Operation}}\\
 - \protect\hyperlink{Filtration}{\textbf{Filtration}}\\
-- \protect\hyperlink{System}{\textbf{System}}
+- \protect\hyperlink{System}{\textbf{System}} -
+\protect\hyperlink{Sump_Flow}{\textbf{Sump Flow}} -
+\protect\hyperlink{CO2_Scrubber}{\textbf{CO2 Scrubber}}
 
  \textbf{Basic Operation}
 
@@ -595,91 +727,89 @@ Halo Light Cable & 16\tabularnewline
   Operating water level in the filtration sump should be 7" in the
   filter cell compartment.
 \item
-  Overflow water from the tanks will feed down to the outside sump pump,
-  then into to the filtration skid inside the Citrus Hall Field Room.
-  The water will then be pumped through the UV sterilizer and chiller,
-  then back to the tanks.
-\item
-  Inflow from the filtration sump to the mesocosm tanks
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    Water in the sump is pulled through the three carbon filters by a
-    pump and pushed up into the UV filter, where is is then directed
-    through a chiller chamber.
-  \item
-    Water from the chiller can be directed either back into the sump (t
-    valve 1 is parallel with the pvc, opening flow to the sump, and t
-    valve 2 is perpendicular to the pvc, closing flow to the tanks) or
-    to the mesocosm tanks (t valve 1 is angled to allow partial flow to
-    the sump and tanks, and t valve 2 is parallel with the pvc, opening
-    flow to the tanks). T valve 1 is used to regulate the line pressure
-    going back to the mesocosm tanks. The more closed, the higher the
-    pressure in the line, and the more open, the lower the pressure. The
-    chiller has a safety flow switch that requires a minimum flow rate
-    for the chiller to operate, so the bypass valve can be used to
-    regulate the chiller flow as well as the container flow.
-  \end{enumerate}
-\item
-  Outflow from the mesocosm tanks to the filtration sump
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    Water from the tanks drains to an outdoor sump pump, which will
-    automatically pump water out when a certain water level is reached.
-    This water can be directed either back into the sump (t valve 3 is
-    opened parallel with the pvc, allowing flow to the three dump pipes
-    into the filtration skid), or if you intend to drain water in the
-    event of a water change or the end of an experiment, water can be
-    directed to a drain port (t valve 3 is closed and t valve 4 is
-    opened parallel with the pvc).
-  \end{enumerate}
-\item
-  Overflow from sump to secondary containment
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    When mesocosm water level falls from a high tide to low tide
-    sequence, more water will drain to the sump than what the sump can
-    individually hold. Excess water can be redirected from the sump (S1)
-    to the secondary containment (S2) by opening t valve 5 (allows
-    simultaneous flow of filtered, chilled water to both S2 and the
-    mesocosm tanks), and t valve 6 (allows continuous flow exchange
-    between S1 and S2).
-  \end{enumerate}
-\item
-  There are two valves located along the chiller flow line
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    One controls the flow directly back to the tanks\\
-  \item
-    The other valve is the bypass valve which diverts the flow back to
-    the sump This is used to regulate the line pressure going back to
-    the container. The more closed, the higher the pressure in the line,
-    and the more open, the lower the pressure. The chiller has a safety
-    flow switch that requires a minimum flow rate for the chiller to
-    operate, so the bypass valve can be used to regulate the chiller
-    flow as well as the container flow.\\
-  \end{enumerate}
-\item
-  Before filling the tanks make sure the drain valve located under the
-  tank is closed.
-\item
-  Fill each rack one at a time and make sure rack and filtration skid
-  flows are balanced before moving on to the next rack.
-\item
-  Make sure the complete system reaches equilibrium in standard
-  recirculation mode before setting up the tidal cycle.
+  Overflow water from the tanks will feed down to the outside
+  underground sump pump, then into to the filtration skid inside the
+  Citrus Hall Field Room. The water will flow through mesh filters and
+  be pumped through carbon filters, the UV sterilizer, and chiller, then
+  back to the tanks.
 \end{enumerate}
+
+ \textbf{Filtration}
+
+\begin{itemize}
+\tightlist
+\item
+  Biological and Mechanical Filtration: Water from the Mesocosm tanks is
+  pumped into the sump by passing through 6 mesh filters. These filters
+  have an accumulated biofilm to biologically filter the water before it
+  enters the sump.
+\item
+  Chemical and Mechanical Filtration: Water in the sump is pulled
+  through the three carbon filters with mesh filter sleeves by a pump
+  and pushed up into the UV sterilizer, where is is then directed
+  through the chiller chamber.
+\end{itemize}
+
+ \textbf{System Details}
+
+\includegraphics{images/flowmeter.PNG} a
+
+ \textbf{Sump Flow}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Filling the mesocosm tanks
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Make sure the drain valve located under each tank is closed (turned
+    clockwise all the way, finger-tight).
+  \item
+    Open the N flow valve for each tanks (and S flow valve if you're
+    turning the Solenoid ON to fill the tanks).
+  \item
+    To open flow from the sump to the tanks, first
+  \item
+    Fill each rack one at a time and make sure rack and filtration skid
+    flows are balanced before moving on to the next rack.
+  \item
+    Make sure the complete system reaches equilibrium in standard
+    recirculation mode before setting up the tidal cycle.
+  \end{enumerate}
+\item
+  Set flow in tanks
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Calculate your desired residence time. When full, each tank holds 55
+    liters, so divide 55L by your desired residence time and use that
+    estimated value as your flow rate. Example: for a RT of 8 hours:
+    55L/8hr = 6.88 L/hr or 114.67 mL/min
+  \item
+    If you have an acceptable range for your residence time, set flow
+    rate to within that range, as close to your desired flow as
+    possible. Example: for a RT of 7.5-8.5 hours: RT = 6.47-7.33 L/hr or
+    107.83-122.17 mL/min
+  \item
+    Use the Neptune Systems flow meters as a guide for setting the flow,
+    but for the most accurate flow rates, use a graduated cylinder to
+    estimate flow into each tank.
+  \item
+    Flow will slightly change throughout the day, so it is recommended
+    to set flow twice per day: once in the morning and once in the
+    afternoon/evening.
+  \end{enumerate}
+\end{enumerate}
+
+ \textbf{CO2 Scrubber} 1. Connect tubing to the back outtake port of the
+white airpump and to the phosban reactor, leaving the intake port on the
+airpump free 1.
 
 \chapter{Tidal Manipulation}\label{tidal-manipulation}
 
@@ -790,20 +920,21 @@ through the Apex Controls with a solenoid valve connected to the EB832.
   Once the CO\textsubscript{2} regulator is connected to a tank, open
   the main tank valve.
 \item
-  Use the pressure adjusting screw to adjust the pressure (in bar) on
-  the pressure gauge. Turning \textbf{clockwise to open}, thus
-  increasing pressure, while turning \textbf{counterclockwise to close},
-  thus reducing pressure.
+  Use the pressure adjusting screw (larger knob in front with Tunze
+  label) to adjust the pressure (in bar) on the pressure gauge. Turning
+  \textbf{clockwise to open}, thus increasing pressure, while turning
+  \textbf{counterclockwise to close}, thus reducing pressure.
 \item
   The pressure should be set to 0.5 up to 1 bar on the gauge
-  (\textasciitilde{}7.5psi)
+  (\textasciitilde{}7.5psi) - ideally 0.6 bar.
 \item
-  Open the fine adjustment valve to allow gas to the tank solenoid. If
-  the pressure on the gauge is too high this may prevent the
-  CO\textsubscript{2} solenoid from completely closing, which will
+  Open the fine adjustment valve (smaller valve next to the tubing
+  connecting the regulator to the tanks) to allow gas to the tank
+  solenoid. If the pressure on the gauge is too high this may prevent
+  the CO\textsubscript{2} solenoid from completely closing, which will
   inject excess CO\textsubscript{2} into the system.
 \item
-  Programming the solenoid: pH-TNK-\#
+  Programming the solenoid for a consistent pH: pH-TNK-\#
 \end{enumerate}
 
 Control type: pH Control\\
@@ -812,6 +943,35 @@ Fallback: OFF\\
 High Value: 8.2\\
 Low Value: 7.9\\
 On when: High
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Programming the solenoid for diel variance:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Using Advanced programming and Virtual outlets
+\item
+  Create a unique virtual outlet for every time block which requires a
+  different pH, and for every tank/probe which requires that pH
+  treatment. *Virtual Outlet Example (for the 6 hours between 6:31am and
+  12:30pm, the CO2 solenoid will dose CO2 into tank 1 while the probe
+  reads 8.10 or above): Fallback OFF Set OFF If Time 06:31 to 12:30 Then
+  ON If pH-1 \textless{} 8.10 Then OFF
+\end{itemize}
+
+*Advanced Program Example (Every 6 hours, the pH setpoint changes, and
+each of the four time block has a unique virtual outlet name, as
+presented below in the four programming lines. The CO2 solenoid will
+dose the tank when the conditions of the virtual outlet program are
+met): Fallback OFF Set OFF If Output pH\_1\_630 = ON Then ON If Output
+pH\_1\_1230 = ON Then ON If Output pH\_1\_1830 = ON Then ON If Output
+pH\_1\_0030 = ON Then ON
 
 Refer to
 \href{https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/7503b88686aef920c4a4ed473b1efe37b34dae10/Manuals/Apex_Comprehensive_Reference_Manual.pdf}{Comprehensive
@@ -842,6 +1002,8 @@ ApexFusion}}\\
 \begin{itemize}
 \tightlist
 \item
+  Salt-1 (Base)
+\item
   TMP-1 (Base)
 \item
   PH-1 (Base)
@@ -864,7 +1026,7 @@ ApexFusion}}\\
 \begin{itemize}
 \tightlist
 \item
-  Base Unit
+  Base Unit Variables
 \item
   WHITE-TNK-1
 \item
@@ -874,13 +1036,13 @@ ApexFusion}}\\
 \item
   BLUE-TNK-2
 \item
+  Base Unit Alarms\\
+\item
   SndAlm\_I6
 \item
   SndWrn\_I7
 \item
   EmailAlm\_I5
-\item
-  Email2Alm\_I9
 \item
   EB832\_1
 \item
@@ -892,8 +1054,6 @@ ApexFusion}}\\
 \item
   LIGHT-TNK-1
 \item
-  PH-TNK-1
-\item
   HEATER-3
 \item
   PWRHD-3
@@ -901,6 +1061,8 @@ ApexFusion}}\\
   SOL-TNK-3
 \item
   LIGHT-TNK-3
+\item
+  PH-TNK-1
 \item
   PH-TNK-3
 \item
@@ -914,8 +1076,6 @@ ApexFusion}}\\
 \item
   LIGHT-TNK-2
 \item
-  PH-TNK-2
-\item
   HEATER-4
 \item
   PWRHD-4
@@ -923,6 +1083,8 @@ ApexFusion}}\\
   SOL-TNK-4
 \item
   LIGHT-TNK-4
+\item
+  PH-TNK-2
 \item
   PH-TNK-4
 \item
@@ -997,18 +1159,30 @@ All configurations are for Control Type: Advanced
   Fallback ON\\
   OSC 000:00/375:00/375:00 Then ON\\
 \item
+  Log Enabled\\
+\item
   LIGHT-TNK-\#
 \item
   Fallback OFF\\
   Set OFF\\
-  If Sun 0/0 Then RampUp\\
+  If Sun 0/0 Then ON\\
   If Moon 0/0 Then ON\\
+\item
+  Log Enabled\\
+\item
+  PH-TNK-\#
+\item
+  Fallback OFF\\
+  Set OFF\\
+  If pH-1 \textgreater{} 8.20 Then ON\\
+\item
+  Log Enabled\\
 \item
   WHITE-TNK-\#
 \item
   Fallback OFF\\
   Set OFF\\
-  If Sun 0/0 Then ON\\
+  If Sun 0/0 Then RampUp\\
 \item
   BLUE-TNK-\#
 \item
@@ -1145,15 +1319,24 @@ into one of the live ethernet cables in the Mesocosm.
 
 Format for your internet browser URL:\\
 \url{http://:/cgi-bin/outlog.xml?sdate=yymmddhhmm\&days=n}\\
-\url{http://:/cgi-bin/datalog.xml?sdate=yymmddhhmm\&days=n}\\
-* Accessible logs: * Outlog -- every time the Apex changes the state of
-an outlet a record is written to this log. If no outlet ever changed
-state you would have zero records in this log. A new log is started
-daily at midnight. Log is named ``yymmdd.odat''. * Datalog -- records
-probe value snapshots (Temp, pH, ORP, etc.) based on the logging
-interval you define (default = 20 minutes). You can change the interval
-via the Display module under Data Log -- Log Interval. A new log is
-started daily at midnight. Log is named ``yymmdd.pdat''.
+\url{http://:/cgi-bin/datalog.xml?sdate=yymmddhhmm\&days=n}
+
+\begin{itemize}
+\tightlist
+\item
+  Accessible logs:
+\item
+  Outlog -- every time the Apex changes the state of an outlet a record
+  is written to this log. If no outlet ever changed state you would have
+  zero records in this log. A new log is started daily at midnight. Log
+  is named ``yymmdd.odat''.
+\item
+  Datalog -- records probe value snapshots (Temp, pH, ORP, etc.) based
+  on the logging interval you define (default = 20 minutes). You can
+  change the interval via the Display module under Data Log -- Log
+  Interval. A new log is started daily at midnight. Log is named
+  ``yymmdd.pdat''.
+\end{itemize}
 
 Examples of what to enter into your internet browser:\\
 \url{http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005}\\
@@ -1183,7 +1366,7 @@ Examples of what to enter into your internet browser:\\
     172.24.113.23 Apex\_37810: 172.24.113.21 Apex\_41239: 172.24.113.24
   \end{enumerate}
 \item
-  Import Log Data
+  Import Log Data (Windows/PC)
 
   \begin{enumerate}
   \def\labelenumii{\arabic{enumii}.}
@@ -1199,6 +1382,31 @@ Examples of what to enter into your internet browser:\\
     Your XML data should be imported into your empty spreadsheet and
     automatic filters created for each column making it easy to select
     and analyze data.
+  \end{enumerate}
+\item
+  Import Log Data (Mac)
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Open the web browser for the apex data you want to downlaod
+  \item
+    Wait for the page to fully load (the top line of the page will read
+    ``This XML file does not appear to have any style information
+    associated with it. The documnet tree is shown below.'')
+  \item
+    Right click somewhere on the webpage and click Save As.
+  \item
+    Save your file in an accesible location or in your R workspace with
+    a name identifying the apex unit and date. Ex. 39106\_191127d6.csv
+    identifies Apex\_39106, that data starts on 11-27-2019, and that
+    data is saved for up to 6 days after the start date (12-3-2019).
+    Manually type .csv to save the file as a csv instead of an xml file.
+  \item
+    Refer to
+    \href{https://github.com/SilbigerLab/Mesocosm_Environmental_Data/blob/master/Datalog_Data_Tidy.R}{Mesocosm\_Environmental\_Data/Datalog\_Data\_Tidy.R}
+    for a guide to clean up the data into a usable format.
   \end{enumerate}
 \end{enumerate}
 
@@ -1294,20 +1502,61 @@ Examples of what to enter into your internet browser:\\
 \chapter{Troubleshooting Guide}\label{troubleshooting-guide}
 
 \textbf{Contents}\\
-- \protect\hyperlink{Tripped_Breaker}{\textbf{Tripped Breaker}}\\
+- \protect\hyperlink{Tripped_Breaker}{\textbf{Loss of Power to the
+Sump/Tripped Breaker}}\\
 - \protect\hyperlink{Flowmeter_Misreadings}{\textbf{Flowmeter
 Misreadings}}\\
-- \protect\hyperlink{}{** **}\\
-- \protect\hyperlink{}{** **}
+- \protect\hyperlink{Reboot_Apex}{\textbf{Rebooting the Apex}}\\
+- \protect\hyperlink{Sump_Pump_Malfunction}{\textbf{Sump Pump
+Malfunction}}\\
+- \protect\hyperlink{Turn_off_Sump_Flow}{\textbf{Turning off Sump
+flow}}\\
+- \protect\hyperlink{Light_OFF}{\textbf{Light not responding to
+program}} - \protect\hyperlink{pH_Probe_Malfunction}{\textbf{pH probe
+malfunction}}
 
- \textbf{Tripped Breaker} * Breaker tripped in the field room (pump, UV
-filter, CO2 scrubber all off) 1. Call PPM (ext. 2222) and let them know
-a breaker tripped at Citrus Hall in the room next to the Mechanics Room
-on the outside and South side of Citrus. 1. When PPM arrives, let them
-know the breaker box is on the 3rd floor of Citrus in Room 3303 and the
-switch is for EDP C-4 1. Check for other items plugged into EDP C-4
-outlets and alert PPM of anything that shouldn't be plugged into those
-outlets (e.g.~CSUN golf carts)
+ \textbf{Loss of Power to the Sump/Tripped Breaker} * Breaker tripped in
+the field room (pump, UV filter, CO2 scrubber all off) 1. If you just
+plugged in an item that correlated with the power shutting off, unplug
+that item. It may have tripped the breaker. 1. Check for other items
+plugged into EDP C-4 outlets that shouldn't be plugged in or seem out of
+place. Alert PPM of anything that shouldn't be plugged into those
+outlets (e.g.~CSUN golf carts). 1. Make sure it's a tripped breaker and
+not the GFI outlet needing to be reset. 1. On the West wall inside the
+Field Room, just to the right of the secondary sump, there is a quadplex
+(4-plug outlet) that has a Reset button. Push that button until you hear
+a click. If you hear the click but the power is not restored, then
+follow the next steps. 1. This GFI outlet is also connected to the
+quadplex down by the sump on the South wall, so all 8 outlets are
+controlled by the GFI and could initiate the need for a Reset. 1. Call
+PPM (818-677- ext. 2222) and let them know a breaker tripped at Citrus
+Hall in the room next to the Mechanics Room on the outside and South
+side of Citrus Hall. 1. When PPM arrives, let them know the breaker box
+is on the 3rd floor of Citrus in Room 3303 and the switch is for EDP C-4
+
+ \textbf{Sump Pump Malfunction and Turning off flow to the Mesocosm
+Tanks} * If the sump pump (the outside underground pump between the
+Mesocosm container and the Field Room) stops pumping water to the sump,
+it will overflow out onto the concrete and into the loading bay
+driveway. * If you notice the pump has malfunctioned, do the following:
+1. Check if the GFI outlet on the outside of the Mesocosm container
+needs to be reset. On the 2-plut outlet, there is a Reset button. Push
+that button until you hear a click. If you hear the click but the pump
+does not respond (or you see the light at the bottom right corner of the
+outlet flash red), then follow the next steps. 1. Turn off flow to the
+Mesocosm tanks 1. There is a \textbf{T-valve} located along PVC which
+goes from the chiller to outside the Field Room. Turn this T-valve
+\textbf{clockwise} so it sits up and down, closing off flow from the
+sump to the mesocosm, but retaining circulating flow within the sump. 1.
+The T-valve is in line with a PVC pipe running parallel to the sump,
+slightly above and offset from the blue and black biofilter mesh. 1.
+Once the system is ready for flow to
+
+ \textbf{Turning off Sump Flow} * If a situation arises where you need
+to shut off the recirculating flow of the entire system, unplug the UV
+light from the South wall quadplex, then unplug the pump from the same
+quadplex. * If you would like to also turn off the CO2 scrubber, unplug
+both air pump plugs from the same South wall quadplex.
 
  \textbf{Flowmeter Misreadings} * Flowmeter on ApexFusion is reading 0
 or some incorrect value * Sometimes the flowmeters (FM) inline with
@@ -1325,7 +1574,52 @@ tubing just gets stuck in the FM). 1. Visually expect the inside of the
 FM, and if needed, use a small long object to probe and spin the
 internal turbine to dislodge any debris.
 
- **\_**
+ \textbf{Rebooting the Apex}\\
+* If the Apex needs to be restarted for any reason, there are multiple
+ways to reboot the system. * Apex Fusion 1. Click the Expand Settings
+gears icon and go to the Misc page (wrench icon). 1. Under Power, check
+the box for Reboot: Restart Apex, then click the orange cloud in the
+upper right corner to send this command to Apex. Wait a few minutes for
+the devices to come back online. * Display Module 1. * Restart Button 1.
+Under the Apex Base Unit, above the pH port, there is a small hole
+encasing the Restart button. 1. Insert a push pin or small object until
+you feel the button press down and hold about 10 seconds. 1. If you
+require a full system reboot back to factory settings, hold this button
+for 1 minute. This will erase all modules, programming, log data, and
+probe calibrations, so be very sure.
+
+ \textbf{Light not responding to program} * If Tank 13's light doesn't
+turn on when the program indicates it should be ON, go into Programming
+settings for Light-TNK-13, adjust the advanced program slightly
+(e.g.~change an ``ON'' to an ``OFF'') and click the orange cloud to send
+to the Apex. Then change the program back to what it was before you made
+a change, and the light should turn on.
+
+ \textbf{pH Probe Malfunction} * If a pH probe is giving an `off'
+reading, first calibrate the probe. 1. On your Fusion dashboard, click
+the gear symbol to the right of the pH reading to go to its settings. 1.
+Select Automatic Calibration, and follow the instructions, using new
+packets of 7 and 10 calibration solution. 1. When placing the probe into
+the calibration solution, swirl the probe in the solution a little
+before starting the reading. * If the reading is still off, go back into
+the pH probe's settings on Fusion and select Advanced to do a Manual
+Calibration. 1. Make sure Temp Compensate is Disabled then select Manual
+Calibration, and follow the instructions. 1. When placing the probe into
+the calibration solution, swirl the probe in the solution a little
+before starting the reading. Let the probe sit in the calibration
+solutions for about 5 minutes (or longer as necessary) to ensure a
+stable reading. * If the reading is still off after both the Automatic
+and Manual Calibrations, try a Factory Reset. 1. Go back into the pH
+probe's settings on Fusion and select and select Advanced. 1. Select
+Manual Calibration again, but this time just click ``Next'' through the
+steps quickly. Don't let the numbers settle. Then click ``Finish''. If
+the numbers for the 7 and 10 calibrations are the same, the probe
+calibration will be wiped and reset, ready for a new calibration. 1.
+From the Apex's ``Misc'' settings, check the box for Reboot: Restart,
+and click the orange cloud to send this command to the Apex. Wait for
+the Apex to fully reboot. 1. Run through the Manual Calibration steps
+again. * If after following the above steps, the pH probe is still
+malfunctioning, call Neptune Systems for support.
 
  **\_**
 

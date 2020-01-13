@@ -39,7 +39,7 @@
 * Water pump ([PerformancePro Cascade pump](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Complete_Cascade.pdf))  
 * UV Sterilizer (Comet Series 95 Watt Lamp)  
 * PhosBan chemical filter ([PhosBan Reactor 550](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Phosban_Reactor.pdf))  
-* Air compressor 
+* Air compressor  
 * Airstones (4 units on 4 outflow tubes)  
 * Carbon filter cells (3 units, CF28AC,28in, ActC)  
 * Mesh filter (8 units, Matala Filter Media, interchanged 4 Blue high density and 4 Black low density sheets)  
@@ -51,7 +51,7 @@
 * Normal Low Tide operating water level is approximately 4"H for a total water volume of 4.60 gal per tank (92.0 gal total for the 20-tank-system).  
 * Excess water volume to sump at low tide is 9.77 gal per tank (195.4 gal total for the 20-tank-system).  
 * Normal sump operating water level is 7" water in the filter cell compartment, which has an approximate volume of 82.32 gal.  Sump freeboard volume is 107.39 gal.  
-* Aquaria drain line is in line with a 30 gal sump pump, which will draw water from the aquaria drain line and pump water to the sump.
+* Aquaria drain line is in line with a 30 gal sump pump, which will draw water from the aquaria drain line and pump water to the sump.  
 * Sump is in line with a secondary holding tank for sump overflow at Low Tide.
   * 195.4 gal returning to sump in a Low Tide scenario
   * 30 gal in sump pump
