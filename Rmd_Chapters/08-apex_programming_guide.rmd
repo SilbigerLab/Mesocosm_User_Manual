@@ -2,13 +2,29 @@
 
 Recommendations for programming the Apex aquarium controllers designated for the Silbiger Lab Mesocosm, located in the loading bay between Citrus Hall and Eucalyptus Hall at California State University, Northridge. These recommendations are for maintaining tanks at ambient conditions. Changes should be made according to your study aims.
 
-The following are using the numbered system of Apex_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks.
+The following are using the numbered system of Apex1_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks, or change programs for varied results.
 
 **Contents**  
+- [**Accessing the Programming Edit Screen in Apex](#Programm_Screen)
 - [**Probes**](#Probes)  
 - [**Modules, Outlets, and Ports**](#Modules_Outlets_and_Ports)  
 - [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
 - [**Profiles**](#Profiles)
+
+ <a name="Programming_Screen"></a> **Accessing the Programming Edit Screen**
+ 
+ 1. From the ApexFusion Dashboard, select the Expand icon (gears) from the top toolbar to provide more options.
+    * Outputs: grants access to the page controlling all outlets and connected items that are programmable by the apex
+    * Profiles: create a scenario that can occur if some condition is met for an Output program (see example with the Lights below)
+    * Modules: to update, rename, or set units for a module connected to the Apex
+    * Inputs: to calibrate, rename, or set units for any probes and other inputs providing data to the Apex
+    * Misc Setup: to restart the apex or set the frequency of data logging
+    * Network Setup: to manually configure network settings or check current network settings
+1. The most utilized option above is often Outputs, where you can program anything plugged into the Apex.  Select this icon.
+1. You can either select an output already configured to program that outlet, or create a "Virtual Outlet", which, similar to profiles, allows you to program a particular condition that if true, can trigger some other action in the program of a "real" Output.
+    * When using a Virtual Outlet in programming a "real" Output, select Advanced prgoramming and use the folling line as an example: If Output your_output_name = ON Then ON
+1. For all other Outputs, you can use the drop down menu to select the type of item you're programming for a fill-in style program option, or select Advanced to create your own program.
+    * Examples of Advanced programming for different types of Outputs are below and in the controlling_pH guide.
 
  <a name="Probes"></a> **Probes**
 
@@ -85,14 +101,14 @@ All configurations are for Control Type: Advanced
 * HEATER-#
   * Fallback OFF  
     Set OFF  
-    If Tmp-# < 15.0 Then ON  
+    If Tmp-# < 17.0 Then ON  
 * PWRHD-#
   * Fallback ON  
     Set ON  
   * Alternative program is to set Control Type: Always  
 * SOL-TNK-#
   * Fallback ON  
-    OSC 000:00/375:00/375:00 Then ON  
+    OSC 000:00/375:00/375:00 Then ON (for tidal oscillations)  
   * Log Enabled  
 * LIGHT-TNK-#
   * Fallback OFF  
@@ -103,7 +119,7 @@ All configurations are for Control Type: Advanced
 * PH-TNK-#
   * Fallback OFF  
     Set OFF  
-    If pH-1 > 8.20 Then ON  
+    If pH-1 > 8.10 Then ON (for more specific examples, see controlling_pH(#controlling_pH))  
   * Log Enabled  
 * WHITE-TNK-#
   * Fallback OFF  

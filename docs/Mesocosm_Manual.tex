@@ -88,7 +88,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2020-01-13}
+    \date{2020-01-16}
 
 \usepackage{booktabs}
 
@@ -229,7 +229,7 @@ Details}\label{system-details}}
 -
 \protect\hyperlink{Filtration_and_Recirculation_System}{\textbf{Filtration
 and Recirculation System}}\\
-- \protect\hyperlink{System_Operational_Parameters}{\textbf{System
+- \protect\hyperlink{System_Operation_Parameters}{\textbf{System
 Operational Parameters}}\\
 - \protect\hyperlink{Apex_Connection_Series}{\textbf{Apex Connection
 Series}}\\
@@ -265,11 +265,11 @@ Flow Operation}}
   3 Flow sensors (Apex, FS-25 1/4" fitting, flow rates from 3-12 GPH
   (12-45 LPH))\\
 \item
-  1 Main Supply line: ``N''
+  1 Main Supply line: ``N''\\
 \item
-  1 Solenoid Supply line: ``S''
+  1 Solenoid Supply line: ``S''\\
 \item
-  1 Drain line: ``D''
+  1 Drain line: ``D''\\
 \item
   1 Gate valve (solenoid for water inflow)\\
 \item
@@ -370,14 +370,18 @@ Flow Operation}}
 \item
   Sump is in line with a secondary holding tank for sump overflow at Low
   Tide.
-\item
-  195.4 gal returning to sump in a Low Tide scenario
-\item
-  30 gal in sump pump
-\item
-  107.39 gal in sump (freeboard volume)
-\item
-  58.01 gal necessarily pumped to secondary holding tank
+
+  \begin{itemize}
+  \tightlist
+  \item
+    195.4 gal returning to sump in a Low Tide scenario
+  \item
+    30 gal in sump pump
+  \item
+    107.39 gal in sump (freeboard volume)
+  \item
+    58.01 gal necessarily pumped to secondary holding tank\\
+  \end{itemize}
 \item
   Flow rate for each tank is 2-6 GPH (See
   \href{chapters/06-tidal_manipulation.md}{Tidal Manipulation} for
@@ -392,11 +396,15 @@ Flow Operation}}
   tanks and the main holding reservoir.\\
 \item
   Each tank has an immersion heater that allows tank temperatures to be
-  set 15 degF (8.3 degC) above the main holding tank reservoir.\\
-\item
-  \textbf{Note: The tank needs to have low flow or be static in order to
-  heat up to a desired temp. Once the temperature has been reached then
-  it can be set to normal operating flow through mode.}\\
+  set 15 degF (8.3 degC) above the main holding tank reservoir.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Note: The tank needs to have low flow or be static in order
+    to heat up to a desired temp. Once the temperature has been reached
+    then it can be set to normal operating flow through mode.}\\
+  \end{itemize}
 \item
   A small sumbersible powerhead in each tank provides water circulation
   throughout the tank.\\
@@ -409,23 +417,31 @@ Flow Operation}}
   flow rates have to be manually adjusted for the tidal effect.\\
 \item
   Flow metered water lines
-\item
-  N: Main supply
-\item
-  S: Solenoid-controlled supply
-\item
-  D: Drain
+
+  \begin{itemize}
+  \tightlist
+  \item
+    N: Main supply
+  \item
+    S: Solenoid-controlled supply
+  \item
+    D: Drain\\
+  \end{itemize}
 \item
   Tidal effect
-\item
-  outgoing tide: incoming flow rate (N + S) is lower than outgoing flow
-  rate (D).\\
-\item
-  incoming tide: incoming flow rate (N + S) is greater than outgoing
-  flow rate (D).\\
-\item
-  Note: The tank will not be completely empty during low tide events to
-  prevent the recirculating powerhead from running dry.\\
+
+  \begin{itemize}
+  \tightlist
+  \item
+    outgoing tide: incoming flow rate (N + S) is lower than outgoing
+    flow rate (D).
+  \item
+    incoming tide: incoming flow rate (N + S) is greater than outgoing
+    flow rate (D).
+  \item
+    Note: The tank will not be completely empty during low tide events
+    to prevent the recirculating powerhead from running dry.\\
+  \end{itemize}
 \item
   Each tank has (1) CO2 supply line with an airstone connected to (1)
   Neptune Systems solenoid valve to control and lower pH in tanks.\\
@@ -447,6 +463,7 @@ Flow Operation}}
  \textbf{Apex Connection Series}
 
 \begin{itemize}
+\tightlist
 \item
   Each EnergyBar connects to the Base Unit with an AquaBus cable via the
   AquaBus Ports for power. (2) EB832 units connect to (1) Base Unit.\\
@@ -455,14 +472,9 @@ Flow Operation}}
   Accessory Port on the side of the EB832. (2) Solenoid valves connect
   in (1) EB832.\\
 \item
-  \begin{enumerate}
-  \def\labelenumi{(\arabic{enumi})}
-  \tightlist
-  \item
-    PM1 connects to (1) EnergyBar with an AquaBus cable via the AquaBus
-    Ports, and all PM1 modules connect in series with each other for
-    power.\\
-  \end{enumerate}
+  (1)PM1 connects to (1) EnergyBar with an AquaBus cable via the AquaBus
+  Ports, and all PM1 modules connect in series with each other for
+  power.\\
 \item
   VDM connects to the last PM1 in series with an AquaBus cable via the
   AquaBus Ports for power.\\
@@ -481,22 +493,11 @@ Flow Operation}}
   (2) Light connections in the VDM and (2) Light connections in the Base
   Unit.\\
 \item
-  \begin{enumerate}
-  \def\labelenumi{(\arabic{enumi})}
-  \tightlist
-  \item
-    FMM connects to (1) EnergyBar (whichever EB832 is not powering the
-    PM1 modules) with an AquaBus cable via the AquaBus Ports, and all
-    FMM connect in series with each other for power.\\
-  \end{enumerate}
+  (1)FMM connects to (1) EnergyBar (whichever EB832 is not powering the
+  PM1 modules) with an AquaBus cable via the AquaBus Ports, and all FMM
+  connect in series with each other for power.\\
 \item
-  \begin{enumerate}
-  \def\labelenumi{(\arabic{enumi})}
-  \setcounter{enumi}{2}
-  \tightlist
-  \item
-    Flow sensors connect to each FMM via (3) of the numbered ports.
-  \end{enumerate}
+  (3)Flow sensors connect to each FMM via (3) of the numbered ports.
 \end{itemize}
 
  \textbf{EB832 Outlet Connections}
@@ -524,8 +525,7 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding
 \item
   Inflow from the filtration sump to the mesocosm tanks
 
-  \begin{enumerate}
-  \def\labelenumi{\arabic{enumi}.}
+  \begin{itemize}
   \tightlist
   \item
     Water from the chiller can be directed either back into the sump
@@ -542,12 +542,11 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding
     The chiller has a safety flow switch that requires a minimum flow
     rate for the chiller to operate, so the bypass valve can be used to
     regulate the chiller flow as well as the container flow.
-  \end{enumerate}
+  \end{itemize}
 \item
   Outflow from the mesocosm tanks to the filtration sump
 
-  \begin{enumerate}
-  \def\labelenumi{\arabic{enumi}.}
+  \begin{itemize}
   \tightlist
   \item
     Water from the tanks drains to an outdoor underground sump pump,
@@ -559,12 +558,11 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding
     an experiment, water can be directed to a drain port (the sump
     inflow valve is closed and the drain t-valve along the South wall is
     opened parallel to the pvc).
-  \end{enumerate}
+  \end{itemize}
 \item
   Overflow from sump to secondary containment
 
-  \begin{enumerate}
-  \def\labelenumi{\arabic{enumi}.}
+  \begin{itemize}
   \tightlist
   \item
     When mesocosm water level falls from a high tide to low tide
@@ -574,7 +572,7 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding
     t-valve (allows simultaneous flow of filtered, chilled water to both
     S2 and the mesocosm tanks), and the overflow t-valve (allows
     continuous flow exchange between S1 and S2).
-  \end{enumerate}
+  \end{itemize}
 \end{itemize}
 
 \chapter{Inventory}\label{inventory}
@@ -985,17 +983,77 @@ Hall and Eucalyptus Hall at California State University, Northridge.
 These recommendations are for maintaining tanks at ambient conditions.
 Changes should be made according to your study aims.
 
-The following are using the numbered system of Apex\_39106, controlling
+The following are using the numbered system of Apex1\_39106, controlling
 tanks 1-4. All methods are transferrable across all 5 Apex controllers
-to yield the same outcome in all 20 tanks.
+to yield the same outcome in all 20 tanks, or change programs for varied
+results.
 
 \textbf{Contents}\\
-- \protect\hyperlink{Probes}{\textbf{Probes}}\\
+- \protect\hyperlink{Programm_Screen}{**Accessing the Programming Edit
+Screen in Apex} - \protect\hyperlink{Probes}{\textbf{Probes}}\\
 - \protect\hyperlink{Modules_Outlets_and_Ports}{\textbf{Modules,
 Outlets, and Ports}}\\
 - \protect\hyperlink{Outlet_Setup}{\textbf{Outlet Setup in
 ApexFusion}}\\
 - \protect\hyperlink{Profiles}{\textbf{Profiles}}
+
+ \textbf{Accessing the Programming Edit Screen}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  From the ApexFusion Dashboard, select the Expand icon (gears) from the
+  top toolbar to provide more options.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Outputs: grants access to the page controlling all outlets and
+    connected items that are programmable by the apex
+  \item
+    Profiles: create a scenario that can occur if some condition is met
+    for an Output program (see example with the Lights below)
+  \item
+    Modules: to update, rename, or set units for a module connected to
+    the Apex
+  \item
+    Inputs: to calibrate, rename, or set units for any probes and other
+    inputs providing data to the Apex
+  \item
+    Misc Setup: to restart the apex or set the frequency of data logging
+  \item
+    Network Setup: to manually configure network settings or check
+    current network settings
+  \end{itemize}
+\item
+  The most utilized option above is often Outputs, where you can program
+  anything plugged into the Apex. Select this icon.
+\item
+  You can either select an output already configured to program that
+  outlet, or create a ``Virtual Outlet'', which, similar to profiles,
+  allows you to program a particular condition that if true, can trigger
+  some other action in the program of a ``real'' Output.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    When using a Virtual Outlet in programming a ``real'' Output, select
+    Advanced prgoramming and use the folling line as an example: If
+    Output your\_output\_name = ON Then ON
+  \end{itemize}
+\item
+  For all other Outputs, you can use the drop down menu to select the
+  type of item you're programming for a fill-in style program option, or
+  select Advanced to create your own program.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Examples of Advanced programming for different types of Outputs are
+    below and in the controlling\_pH guide.
+  \end{itemize}
+\end{enumerate}
 
  \textbf{Probes}
 
@@ -1145,7 +1203,7 @@ All configurations are for Control Type: Advanced
 \item
   Fallback OFF\\
   Set OFF\\
-  If Tmp-\# \textless{} 15.0 Then ON\\
+  If Tmp-\# \textless{} 17.0 Then ON\\
 \item
   PWRHD-\#
 \item
@@ -1157,7 +1215,7 @@ All configurations are for Control Type: Advanced
   SOL-TNK-\#
 \item
   Fallback ON\\
-  OSC 000:00/375:00/375:00 Then ON\\
+  OSC 000:00/375:00/375:00 Then ON (for tidal oscillations)\\
 \item
   Log Enabled\\
 \item
@@ -1174,7 +1232,8 @@ All configurations are for Control Type: Advanced
 \item
   Fallback OFF\\
   Set OFF\\
-  If pH-1 \textgreater{} 8.20 Then ON\\
+  If pH-1 \textgreater{} 8.10 Then ON (for more specific examples, see
+  controlling\_pH(\#controlling\_pH))\\
 \item
   Log Enabled\\
 \item
