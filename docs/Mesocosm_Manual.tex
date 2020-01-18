@@ -88,7 +88,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2020-01-16}
+    \date{2020-01-17}
 
 \usepackage{booktabs}
 
@@ -712,8 +712,8 @@ Hydor Powerhead & 0\tabularnewline
 \textbf{Contents}\\
 - \protect\hyperlink{Basic_Operation}{\textbf{Basic Operation}}\\
 - \protect\hyperlink{Filtration}{\textbf{Filtration}}\\
-- \protect\hyperlink{System}{\textbf{System}} -
-\protect\hyperlink{Sump_Flow}{\textbf{Sump Flow}} -
+- \protect\hyperlink{Sump_Flow}{\textbf{Sump Flow}} -
+\protect\hyperlink{Meso_Flow}{\textbf{Mesocosm Tank Flow}} -
 \protect\hyperlink{CO2_Scrubber}{\textbf{CO2 Scrubber}}
 
  \textbf{Basic Operation}
@@ -748,11 +748,13 @@ Hydor Powerhead & 0\tabularnewline
   through the chiller chamber.
 \end{itemize}
 
- \textbf{System Details}
-
-\includegraphics{images/flowmeter.PNG} a
-
  \textbf{Sump Flow}
+
+\includegraphics{images/Pump_Valve.PNG}\\
+\includegraphics{images/Flow_through_UV.PNG}\\
+\includegraphics{images/Sump_return_valve.PNG}
+
+ \textbf{Mesocosm Tank Flow}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -770,9 +772,14 @@ Hydor Powerhead & 0\tabularnewline
     Open the N flow valve for each tanks (and S flow valve if you're
     turning the Solenoid ON to fill the tanks).
   \item
-    To open flow from the sump to the tanks, first
+    To open flow from the sump to the tanks, first make sure the
+    circular flow within the sump itself is stable. Then slowly open the
+    t-valve (turn counterclockwise) till the t-valve is sitting about 45
+    degrees to the PVC pipe. This splits flow to both the sump and now
+    the mesocosm.
   \item
-    Fill each rack one at a time and make sure rack and filtration skid
+    Fill each rack one at a time (only open the N flow valves for one
+    set of 4 tanks at a time) and make sure rack and filtration skid
     flows are balanced before moving on to the next rack.
   \item
     Make sure the complete system reaches equilibrium in standard
@@ -805,9 +812,23 @@ Hydor Powerhead & 0\tabularnewline
   \end{enumerate}
 \end{enumerate}
 
- \textbf{CO2 Scrubber} 1. Connect tubing to the back outtake port of the
-white airpump and to the phosban reactor, leaving the intake port on the
-airpump free 1.
+ \textbf{CO2 Scrubber} 1. Replacing media in the Phosban Reactor 1.
+Unplug the airpump connected to the Phosban Reactor and disconnect both
+sets of tubing going into/out of the Reactor tube to easily remove and
+work wtih the Reactor tube. 1. Unscrew the lid of the Reactor, take off
+the red cap and black mesh, and pour out the used up media (purple if
+freshly used up, grayish white if used and stale) into a bag or some
+containment. 1. Use tape or parafilm to cover the hole of the small tube
+inside the Reactor before pouring in the new media (stark white
+pellets). Fill to an inch \textbf{below} the top of the small tube, so
+no media falls into the tube. Remove the covering from the small tube
+and replace the black mesh and red cap, aligning the red cap so it
+encapsulates the small tube. 1. Screw the lid back on, finger tight, and
+replace the tube on the side of the sump. Reconnect the tubing from the
+airpump to the side of the Reactor tube and from the air splitter to the
+front of the tube. 1. Once you're sure everything's securely placed,
+plug in the air pump. 1. Listen and feel for any air leaks and adjust
+tubing as necessary.
 
 \chapter{Tidal Manipulation}\label{tidal-manipulation}
 
@@ -1589,9 +1610,10 @@ follow the next steps. 1. This GFI outlet is also connected to the
 quadplex down by the sump on the South wall, so all 8 outlets are
 controlled by the GFI and could initiate the need for a Reset. 1. Call
 PPM (818-677- ext. 2222) and let them know a breaker tripped at Citrus
-Hall in the room next to the Mechanics Room on the outside and South
-side of Citrus Hall. 1. When PPM arrives, let them know the breaker box
-is on the 3rd floor of Citrus in Room 3303 and the switch is for EDP C-4
+Hall in outside room 3114 - the room next to the Mechanics Room on the
+outside and South side of Citrus Hall. 1. When PPM arrives, let them
+know the breaker box is on the 3rd floor of Citrus in Room 3303 and the
+switch is for EDP C-4
 
  \textbf{Sump Pump Malfunction and Turning off flow to the Mesocosm
 Tanks} * If the sump pump (the outside underground pump between the
@@ -1605,11 +1627,11 @@ does not respond (or you see the light at the bottom right corner of the
 outlet flash red), then follow the next steps. 1. Turn off flow to the
 Mesocosm tanks 1. There is a \textbf{T-valve} located along PVC which
 goes from the chiller to outside the Field Room. Turn this T-valve
-\textbf{clockwise} so it sits up and down, closing off flow from the
-sump to the mesocosm, but retaining circulating flow within the sump. 1.
-The T-valve is in line with a PVC pipe running parallel to the sump,
-slightly above and offset from the blue and black biofilter mesh. 1.
-Once the system is ready for flow to
+\textbf{clockwise} so it sits perpendicular to the PVC, closing off flow
+from the sump to the mesocosm, but retaining circulating flow within the
+sump. 1. The T-valve is in line with a PVC pipe running parallel to the
+sump, slightly above and to the side of the blue and black biofilter
+mesh.
 
  \textbf{Turning off Sump Flow} * If a situation arises where you need
 to shut off the recirculating flow of the entire system, unplug the UV
@@ -1624,14 +1646,15 @@ of the turbine within the FM. 1. Make sure to check the flowmeter
 connections back at the FMM module for a connection issue. Unplug and
 plug back in the cable for the FM in question. 1. Try clearing bubbles.
 If gently tapping the FM doesn't resolve the issue, you may have to
-remove the FM to clear it out. *Removing the FM for cleaning 1. Unscrew
-the FM at both of its compression fittings until the fittings are loose
-on the tubing, then pull gently at the tubings to remove them from the
-FMM (if the compression fitting is all the way unscrewed, but the tube
-isn't coming out of the FMM, pull a little harder beacuse sometimes the
-tubing just gets stuck in the FM). 1. Visually expect the inside of the
-FM, and if needed, use a small long object to probe and spin the
-internal turbine to dislodge any debris.
+remove the FM to clear it out. * Removing the FM for cleaning 1. Turn
+off flow to the Mesocosm Tanks and wait 15-20 minutes to ensure there is
+no flow to the tanks. 1. Unscrew the FM at both of its compression
+fittings until the fittings are loose on the tubing, then pull gently at
+the tubings to remove them from the FMM (if the compression fitting is
+all the way unscrewed, but the tube isn't coming out of the FMM, pull a
+little harder beacuse sometimes the tubing just gets stuck in the FM).
+1. Visually expect the inside of the FM, and if needed, use a small long
+object to probe and spin the internal turbine to dislodge any debris.
 
  \textbf{Rebooting the Apex}\\
 * If the Apex needs to be restarted for any reason, there are multiple
@@ -1639,20 +1662,22 @@ ways to reboot the system. * Apex Fusion 1. Click the Expand Settings
 gears icon and go to the Misc page (wrench icon). 1. Under Power, check
 the box for Reboot: Restart Apex, then click the orange cloud in the
 upper right corner to send this command to Apex. Wait a few minutes for
-the devices to come back online. * Display Module 1. * Restart Button 1.
-Under the Apex Base Unit, above the pH port, there is a small hole
-encasing the Restart button. 1. Insert a push pin or small object until
-you feel the button press down and hold about 10 seconds. 1. If you
-require a full system reboot back to factory settings, hold this button
-for 1 minute. This will erase all modules, programming, log data, and
-probe calibrations, so be very sure.
+the devices to come back online. * Restart Button 1. Under the Apex Base
+Unit, above the pH port, there is a small hole encasing the Restart
+button. 1. Insert a push pin or small object until you feel the button
+press down and hold about 10 seconds. 1. If you require a full system
+reboot back to factory settings, hold this button for 1 minute. This
+will erase all modules, programming, log data, and probe calibrations,
+so be very sure.
 
- \textbf{Light not responding to program} * If Tank 13's light doesn't
-turn on when the program indicates it should be ON, go into Programming
-settings for Light-TNK-13, adjust the advanced program slightly
-(e.g.~change an ``ON'' to an ``OFF'') and click the orange cloud to send
-to the Apex. Then change the program back to what it was before you made
-a change, and the light should turn on.
+ \textbf{Light not responding to program} * Sometimes manually turning
+the light OFF on Apex, then back ON again, the light will function
+properly. * If Tank 13's light doesn't turn on when the program
+indicates it should be ON, go into Programming settings for
+Light-TNK-13, adjust the advanced program slightly (e.g.~change an
+``ON'' to an ``OFF'') and click the orange cloud to send to the Apex.
+Then change the program back to what it was before you made a change,
+and the light should turn on.
 
  \textbf{pH Probe Malfunction} * If a pH probe is giving an `off'
 reading, first calibrate the probe. 1. On your Fusion dashboard, click

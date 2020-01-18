@@ -23,7 +23,7 @@
 ![Pump](images/Pump_Valve.PNG)  
 ![UV Filger](images/Flow_through_UV.PNG)  
 ![Sump Return Valve](images/Sump_return_valve.PNG)  
-1. 
+
 
 <a name="Meso_Flow"></a> **Mesocosm Tank Flow**
 
