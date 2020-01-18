@@ -3,8 +3,8 @@
 **Contents**  
 - [**Basic Operation**](#Basic_Operation)  
 - [**Filtration**](#Filtration)  
-- [**System**](#System) 
 - [**Sump Flow**](#Sump_Flow)
+- [**Mesocosm Tank Flow**](#Meso_Flow)
 - [**CO2 Scrubber**](#CO2_Scrubber)  
 
 <a name="Basic_Operation"></a> **Basic Operation**
@@ -17,20 +17,21 @@
 * Biological and Mechanical Filtration: Water from the Mesocosm tanks is pumped into the sump by passing through 6 mesh filters.  These filters have an accumulated biofilm to biologically filter the water before it enters the sump.
 * Chemical and Mechanical Filtration: Water in the sump is pulled through the three carbon filters with mesh filter sleeves by a pump and pushed up into the UV sterilizer, where is is then directed through the chiller chamber.
 
-<a name="System"></a> **System Details**
-
-![PracticePic](images/flowmeter.PNG)
-a
 
 <a name="Sump_Flow"></a> **Sump Flow**
 
+![Pump](images/Pump_Valve.PNG)  
+![UV Filger](images/Flow_through_UV.PNG)  
+![Sump Return Valve](images/Sump_return_valve.PNG)  
+1. 
 
+<a name="Meso_Flow"></a> **Mesocosm Tank Flow**
 
 1. Filling the mesocosm tanks 
     1. Make sure the drain valve located under each tank is closed (turned clockwise all the way, finger-tight).
     1. Open the N flow valve for each tanks (and S flow valve if you're turning the Solenoid ON to fill the tanks).
-    1. To open flow from the sump to the tanks, first 
-    1. Fill each rack one at a time and make sure rack and filtration skid flows are balanced before moving on to the next rack.
+    1. To open flow from the sump to the tanks, first make sure the circular flow within the sump itself is stable.  Then slowly open the t-valve (turn counterclockwise) till the t-valve is sitting about 45 degrees to the PVC pipe.  This splits flow to both the sump and now the mesocosm.
+    1. Fill each rack one at a time (only open the N flow valves for one set of 4 tanks at a time) and make sure rack and filtration skid flows are balanced before moving on to the next rack.
     1. Make sure the complete system reaches equilibrium in standard recirculation mode before setting up the tidal cycle.
 1. Set flow in tanks
     1. Calculate your desired residence time.  When full, each tank holds 55 liters, so divide 55L by your desired residence time and use that estimated value as your flow rate.  Example: for a RT of 8 hours: 55L/8hr = 6.88 L/hr or 114.67 mL/min
@@ -40,5 +41,10 @@ a
 
 
 <a name="CO2_Scrubber"></a> **CO2 Scrubber**
-1. Connect tubing to the back outtake port of the white airpump and to the phosban reactor, leaving the intake port on the airpump free
-1. 
+1. Replacing media in the Phosban Reactor
+    1. Unplug the airpump connected to the Phosban Reactor and disconnect both sets of tubing going into/out of the Reactor tube to easily remove and work wtih the Reactor tube.
+    1. Unscrew the lid of the Reactor, take off the red cap and black mesh, and pour out the used up media (purple if freshly used up, grayish white if used and stale) into a bag or some containment.
+    1. Use tape or parafilm to cover the hole of the small tube inside the Reactor before pouring in the new media (stark white pellets).  Fill to an inch **below** the top of the small tube, so no media falls into the tube.  Remove the covering from the small tube and replace the black mesh and red cap, aligning the red cap so it encapsulates the small tube.
+    1. Screw the lid back on, finger tight, and replace the tube on the side of the sump.  Reconnect the tubing from the airpump to the side of the Reactor tube and from the air splitter to the front of the tube.
+    1. Once you're sure everything's securely placed, plug in the air pump.
+    1. Listen and feel for any air leaks and adjust tubing as necessary.

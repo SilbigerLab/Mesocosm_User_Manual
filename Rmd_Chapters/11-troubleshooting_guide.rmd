@@ -16,7 +16,7 @@
     1. Make sure it's a tripped breaker and not the GFI outlet needing to be reset.
         1. On the West wall inside the Field Room, just to the right of the secondary sump, there is a quadplex (4-plug outlet) that has a Reset button.  Push that button until you hear a click.  If you hear the click but the power is not restored, then follow the next steps.
         1. This GFI outlet is also connected to the quadplex down by the sump on the South wall, so all 8 outlets are controlled by the GFI and could initiate the need for a Reset.
-    1. Call PPM (818-677- ext. 2222) and let them know a breaker tripped at Citrus Hall in the room next to the Mechanics Room on the outside and South side of Citrus Hall.
+    1. Call PPM (818-677- ext. 2222) and let them know a breaker tripped at Citrus Hall in outside room 3114 - the room next to the Mechanics Room on the outside and South side of Citrus Hall.
     1. When PPM arrives, let them know the breaker box is on the 3rd floor of Citrus in Room 3303 and the switch is for EDP C-4
 
     
@@ -25,9 +25,8 @@
 * If you notice the pump has malfunctioned, do the following:
     1. Check if the GFI outlet on the outside of the Mesocosm container needs to be reset. On the 2-plut outlet, there is a Reset button.  Push that button until you hear a click.  If you hear the click but the pump does not respond (or you see the light at the bottom right corner of the outlet flash red), then follow the next steps.
     1. Turn off flow to the Mesocosm tanks
-        1. There is a **T-valve** located along PVC which goes from the chiller to outside the Field Room.  Turn this T-valve **clockwise** so it sits up and down, closing off flow from the sump to the mesocosm, but retaining circulating flow within the sump.
-        1. The T-valve is in line with a PVC pipe running parallel to the sump, slightly above and offset from the blue and black biofilter mesh.
-    1. Once the system is ready for flow to 
+        1. There is a **T-valve** located along PVC which goes from the chiller to outside the Field Room.  Turn this T-valve **clockwise** so it sits perpendicular to the PVC, closing off flow from the sump to the mesocosm, but retaining circulating flow within the sump.
+        1. The T-valve is in line with a PVC pipe running parallel to the sump, slightly above and to the side of the blue and black biofilter mesh.
 
 <a name="Turn_off_Sump_Flow"></a> **Turning off Sump Flow**
 * If a situation arises where you need to shut off the recirculating flow of the entire system, unplug the UV light from the South wall quadplex, then unplug the pump from the same quadplex.
@@ -38,7 +37,8 @@
 * Sometimes the flowmeters (FM) inline with water flow will either have a bubble or some debris affecting the spin of the turbine within the FM. 
     1. Make sure to check the flowmeter connections back at the FMM module for a connection issue.  Unplug and plug back in the cable for the FM in question.
     1. Try clearing bubbles. If gently tapping the FM doesn't resolve the issue, you may have to remove the FM to clear it out.
-*Removing the FM for cleaning
+* Removing the FM for cleaning
+    1. Turn off flow to the Mesocosm Tanks and wait 15-20 minutes to ensure there is no flow to the tanks.
     1. Unscrew the FM at both of its compression fittings until the fittings are loose on the tubing, then pull gently at the tubings to remove them from the FMM (if the compression fitting is all the way unscrewed, but the tube isn't coming out of the FMM, pull a little harder beacuse sometimes the tubing just gets stuck in the FM).
     1. Visually expect the inside of the FM, and if needed, use a small long object to probe and spin the internal turbine to dislodge any debris.
 
@@ -47,14 +47,13 @@
 * Apex Fusion
     1. Click the Expand Settings gears icon and go to the Misc page (wrench icon).
     1. Under Power, check the box for Reboot: Restart Apex, then click the orange cloud in the upper right corner to send this command to Apex.  Wait a few minutes for the devices to come back online.
-* Display Module
-    1. 
 * Restart Button
     1. Under the Apex Base Unit, above the pH port, there is a small hole encasing the Restart button.
     1. Insert a push pin or small object until you feel the button press down and hold about 10 seconds.
     1. If you require a full system reboot back to factory settings, hold this button for 1 minute.  This will erase all modules, programming, log data, and probe calibrations, so be very sure.
 
 <a name="Light_Off"></a> **Light not responding to program**
+* Sometimes manually turning the light OFF on Apex, then back ON again, the light will function properly.
 * If Tank 13's light doesn't turn on when the program indicates it should be ON, go into Programming settings for Light-TNK-13, adjust the advanced program slightly (e.g. change an "ON" to an "OFF") and click the orange cloud to send to the Apex.  Then change the program back to what it was before you made a change, and the light should turn on.
 
 <a name="pH_Probe_Malfunction"></a> **pH Probe Malfunction**
