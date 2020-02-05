@@ -60,9 +60,9 @@
         1. See Figure 1 to identify valves
     1. The pump return valve should be veritcal in the "open" position to allow flow from the sump through the pump up to the UV filter and chiller compartments.  See Figure 2.
     1. The two UV flow valves and the chiller bypass valve should all be vertical.  This directs flow down through the UV light before returning up to the chiller chamber.  See Figure 3.  
-    ![Figure 1. Sump Flow Valves](images/Sump_Flow_Valves)  
-    ![Figure 2. Pump Return Valve](images/Pump_Valve)  
-    ![Figure 3. UV Flow and Chiller Bypass Valves](images/UV_Valves)  
+    ![Figure 1. Sump Flow Valves](images/Sump_Flow_Valves.png)  
+    ![Figure 2. Pump Return Valve](images/Pump_Valve.png)  
+    ![Figure 3. UV Flow and Chiller Bypass Valves](images/UV_Valves.png)  
 1. Turning on sump flow
     1. Once all the valves are properly opened/closed as described above, plug in the Cascade Pump and make sure water is running through the system properly without any leaks.  There may be some initial sputtering while air is pumped out of the pipes, but that should stop within a couple minutes.
     1. Look at the pump and make sure you can see water being pushed through the clear junction.
