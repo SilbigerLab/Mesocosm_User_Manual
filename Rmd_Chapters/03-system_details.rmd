@@ -5,7 +5,7 @@
 - [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 - [**System Operational Parameters**](#System_Operation_Parameters)  
 - [**Apex Connection Series**](#Apex_Connection_Series)  
-- [**EB832 Outlet Connections**](#EB832_Outlet_Connections)
+- [**EB832 Outlet Connections**](#EB832_Outlet_Connections)  
 - [**Water Flow Operation**](#Water_Flow_Operation)  
 
 <a name="Aquaria_System_List"></a> **Aquaria System Component List**

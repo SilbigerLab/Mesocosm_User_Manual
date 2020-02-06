@@ -3,9 +3,9 @@
 **Contents**  
 - [**Basic Operation**](#Basic_Operation)  
 - [**Filtration**](#Filtration)  
-- [**Water Changes**](#Water_Changes)
-- [**Sump Flow**](#Sump_Flow)
-- [**Mesocosm Tank Flow**](#Meso_Flow)
+- [**Water Changes**](#Water_Changes)  
+- [**Sump Flow**](#Sump_Flow)  
+- [**Mesocosm Tank Flow**](#Meso_Flow)  
 - [**CO2 Scrubber**](#CO2_Scrubber)  
 
 <a name="Basic_Operation"></a> **Basic Operation**

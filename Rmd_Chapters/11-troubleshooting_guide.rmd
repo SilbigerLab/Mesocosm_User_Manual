@@ -6,10 +6,11 @@
 - [**Rebooting the Apex**](#Reboot_Apex)  
 - [**Sump Pump Malfunction**](#Sump_Pump_Malfunction)  
 - [**Turning off Sump flow**](#Turn_off_Sump_Flow)  
-- [**Light not responding to program**](#Light_OFF)
-- [**pH probe malfunction**](#pH_Probe_Malfunction)
+- [**Light not responding to program**](#Light_OFF)  
+- [**pH probe malfunction**](#pH_Probe_Malfunction)  
+- [**pH spikes**](#pH_spikes)  
 
-<a name="Tripped_Breaker"></a> **Loss of Power to the Sump/Tripped Breaker**
+<a name="Tripped_Breaker"></a> **Loss of Power to the Sump/Tripped Breaker**  
 * Breaker tripped in the field room (pump, UV filter, CO2 scrubber all off)
     1. If you just plugged in an item that correlated with the power shutting off, unplug that item. It may have tripped the breaker.
         1. Check for other items plugged into EDP C-4 outlets that shouldn't be plugged in or seem out of place.  Alert PPM of anything that shouldn't be plugged into those outlets (e.g. CSUN golf carts).
@@ -20,7 +21,7 @@
     1. When PPM arrives, let them know the breaker box is on the 3rd floor of Citrus in Room 3303 and the switch is for EDP C-4
 
     
-<a name="Sump_Pump_Malfunction"></a> **Sump Pump Malfunction and Turning off flow to the Mesocosm Tanks**
+<a name="Sump_Pump_Malfunction"></a> **Sump Pump Malfunction and Turning off flow to the Mesocosm Tanks**  
 * If the sump pump (the outside underground pump between the Mesocosm container and the Field Room) stops pumping water to the sump, it will overflow out onto the concrete and into the loading bay driveway.
 * If you notice the pump has malfunctioned, do the following:
     1. Check if the GFI outlet on the outside of the Mesocosm container needs to be reset. On the 2-plut outlet, there is a Reset button.  Push that button until you hear a click.  If you hear the click but the pump does not respond (or you see the light at the bottom right corner of the outlet flash red), then follow the next steps.
@@ -28,11 +29,11 @@
         1. There is a **T-valve** located along PVC which goes from the chiller to outside the Field Room.  Turn this T-valve **clockwise** so it sits perpendicular to the PVC, closing off flow from the sump to the mesocosm, but retaining circulating flow within the sump.
         1. The T-valve is in line with a PVC pipe running parallel to the sump, slightly above and to the side of the blue and black biofilter mesh.
 
-<a name="Turn_off_Sump_Flow"></a> **Turning off Sump Flow**
+<a name="Turn_off_Sump_Flow"></a> **Turning off Sump Flow**  
 * If a situation arises where you need to shut off the recirculating flow of the entire system, unplug the UV light from the South wall quadplex, then unplug the pump from the same quadplex.
 * If you would like to also turn off the CO2 scrubber, unplug both air pump plugs from the same South wall quadplex.
 
-<a name="Flowmeter_Misreadings"></a> **Flowmeter Misreadings**
+<a name="Flowmeter_Misreadings"></a> **Flowmeter Misreadings**  
 * Flowmeter on ApexFusion is reading 0 or some incorrect value
 * Sometimes the flowmeters (FM) inline with water flow will either have a bubble or some debris affecting the spin of the turbine within the FM. 
     1. Make sure to check the flowmeter connections back at the FMM module for a connection issue.  Unplug and plug back in the cable for the FM in question.
@@ -52,11 +53,11 @@
     1. Insert a push pin or small object until you feel the button press down and hold about 10 seconds.
     1. If you require a full system reboot back to factory settings, hold this button for 1 minute.  This will erase all modules, programming, log data, and probe calibrations, so be very sure.
 
-<a name="Light_Off"></a> **Light not responding to program**
+<a name="Light_Off"></a> **Light not responding to program**  
 * Sometimes manually turning the light OFF on Apex, then back ON again, the light will function properly.
 * If Tank 13's light doesn't turn on when the program indicates it should be ON, go into Programming settings for Light-TNK-13, adjust the advanced program slightly (e.g. change an "ON" to an "OFF") and click the orange cloud to send to the Apex.  Then change the program back to what it was before you made a change, and the light should turn on.
 
-<a name="pH_Probe_Malfunction"></a> **pH Probe Malfunction**
+<a name="pH_Probe_Malfunction"></a> **pH Probe Malfunction**  
 * If a pH probe is giving an 'off' reading, first calibrate the probe.
     1. On your Fusion dashboard, click the gear symbol to the right of the pH reading to go to its settings.
     1. Select Automatic Calibration, and follow the instructions, using new packets of 7 and 10 calibration solution.
@@ -71,4 +72,10 @@
     1. Run through the Manual Calibration steps again.
 * If after following the above steps, the pH probe is still malfunctioning, call Neptune Systems for support.
 
-<a name="_"></a> **_**
+<a name="pH_spikes"></a> **pH Spikes**  
+* If you noticed the pH in your take plummetting down when the CO2 solenoid is actively dosing.
+    1. It is likely that the fine tuning needle valve on the tank's CO2 solenoid needs to be closed a little more (turned slightly clockwise) to bring the flow of CO2 out of the air stone bubbler down.
+    1. If the flow is too high, this could cause rapid changes in pH in your tank before the probe can even detect the change.
+    1. By the time the probe detects the change and turns off the bubbler, plus with a slight residual time between the solenoid closing and the remaining CO2 gas being emitted from the bubbler, the pH may have dropped lower than desired. 
+    1. Turn the CO2 flow down using the large nob on the solenoid's needle valve so that you see a gentle stream of bubbles slowly coming from the bubbler.
+    1. The CO2 solenoid is connected to the tank's bubbler tubing.  It is a white box with the Neptune Systems logo and an arrow indicating flow direction.  Connecting the tubing and the white box is a metal needle valve.  The end knob of that needle valve can be turned slightly for fine tuning gas flow.

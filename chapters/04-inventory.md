@@ -1,8 +1,8 @@
 # Inventory
 
 **Contents**  
-- [**Experimental Mesocosm**](#Experimental_Mesocosm)
-- [**Filtration**](#Filtration)
+- [**Experimental Mesocosm**](#Experimental_Mesocosm)  
+- [**Filtration**](#Filtration)  
 - [**Spare Items**](#Spare_Items)
   
   

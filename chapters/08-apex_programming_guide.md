@@ -5,11 +5,13 @@ Recommendations for programming the Apex aquarium controllers designated for the
 The following are using the numbered system of Apex1_39106, controlling tanks 1-4. All methods are transferrable across all 5 Apex controllers to yield the same outcome in all 20 tanks, or change programs for varied results.
 
 **Contents**  
-- [**Accessing the Programming Edit Screen in Apex](#Programm_Screen)
+- [**Accessing the Programming Edit Screen in Apex**](#Programm_Screen)  
 - [**Probes**](#Probes)  
 - [**Modules, Outlets, and Ports**](#Modules_Outlets_and_Ports)  
 - [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
-- [**Profiles**](#Profiles)
+- [**Profiles**](#Profiles)  
+
+* For some quick tutorials on advanced programming in Fusion, check out Neptune Systems' [Control Freak](https://www.neptunesystems.com/getstarted/apexng/apex-control-freak-advanced/) page.
 
  <a name="Programming_Screen"></a> **Accessing the Programming Edit Screen**
  
@@ -115,6 +117,8 @@ All configurations are for Control Type: Advanced
     Set OFF  
     If Sun 0/0 Then ON  
     If Moon 0/0 Then ON  
+    If Tmp-# > 35.0 Then OFF  
+    Min Time 030:00 Then OFF  
   * Log Enabled  
 * PH-TNK-#
   * Fallback OFF  
@@ -128,23 +132,24 @@ All configurations are for Control Type: Advanced
 * BLUE-TNK-#
   * Fallback OFF  
     Set OFF  
-    If Moon 0/0 Then RampUp  
+    If Moon 0/0 Then Blue  
 * WhtLED_#
   * Fallback OFF  
     Set OFF  
-    If Sun 0/0 Then ON  
-    If Tmp-# > 35.0 Then OFF  
-    Min Time 030:00 Then OFF
+    If Sun 0/0 Then RampUp  
 * BluLED_#
   * Fallback OFF  
     Set OFF  
-    If Moon 0/0 Then ON  
-    If Tmp-# > 35.0 Then OFF  
-    Min Time 030:00 Then OFF  
+    If Moon 0/0 Then Blue  
 
  <a name="Profiles"></a> **Profiles**
 
 * RampUp:
+  * Type: Ramp
+  * Ramp Time: 30 min
+  * Start Intensity: 0
+  * End Intensity: 100
+* Blue:
   * Type: Ramp
   * Ramp Time: 30 min
   * Start Intensity: 0

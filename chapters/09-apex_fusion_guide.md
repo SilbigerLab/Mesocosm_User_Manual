@@ -8,9 +8,10 @@ Password: silbigerlab
 - [**Dashboard Display**](#Dashboard)  
 - [**Module Setup**](#Module_Setup)  
 - [**Outlet Setup**](#Outlet_Setup)  
-- [**Downloading Data Logs**](#Data_Logs)
+- [**Downloading Data Logs**](#Data_Logs)  
 - [**Update System**](#Update)  
 
+* For some quick tutorials on advanced programming in Fusion, check out Neptune Systems' [Control Freak](https://www.neptunesystems.com/getstarted/apexng/apex-control-freak-advanced/) page.
 
 <a name="Dashboard"></a> **Dashboard Display**
 
@@ -58,11 +59,11 @@ http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005&days=7
 * Hours and Minutes are optional in the date parameter.
 
 1. Following the above format, enter the unique IP address for the Apex containing the logs you want to access.
-    1. Apex_39106: 172.24.113.25
-       Apex_40216: 172.24.113.22
-       Apex_39952: 172.24.113.23
-       Apex_37810: 172.24.113.21
-       Apex_41239: 172.24.113.24
+    1. Apex_39106: 172.24.113.25  
+       Apex_40216: 172.24.113.22  
+       Apex_39952: 172.24.113.23  
+       Apex_37810: 172.24.113.21  
+       Apex_41239: 172.24.113.24  
 1. Import Log Data (Windows/PC)
     1. Open a new Excel file and go to the Data tab
     1. Select From Web in the Get External Data box
@@ -72,7 +73,10 @@ http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005&days=7
     1. Open the web browser for the apex data you want to downlaod
     1. Wait for the page to fully load (the top line of the page will read "This XML file does not appear to have any style information associated with it.  The documnet tree is shown below.")
     1. Right click somewhere on the webpage and click Save As.
-    1. Save your file in an accesible location or in your R workspace with a name identifying the apex unit and date. Ex. 39106_191127d6.csv identifies Apex_39106, that data starts on 11-27-2019, and that data is saved for up to 6 days after the start date (12-3-2019).  Manually type .csv to save the file as a csv instead of an xml file.
+    1. Save your file in an accesible location or in your R workspace with a name identifying the apex unit and date. 
+        1. Manually type .csv to save the file as a csv instead of an xml file.
+        1. Ex. 39106_191127d6.csv identifies Apex_39106, the saved data starts on 11-27-2019, and the data is saved through 6 days after the start date (through 12-3-2019).  
+
     1. Refer to [Mesocosm_Environmental_Data/Datalog_Data_Tidy.R](https://github.com/SilbigerLab/Mesocosm_Environmental_Data/blob/master/Datalog_Data_Tidy.R) for a guide to clean up the data into a usable format.
 
 <a name="Update"></a> **Update System**
