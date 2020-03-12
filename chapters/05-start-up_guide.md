@@ -98,7 +98,8 @@
     1. Listen and feel for any air leaks and adjust tubing as necessary.
 
 
-<a name="Draining_Sump"></a> **Draining the Mesocosm and Sump**
+<a name="Draining_Sump"></a> **Draining the Mesocosm and Sump**  
+
 1. The first step before draining any water is to turn off the powerheads, heaters, and CO2 bubblers in all mesocosm tanks. **The powerheads and heaters cannot be on when dry or they will be damaged**.
 1. You must also place caps on each pH probe filled with either DI water for temporary storage or KCl storage solution for long-term storage.  **The probe tips cannot dry out or they will be damaged**.
 1. When draining the tanks, drain one rack of 4 tanks at a time, to not overflow the drainage system.
@@ -135,7 +136,8 @@
     1. Let fresh water run through the system for a couple days before folling these same steps for draining the freshwater.
    
     
-<a name="Overflow_into_Secondary_Sump"></a> **Overflow into Secondary Sump**
+<a name="Overflow_into_Secondary_Sump"></a> **Overflow into Secondary Sump**  
+
 1. If you need to contain more water in the system than the tanks and main reservoir can hold at one time (ex. during a "low tide event" when half of the tank water is drained into the sump), then you can open flow to-from the secondary sump.
 1. First unplug the Sump Pump to make sure the pump will not run dry if there is not enough water (see details below).
 1. To direct some flow from the system into the secondary sump, partially or fully open the Secondary Sump Return Valve (Figure 1), so that the t-valve runs parallel with the PVC.  Filtered sump water will then be simultaniously directed into the mesocosm and the secondary sump, via PVC tubing that diverts water into the top of the secondary reservoir.
