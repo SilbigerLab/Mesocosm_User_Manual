@@ -7,6 +7,7 @@
 - [**Sump Flow**](#Sump_Flow)  
 - [**Mesocosm Tank Flow**](#Meso_Flow)  
 - [**CO2 Scrubber**](#CO2_Scrubber)  
+- [**Draining the Meso and Sump**](#Draining_Sump)
 
 <a name="Basic_Operation"></a> **Basic Operation**
 
@@ -41,7 +42,7 @@
     1. When you're done filling, **first turn off the power supply**, then close the t-valve (turn so the valve is perpendicular to the PVC) on the pipe going to the filter chamber, and finally close the t-valve at the hose.
         1. CLosing off either of the other t-valves could cause a pressure build-up in the PVC and may rupture the system.
     1. Place the lids on the water containers and use rope/line or ratcheting line to secure the bin lids down (this will help with water spillage on the drive back to CSUN).
-1. Filling the sump
+<a name="Filling_the_sump"></a> 1. Filling the sump
     1. Once back at CSUN, pull into the laoding bay between Citrus and Eucalyptus, and back up toward the Field Room, leaving just enough space to open the door.
     1. Unstrap and remove the lids.  Place one end of the large pool hose in one of the containers, and use a weight to keep it from floating up.
     1. Pull the free end of the hose to the sump, and start a siphon.  Gently wedge the end of the hose into the mesh filters in the sump for a. hands-free siphoning and b. filtering the water as it goes into the system.
@@ -66,7 +67,7 @@
 1. Turning on sump flow
     1. Once all the valves are properly opened/closed as described above, plug in the Cascade Pump and make sure water is running through the system properly without any leaks.  There may be some initial sputtering while air is pumped out of the pipes, but that should stop within a couple minutes.
     1. Look at the pump and make sure you can see water being pushed through the clear junction.
-        1. If it looks like water is not running through the pump for some reason, unplug the pump immediately.  Running the pump dry can burn out the motor.
+        1. If it looks like water is not running through the pump for some reason, **unplug the pump immediately**.  Running the pump dry can burn out the motor.
     1. If everything seems to be stable, plug in the UV light.
     1. To stabilize the pH in the system, fill and plug in the CO2 scrubbers as [detailed below](#CO2_Scrubber).
 
@@ -95,3 +96,40 @@
     1. Screw the lid back on, finger tight, and replace the tube on the side of the sump.  Reconnect the tubing from the airpump to the side of the Reactor tube and from the air splitter to the front of the tube.
     1. Once you're sure everything's securely placed, plug in the air pump.
     1. Listen and feel for any air leaks and adjust tubing as necessary.
+
+
+<a name="Draining_Sump"></a> **Draining the Mesocosm and Sump**
+1. The first step before draining any water is to turn off the powerheads, heaters, and CO2 bubblers in all mesocosm tanks. **The powerheads and heaters cannot be on when dry or they will be damaged**.
+1. You must also place caps on each pH probe filled with either DI water for temporary storage or KCl storage solution for long-term storage.  **The probe tips cannot dry out or they will be damaged**.
+1. When draining the tanks, drain one rack of 4 tanks at a time, to not overflow the drainage system.
+1. Water flow
+    1. If you intend to only drain the mesocosm tanks, but not the sump, then turn off the flow from both the N and S valves into the tank, turning both clockwise, then remove the PVC tubing as described below. If needed, divert excess water into the secondary sump following the [steps below](#), and disregard the rest of these draining instructions.
+    1. If you intend to drain the sump as well to fully shut down or clean out the system, then maintain high flow through the N valve into all tanks.  Continue following this set of instructions.
+1. Divert flow from the sump to the drainage port
+    1. We need to stop flow of water from the mesocosm tanks to the sump and divert this water to a drainage port (there is a drain in the Mechanical room behind the Field Room with PVC pipe facing downward inside.  This PVC is connected to our system and will be the location of drainage)
+    1. Refer to Figure 1. for t-valve identities.
+    1. **First open the System Drain Valve** by turning the valve so it aligns parallel to the PVC.  This opens flow to the drainage port in the back room.  Always open an avenue of flow before closing an avenue of flow to avoid back pressure build up.
+    1. Second, close the Meso to Sump Valve by turning the valve so it sits perpendicular to the PVC.  This will stop incoming water from the mesocosm from entering the sump and will divert all flow out of the system.
+1. Open tank drains
+    1. Under each tank is a needle valve controlling drain flow through the smaller PVC tubing in each tank.  Fully open this valve for the rack of 4 tanks, turning the needle counterclockwise.
+1. Pulling out the PVC drainage tubing
+    1. In each of the four tanks, **unscrew** the larger PVC tube until it is fully removed and water in the tank can drain out from the lowest point in the tank.
+    1. The smaller PVC tube can be pulled out from its slot, sometimes needing to be twisted to be unwedged.
+    1. Tanks with both PVC removed will drain faster.
+1. The sump pump located in the ground between the Mesocosm container and the Field Room will funcition normally to push water from the tanks to the Field Room system, but as we drain large volumes of water, periodically check to make sure water isn't overflowing out of the ground sump pump.
+1. Also periodically check on the drainage port to make sure the water being pumped in from the tanks isn't overflowing onto the floor.
+    1. If you notice the water is overflowing, slightly open the Meso to Sump valve to divert some water back into the sump and reduce the water volume diverted to the drainage port.
+    1. **We cannot let salt water overflow onto the floor of the Mechanics room**
+1. Sump flow
+    1. Unplug the UV light and CO2 scrubbers, but leave the pump on for now.
+    1. Allow the sump to continue pumping water from the main reservoir into the tanks, where the water will continuously drain out of the system.
+    1. Once the water level in the sump is about an inch or two below the top of the carbon filters (the three white cylinders inside the sump), unplug the Pump.  **The pump must be turned off before it runs dry, otherwise the pump will be damanged**
+    1. At this point there will still be some water left in the sump, which can either be siphoned out and dumped into the drainage port, or you can use a small aquarium pump to pump out the water in the main reservoir, the bio-filtration reservoir, and the 50-micron mesh reservoir.
+    1. **Be cautious to not let this pump run dry either, or it may be damaged**
+    1. To access the bio-filtration reservoir, remove the black and blue mesh filters, and bring them outside to clean by hosing down with freshwater.
+    1. To access the 50-micron mesh reservoir, remove the PVC tubing located directly after the Meso to Sump Valve (see Figure 1) by unscrewing the PVC at the junction.  The PVC with three outports can be temporarily removed, so the mesh can be taken out and also sprayed down to clean.
+1. Post-drainage
+    1. Once the system is fully drained of seawater, screw back on the PVC at the junction by the Meso to Sump Valve and screw in or wedge in each tank's PVC tubes back in place.
+    1. Follow the instructions [above for filling the sump](#Filling_the_sump) and the order of operations for turning flow back on.
+    1. You will not have to plug in the UV light or CO2 scrubbers since you are not maintaining any water chemistry, but rather just flushing the system.
+    1. Let fresh water run through the system for a couple days before folling these same steps for draining the freshwater.
