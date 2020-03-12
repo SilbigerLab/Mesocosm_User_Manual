@@ -103,7 +103,7 @@
 1. You must also place caps on each pH probe filled with either DI water for temporary storage or KCl storage solution for long-term storage.  **The probe tips cannot dry out or they will be damaged**.
 1. When draining the tanks, drain one rack of 4 tanks at a time, to not overflow the drainage system.
 1. Water flow
-    1. If you intend to only drain the mesocosm tanks, but not the sump, then turn off the flow from both the N and S valves into the tank, turning both clockwise, then remove the PVC tubing as described below. If needed, divert excess water into the secondary sump following the [steps below](#), and disregard the rest of these draining instructions.
+    1. If you intend to only drain the mesocosm tanks, but not the sump, then turn off the flow from both the N and S valves into the tank, turning both clockwise, then remove the PVC tubing as described below. If needed, divert excess water into the secondary sump following the [steps below](#Overflow_into_Secondary_Sump), and disregard the rest of these draining instructions.
     1. If you intend to drain the sump as well to fully shut down or clean out the system, then maintain high flow through the N valve into all tanks.  Continue following this set of instructions.
 1. Divert flow from the sump to the drainage port
     1. We need to stop flow of water from the mesocosm tanks to the sump and divert this water to a drainage port (there is a drain in the Mechanical room behind the Field Room with PVC pipe facing downward inside.  This PVC is connected to our system and will be the location of drainage)
@@ -133,3 +133,12 @@
     1. Follow the instructions [above for filling the sump](#Filling_the_sump) and the order of operations for turning flow back on.
     1. You will not have to plug in the UV light or CO2 scrubbers since you are not maintaining any water chemistry, but rather just flushing the system.
     1. Let fresh water run through the system for a couple days before folling these same steps for draining the freshwater.
+   
+    
+<a name="Overflow_into_Secondary_Sump"></a> **Overflow into Secondary Sump**
+1. If you need to contain more water in the system than the tanks and main reservoir can hold at one time (ex. during a "low tide event" when half of the tank water is drained into the sump), then you can open flow to-from the secondary sump.
+1. First unplug the Sump Pump to make sure the pump will not run dry if there is not enough water (see details below).
+1. To direct some flow from the system into the secondary sump, partially or fully open the Secondary Sump Return Valve (Figure 1), so that the t-valve runs parallel with the PVC.  Filtered sump water will then be simultaniously directed into the mesocosm and the secondary sump, via PVC tubing that diverts water into the top of the secondary reservoir.
+1. To then open flow between both the main holding reservoir and the secondary sump, open the Sump Exchange Valve (Figure 2), so the t-valve runs parallel with the PVC.
+    1. Because this flow-through connection will allow water to flow between both reservoirs to establish water level equilibrium, make sure the water level in the main reservoir is still about 2 inches above the carbon filters after this water exchange has occurred.  If not, add more seawater to the system until the carbon filters are once again submerged **to avoid the sump pump running dry**.
+    1. Once the filters are appropriately submerged (seawater only two inches above the filters, not much more), turn the Sump Pump back on by plugging it in.
