@@ -50,7 +50,7 @@
 | Cascade Water Pump | 1 |
 | UV Sterilizer | 1 |
 | UV Light | 1 |
-| Air Pump | 1 |
+| Coralife Air Pump | 2 | [$70.45 Amazon](https://www.amazon.com/gp/product/B000BJP4V0/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) |
 | Air Pump tubing to Phosban Reactor 3/8" ID x 10' | 2 | [$4.93 Home Depot](https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141) |
 | Airflow Tubing 3/16" ID x 8' | 4 | [$2.69 Petsmart](https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html) | 
 | Airstone | 4 |
