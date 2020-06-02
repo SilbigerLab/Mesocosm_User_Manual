@@ -26,8 +26,8 @@
 | CO2 Solenoid Valve | 20 | [$29.95 Bulk Reef Supply](https://www.bulkreefsupply.com/sv-1-solenoid-valve-neptune-systems.html) |
 | FS-25 1/4" Flow Sensor | 60 | [$19.95 Bulk Reef Supply](https://www.bulkreefsupply.com/1-4-flow-sensor-fs25-neptune-systems.html) |
 | Flow Solenoid/Gate Valve | 20 | [$16.99 Electric Solenoid Valves](https://www.electricsolenoidvalves.com/1-4-120v-ac-electric-plastic-solenoid-valve/) |
-| Inflow Seawater Tubing | 40 |
-| Inflow CO2 Tubing | 20 |
+| Polyethylene Tubing 1/4" OD for water | 40 | [$15.71 for 100' Amazon](https://www.amazon.com/Dixon-0817-Polyethylene-DI087002-Natural/dp/B00LT0T3MG/ref=sr_1_4?crid=ETZJL4UXADQY&dchild=1&keywords=polyethylene+tubing+1%2F4+od&qid=1590806141&sprefix=polyethylene+tubing%2Caps%2C211&sr=8-4#feature-bullets-btf)
+| Vinyl Tubing 1/4" OD for CO2 | 20 | [$3.92 for 20' Home Depot](https://www.homedepot.com/p/Everbilt-1-4-in-O-D-x-1-6-in-I-D-x-20-ft-Clear-PVC-Vinyl-Tubing-701968/207144351)
 | Airstone | 20 | [$5.99x10pack Amazon](https://www.amazon.com/Pawfly-Cylinder-Diffuser-Airstones-Hydroponics/dp/B075QCWGZQ/ref=sr_1_5?crid=3EXLLKKDA2NYZ&keywords=airstones+for+aquariums&qid=1572983301&sprefix=airstone%2Caps%2C197&sr=8-5) |
 | Inflow Tubing Stand | 40 |
 | VDM | 5 | [$99.95 Bulk Reef Supply](https://www.bulkreefsupply.com/led-pumps-control-module-vdm-neptune-systems.html) |
@@ -37,8 +37,10 @@
 | Apex Base Unit | 5 | [$399.95 Bulk Reef Supply](https://www.bulkreefsupply.com/apex-controller-base-unit-neptune-systems.html) |
 | Apex EB832 | 10 | [$249.95 Bulk Reef Supply](https://www.bulkreefsupply.com/energybar-832-neptune-systems.html) |
 | Tunze CO2 Regulator Valve | 1 |
-| 180gal Sump | 1 |
+| 107 gal Sump | 1 |
+| 250 gal Secondary Sump | 1 |
 | Chiller | 1 |
+| Water Level Pump | 1 | 
 
   
 <a name="Filtration"></a> **Filtration**
@@ -47,19 +49,20 @@
 | :--- | :--- | :--- |
 | PhosBan Reactor 550 | 1 | [$85.14 Bulk Reef Supply](https://www.bulkreefsupply.com/phosban-reactor-550.html) |
 | PhosBan CDX Carbon Dioxide Absorption Media 3L | 1 | [$44.38 Bulk Reef Supply](https://www.bulkreefsupply.com/cdx-carbon-dioxide-adsorption-media-two-little-fishies.html) |
-| Cascade Water Pump | 1 |
-| UV Sterilizer | 1 |
-| UV Light | 1 |
+| Cascade Water Pump | 1 | 
+| UV Sterilizer | 1 | 
+| UV Light (UV-BULB-095W-1) | 1 | [$110 AquaLogic](https://aqualogicinc.com/product/aqua-logic-uv-lamps/)
 | Air Pump | 1 |
 | Air Pump tubing to Phosban Reactor 3/8" ID x 10' | 2 | [$4.93 Home Depot](https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141) |
 | Airflow Tubing 3/16" ID x 8' | 4 | [$2.69 Petsmart](https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html) | 
 | Airstone | 4 |
+| Bag Filter, 50um | 3 |
 | Carbon Filter Cell | 3 |
 | Matala Filter, High Density (Blue) | 4 |
 | Matala Filter, Low Density (Black) | 4 |
 
   
-<a name="Spare_Items"></a> **Spare Items**
+<a name="Spare_Items"></a> **Available Replacement Items**
 
 | Item | Quantity |
 | :--- | :--- |
