@@ -11,7 +11,7 @@
 
 <a name="Basic_Operation"></a> **Basic Operation**
 
-1. Operating water level in the filtration sump should be 7" in the filter cell compartment.
+1. Operating water level in the filtration sump should be 7" in the filter cell compartment, about 2 inches above the three carbon filters.
 1. Overflow water from the tanks will feed down to the outside underground sump pump, then into to the filtration skid inside the Citrus Hall Field Room.  The water will flow through mesh filters and be pumped through carbon filters, the UV sterilizer, and chiller, then back to the tanks.
 
 <a name="Filtration"></a> **Filtration**
