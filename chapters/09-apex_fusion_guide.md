@@ -1,8 +1,7 @@
 # Apex Fusion
 
 To access the Silbiger Lab Fusion account, go to [ApexFusion.com](https://apexfusion.com), click "Get Control" and enter the login information:  
-Username: SilbigerLab  
-Password: silbigerlab
+[Please request Login Information upon use of the Silbiger Lab Mesocosm System]
 
 **Contents**  
 - [**Dashboard Display**](#Dashboard)  
