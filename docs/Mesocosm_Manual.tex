@@ -88,7 +88,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2020-01-17}
+    \date{2020-07-27}
 
 \usepackage{booktabs}
 
@@ -102,9 +102,9 @@
 \chapter{Summary}\label{summary}
 
 This manual describes the design, operation, and maintenance of the
-mesocosm aquaria, located in the loading bay between Citrus Hall and
-Eucalyptus Hall at California State University, Northridge, funded and
-operated by Dr.~Nyssa Silbiger.
+Silbiger Lab mesocosm system, located in the loading bay between Citrus
+Hall and Eucalyptus Hall at California State University, Northridge,
+funded and operated by Dr.~Nyssa Silbiger.
 
 \chapter{Contacts}\label{contacts}
 
@@ -169,6 +169,16 @@ Location: EH 2014 Available M-Th 0600-1630
 \href{http://www.csun.edu/science-mathematics/science-shop}{www.csun.edu/Science-Shop}\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Wendy Dunbarr\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
+Support Technician, CSUN Stockroom\strut
+\end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
+\href{mailto:wendy.dunbarr@csun.edu}{\nolinkurl{wendy.dunbarr@csun.edu}}
+818-677-2056\strut
+\end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Location: CH 5108\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Perry Martin\strut
 \end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 Supervising Plumber, PPM\strut
@@ -212,7 +222,7 @@ Dickson Lab\strut
 \end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright\strut
 Seawater CO2 CRMs\strut
 \end{minipage} & \begin{minipage}[t]{0.28\columnwidth}\raggedright\strut
-\href{mailto:co2crms@ucsd.edu}{\nolinkurl{co2crms@ucsd.edu}}
+\href{mailto:co2crms@ucsd.edu}{\nolinkurl{co2crms@ucsd.edu}},
 858-534-2582\strut
 \end{minipage} & \begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 Marine Physical Lab, Scripps Institution of Oceanography University of
@@ -234,15 +244,17 @@ Operational Parameters}}\\
 - \protect\hyperlink{Apex_Connection_Series}{\textbf{Apex Connection
 Series}}\\
 - \protect\hyperlink{EB832_Outlet_Connections}{\textbf{EB832 Outlet
-Connections}} - \protect\hyperlink{Water_Flow_Operation}{\textbf{Water
-Flow Operation}}
+Connections}}\\
+- \protect\hyperlink{Water_Flow_Operation}{\textbf{Water Flow
+Operation}}
 
  \textbf{Aquaria System Component List}
 
 \begin{itemize}
 \tightlist
 \item
-  Experimental Tanks (21.25'' x 12.5'' x 13.5''H) - Per tank:\\
+  Experimental Tanks (21.25'' x 12.5'' x 13.5''H, 14.37 gal) - Per
+  tank:\\
 \item
   1 Submersible powerhead pump
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Hydor_Nano_Pump.pdf}{Hydor
@@ -262,6 +274,8 @@ Flow Operation}}
 \item
   1 Solenoid valve for pH (Apex)\\
 \item
+  1 air stone and tubing to bubble CO2\\
+\item
   3 Flow sensors (Apex, FS-25 1/4" fitting, flow rates from 3-12 GPH
   (12-45 LPH))\\
 \item
@@ -271,11 +285,15 @@ Flow Operation}}
 \item
   1 Drain line: ``D''\\
 \item
+  1 Overflow drain port\\
+\item
+  1 Controlled drain port\\
+\item
   1 Gate valve (solenoid for water inflow)\\
 \item
   1 VDM
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/VDM_manual.pdf}{Apex
-  Variable Dimming Module}, 1 unit for 4 tanks)\\
+  Variable Dimming Module}, 1 unit for 2 tanks)\\
 \item
   1 FMM (\href{https://www.neptunesystems.com/getstarted/fmk/}{Apex
   Fluid Metering Module})\\
@@ -284,13 +302,17 @@ Flow Operation}}
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/PM1_manual.pdf}{Apex
   Probe Module 1})\\
 \item
+  Experimental Tanks - Per Apex, Rack of 4 tanks:\\
+\item
   1 Base Unit
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Apex_Comprehensive_Reference_Manual.pdf}{Apex}
   processing unit, 1 unit for 4 tanks)\\
 \item
-  1 EB832
+  2 EB832
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/EB832_Guide.pdf}{Apex
   8-outlet EnergyBar}, 1 unit for 2 tanks)\\
+\item
+  1 Conductivity probe (Apex)\\
 \item
   1 CO2 regulator valve
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Tunze_CO2_Regulator.pdf}{Tunze
@@ -310,17 +332,17 @@ Flow Operation}}
 \item
   Sump (66.25'' x 31.5'' x 21''H)\\
 \item
-  Chiller
+  Chiller and Heat Pump
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/AquaLogic_Chiller.pdf}{AquaLogic
   Multi-Temp and Titan Series})\\
 \item
-  Heat Pump
-  (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/AquaLogic_Chiller.pdf}{AquaLogic
-  Multi-Temp and Titan Series})\\
-\item
-  PM1
+  1 PM1
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/PM1_manual.pdf}{Apex
   Probe Module 1})\\
+\item
+  1 Temperature probe (Apex)\\
+\item
+  1 pH probe (Apex)
 \item
   Water pump
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Complete_Cascade.pdf}{PerformancePro
@@ -328,18 +350,23 @@ Flow Operation}}
 \item
   UV Sterilizer (Comet Series 95 Watt Lamp)\\
 \item
-  PhosBan chemical filter
+  2 PhosBan chemical filter
   (\href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Phosban_Reactor.pdf}{PhosBan
   Reactor 550})\\
 \item
-  Air compressor\\
+  2 Air compressors\\
 \item
-  Airstones (4 units on 4 outflow tubes)\\
+  10 Airstones and tubing (4 units on one phosban reactor, 6 units on
+  the other)\\
 \item
-  Carbon filter cells (3 units, CF28AC,28in, ActC)\\
+  3 Mesh filters (AquaLogic, 50 microns mesh size)\\
 \item
-  Mesh filter (8 units, Matala Filter Media, interchanged 4 Blue high
-  density and 4 Black low density sheets)
+  3 Carbon filter cells with mesh casing (AquaLogic, CF28AC,28in,
+  ActC)\\
+\item
+  4 Blue high density mesh filters (Matala Filter Media)\\
+\item
+  4 Black low density mesh filters (Matala Filter Media)
 \end{itemize}
 
  \textbf{System Operational Parameters}
@@ -351,21 +378,26 @@ Flow Operation}}
   will recirculate back to a main holding reservoir (sump).\\
 \item
   Normal High Tide operating water level is approximately 12.5``H for a
-  total water volume of 14.37 gal per tank (287.4 gal total for the
-  20-tank-system).\\
+  total water volume of 14.37 gal per tank (total of 287.4 gal to fill
+  the available 20 tanks).\\
 \item
   Normal Low Tide operating water level is approximately 4``H for a
   total water volume of 4.60 gal per tank (92.0 gal total for the
   20-tank-system).\\
 \item
-  Excess water volume to sump at low tide is 9.77 gal per tank (195.4
-  gal total for the 20-tank-system).\\
+  Excess water drained to the sump at low tide is 9.77 gal per tank
+  (195.4 gal total for the 20-tank-system).\\
 \item
   Normal sump operating water level is 7" water in the filter cell
   compartment, which has an approximate volume of 82.32 gal. Sump
-  freeboard volume is 107.39 gal.\\
+  freeboard volume (max before overflow) is 107.39 gal.\\
 \item
-  Aquaria drain line is in line with a 30 gal sump pump, which will draw
+  Secondary sump available volume is 250 gal. To operate from a High
+  Tide water level to a Low Tide water level, excess water must be
+  redirected to the secondary sump to accomodate the excess volume (see
+  below).\\
+\item
+  Aquaria drain pipe is in line with a 30 gal sump pump, which will draw
   water from the aquaria drain line and pump water to the sump.\\
 \item
   Sump is in line with a secondary holding tank for sump overflow at Low
@@ -374,47 +406,49 @@ Flow Operation}}
   \begin{itemize}
   \tightlist
   \item
-    195.4 gal returning to sump in a Low Tide scenario
-  \item
-    30 gal in sump pump
-  \item
-    107.39 gal in sump (freeboard volume)
-  \item
-    58.01 gal necessarily pumped to secondary holding tank\\
+    195.4 gal returning to sump in a Low Tide scenario will be split
+    between the main and secondary sumps so that water level is the same
+    in each.\\
   \end{itemize}
 \item
-  Flow rate for each tank is 2-6 GPH (See
-  \href{chapters/06-tidal_manipulation.md}{Tidal Manipulation} for
+  \textbf{Total system water volume should not exceed 390 gal - ideal
+  water volume for this scenario is 375 gal total throughout the system}
+\item
+  Flow rate for each tank can be maintained at \textasciitilde{}2-6 GPH
+  (See \href{chapters/07-tidal_manipulation.md}{Tidal Manipulation} for
   specific flow rates).\\
 \item
   Chiller is plumbed inline with the
   \href{https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Filtration_Skid_Build_Package.pdf}{filtration
-  skid} which includes mechanical/biological filtration as well as UV
+  skid}, which includes mechanical/biological filtration as well as UV
   sterilization (chemical filtration).\\
 \item
   One main pump recirculates the water flow throughout the experimental
   tanks and the main holding reservoir.\\
 \item
   Each tank has an immersion heater that allows tank temperatures to be
-  set 15 degF (8.3 degC) above the main holding tank reservoir.
+  set \textasciitilde{}15 degF (8.3 degC) above the main holding tank
+  reservoir.
 
   \begin{itemize}
   \tightlist
   \item
     \textbf{Note: The tank needs to have low flow or be static in order
-    to heat up to a desired temp. Once the temperature has been reached
-    then it can be set to normal operating flow through mode.}\\
+    to initially heat up to desired temperatures much higher than the
+    sump. Once the temperature has been reached in the system, then flow
+    can be set to the normal operating rate.}\\
   \end{itemize}
 \item
   A small sumbersible powerhead in each tank provides water circulation
   throughout the tank.\\
 \item
-  Each tank has (2) supply lines, each with (1) Neptune Systems flow
-  sensor and (1) needle valve for incoming flow rate control, and (1)
-  gate solenoid valve in line with (1) supply line for tidal effect.
-  Each tank also has (2) drain lines with (1) flow sensor in line with
-  (1) needle valve for outgoing flow rate control. Incoming and outgoing
-  flow rates have to be manually adjusted for the tidal effect.\\
+  Each tank has (2) water supply lines, each with (1) Neptune Systems
+  flow sensor and (1) needle valve for manual flow rate control, and (1)
+  gate solenoid valve in line with (1) supply line for programmable
+  tidal effect. Each tank also has (2) drain lines with (1) flow sensor
+  in line with (1) needle valve for outgoing flow rate control, and (1)
+  `overflow' line for maintaining maximum tank volume. Incoming and
+  outgoing flow rates have to be manually adjusted for tidal effect.\\
 \item
   Flow metered water lines
 
@@ -444,20 +478,30 @@ Flow Operation}}
   \end{itemize}
 \item
   Each tank has (1) CO2 supply line with an airstone connected to (1)
-  Neptune Systems solenoid valve to control and lower pH in tanks.\\
+  Neptune Systems solenoid valve to control the lowering and maintenance
+  of pH in tanks.\\
 \item
-  CO2 scrubber comprised of an air compressor connected to a Phosban
-  Reactor will bubble air into the sump to bring pH to ambient or
-  near-ambient conditions in the holding reservoir.\\
+  CO2 scrubber comprised of (1) or (2) air compressors connected to (1)
+  or (2) Phosban Reactors will bubble out CO2 from the sump water to
+  bring up pH to ambient or near-ambient conditions in the holding
+  reservoir to supply to the tanks.\\
 \item
   Each tank has individual LED lighting, which can be controlled for
-  white or blue light by specific times or natural daily light cycles.\\
+  white or blue light for natural daily light cycles or some other
+  program.\\
 \item
   Certain tank conditions can be controlled via Neptune Systems Apex
   Controllers. Each Apex controls (4) tanks.\\
 \item
-  Controllable parameters are pH, temperature, tidal effect, and
-  lighting.
+  Controllable parameters are: pH, temperature, tidal effect (S flow
+  into the tank), and lighting.\\
+\item
+  Certain tank conditions can be monitored via Neptune Systems Apex
+  Controllers. Each Apex monitors and records data for (4) tanks.\\
+\item
+  Monitored parameters include: pH, temperature, salinity, flow rates,
+  relative light intensity, and the status of any set program (whether a
+  unit is On of Off at any given time based on the program set)
 \end{itemize}
 
  \textbf{Apex Connection Series}
@@ -523,41 +567,42 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding
 \begin{itemize}
 \tightlist
 \item
-  Inflow from the filtration sump to the mesocosm tanks
+  Flow from the filtration sump to the mesocosm tanks
 
   \begin{itemize}
   \tightlist
   \item
-    Water from the chiller can be directed either back into the sump
-    (the bypass t-valve is parallel to the pvc, opening flow to the
-    sump, and the tank t-valve is perpendicular to the pvc, closing flow
-    to the tanks) or to the mesocosm tanks (the bypass valve is angled
-    to allow partial flow to the sump and tanks, and the tank valve is
-    parallel or angled with the pvc, opening flow to the tanks).
+    Water from the chiller can be directed either back into the sump or
+    to the mesocosm tanks or both simultaniously.\\
   \item
     The bypass valve is used to regulate the line pressure going back to
     the mesocosm tanks. The more closed, the higher the pressure in the
-    line, and the more open, the lower the pressure.
+    line, and the more open, the lower the pressure.\\
   \item
-    The chiller has a safety flow switch that requires a minimum flow
-    rate for the chiller to operate, so the bypass valve can be used to
-    regulate the chiller flow as well as the container flow.
+    It is recommeded you maintain partial flow to the sump to maintain
+    circulation within the sump and to not overwhelm the tanks with more
+    water pressure than they can handle, depending on your flow rates
+    in.\\
+  \item
+    Multiple valaves in line can be used to regulate the flow through
+    the filtration system, though the chiller has a safety flow switch
+    that requires a minimum flow rate for the chiller to operate.\\
+  \item
+    Minimize flow through the filtration system if you want to increase
+    residence time of water through the UV sterilizer.\\
   \end{itemize}
 \item
-  Outflow from the mesocosm tanks to the filtration sump
+  Flow from the mesocosm tanks to the filtration sump
 
   \begin{itemize}
   \tightlist
   \item
-    Water from the tanks drains to an outdoor underground sump pump,
-    which will automatically pump water out when a certain water level
-    is reached. This water can be directed either back into the sump
-    (the sump inflow t-valve is opened parallel to the pvc, allowing
-    flow to the three dump pipes into the filtration skid), or if you
-    intend to drain water in the event of a water change or the end of
-    an experiment, water can be directed to a drain port (the sump
-    inflow valve is closed and the drain t-valve along the South wall is
-    opened parallel to the pvc).
+    Water from the tanks drains to an outdoor underground 30 gal
+    compartment, which will automatically pump water out when a certain
+    water level is reached (about 15 gal). This water can be directed
+    either back into the sump, or if you intend to drain water in the
+    event of a water change or the end of an experiment, water can be
+    directed to a drain port.
   \end{itemize}
 \item
   Overflow from sump to secondary containment
@@ -570,8 +615,8 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding
     can individually hold. Excess water can be redirected from the sump
     (S1) to the secondary containment (S2) by opening the S2 inflow
     t-valve (allows simultaneous flow of filtered, chilled water to both
-    S2 and the mesocosm tanks), and the overflow t-valve (allows
-    continuous flow exchange between S1 and S2).
+    S2 and the mesocosm tanks), and an exchange t-valve (allows for
+    continuous flow between S1 and S2).
   \end{itemize}
 \end{itemize}
 
@@ -579,8 +624,9 @@ Note: Each horizontal row on an EB832 corresponds to one tank, yielding
 
 \textbf{Contents}\\
 - \protect\hyperlink{Experimental_Mesocosm}{\textbf{Experimental
-Mesocosm}} - \protect\hyperlink{Filtration}{\textbf{Filtration}} -
-\protect\hyperlink{Spare_Items}{\textbf{Spare Items}}
+Mesocosm}}\\
+- \protect\hyperlink{Filtration}{\textbf{Filtration}}\\
+- \protect\hyperlink{Spare_Items}{\textbf{Spare Items}}
 
  \textbf{Experimental Mesocosm}
 
@@ -625,8 +671,12 @@ Bulk Reef Supply}\tabularnewline
 Flow Solenoid/Gate Valve & 20 &
 \href{https://www.electricsolenoidvalves.com/1-4-120v-ac-electric-plastic-solenoid-valve/}{\$16.99
 Electric Solenoid Valves}\tabularnewline
-Inflow Seawater Tubing & 40 &\tabularnewline
-Inflow CO2 Tubing & 20 &\tabularnewline
+Polyethylene Tubing 1/4" OD for water & 40 &
+\href{https://www.amazon.com/Dixon-0817-Polyethylene-DI087002-Natural/dp/B00LT0T3MG/ref=sr_1_4?crid=ETZJL4UXADQY\&dchild=1\&keywords=polyethylene+tubing+1\%2F4+od\&qid=1590806141\&sprefix=polyethylene+tubing\%2Caps\%2C211\&sr=8-4\#feature-bullets-btf}{\$15.71
+for 100' Amazon}\tabularnewline
+Vinyl Tubing 1/4" OD for CO2 & 20 &
+\href{https://www.homedepot.com/p/Everbilt-1-4-in-O-D-x-1-6-in-I-D-x-20-ft-Clear-PVC-Vinyl-Tubing-701968/207144351}{\$3.92
+for 20' Home Depot}\tabularnewline
 Airstone & 20 &
 \href{https://www.amazon.com/Pawfly-Cylinder-Diffuser-Airstones-Hydroponics/dp/B075QCWGZQ/ref=sr_1_5?crid=3EXLLKKDA2NYZ\&keywords=airstones+for+aquariums\&qid=1572983301\&sprefix=airstone\%2Caps\%2C197\&sr=8-5}{\$5.99x10pack
 Amazon}\tabularnewline
@@ -650,8 +700,10 @@ Apex EB832 & 10 &
 \href{https://www.bulkreefsupply.com/energybar-832-neptune-systems.html}{\$249.95
 Bulk Reef Supply}\tabularnewline
 Tunze CO2 Regulator Valve & 1 &\tabularnewline
-180gal Sump & 1 &\tabularnewline
+107 gal Sump & 1 &\tabularnewline
+250 gal Secondary Sump & 1 &\tabularnewline
 Chiller & 1 &\tabularnewline
+Water Level Pump & 1 &\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -670,7 +722,9 @@ PhosBan CDX Carbon Dioxide Absorption Media 3L & 1 &
 Bulk Reef Supply}\tabularnewline
 Cascade Water Pump & 1 &\tabularnewline
 UV Sterilizer & 1 &\tabularnewline
-UV Light & 1 &\tabularnewline
+UV Light (UV-BULB-095W-1) & 1 &
+\href{https://aqualogicinc.com/product/aqua-logic-uv-lamps/}{\$110
+AquaLogic}\tabularnewline
 Air Pump & 1 &\tabularnewline
 Air Pump tubing to Phosban Reactor 3/8" ID x 10' & 2 &
 \href{https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141}{\$4.93
@@ -679,13 +733,14 @@ Airflow Tubing 3/16" ID x 8' & 4 &
 \href{https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html}{\$2.69
 Petsmart}\tabularnewline
 Airstone & 4 &\tabularnewline
+Bag Filter, 50um & 3 &\tabularnewline
 Carbon Filter Cell & 3 &\tabularnewline
 Matala Filter, High Density (Blue) & 4 &\tabularnewline
 Matala Filter, Low Density (Black) & 4 &\tabularnewline
 \bottomrule
 \end{longtable}
 
- \textbf{Spare Items}
+ \textbf{Available Replacement Items}
 
 \begin{longtable}[]{@{}ll@{}}
 \toprule
@@ -712,9 +767,11 @@ Hydor Powerhead & 0\tabularnewline
 \textbf{Contents}\\
 - \protect\hyperlink{Basic_Operation}{\textbf{Basic Operation}}\\
 - \protect\hyperlink{Filtration}{\textbf{Filtration}}\\
-- \protect\hyperlink{Sump_Flow}{\textbf{Sump Flow}} -
-\protect\hyperlink{Meso_Flow}{\textbf{Mesocosm Tank Flow}} -
-\protect\hyperlink{CO2_Scrubber}{\textbf{CO2 Scrubber}}
+- \protect\hyperlink{Sump_Flow}{\textbf{Sump Flow}}\\
+- \protect\hyperlink{Meso_Flow}{\textbf{Mesocosm Tank Flow}}\\
+- \protect\hyperlink{CO2_Scrubber}{\textbf{CO2 Scrubber to Elevate
+pH}}\\
+- \protect\hyperlink{Draining_Sump}{\textbf{Draining the Meso and Sump}}
 
  \textbf{Basic Operation}
 
@@ -722,14 +779,24 @@ Hydor Powerhead & 0\tabularnewline
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Operating water level in the filtration sump should be 7" in the
-  filter cell compartment.
+  Operating water level in the filtration sump should be at least 7" in
+  the filter cell compartment, about 2 inches above the three carbon
+  filters.
 \item
-  Overflow water from the tanks will feed down to the outside
-  underground sump pump, then into to the filtration skid inside the
-  Citrus Hall Field Room. The water will flow through mesh filters and
-  be pumped through carbon filters, the UV sterilizer, and chiller, then
-  back to the tanks.
+  Outflow water from the tanks feeds down to the outside underground
+  sump pump, then into to the filtration system inside the Citrus Hall
+  Field Room.
+\item
+  Water pumped into the Field Room flows through three 50um bag filters
+  and eight matala mesh filters before overflowing into the main holding
+  reservoir. Reservoir water is pumped through three carbon filters, a
+  UV sterilizer, and chiller, then either back into the holding
+  reservoir or to the tanks.
+\item
+  Water directed toward the tanks has two potential inflow ports (one
+  constant flow and one controlled by a solenoid) and two potential
+  outflow ports (one overflow port and one controlled by a manual
+  open/close needle valve to adjust tank volume)
 \end{enumerate}
 
  \textbf{Filtration}
@@ -738,21 +805,87 @@ Hydor Powerhead & 0\tabularnewline
 \tightlist
 \item
   Biological and Mechanical Filtration: Water from the Mesocosm tanks is
-  pumped into the sump by passing through 6 mesh filters. These filters
-  have an accumulated biofilm to biologically filter the water before it
-  enters the sump.
+  pumped into the sump while passing through three 50um bag filters and
+  eight matala mesh filters (high and low density) to pick up debris.
+  These filters have an accumulated biofilm to biologically filter the
+  water before entering the sump and returning to the tanks.
 \item
   Chemical and Mechanical Filtration: Water in the sump is pulled
-  through the three carbon filters with mesh filter sleeves by a pump
-  and pushed up into the UV sterilizer, where is is then directed
-  through the chiller chamber.
+  through three carbon filters with mesh filter sleeves and pumped into
+  a UV sterilizer before entering the sump and returning to the tanks.
 \end{itemize}
 
  \textbf{Sump Flow}
 
-\includegraphics{images/Pump_Valve.PNG}\\
-\includegraphics{images/Flow_through_UV.PNG}\\
-\includegraphics{images/Sump_return_valve.PNG}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Preparing flow in the sump
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Before turning on the pump, make sure the correct channels of flow
+    are opened to direct the water where it needs to go.
+  \item
+    The Meso Return valve should be vertical in the ``closed'' position
+    (perpendicular to the PVC), and the Sump Return valve should also be
+    vertical in the ``open'' position (in line with the PVC). See Figure
+    1 to identify valves.
+  \item
+    The Pump Return valve should be veritcal in the ``open'' position to
+    allow flow from the sump through the pump to the UV filter and
+    chiller compartments. See Figure 2.
+
+    \begin{enumerate}
+    \def\labelenumiii{\arabic{enumiii}.}
+    \tightlist
+    \item
+      If you do not intend to utilize the Secondary Sump at this time,
+      close the Sump Exchange valve (as shown in Figure 2)
+    \end{enumerate}
+  \item
+    The two UV Flow valves and the Chiller Bypass valve should all be
+    vertical. This directs flow down through the UV light chamber before
+    pushing through to the chiller compartment. See Figure 3.\\
+    \includegraphics{images/Sump_Flow_Valves.png}\\
+    \includegraphics{images/Pump_Valve.png}\\
+    \includegraphics{images/UV_Valves.png}\\
+  \end{enumerate}
+\item
+  Turning on sump flow
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Once all the valves are properly opened/closed as described above,
+    plug in the Cascade Pump and make sure water is running through the
+    system properly without any leaks. There may be some initial
+    sputtering while air is pumped out of the pipes, but that should
+    stop within a couple minutes.
+  \item
+    Look at the pump and make sure you can see water being pushed
+    through the clear junction.
+
+    \begin{enumerate}
+    \def\labelenumiii{\arabic{enumiii}.}
+    \tightlist
+    \item
+      If it looks like water is not running through the pump,
+      \textbf{unplug the pump immediately}. Running the pump dry can
+      burn out the motor.
+    \end{enumerate}
+  \item
+    If everything seems to be stable, plug in the UV light.
+  \item
+    To stabilize the pH in the system, fill the PhosBan Reactors with
+    CO2 absorption media and plug in the air pumps as
+    \protect\hyperlink{CO2_Scrubber}{detailed below}.
+  \end{enumerate}
+\end{enumerate}
 
  \textbf{Mesocosm Tank Flow}
 
@@ -769,21 +902,30 @@ Hydor Powerhead & 0\tabularnewline
     Make sure the drain valve located under each tank is closed (turned
     clockwise all the way, finger-tight).
   \item
-    Open the N flow valve for each tanks (and S flow valve if you're
-    turning the Solenoid ON to fill the tanks).
-  \item
-    To open flow from the sump to the tanks, first make sure the
-    circular flow within the sump itself is stable. Then slowly open the
-    t-valve (turn counterclockwise) till the t-valve is sitting about 45
-    degrees to the PVC pipe. This splits flow to both the sump and now
-    the mesocosm.
-  \item
     Fill each rack one at a time (only open the N flow valves for one
     set of 4 tanks at a time) and make sure rack and filtration skid
     flows are balanced before moving on to the next rack.
+
+    \begin{enumerate}
+    \def\labelenumiii{\arabic{enumiii}.}
+    \tightlist
+    \item
+      Open the N flow valve for each tank (and S flow valve if you plan
+      to turn on the solenoid {[}SOL-TNK-\#{]} to help fill the tanks).
+    \end{enumerate}
   \item
-    Make sure the complete system reaches equilibrium in standard
-    recirculation mode before setting up the tidal cycle.
+    To open flow from the sump to the tanks, first make sure the
+    circular flow within the sump itself is stable. Then slowly open the
+    Meso Return valve (turn counterclockwise) until the t-valve is
+    sitting about 45 degrees to the PVC pipe. This configuration splits
+    flow to both the sump and the mesocosm. You can further adjust water
+    pressure to the tanks by slightly closing the Sump Return valve to
+    direct more flow to the meso, less flow to the sump, while always
+    keeping the line to the sump partially open.
+  \item
+    Once all tanks are filled, make sure the whole system is stable in
+    standard recirculation mode before setting up a tidal cycle, if
+    desired.
   \end{enumerate}
 \item
   Set flow in tanks
@@ -794,41 +936,451 @@ Hydor Powerhead & 0\tabularnewline
   \item
     Calculate your desired residence time. When full, each tank holds 55
     liters, so divide 55L by your desired residence time and use that
-    estimated value as your flow rate. Example: for a RT of 8 hours:
-    55L/8hr = 6.88 L/hr or 114.67 mL/min
-  \item
-    If you have an acceptable range for your residence time, set flow
-    rate to within that range, as close to your desired flow as
-    possible. Example: for a RT of 7.5-8.5 hours: RT = 6.47-7.33 L/hr or
-    107.83-122.17 mL/min
+    estimated value as your flow rate. Example: for a RT of 4 hours:
+    55L/4hr = 13.75 L/hr
   \item
     Use the Neptune Systems flow meters as a guide for setting the flow,
     but for the most accurate flow rates, use a graduated cylinder to
     estimate flow into each tank.
+
+    \begin{enumerate}
+    \def\labelenumiii{\arabic{enumiii}.}
+    \tightlist
+    \item
+      Using the example above: 13.75 L/hr = 229.2 mL/min = 38.2 mL/10
+      seconds to efficiently check each tank's flow using a graduated
+      cylinder
+    \end{enumerate}
   \item
-    Flow will slightly change throughout the day, so it is recommended
-    to set flow twice per day: once in the morning and once in the
-    afternoon/evening.
+    While higher flow is more stable, lower flow may change slightly
+    throughout the day, so it is recommended to check and set flow twice
+    per day: once in the morning and once in the afternoon/evening.
   \end{enumerate}
 \end{enumerate}
 
- \textbf{CO2 Scrubber} 1. Replacing media in the Phosban Reactor 1.
-Unplug the airpump connected to the Phosban Reactor and disconnect both
-sets of tubing going into/out of the Reactor tube to easily remove and
-work wtih the Reactor tube. 1. Unscrew the lid of the Reactor, take off
-the red cap and black mesh, and pour out the used up media (purple if
-freshly used up, grayish white if used and stale) into a bag or some
-containment. 1. Use tape or parafilm to cover the hole of the small tube
-inside the Reactor before pouring in the new media (stark white
-pellets). Fill to an inch \textbf{below} the top of the small tube, so
-no media falls into the tube. Remove the covering from the small tube
-and replace the black mesh and red cap, aligning the red cap so it
-encapsulates the small tube. 1. Screw the lid back on, finger tight, and
-replace the tube on the side of the sump. Reconnect the tubing from the
-airpump to the side of the Reactor tube and from the air splitter to the
-front of the tube. 1. Once you're sure everything's securely placed,
-plug in the air pump. 1. Listen and feel for any air leaks and adjust
-tubing as necessary.
+ \textbf{CO2 Scrubber to Elevate pH}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Filling/Replacing media in the Phosban Reactor
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Unplug the airpump connected to the Phosban Reactor and disconnect
+    both sets of tubing going into/out of the Reactor to easily handle
+    it.
+  \item
+    Unscrew the lid of the Reactor, take off the red cap and black mesh,
+    and pour out the used up media (purple if freshly used, grayish
+    white if used and stale) into a bag or some other containment. Used
+    media can be deposited in a standard trash receptacle.
+  \item
+    Use tape or parafilm to cover the hole of the small tube inside the
+    Reactor before pouring in the new media (stark white pellets). Fill
+    to \textbf{an inch below} the top of the small tube, so no media
+    falls into the tube. Remove the covering from the small tube and
+    replace the black mesh and red cap, aligning the red cap so it
+    encapsulates the top of the small tube.
+  \item
+    Screw the lid back on, finger tight, and replace the Reactor on the
+    side of the sump. Reconnect the tubing from the airpump to the side
+    of the Reactor and from the air splitter to the front of the
+    Reactor. Submerge the airstones connected to the air splitter tubing
+    in the holding reservoir of the sump.
+  \item
+    Once you're sure everything's securely placed, plug in the air pump.
+  \item
+    Listen and feel for any air leaks and adjust tubing as necessary.
+  \end{enumerate}
+\end{enumerate}
+
+ \textbf{Draining the Mesocosm and Sump}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The first step before draining any water is to turn off the
+  powerheads, heaters, and CO2 solenoids in all mesocosm tanks.
+  \textbf{The powerheads and heaters cannot be ON when dry or they may
+  be damaged}.
+\item
+  You must also place caps on each pH probe filled with either DI water
+  for temporary storage or KCl storage solution for long-term storage.
+  \textbf{The probe tips cannot dry out or they will be damaged}.
+\item
+  When draining the tanks, drain one rack of 4 tanks at a time, to not
+  overflow the drainage system.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    If you intend to only drain the mesocosm tanks, but not the sump,
+    then first make sure the Sump Return valve of the filtration system
+    is fully open (parallel to the PVC), then turn off the flow of both
+    the N and S valves for each tank, turning the valves clockwise, and
+    remove the outflow pipes as described below. If needed, divert
+    excess water into the secondary sump following the
+    \protect\hyperlink{Overflow_into_Secondary_Sump}{``Overflow'' steps
+    below}, and disregard the rest of these draining instructions.
+  \item
+    If you intend to drain the sump as well to fully shut down or clean
+    out the system, then maintain high flow through the N valve into all
+    tanks. Continue following this set of instructions.
+  \end{enumerate}
+\item
+  Divert flow from the mesocosm tanks to the drainage port
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    There is a drain in the Mechanical Room behind the Field Room with
+    PVC pipe facing downward inside. This PVC is connected to our system
+    and is the location for all system drainage.
+  \item
+    Refer to Figure 1. for the following t-valve identities.
+  \item
+    \textbf{First open the System Drain Valve} by turning the valve so
+    it aligns parallel to the PVC. This opens flow to the drainage port
+    in the back room. Always open an avenue of flow before closing an
+    avenue of flow to avoid back pressure build up.
+  \item
+    Second, partially close the Meso To Sump valve by turning the valve
+    so it sits diagonal to the PVC. This will reduce incoming water from
+    the mesocosm from entering the sump and will divert some flow out of
+    the system.
+
+    \begin{enumerate}
+    \def\labelenumiii{\arabic{enumiii}.}
+    \tightlist
+    \item
+      Do not yet close the Meso To Sump valve completely until you can
+      ensure there is no overflow at the drainage port in the Mechanical
+      Room.
+    \end{enumerate}
+  \end{enumerate}
+\item
+  Open tank drains
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Under each tank is a needle valve controlling drain flow through the
+    smaller outflow pipe in each tank. Fully open this valve for the
+    rack of 4 tanks, turning the needle counterclockwise.
+  \end{enumerate}
+\item
+  Removing the outflow pipes
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    In each of the four tanks, \textbf{unscrew} the larger outflow pipe
+    until it is fully removed and water in the tank can drain out from
+    the lowest point in the tank.
+  \item
+    The smaller outflow tube can simply be pulled out from its slot,
+    sometimes needing to be twisted to be unwedged.
+  \end{enumerate}
+\item
+  The sump pump located in the ground between the Mesocosm container and
+  the Field Room will funcition normally to push water from the tanks to
+  the Field Room system, but as you drain large volumes of water,
+  periodically check that the water is not overflowing out of this
+  in-ground reservoir.
+\item
+  Also periodically check the drainage port to make sure the water
+  pumped from the tanks is not overflowing onto the floor of the
+  Mechanical Room.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    If you notice water is overflowing, slightly open the Meso To Sump
+    valve to divert some water back into the sump and reduce the water
+    volume diverted to the drainage port.
+  \item
+    \textbf{Do not allow salt water to overflow the drainage port of the
+    Mechanics room}
+  \end{enumerate}
+\item
+  Unplug the UV light and air pumps, but leave the water pump on for
+  now.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Allow the sump to continue pumping water from the main reservoir
+    into the tanks, where the water will continuously drain out of the
+    system.
+  \end{enumerate}
+\item
+  Once the water level in the sump is about an inch or two below the top
+  of the carbon filters (the three white cylinders inside the sump),
+  unplug the Pump. \textbf{The pump must be turned off before it runs
+  dry, otherwise the pump will be damanged}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    At this point there will still be some water left in the sump, which
+    can either be siphoned out and dumped into the drainage port, or you
+    can use a small aquarium pump to pull water out of the main
+    reservoir and the mesh filtration reservoirs.
+  \item
+    \textbf{Be cautious to not let this pump run dry either, or it may
+    be damaged}
+  \item
+    To access the bio-filtration reservoir, remove the black and blue
+    matala mesh filters, and clean them by hosing them down with
+    freshwater (available just outside the Field Room door).
+  \item
+    To access the 50-micron mesh reservoir, remove the PVC pipe located
+    directly after the Meso To Sump valve (see Figure 1) by unscrewing
+    the PVC at the junction. This PVC pipe with three outports can be
+    temporarily removed, so the mesh can be taken out and also sprayed
+    down to clean.
+  \item
+    Remove the three carbon filters from the main reservoir to hose them
+    down to clean.
+  \end{enumerate}
+\item
+  Post-drainage
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Once the system is fully drained of seawater, screw back on the PVC
+    pipe with three outports at the junction by the Meso To Sump valve.
+    Also re-place each mesocosm tank's outflow pipes (screw in the large
+    pipes and wedge in the small pipes).
+  \item
+    Follow the instructions in the
+    \href{chapters/06-water_collection.md}{Water Collection Guide for
+    filling the sump} with fresh water (attach a hose to the water pipe
+    next to the Field Room door and fill the sump from the hose) and the
+    order of operations for turning flow back on through the sump and
+    tanks.
+  \item
+    You will not have to plug in the UV light or air pumps since you are
+    not maintaining any water chemistry, but rather just flushing the
+    system.
+  \item
+    Let fresh water run through the system for one to two days before
+    following these same steps for draining the freshwater.
+  \end{enumerate}
+\item
+  Once the system has been flushed with fresh water and drained again,
+  remove the water inflow tubes from each tank's N and S ports to be
+  acid washed and rinsed in DI water before next use.
+\end{enumerate}
+
+ \textbf{Overflow into Secondary Sump}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If you need to contain more water in the system than the tanks and
+  main reservoir can hold at one time (ex. during a ``low tide event''
+  when half of the tank water is drained into the sump), then you will
+  need to incorporate flow to and from the secondary sump.
+\item
+  First unplug the sump's main water pump to make sure the pump will not
+  run dry if the water level drops too low (see details below).
+\item
+  To direct some flow from the mesocosm system into the secondary sump,
+  partially or fully open the Secondary Sump Return valve (Figure 1), so
+  that the t-valve runs parallel with the PVC. Filtered sump water will
+  then be simultaniously directed into the mesocosm and the secondary
+  sump, via PVC tubing that diverts water into the top of the secondary
+  reservoir.
+\item
+  To then open flow between both the main holding reservoir and the
+  secondary sump, open the Sump Exchange valve (Figure 2), so the
+  t-valve runs parallel with the PVC.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Because this flow-through connection will allow water to flow
+    between both reservoirs to establish water level equilibrium, make
+    sure the water level in the main reservoir is still about 2 inches
+    above the carbon filters after this water exchange has occurred. If
+    not, add more seawater to the system until the carbon filters are
+    once again submerged \textbf{to avoid the pump running dry}.
+  \item
+    Once the carbon filters are appropriately submerged (seawater just
+    two inches above the filters, not much more), turn the main pump
+    back on.
+  \item
+    The full system requires \textasciitilde{} 400 gallons of sea water
+    to maintain tank volume and submersion of carbon filters while
+    including use of the secondary sump.
+  \end{enumerate}
+\end{enumerate}
+
+\chapter{Water Collection Procedures}\label{water-collection-procedures}
+
+The water collected for the mesocosm system is filtered (100um mesh
+filter) unbuffered seawater from the Southern California Marine
+Institute (SCMI) located at 820 S Seaside Ave, San Pedro, CA 90731.
+
+\textbf{Contents}\\
+- \protect\hyperlink{packing_list}{\textbf{SCMI Packing List}}\\
+- \protect\hyperlink{check_list}{\textbf{Pre-Collection Check List}}\\
+- \protect\hyperlink{water_flow}{\textbf{Water Flow Procedure}}\\
+- \protect\hyperlink{water_collection}{\textbf{Water Collection}}\\
+- \protect\hyperlink{filling_the_sump}{\textbf{Filling the Sump}}
+
+ \textbf{SCMI Packing List}\\
+1. Items to bring to SCMI for collecting water 1. Two large water
+storage bins and lids 1. Pool hose (stored inside one of the water bins)
+1. Standard garden hose (from Field Room) 1. Triple filter and locking
+ring 1. Banjo attachment (PVC to pool hose adaptor) 1. Two ratchet
+straps or sets of rope
+
+ \textbf{Pre-Collection Check List}\\
+1. Pre-travel 1. Sign out the Ford 450 truck at the Bio Stock Room for
+your desired day (Biology Department Vehicle ID 440). 1. Before driving
+a univeristy vehicle, be sure to complete the Defensive Drivers course.
+Email Wendy Dunbarr
+(\href{mailto:wendy.dunbarr@csun.edu}{\nolinkurl{wendy.dunbarr@csun.edu}})
+for details. 1. At least 24 hours before collecting water, email Mark
+Loos
+(\href{mailto:mark.loos@csulb.edu}{\nolinkurl{mark.loos@csulb.edu}}) of
+your intent to get water, and give him an estimated time of arrival.
+Check in with him or his appointed staff member upon arrival. 1. Check
+that all three o-rings of the triple filter are in place and that the
+filters are placed in order (left to right following direction of flow:
+20um, 5um, 1um) before twisting the filters onto the base rack. Use the
+locking ring to ensure a tight seal of the filter compartments onto the
+rack. 1. Ensure that all components of the sump are prepared for water:
+1. Three bag filters are in place 1. Eight matala filters are in place
+1. Three carbon filters are in place, the open PVC end wedged into the
+holes of the PVC located in the back of the holding tank 1. If you do
+not intend to use the secondary sump, close the Sump Exchange valve (see
+image below) \includegraphics{images/Pump_Valve.png} 1. Check that all
+power cords are away from areas with possible water exposure 1. Once you
+pick up the truck from behind Chaparral Hall, back it up to the large
+stacked square bins in the same parking lot, near the side of the
+building on the grass. 1. With the help of at least one other person,
+lift and slide the top bin into the bed of the truck. Take off the lid
+of the second bin and lift the second bin onto the bed of the truck.
+Once in place, put the lid back on (lids weight an additional 15-20lbs).
+1. Make sure you have all the items listed above laoded in the truck to
+bring to SCMI. 1. Plan to leave CSUN for SCMI after 9am to avoid major
+traffic, and wear or bring closed toed shoes to wear once you arrive. 1.
+When you arrive at SCMI, back into the employee lot (the parking lot to
+the left of the building when looking on from the street), back through
+the lot and behind the building parallel to the wire fence. 1. Move the
+cone before backing into the lot behind the building and replace the
+cone when you leave.
+
+ \textbf{Water Flow Procedure}\\
+1. Near the wire fence, there is a large pool hose with a pvc loop
+attachment. Remove the banjo attachemnt comprising of the PVC ``U'' on
+the pool hose and attach the banjo adapter that connects to the triple
+filter. Before connecting it to the filter, move this end of the hose to
+the drain port (hole in the concrete flowing under the walkway). 1.
+Unwind the SCMI garden hose enough to also place the outflow end at the
+drain port. 1. Open the t-valve at the base of the pool hose
+\textbf{half-way (at a 45 degree angle)} and fully open adjacent garden
+hose (t-valve parallel to the PVC). 1. Refernce image for t-valve
+alignment: \includegraphics{images/SCMI_hose_valves.png}\\
+1. Walk over to the filtration area in the corner of the back lot (near
+the fish pens) and locate the filter chamber (tall teal cylinder with
+rounded top). Open the t-valve for the PVC pipe running from the base of
+the filter chamber toward the wire fence (see image below). 1. There is
+a power switch on the fence in line with the filter's PVC. Turning this
+switch ON will initiate flow from the marina, through the filter, and
+out the end of the pool hose. 1. \textbf{Do not turn on the power supply
+until you have opened the other t-valves.} Doing so could cause pressure
+buildup in the piping and damage the system. 1. Flip the switch ON and
+leave the water running for 30 seconds to 1 minute to flush out any
+standing water in the system.
+\includegraphics{images/SCMI_filter_pvc.png}
+
+ \textbf{Water Collection}\\
+1. Connect the male end of the garden hose to the outflow end of the
+triple filter, and place the female end inside one of the bins (you will
+need to remove or offset the bin lids). 1. When you have finished
+flushing out the system and are ready to fill the bins, turn off the
+power supply without closing off any of the t-valves. 1. Attach the
+banjo adapter to the triple filter, then turn on the power supply again.
+This will initiate flow through the filters and into the bins. To avoid
+pressure build-up in the system, allow the SCMI garden hose to
+continuously pump water into the drain port. 1. Fillin the bins 1. If
+you are filling up the entire mesocosm system, you will need to fill
+both bins about 3/4 full twice to obtain 400 gallons, requiring two
+trips to SCMI. 1. If you are only doing a partial water change or
+refill, fill the bins with slightly more than you need in case any water
+is lost en route to CSUN. 1. When you are finished filling,
+\textbf{first turn off the power supply}, then close the t-valve on the
+pipe between the power supply and the filter chamber, and finally close
+the t-valves at the base of the hoses. 1. CLosing off any t-valves
+before shutting off the power could cause a pressure build-up in the PVC
+and may rupture the system. 1. Place the lids on the water containers
+and use the ratchet straps or rope to secure the bin lids down (this
+will help with water spillage on the drive back to CSUN). 1. Remove the
+banjo adapter from the pool hose and the triple filter, and replace the
+PVC ``U'' back on the pool hose. 1. Remove the garden hose from the
+triple filter, then tilt the triple filter upside down to allow water
+inside the filter chambers to flow out before loading it back in the
+truck.
+
+ \textbf{Filling the Sump}\\
+1. Once back at CSUN, pull into the laoding bay between Citrus and
+Eucalyptus, and back up to the Field Room, leaving just enough space to
+open the door. 1. Unstrap and remove the lids. Place one end of the
+large pool hose in one of the containers, and use a weight to keep it
+from floating up. 1. Pull the free end of the hose to the sump, and
+start a siphon. Gently wedge the end of the hose in between the
+matalamesh filters in the sump for hands-free siphoning and to filter
+the water as it goes into the system. 1. To start a gravity-fed siphon,
+fill the hose with as much water as you can, displacing the air. Keep
+one end of the hose weighed down in the seawater container and the other
+end wedged in the sump. Starting near the sump end of the hose and
+working toward the bin end, lift the hose section by section to redirect
+the bulk of the water within toward the bin end until at least 1/3 of
+the hose at the bin end is filled with water. Lower the hose section you
+are holding to return flow back toward the sump end. 1. When water
+volumne in the first bin is nearly at the top of the hose opening,
+remove the weight while holding down the hose opening toward the bottom
+of the bin. 1. Keep the opening at an angle to the bottom to allow for
+continued suctioning of water without exposure to air. 1. When you are
+ready to switch bins, preserve the siphon by cupping the palm of your
+hand against the hose end, submerging the hose in the next bin, then
+removing your hand. Place the weight again to avoid the hose floating to
+the surface. 1. If you plan to collect water again that day, simply
+replace the lids once you have finished siphoning, and drive back to
+SCMI for another round. 1. Once you are finished filling the sump and
+emptying the bins, attach the garden hose to the fresh water tap on the
+outside of the Field Room, and turn on water by using the metal screw
+key hanging on a pipe just inside the Field Room door to the left. 1.
+Hose down the entire back, bed, and sides of the truck, everything that
+may have been exposed to salt water. Also unscrew the filter chambers of
+the triple filter and hose down the chambers, the rack, and the filters
+sufficiently to clean off any debris or particulates. 1. Place the large
+pool hose back in one of the bins, and once you turn off the hose water,
+replace the key and store the garden hose back in the Field Room. 1.
+Before parking the truck, back it up to the same location where you
+picked up the bins, and drop/place the bins back on the grass. If there
+is any water left in the bins, dump that out before leaving them
+stacked.
 
 \chapter{Tidal Manipulation}\label{tidal-manipulation}
 
@@ -969,28 +1521,38 @@ On when: High
 \tightlist
 \item
   Programming the solenoid for diel variance:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Using Advanced programming and Virtual outlets
+  \item
+    Create a unique virtual outlet for every time block which requires a
+    different pH, and for every tank/probe which requires that pH
+    treatment.
+  \item
+    Virtual Outlet Example (for the 6 hours between 6:31am and 12:30pm,
+    the CO2 solenoid will dose CO2 into tank 1 while the probe reads
+    8.10 or above):
+  \end{itemize}
 \end{enumerate}
 
-\begin{itemize}
-\tightlist
-\item
-  Using Advanced programming and Virtual outlets
-\item
-  Create a unique virtual outlet for every time block which requires a
-  different pH, and for every tank/probe which requires that pH
-  treatment. *Virtual Outlet Example (for the 6 hours between 6:31am and
-  12:30pm, the CO2 solenoid will dose CO2 into tank 1 while the probe
-  reads 8.10 or above): Fallback OFF Set OFF If Time 06:31 to 12:30 Then
-  ON If pH-1 \textless{} 8.10 Then OFF
-\end{itemize}
-
-*Advanced Program Example (Every 6 hours, the pH setpoint changes, and
-each of the four time block has a unique virtual outlet name, as
+Fallback OFF\\
+Set OFF\\
+If Time 06:31 to 12:30 Then ON\\
+If pH-1 \textless{} 8.10 Then OFF\\
+* Advanced Program Example (Every 6 hours, the pH setpoint changes, and
+each of the four time blocks has a unique virtual outlet name, as
 presented below in the four programming lines. The CO2 solenoid will
 dose the tank when the conditions of the virtual outlet program are
-met): Fallback OFF Set OFF If Output pH\_1\_630 = ON Then ON If Output
-pH\_1\_1230 = ON Then ON If Output pH\_1\_1830 = ON Then ON If Output
-pH\_1\_0030 = ON Then ON
+met):
+
+Fallback OFF\\
+Set OFF\\
+If Output pH\_1\_630 = ON Then ON\\
+If Output pH\_1\_1230 = ON Then ON\\
+If Output pH\_1\_1830 = ON Then ON\\
+If Output pH\_1\_0030 = ON Then ON
 
 Refer to
 \href{https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/7503b88686aef920c4a4ed473b1efe37b34dae10/Manuals/Apex_Comprehensive_Reference_Manual.pdf}{Comprehensive
@@ -1010,13 +1572,23 @@ to yield the same outcome in all 20 tanks, or change programs for varied
 results.
 
 \textbf{Contents}\\
-- \protect\hyperlink{Programm_Screen}{**Accessing the Programming Edit
-Screen in Apex} - \protect\hyperlink{Probes}{\textbf{Probes}}\\
+- \protect\hyperlink{Programm_Screen}{\textbf{Accessing the Programming
+Edit Screen in Apex}}\\
+- \protect\hyperlink{Probes}{\textbf{Probes}}\\
 - \protect\hyperlink{Modules_Outlets_and_Ports}{\textbf{Modules,
 Outlets, and Ports}}\\
 - \protect\hyperlink{Outlet_Setup}{\textbf{Outlet Setup in
 ApexFusion}}\\
 - \protect\hyperlink{Profiles}{\textbf{Profiles}}
+
+\begin{itemize}
+\tightlist
+\item
+  For some quick tutorials on advanced programming in Fusion, check out
+  Neptune Systems'
+  \href{https://www.neptunesystems.com/getstarted/apexng/apex-control-freak-advanced/}{Control
+  Freak} page.
+\end{itemize}
 
  \textbf{Accessing the Programming Edit Screen}
 
@@ -1246,6 +1818,8 @@ All configurations are for Control Type: Advanced
   Set OFF\\
   If Sun 0/0 Then ON\\
   If Moon 0/0 Then ON\\
+  If Tmp-\# \textgreater{} 35.0 Then OFF\\
+  Min Time 030:00 Then OFF\\
 \item
   Log Enabled\\
 \item
@@ -1254,7 +1828,7 @@ All configurations are for Control Type: Advanced
   Fallback OFF\\
   Set OFF\\
   If pH-1 \textgreater{} 8.10 Then ON (for more specific examples, see
-  controlling\_pH(\#controlling\_pH))\\
+  \protect\hyperlink{controlling_pH}{controlling\_pH})\\
 \item
   Log Enabled\\
 \item
@@ -1268,23 +1842,19 @@ All configurations are for Control Type: Advanced
 \item
   Fallback OFF\\
   Set OFF\\
-  If Moon 0/0 Then RampUp\\
+  If Moon 0/0 Then Blue\\
 \item
   WhtLED\_\#
 \item
   Fallback OFF\\
   Set OFF\\
-  If Sun 0/0 Then ON\\
-  If Tmp-\# \textgreater{} 35.0 Then OFF\\
-  Min Time 030:00 Then OFF
+  If Sun 0/0 Then RampUp\\
 \item
   BluLED\_\#
 \item
   Fallback OFF\\
   Set OFF\\
-  If Moon 0/0 Then ON\\
-  If Tmp-\# \textgreater{} 35.0 Then OFF\\
-  Min Time 030:00 Then OFF
+  If Moon 0/0 Then Blue
 \end{itemize}
 
  \textbf{Profiles}
@@ -1293,6 +1863,16 @@ All configurations are for Control Type: Advanced
 \tightlist
 \item
   RampUp:
+\item
+  Type: Ramp
+\item
+  Ramp Time: 30 min
+\item
+  Start Intensity: 0
+\item
+  End Intensity: 100
+\item
+  Blue:
 \item
   Type: Ramp
 \item
@@ -1315,8 +1895,17 @@ Password: silbigerlab
 - \protect\hyperlink{Dashboard}{\textbf{Dashboard Display}}\\
 - \protect\hyperlink{Module_Setup}{\textbf{Module Setup}}\\
 - \protect\hyperlink{Outlet_Setup}{\textbf{Outlet Setup}}\\
-- \protect\hyperlink{Data_Logs}{\textbf{Downloading Data Logs}} -
-\protect\hyperlink{Update}{\textbf{Update System}}
+- \protect\hyperlink{Data_Logs}{\textbf{Downloading Data Logs}}\\
+- \protect\hyperlink{Update}{\textbf{Update System}}
+
+\begin{itemize}
+\tightlist
+\item
+  For some quick tutorials on advanced programming in Fusion, check out
+  Neptune Systems'
+  \href{https://www.neptunesystems.com/getstarted/apexng/apex-control-freak-advanced/}{Control
+  Freak} page.
+\end{itemize}
 
  \textbf{Dashboard Display}
 
@@ -1442,8 +2031,11 @@ Examples of what to enter into your internet browser:\\
   \def\labelenumii{\arabic{enumii}.}
   \tightlist
   \item
-    Apex\_39106: 172.24.113.25 Apex\_40216: 172.24.113.22 Apex\_39952:
-    172.24.113.23 Apex\_37810: 172.24.113.21 Apex\_41239: 172.24.113.24
+    Apex\_39106: 172.24.113.25\\
+    Apex\_40216: 172.24.113.22\\
+    Apex\_39952: 172.24.113.23\\
+    Apex\_37810: 172.24.113.21\\
+    Apex\_41239: 172.24.113.24\\
   \end{enumerate}
 \item
   Import Log Data (Windows/PC)
@@ -1479,10 +2071,19 @@ Examples of what to enter into your internet browser:\\
     Right click somewhere on the webpage and click Save As.
   \item
     Save your file in an accesible location or in your R workspace with
-    a name identifying the apex unit and date. Ex. 39106\_191127d6.csv
-    identifies Apex\_39106, that data starts on 11-27-2019, and that
-    data is saved for up to 6 days after the start date (12-3-2019).
-    Manually type .csv to save the file as a csv instead of an xml file.
+    a name identifying the apex unit and date.
+
+    \begin{enumerate}
+    \def\labelenumiii{\arabic{enumiii}.}
+    \tightlist
+    \item
+      Manually type .csv to save the file as a csv instead of an xml
+      file.
+    \item
+      Ex. 39106\_191127d6.csv identifies Apex\_39106, the saved data
+      starts on 11-27-2019, and the data is saved through 6 days after
+      the start date (through 12-3-2019).
+    \end{enumerate}
   \item
     Refer to
     \href{https://github.com/SilbigerLab/Mesocosm_Environmental_Data/blob/master/Datalog_Data_Tidy.R}{Mesocosm\_Environmental\_Data/Datalog\_Data\_Tidy.R}
@@ -1592,120 +2193,143 @@ Malfunction}}\\
 - \protect\hyperlink{Turn_off_Sump_Flow}{\textbf{Turning off Sump
 flow}}\\
 - \protect\hyperlink{Light_OFF}{\textbf{Light not responding to
-program}} - \protect\hyperlink{pH_Probe_Malfunction}{\textbf{pH probe
-malfunction}}
+program}}\\
+- \protect\hyperlink{pH_Probe_Malfunction}{\textbf{pH probe
+malfunction}}\\
+- \protect\hyperlink{pH_spikes}{\textbf{pH spikes}}
 
- \textbf{Loss of Power to the Sump/Tripped Breaker} * Breaker tripped in
-the field room (pump, UV filter, CO2 scrubber all off) 1. If you just
-plugged in an item that correlated with the power shutting off, unplug
-that item. It may have tripped the breaker. 1. Check for other items
-plugged into EDP C-4 outlets that shouldn't be plugged in or seem out of
-place. Alert PPM of anything that shouldn't be plugged into those
-outlets (e.g.~CSUN golf carts). 1. Make sure it's a tripped breaker and
-not the GFI outlet needing to be reset. 1. On the West wall inside the
-Field Room, just to the right of the secondary sump, there is a quadplex
-(4-plug outlet) that has a Reset button. Push that button until you hear
-a click. If you hear the click but the power is not restored, then
-follow the next steps. 1. This GFI outlet is also connected to the
-quadplex down by the sump on the South wall, so all 8 outlets are
-controlled by the GFI and could initiate the need for a Reset. 1. Call
-PPM (818-677- ext. 2222) and let them know a breaker tripped at Citrus
-Hall in outside room 3114 - the room next to the Mechanics Room on the
-outside and South side of Citrus Hall. 1. When PPM arrives, let them
-know the breaker box is on the 3rd floor of Citrus in Room 3303 and the
-switch is for EDP C-4
+ \textbf{Loss of Power to the Sump/Tripped Breaker}\\
+1. Breaker tripped in the field room (pump, UV filter, CO2 scrubber all
+off) 1. If you just plugged in an item that correlated with the power
+shutting off, unplug that item. It may have tripped the breaker. 1.
+Check for other items plugged into EDP C-4 outlets that shouldn't be
+plugged in or seem out of place. Alert PPM of anything that shouldn't be
+plugged into those outlets (e.g.~CSUN golf carts). 1. Make sure it's a
+tripped breaker and not the GFI outlet needing to be reset. 1. On the
+West wall inside the Field Room, just to the right of the secondary
+sump, there is a quadplex (4-plug outlet) that has a Reset button. Push
+that button until you hear a click. If you hear the click but the power
+is not restored, then follow the next steps. 1. This GFI outlet is also
+connected to the quadplex down by the sump on the South wall, so all 8
+outlets are controlled by the GFI and could initiate the need for a
+Reset. 1. Call PPM (818-677- ext. 2222) and let them know a breaker
+tripped at Citrus Hall in outside room 3114 - the room next to the
+Mechanics Room on the outside and South side of Citrus Hall. 1. When PPM
+arrives, let them know the breaker box is on the 3rd floor of Citrus in
+Room 3303 and the switch is for EDP C-4
 
  \textbf{Sump Pump Malfunction and Turning off flow to the Mesocosm
-Tanks} * If the sump pump (the outside underground pump between the
-Mesocosm container and the Field Room) stops pumping water to the sump,
-it will overflow out onto the concrete and into the loading bay
-driveway. * If you notice the pump has malfunctioned, do the following:
-1. Check if the GFI outlet on the outside of the Mesocosm container
-needs to be reset. On the 2-plut outlet, there is a Reset button. Push
-that button until you hear a click. If you hear the click but the pump
-does not respond (or you see the light at the bottom right corner of the
-outlet flash red), then follow the next steps. 1. Turn off flow to the
-Mesocosm tanks 1. There is a \textbf{T-valve} located along PVC which
-goes from the chiller to outside the Field Room. Turn this T-valve
-\textbf{clockwise} so it sits perpendicular to the PVC, closing off flow
-from the sump to the mesocosm, but retaining circulating flow within the
-sump. 1. The T-valve is in line with a PVC pipe running parallel to the
-sump, slightly above and to the side of the blue and black biofilter
-mesh.
+Tanks}\\
+1. If the sump pump (the outside underground pump between the Mesocosm
+container and the Field Room) stops pumping water to the sump, it will
+overflow out onto the concrete and into the loading bay driveway. 1. If
+you notice the pump has malfunctioned, do the following: 1. Check if the
+GFI outlet on the outside of the Mesocosm container needs to be reset.
+On the 2-plut outlet, there is a Reset button. Push that button until
+you hear a click. If you hear the click but the pump does not respond
+(or you see the light at the bottom right corner of the outlet flash
+red), then follow the next steps. 1. Turn off flow to the Mesocosm tanks
+1. There is a \textbf{T-valve} located along PVC which goes from the
+chiller to outside the Field Room. Turn this T-valve \textbf{clockwise}
+so it sits perpendicular to the PVC, closing off flow from the sump to
+the mesocosm, but retaining circulating flow within the sump. 1. The
+T-valve is in line with a PVC pipe running parallel to the sump,
+slightly above and to the side of the blue and black biofilter mesh.
 
- \textbf{Turning off Sump Flow} * If a situation arises where you need
-to shut off the recirculating flow of the entire system, unplug the UV
-light from the South wall quadplex, then unplug the pump from the same
-quadplex. * If you would like to also turn off the CO2 scrubber, unplug
-both air pump plugs from the same South wall quadplex.
+ \textbf{Turning off Sump Flow}\\
+1. If a situation arises where you need to shut off the recirculating
+flow of the entire system, unplug the UV light from the South wall
+quadplex, then unplug the pump from the same quadplex. 1. If you would
+like to also turn off the CO2 scrubber, unplug both air pump plugs from
+the same South wall quadplex.
 
- \textbf{Flowmeter Misreadings} * Flowmeter on ApexFusion is reading 0
-or some incorrect value * Sometimes the flowmeters (FM) inline with
-water flow will either have a bubble or some debris affecting the spin
-of the turbine within the FM. 1. Make sure to check the flowmeter
-connections back at the FMM module for a connection issue. Unplug and
-plug back in the cable for the FM in question. 1. Try clearing bubbles.
-If gently tapping the FM doesn't resolve the issue, you may have to
-remove the FM to clear it out. * Removing the FM for cleaning 1. Turn
-off flow to the Mesocosm Tanks and wait 15-20 minutes to ensure there is
-no flow to the tanks. 1. Unscrew the FM at both of its compression
-fittings until the fittings are loose on the tubing, then pull gently at
-the tubings to remove them from the FMM (if the compression fitting is
-all the way unscrewed, but the tube isn't coming out of the FMM, pull a
-little harder beacuse sometimes the tubing just gets stuck in the FM).
-1. Visually expect the inside of the FM, and if needed, use a small long
-object to probe and spin the internal turbine to dislodge any debris.
+ \textbf{Flowmeter Misreadings}\\
+1. Flowmeter on ApexFusion is reading 0 or some incorrect value 1.
+Sometimes the flowmeters (FM) inline with water flow will either have a
+bubble or some debris affecting the spin of the turbine within the FM.
+1. Make sure to check the flowmeter connections back at the FMM module
+for a connection issue. Unplug and plug back in the cable for the FM in
+question. 1. Try clearing bubbles. If gently tapping the FM doesn't
+resolve the issue, you may have to remove the FM to clear it out. 1.
+Removing the FM for cleaning 1. Turn off flow to the Mesocosm Tanks and
+wait 15-20 minutes to ensure there is no flow to the tanks. 1. Unscrew
+the FM at both of its compression fittings until the fittings are loose
+on the tubing, then pull gently at the tubings to remove them from the
+FMM (if the compression fitting is all the way unscrewed, but the tube
+isn't coming out of the FMM, pull a little harder beacuse sometimes the
+tubing just gets stuck in the FM). 1. Visually expect the inside of the
+FM, and if needed, use a small long object to probe and spin the
+internal turbine to dislodge any debris.
 
  \textbf{Rebooting the Apex}\\
-* If the Apex needs to be restarted for any reason, there are multiple
-ways to reboot the system. * Apex Fusion 1. Click the Expand Settings
+1. If the Apex needs to be restarted for any reason, there are multiple
+ways to reboot the system. 1. Apex Fusion 1. Click the Expand Settings
 gears icon and go to the Misc page (wrench icon). 1. Under Power, check
 the box for Reboot: Restart Apex, then click the orange cloud in the
 upper right corner to send this command to Apex. Wait a few minutes for
-the devices to come back online. * Restart Button 1. Under the Apex Base
-Unit, above the pH port, there is a small hole encasing the Restart
+the devices to come back online. 1. Restart Button 1. Under the Apex
+Base Unit, above the pH port, there is a small hole encasing the Restart
 button. 1. Insert a push pin or small object until you feel the button
 press down and hold about 10 seconds. 1. If you require a full system
 reboot back to factory settings, hold this button for 1 minute. This
 will erase all modules, programming, log data, and probe calibrations,
 so be very sure.
 
- \textbf{Light not responding to program} * Sometimes manually turning
-the light OFF on Apex, then back ON again, the light will function
-properly. * If Tank 13's light doesn't turn on when the program
-indicates it should be ON, go into Programming settings for
-Light-TNK-13, adjust the advanced program slightly (e.g.~change an
+ \textbf{Light not responding to program}\\
+1. Sometimes manually turning the light OFF on Apex, then back ON again,
+the light will function properly. 1. If a light doesn't turn on when the
+program indicates it should be ON, go into Programming settings for
+Light-TNK-\#, adjust the advanced program slightly (e.g.~change an
 ``ON'' to an ``OFF'') and click the orange cloud to send to the Apex.
 Then change the program back to what it was before you made a change,
-and the light should turn on.
+then see if the light resumes its proper program. 1. If the light still
+doesn't turn on, try \protect\hyperlink{Reboot_Apex}{rebooting the
+apex}.
 
- \textbf{pH Probe Malfunction} * If a pH probe is giving an `off'
-reading, first calibrate the probe. 1. On your Fusion dashboard, click
-the gear symbol to the right of the pH reading to go to its settings. 1.
-Select Automatic Calibration, and follow the instructions, using new
-packets of 7 and 10 calibration solution. 1. When placing the probe into
-the calibration solution, swirl the probe in the solution a little
-before starting the reading. * If the reading is still off, go back into
-the pH probe's settings on Fusion and select Advanced to do a Manual
-Calibration. 1. Make sure Temp Compensate is Disabled then select Manual
-Calibration, and follow the instructions. 1. When placing the probe into
-the calibration solution, swirl the probe in the solution a little
-before starting the reading. Let the probe sit in the calibration
-solutions for about 5 minutes (or longer as necessary) to ensure a
-stable reading. * If the reading is still off after both the Automatic
-and Manual Calibrations, try a Factory Reset. 1. Go back into the pH
-probe's settings on Fusion and select and select Advanced. 1. Select
-Manual Calibration again, but this time just click ``Next'' through the
-steps quickly. Don't let the numbers settle. Then click ``Finish''. If
-the numbers for the 7 and 10 calibrations are the same, the probe
-calibration will be wiped and reset, ready for a new calibration. 1.
-From the Apex's ``Misc'' settings, check the box for Reboot: Restart,
-and click the orange cloud to send this command to the Apex. Wait for
-the Apex to fully reboot. 1. Run through the Manual Calibration steps
-again. * If after following the above steps, the pH probe is still
-malfunctioning, call Neptune Systems for support.
+ \textbf{pH Probe Malfunction}\\
+1. If a pH probe is giving an `off' reading, first calibrate the probe.
+1. On your Fusion dashboard, click the gear symbol to the right of the
+pH reading to go to its settings. 1. Select Automatic Calibration, and
+follow the instructions, using new packets of 7 and 10 calibration
+solution. 1. When placing the probe into the calibration solution, swirl
+the probe in the solution a little before starting the reading. 1. If
+the reading is still off, go back into the pH probe's settings on Fusion
+and select Advanced to do a Manual Calibration. 1. Make sure Temp
+Compensate is Disabled then select Manual Calibration, and follow the
+instructions. 1. When placing the probe into the calibration solution,
+swirl the probe in the solution a little before starting the reading.
+Let the probe sit in the calibration solutions for about 5 minutes (or
+longer as necessary) to ensure a stable reading. 1. If the reading is
+still off after both the Automatic and Manual Calibrations, try a
+Factory Reset. 1. Go back into the pH probe's settings on Fusion and
+select and select Advanced. 1. Select Manual Calibration again, but this
+time just click ``Next'' through the steps quickly. Don't let the
+numbers settle. Then click ``Finish''. If the numbers for the 7 and 10
+calibrations are the same, the probe calibration will be wiped and
+reset, ready for a new calibration. 1. From the Apex's ``Misc''
+settings, check the box for Reboot: Restart, and click the orange cloud
+to send this command to the Apex. Wait for the Apex to fully reboot. 1.
+Run through the Manual Calibration steps again. 1. If after following
+the above steps, the pH probe is still malfunctioning, call Neptune
+Systems for support.
 
- **\_**
+ \textbf{pH Spikes}\\
+1. If you noticed the pH in your take plummetting down when the CO2
+solenoid is actively dosing. 1. It is likely that the fine tuning needle
+valve on the tank's CO2 solenoid needs to be closed a little more
+(turned slightly clockwise) to bring the flow of CO2 out of the air
+stone bubbler down. 1. If the flow is too high, this could cause rapid
+changes in pH in your tank before the probe can even detect the change.
+1. By the time the probe detects the change and turns off the bubbler,
+plus with a slight residual time between the solenoid closing and the
+remaining CO2 gas being emitted from the bubbler, the pH may have
+dropped lower than desired. 1. Turn the CO2 flow down using the large
+nob on the solenoid's needle valve so that you see a gentle stream of
+bubbles slowly coming from the bubbler. 1. The CO2 solenoid is connected
+to the tank's bubbler tubing. It is a white box with the Neptune Systems
+logo and an arrow indicating flow direction. Connecting the tubing and
+the white box is a metal needle valve. The end knob of that needle valve
+can be turned slightly for fine tuning gas flow.
 
 \bibliography{book.bib,packages.bib}
 
