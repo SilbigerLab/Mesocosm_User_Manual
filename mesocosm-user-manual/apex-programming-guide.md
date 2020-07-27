@@ -1,2 +1,0 @@
-# Apex Programming Guide
-

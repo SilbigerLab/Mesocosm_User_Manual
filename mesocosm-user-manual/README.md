@@ -1,2 +1,0 @@
-# Mesocosm User Manual
-
