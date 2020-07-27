@@ -7,5 +7,5 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a guide for understanding the design, purpose, and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge.  Requests for use of the mesocosm system can be made [here](https://docs.google.com/forms/d/1LCZG39k8dJmIDLb5l6XBP8-Ow2yxawrKlUB2wUDesqg/edit)"
+description: "This is a guide for understanding the design, purpose, and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge."
 ---
