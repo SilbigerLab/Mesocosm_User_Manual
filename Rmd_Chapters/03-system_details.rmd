@@ -64,7 +64,7 @@
 * Sump is in line with a secondary holding tank for sump overflow at Low Tide.
     * 195.4 gal returning to sump in a Low Tide scenario will be split between the main and secondary sumps so that water level is the same in each.  
 * **Total system water volume should not exceed 390 gal - ideal water volume for this scenario is 375 gal total throughout the system**
-* Flow rate for each tank can be maintained at ~2-6 GPH (See [Tidal Manipulation](chapters/06-tidal_manipulation.md) for specific flow rates).  
+* Flow rate for each tank can be maintained at ~2-6 GPH (See [Tidal Manipulation](chapters/07-tidal_manipulation.md) for specific flow rates).  
 * Chiller is plumbed inline with the [filtration skid](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Filtration_Skid_Build_Package.pdf), which includes mechanical/biological filtration as well as UV sterilization (chemical filtration).  
 * One main pump recirculates the water flow throughout the experimental tanks and the main holding reservoir.  
 * Each tank has an immersion heater that allows tank temperatures to be set ~15 degF (8.3 degC) above the main holding tank reservoir.  

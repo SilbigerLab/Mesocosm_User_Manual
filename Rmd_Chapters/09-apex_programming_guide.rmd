@@ -123,7 +123,7 @@ All configurations are for Control Type: Advanced
 * PH-TNK-#
   * Fallback OFF  
     Set OFF  
-    If pH-1 > 8.10 Then ON (for more specific examples, see controlling_pH(#controlling_pH))  
+    If pH-1 > 8.10 Then ON (for more specific examples, see [controlling_pH](#controlling_pH))  
   * Log Enabled  
 * WHITE-TNK-#
   * Fallback OFF  

@@ -1,5 +1,6 @@
 # Water Collection Procedures
-### The water collected for the mesocosm system is filtered (100um mesh filter) unbuffered seawater from the Southern California Marine Institute (SCMI) located at 820 S Seaside Ave, San Pedro, CA 90731.
+
+The water collected for the mesocosm system is filtered (100um mesh filter) unbuffered seawater from the Southern California Marine Institute (SCMI) located at 820 S Seaside Ave, San Pedro, CA 90731.
 
 **Contents**  
 - [**SCMI Packing List**](#packing_list)  
@@ -28,7 +29,8 @@
         1. Three bag filters are in place
         1. Eight matala filters are in place
         1. Three carbon filters are in place, the open PVC end wedged into the holes of the PVC located in the back of the holding tank
-        1. If you do not intend to use the secondary sump, close the Sump Exchange valve
+        1. If you do not intend to use the secondary sump, close the Sump Exchange valve (see image below)
+        ![Sump Exchange valve](images/Pump_Valve.png)
         1. Check that all power cords are away from areas with possible water exposure
 1. Once you pick up the truck from behind Chaparral Hall, back it up to the large stacked square bins in the same parking lot, near the side of the building on the grass.
     1. With the help of at least one other person, lift and slide the top bin into the bed of the truck.  Take off the lid of the second bin and lift the second bin onto the bed of the truck. Once in place, put the lid back on (lids weight an additional 15-20lbs).
