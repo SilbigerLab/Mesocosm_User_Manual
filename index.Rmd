@@ -1,5 +1,5 @@
 --- 
-title: "Mesocosm User Manual"
+title: "Silbiger Lab Mesocosm User Manual"
 author: "Dr. Nyssa Silbiger <br />and Danielle Barnas"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -8,4 +8,6 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "This is a guide for understanding the design, purpose, and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge."
+github-repo: "https://github.com/SilbigerLab/Mesocosm_User_Manual"
+cover-image: "images/Inside_Container.png"
 ---
