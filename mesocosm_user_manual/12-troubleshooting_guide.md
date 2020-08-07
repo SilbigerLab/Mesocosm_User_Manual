@@ -22,6 +22,7 @@
 
     
 <a name="Sump_Pump_Malfunction"></a> **Sump Pump Malfunction and Turning off flow to the Mesocosm Tanks**  
+
 1. If the sump pump (the outside underground pump between the Mesocosm container and the Field Room) stops pumping water to the sump, it will overflow out onto the concrete and into the loading bay driveway.
 1. If you notice the pump has malfunctioned, do the following:
     1. Check if the GFI outlet on the outside of the Mesocosm container needs to be reset. On the 2-plut outlet, there is a Reset button.  Push that button until you hear a click.  If you hear the click but the pump does not respond (or you see the light at the bottom right corner of the outlet flash red), then follow the next steps.
@@ -30,10 +31,12 @@
         1. The T-valve is in line with a PVC pipe running parallel to the sump, slightly above and to the side of the blue and black biofilter mesh.
 
 <a name="Turn_off_Sump_Flow"></a> **Turning off Sump Flow**  
+
 1. If a situation arises where you need to shut off the recirculating flow of the entire system, unplug the UV light from the South wall quadplex, then unplug the pump from the same quadplex.
 1. If you would like to also turn off the CO2 scrubber, unplug both air pump plugs from the same South wall quadplex.
 
 <a name="Flowmeter_Misreadings"></a> **Flowmeter Misreadings**  
+
 1. Flowmeter on ApexFusion is reading 0 or some incorrect value
 1. Sometimes the flowmeters (FM) inline with water flow will either have a bubble or some debris affecting the spin of the turbine within the FM. 
     1. Make sure to check the flowmeter connections back at the FMM module for a connection issue.  Unplug and plug back in the cable for the FM in question.
@@ -44,6 +47,7 @@
     1. Visually expect the inside of the FM, and if needed, use a small long object to probe and spin the internal turbine to dislodge any debris.
 
 <a name="Reboot_Apex"></a> **Rebooting the Apex**  
+
 1. If the Apex needs to be restarted for any reason, there are multiple ways to reboot the system.
 1. Apex Fusion
     1. Click the Expand Settings gears icon and go to the Misc page (wrench icon).
@@ -54,11 +58,13 @@
     1. If you require a full system reboot back to factory settings, hold this button for 1 minute.  This will erase all modules, programming, log data, and probe calibrations, so be very sure.
 
 <a name="Light_Off"></a> **Light not responding to program**  
+
 1. Sometimes manually turning the light OFF on Apex, then back ON again, the light will function properly.
 1. If a light doesn't turn on when the program indicates it should be ON, go into Programming settings for Light-TNK-#, adjust the advanced program slightly (e.g. change an "ON" to an "OFF") and click the orange cloud to send to the Apex.  Then change the program back to what it was before you made a change, then see if the light resumes its proper program.
 1. If the light still doesn't turn on, try [rebooting the apex](#Reboot_Apex).
 
 <a name="pH_Probe_Malfunction"></a> **pH Probe Malfunction**  
+
 1. If a pH probe is giving an 'off' reading, first calibrate the probe.
     1. On your Fusion dashboard, click the gear symbol to the right of the pH reading to go to its settings.
     1. Select Automatic Calibration, and follow the instructions, using new packets of 7 and 10 calibration solution.
@@ -74,6 +80,7 @@
 1. If after following the above steps, the pH probe is still malfunctioning, call Neptune Systems for support.
 
 <a name="pH_spikes"></a> **pH Spikes**  
+
 1. If you noticed the pH in your take plummetting down when the CO2 solenoid is actively dosing.
     1. It is likely that the fine tuning needle valve on the tank's CO2 solenoid needs to be closed a little more (turned slightly clockwise) to bring the flow of CO2 out of the air stone bubbler down.
     1. If the flow is too high, this could cause rapid changes in pH in your tank before the probe can even detect the change.
