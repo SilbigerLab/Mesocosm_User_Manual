@@ -22,7 +22,7 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
 
 <a name="check_list"></a> **Pre-Collection Check List**  
 
-1. Pre-travel
+1. Before traveling
     1. Sign out the Ford 450 truck at the Bio Stock Room for your desired day (Biology Department Vehicle ID 440).
         1. Before driving a univeristy vehicle, be sure to complete the Defensive Drivers course.  Email Wendy Dunbarr (wendy.dunbarr@csun.edu) for details.
     1. At least 24 hours before collecting water, email Mark Loos (mark.loos@csulb.edu) of your intent to get water, and give him an estimated time of arrival. Check in with him or his appointed staff member upon arrival.
