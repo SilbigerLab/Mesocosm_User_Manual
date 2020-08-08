@@ -33,8 +33,7 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
         1. Three carbon filters are in place, the open PVC end wedged into the holes of the PVC located in the back of the holding tank
         1. If you do not intend to use the secondary sump, close the Sump Exchange valve (see image below)
         1. Check that all power cords are away from areas with possible water exposure
-        
-        ![Figure 1. Sump Exchange valve](images/Pump_Valve.png)
+    ![Figure 1. Sump Exchange valve](images/Pump_Valve.png)
                 
 1. Once you pick up the truck from behind Chaparral Hall, back it up to the large stacked square bins in the same parking lot, near the side of the building on the grass.
     1. With the help of at least one other person, lift and slide the top bin into the bed of the truck.  Take off the lid of the second bin and lift the second bin onto the bed of the truck. Once in place, put the lid back on (lids weight an additional 15-20lbs).
@@ -57,7 +56,7 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
     1. **Do not turn on the power supply until you have opened the other t-valves.** Doing so could cause pressure buildup in the piping and damage the system.
 1. Flip the switch ON and leave the water running for 30 seconds to 1 minute to flush out any standing water in the system.
 
-![Figure 3. SCMI Filter System](images/SCMI_filter_pvc.png)  
+    ![Figure 3. SCMI Filter System](images/SCMI_filter_pvc.png)  
 
 <a name=water_collection></a> **Water Collection**  
 
@@ -65,7 +64,7 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
 1. When you have finished flushing out the system and are ready to fill the bins, turn off the power supply without closing off any of the t-valves.
 1. Attach the banjo adapter to the triple filter (see image below), then turn on the power supply again.  This will initiate flow through the filters and into the bins.  To avoid pressure build-up in the system, allow the SCMI garden hose to continuously pump water into the drain port.
 
-![Figure 4. Triple Filter](images/Triple_filter.png)  
+    ![Figure 4. Triple Filter](images/Triple_filter.png)  
 
 1. Filling the bins
     1. If you are filling up the entire mesocosm system, you will need to fill both bins about 3/4 full twice to obtain 400 gallons, requiring two trips to SCMI.
