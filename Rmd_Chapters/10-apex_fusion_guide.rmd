@@ -1,8 +1,7 @@
 # Apex Fusion
 
 To access the Silbiger Lab Fusion account, go to [ApexFusion.com](https://apexfusion.com), click "Get Control" and enter the login information:  
-Username: SilbigerLab  
-Password: silbigerlab
+[Please request Login Information upon use of the Silbiger Lab Mesocosm System]
 
 **Contents**  
 - [**Dashboard Display**](#Dashboard)  
@@ -11,7 +10,7 @@ Password: silbigerlab
 - [**Downloading Data Logs**](#Data_Logs)  
 - [**Update System**](#Update)  
 
-* For some quick tutorials on advanced programming in Fusion, check out Neptune Systems' [Control Freak](https://www.neptunesystems.com/getstarted/apexng/apex-control-freak-advanced/) page.
+For some quick tutorials on advanced programming in Fusion, check out Neptune Systems' [Control Freak](https://www.neptunesystems.com/getstarted/apexng/apex-control-freak-advanced/) page.
 
 <a name="Dashboard"></a> **Dashboard Display**
 
@@ -43,27 +42,29 @@ Password: silbigerlab
 When connected to the same network as the Apex units, you can download data logs for the systems following the directions below.  
 **Note** To connect to the same network, you must plug your device into one of the live ethernet cables in the Mesocosm.  
 
-Format for your internet browser URL:  
-http://:/cgi-bin/outlog.xml?sdate=yymmddhhmm&days=n  
+General Format for your internet browser URL (see specifics below):  
 http://:/cgi-bin/datalog.xml?sdate=yymmddhhmm&days=n  
+* The datalog provides data from all logged outputs (probe readings and outlet energy consumption) for the set logging interval
+http://:/cgi-bin/outlog.xml?sdate=yymmddhhmm&days=n  
+* The outlog provides information for when logged outlets or alarms turn ON or OFF
 
 * Accessible logs:
-  * Outlog – every time the Apex changes the state of an outlet a record is written to this log. If no outlet ever changed state you would have zero records in this log. A new log is started daily at midnight. Log is named “yymmdd.odat”.
   * Datalog – records probe value snapshots (Temp, pH, ORP, etc.) based on the logging interval you define (default = 20 minutes). You can change the interval via the Display module under Data Log – Log Interval. A new log is started daily at midnight. Log is named “yymmdd.pdat”.
+  * Outlog – every time the Apex changes the state of an outlet a record is written to this log. If no outlet ever changed state you would have zero records in this log. A new log is started daily at midnight. Log is named “yymmdd.odat”.
   
 Examples of what to enter into your internet browser:  
-http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005  
-http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005&days=7  
+http://172.24.113.25/cgi-bin/datalog.xml?sdate=191005  
+http://172.24.113.25/cgi-bin/datalog.xml?sdate=191005&days=7  
 
 * The value after date= is the start date for when you want logged information, and days=n yields data n days after that start date.
 * Hours and Minutes are optional in the date parameter.
 
 1. Following the above format, enter the unique IP address for the Apex containing the logs you want to access.
-    1. Apex_39106: 172.24.113.25  
-       Apex_40216: 172.24.113.22  
-       Apex_39952: 172.24.113.23  
-       Apex_37810: 172.24.113.21  
-       Apex_41239: 172.24.113.24  
+    1. Apex_1 (SN 39106): 172.24.113.25  
+       Apex_2 (SN 40216): 172.24.113.22  
+       Apex_3 (SN 39952): 172.24.113.23  
+       Apex_4 (SN 37810): 172.24.113.21  
+       Apex_5 (SN 41239): 172.24.113.24  
 1. Import Log Data (Windows/PC)
     1. Open a new Excel file and go to the Data tab
     1. Select From Web in the Get External Data box
@@ -75,9 +76,9 @@ http://172.24.113.25/cgi-bin/outlog.xml?sdate=191005&days=7
     1. Right click somewhere on the webpage and click Save As.
     1. Save your file in an accesible location or in your R workspace with a name identifying the apex unit and date. 
         1. Manually type .csv to save the file as a csv instead of an xml file.
-        1. Ex. 39106_191127d6.csv identifies Apex_39106, the saved data starts on 11-27-2019, and the data is saved through 6 days after the start date (through 12-3-2019).  
+        1. Ex. datalog_apex1_200804d3.csv identifies Apex_1, the saved data starts on 08-04-2020, and the data is saved through 3 days after the start date (through 08-07-2020).  
 
-    1. Refer to [Mesocosm_Environmental_Data/Datalog_Data_Tidy.R](https://github.com/SilbigerLab/Mesocosm_Environmental_Data/blob/master/Datalog_Data_Tidy.R) for a guide to clean up the data into a usable format.
+    1. Refer to [Mesocosm_Environmental_Data/Datalog_Data_Tidy.R](https://github.com/SilbigerLab/Mesocosm_Environmental_Data/blob/master/Scripts/Datalog_Data_Tidy.R) for a guide to clean up the data into a usable format.
 
 <a name="Update"></a> **Update System**
 

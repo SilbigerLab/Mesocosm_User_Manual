@@ -96,7 +96,7 @@
     1. Remove the three carbon filters from the main reservoir to hose them down to clean.
 1. Post-drainage
     1. Once the system is fully drained of seawater, screw back on the PVC pipe with three outports at the junction by the Meso To Sump valve.  Also re-place each mesocosm tank's outflow pipes (screw in the large pipes and wedge in the small pipes).
-    1. Follow the instructions in the [Water Collection Guide for filling the sump](chapters/06-water_collection.md) with fresh water (attach a hose to the water pipe next to the Field Room door and fill the sump from the hose) and the order of operations for turning flow back on through the sump and tanks.
+    1. Follow the instructions in the [Water Collection Guide for filling the sump](06-water_collection.md) with fresh water (attach a hose to the water pipe next to the Field Room door and fill the sump from the hose) and the order of operations for turning flow back on through the sump and tanks.
     1. You will not have to plug in the UV light or air pumps since you are not maintaining any water chemistry, but rather just flushing the system.
     1. Let fresh water run through the system for one to two days before following these same steps for draining the freshwater.
 1. Once the system has been flushed with fresh water and drained again, remove the water inflow tubes from each tank's N and S ports to be acid washed and rinsed in DI water before next use.

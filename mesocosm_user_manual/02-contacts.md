@@ -13,4 +13,4 @@
 | Will Moran | Network Engineer, CSUN IT | will.moran@csun.edu <br>818-677-6273<br/> |
 | Willy Martinez | Lead Electrician, PPM Electric Shop | willy.martinez@csun.edu <br>818-677-6273<br/> |
 | Neptune Systems | Apex Support Team | support@neptunesystems.com | [www.neptunesystems.com](http://www.neptunesystems.com) |
-| Dickson Lab | Seawater CO2 CRMs | co2crms@ucsd.edu, 858-534-2582 | Marine Physical Lab, Scripps Institution of Oceanography <br>University of CA, San Diego<br/> 9500 Gilman Drive, La Jolla, CA 92093-0244 USA |
+| Dickson Lab | Seawater CO2 CRMs | co2crms@ucsd.edu, 858-534-2582 | Certified Reference Materials Laboratory <br>Scripps Institution of Oceanography<br/> <br>University of California, San Diego<br/> <br>Andrew Dickson<br/> <br>2350 Downwind way Room 15<br/> <br>La Jolla, CA 92037

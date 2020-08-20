@@ -33,6 +33,7 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
         1. Three carbon filters are in place, the open PVC end wedged into the holes of the PVC located in the back of the holding tank
         1. If you do not intend to use the secondary sump, close the Sump Exchange valve (see image below)
         1. Check that all power cords are away from areas with possible water exposure
+    
     ![Figure 1. Sump Exchange valve](images/Pump_Valve.png)
                 
 1. Once you pick up the truck from behind Chaparral Hall, back it up to the large stacked square bins in the same parking lot, near the side of the building on the grass.
@@ -52,7 +53,7 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
     ![Figure 2. Hose T-valve Alignments](images/SCMI_hose_valves.png)  
     
 1. Walk over to the filtration area in the corner of the back lot (near the fish pens) and locate the filter chamber (tall teal cylinder with rounded top).  Open the t-valve for the PVC pipe running from the base of the filter chamber toward the wire fence (see image below).
-1. There is a power switch on the fence in line with the filter's PVC. Turning this switch ON will initiate flow from the marina, through the filter, and out the end of the pool hose.
+1. There is a power switch on the fence across from the filter's PVC (second power unit from the right). Turning this switch ON will initiate flow from the marina, through the filter, and out the end of the pool hose.
     1. **Do not turn on the power supply until you have opened the other t-valves.** Doing so could cause pressure buildup in the piping and damage the system.
 1. Flip the switch ON and leave the water running for 30 seconds to 1 minute to flush out any standing water in the system.
 

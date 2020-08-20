@@ -11,6 +11,7 @@
 - [**pH spikes**](#pH_spikes)  
 
 <a name="Tripped_Breaker"></a> **Loss of Power to the Sump/Tripped Breaker**  
+
 1. Breaker tripped in the field room (pump, UV filter, CO2 scrubber all off)
     1. If you just plugged in an item that correlated with the power shutting off, unplug that item. It may have tripped the breaker.
         1. Check for other items plugged into EDP C-4 outlets that shouldn't be plugged in or seem out of place.  Alert PPM of anything that shouldn't be plugged into those outlets (e.g. CSUN golf carts).

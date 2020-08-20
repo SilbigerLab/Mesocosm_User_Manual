@@ -11,9 +11,10 @@ The following are using the numbered system of Apex1_39106, controlling tanks 1-
 - [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
 - [**Profiles**](#Profiles)  
 
-* For some quick tutorials on advanced programming in Fusion, check out Neptune Systems' [Control Freak](https://www.neptunesystems.com/getstarted/apexng/apex-control-freak-advanced/) page.
 
- <a name="Programming_Screen"></a> **Accessing the Programming Edit Screen**
+For some quick tutorials on advanced programming in Fusion, check out Neptune Systems' [Control Freak](https://www.neptunesystems.com/getstarted/apexng/apex-control-freak-advanced/) page.
+
+<a name="Programming_Screen"></a> **Accessing the Programming Edit Screen**
  
  1. From the ApexFusion Dashboard, select the Expand icon (gears) from the top toolbar to provide more options.
     * Outputs: grants access to the page controlling all outlets and connected items that are programmable by the apex
@@ -28,7 +29,7 @@ The following are using the numbered system of Apex1_39106, controlling tanks 1-
 1. For all other Outputs, you can use the drop down menu to select the type of item you're programming for a fill-in style program option, or select Advanced to create your own program.
     * Examples of Advanced programming for different types of Outputs are below and in the controlling_pH guide.
 
- <a name="Probes"></a> **Probes**
+<a name="Probes"></a> **Probes**
 
 * Salt-1 (Base)
 * TMP-1 (Base)
@@ -40,7 +41,7 @@ The following are using the numbered system of Apex1_39106, controlling tanks 1-
 * TMP-4 (PM1_4)
 * PH-4 (PM1_4)
 
- <a name="Modules_Outlets_and_Ports"></a> **Modules, Outlets, and Ports**
+<a name="Modules_Outlets_and_Ports"></a> **Modules, Outlets, and Ports**
 
 * Base Unit Variables
   * WHITE-TNK-1
@@ -97,7 +98,7 @@ The following are using the numbered system of Apex1_39106, controlling tanks 1-
   * N4-FLW
   * D4-FLW
 
- <a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**  
+<a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**  
 All configurations are for Control Type: Advanced  
 
 * HEATER-#
@@ -142,7 +143,7 @@ All configurations are for Control Type: Advanced
     Set OFF  
     If Moon 0/0 Then Blue  
 
- <a name="Profiles"></a> **Profiles**
+<a name="Profiles"></a> **Profiles**
 
 * RampUp:
   * Type: Ramp
