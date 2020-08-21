@@ -15,7 +15,7 @@ danielle.barnas@csun.edu
 **System Information**
 
 [By Chapter](https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/master/SUMMARY.md)  
-[Full Manual \(GitBook\)](https://silbigerlab.gitbook.io/mesocosm-user-manual/) or [Here](https://bookdown.org/content/5293)  
+[Full Manual \(GitBook\)](https://silbigerlab.gitbook.io/mesocosm-user-manual/) or [Here](https://bookdown.org/content/5293/summary.html)  
 [Full Manual \(pdf\)](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/docs/Mesocosm_User_Manual.pdf)
 
 [See Inside](images/)
