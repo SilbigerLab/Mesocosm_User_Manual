@@ -7,13 +7,16 @@ The pH is controlled with the addition of CO~2~ gas to the system. The gas is de
 3. The pressure should be set to 0.5 up to 1 bar on the gauge (~7.5psi) - ideally 0.6 bar.
 4. Open the fine adjustment valve (smaller valve next to the tubing connecting the regulator to the tanks) to allow gas to the tank solenoid. If the pressure on the gauge is too high this may prevent the CO~2~ solenoid from completely closing, which will inject excess CO~2~ into the system.
 5. Programming the solenoid for a consistent pH: pH-TNK-#
+    1. From your ApedFusion dashboard, click the icon for Outlets
+    1. Find the gear icon in the upper right-hand corner of the Outlets page and select "Add a Virtual Outlet"
+    1. Label the outlet to be specific for the tank and treatment for a particular time block (see example below)
 
    Control type: pH Control  
    Probe name: pH  
    Fallback: OFF  
    High Value: 8.2  
    Low Value: 7.9  
-   On when: High
+   On when: High  
 
 6. Programming the solenoid for diel variance:
     * Using Advanced programming and Virtual outlets

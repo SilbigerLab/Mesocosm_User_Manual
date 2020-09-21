@@ -8,7 +8,7 @@ The following are using the numbered system of Apex1_39106, controlling tanks 1-
 - [**Accessing the Programming Edit Screen in Apex**](#Programm_Screen)  
 - [**Probes**](#Probes)  
 - [**Modules, Outlets, and Ports**](#Modules_Outlets_and_Ports)  
-- [**Outlet Setup in ApexFusion**](#Outlet_Setup)  
+- [**Programming Outlets and Outlet Setup in ApexFusion**](#Outlet_Setup)  
 - [**Profiles**](#Profiles)  
 
 
@@ -98,7 +98,7 @@ For some quick tutorials on advanced programming in Fusion, check out Neptune Sy
   * N4-FLW
   * D4-FLW
 
-<a name="Outlet_Setup"></a> **Outlet Setup in ApexFusion**  
+<a name="Outlet_Setup"></a> **Programming Outlets and Outlet Setup in ApexFusion**  
 All configurations are for Control Type: Advanced  
 
 * HEATER-#
