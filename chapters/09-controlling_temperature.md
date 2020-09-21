@@ -18,6 +18,7 @@ The temperature is controlled by a single 200-W Hydor heater programmed via Nept
       1. Label the outlet to be specific for the tank and treatment for a particular time block (see example below)
     * Virtual Outlet Example
         * For the 4 hours between 7:01am and 11:00am, the heater will remain on in the specified tank while the temp probe reads 16.9 or below
+
     **#_morning**  
     Control type: Advanced  
     Fallback OFF  
