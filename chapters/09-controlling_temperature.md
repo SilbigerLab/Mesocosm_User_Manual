@@ -16,14 +16,32 @@ The temperature is controlled by a single 200-W Hydor heater programmed via Nept
       1. From your ApedFusion dashboard, click the icon for Outlets
       1. Find the gear icon in the upper right-hand corner of the Outlets page and select "Add a Virtual Outlet"
       1. Label the outlet to be specific for the tank and treatment for a particular time block (see example below)
-    * Virtual Outlet Example (for the 4 hours between 7:01am and 11:00am, the heater will remain on in the specified tank while the temp probe reads 16.9 or below):
-   
-   Control type: Advanced  
-   Fallback OFF  
-   Set OFF  
-   If Time 07:01 to 11:00 Then ON  
-   If Tmp-# > 16.9 Then OFF  
-    * Advanced Program Example (For each time block specified in each unique Virtual Outlet, the temperature setpoint changes, and each of the time blocks has a unique virtual outlet name, as presented below in the four programming lines.  The heater will turn on only when the conditions of the virtual outlet program are met):
+    * Virtual Outlet Example
+        * For the 4 hours between 7:01am and 11:00am, the heater will remain on in the specified tank while the temp probe reads 16.9 or below
+    **#_morning**  
+    Control type: Advanced  
+    Fallback OFF  
+    Set OFF  
+    If Time 07:01 to 11:00 Then ON  
+    If Tmp-# > 17.0 Then OFF  
+    **#_midday**  
+    Fallback OFF  
+    Set OFF  
+    If Time 11:01 to 15:00 Then ON  
+    If Tmp-# > 18.5 Then OFF  
+    **#_afternoon**  
+    Fallback OFF  
+    Set OFF  
+    If Time 15:01 to 18:00 Then ON  
+    If Tmp-# > 17.0 Then OFF  
+    **#_night**  
+    Fallback OFF  
+    Set OFF  
+    If Time 18:01 to 07:00 Then ON  
+    If Tmp-# > 15.5 Then OFF  
+    
+    * Advanced Program Example
+        * For each time block specified in each unique Virtual Outlet, the temperature setpoint changes, and each of the time blocks has a unique virtual outlet name, as presented below in the four programming lines.  The heater will turn on only when the conditions of the virtual outlet program are met
     
    Fallback OFF  
    Set OFF  
