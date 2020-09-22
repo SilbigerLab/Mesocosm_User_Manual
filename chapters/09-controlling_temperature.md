@@ -13,7 +13,7 @@ The temperature is controlled by a single 200-W Hydor heater programmed via Nept
 * Programming the heater for diel variance:
     * Using Advanced programming and Virtual outlets
     * Create a unique virtual outlet for every time block which requires a different temperature, and for every tank/probe which requires that temperature treatment.
-      1. From your ApedFusion dashboard, click the icon for Outlets
+      1. From your Apex Fusion dashboard, click the icon for Outlets
       1. Find the gear icon in the upper right-hand corner of the Outlets page and select "Add a Virtual Outlet"
       1. Label the outlet to be specific for the tank and treatment for a particular time block (see example below)
     * Virtual Outlet Example
