@@ -88,9 +88,9 @@
     1. By only draining one tank at a time, overflow should not be an issue.
     1. If you notice water is overflowing, slightly open the Meso To Sump valve to divert some water back into the sump and reduce the water volume diverted to the drainage port.
 1. Once the mesocosm tanks are all drained, unplug the sump's main pump.
-    1. **Alternatively**, to drain the sump partially, leave the main pump plugged in, open the N flow valves for mesocosm tanks, then slightly open the Sump to Meso valve, and slightly close the Sump Return Valve.
+    1. **Alternatively**, to drain the sump partially, leave the main pump plugged in, open the N flow valves for mesocosm tanks, then slightly open the Meso Return valve, and slightly close the Sump Return Valve.
     1. Water will flow from the sump to the tanks, then out through the drainage port.
-    1. Once the water level in the sump is 1-2 inches above the three carbon filters, open the Return Sump valve, then close the Sump to Meso valve, then unplug the sump's main pump.
+    1. Once the water level in the sump is 1-2 inches above the three carbon filters, open the Return Sump valve, then close the Meso Return valve, then unplug the sump's main pump.
 1. Remove filters from the sump
     1. To access the bio-filtration reservoir, remove the black and blue matala mesh filters, and clean them by hosing them down with freshwater (available just outside the Field Room door).
     1. To remove the 50-micron mesh filters, remove the PVC pipe located directly after the Meso To Sump valve (see [Figure 1](#Figure1)) by unscrewing the PVC at the junction (unscrew away from you if standing at the head of the sump).  This PVC pipe with three outports can be temporarily removed, so the mesh can be taken out and also sprayed down with fresh water to clean.
@@ -114,7 +114,7 @@
     1. You will not have to plug in the UV light or air pumps since you are not maintaining any water chemistry, but rather just flushing the system.
     1. Place the hose in the front most compartment of the sump (where the three 50um mesh filters sit, to let the fresh water go through this compartment, into the second compartment and then overflowing into the main reservoir.
     1. While the sump main reservoir fills to about halfway, open the N and S flow valves for all the tanks.
-    1. Once the sump is halfway full, partially open the Sump to Meso valve and partially close the Return to Sump valve.
+    1. Once the sump is halfway full, partially open the Meso Return valve and partially close the Return to Sump valve.
     1. Plug in the sump main pump.
         1. Fresh water from the sump will flow through the sump pipes and into the mesocosm, flushing out the internal plumbing, and then from the tanks, into the underground sump, and out through the drainage port. Flush the system in this way for ~ 20 minutes, leaving the hose on to continuously refill the sump.
         1. Make sure the sump is not filling up too quickly (avoid overflowing) or draining too quickly (avoid the water level dropping below 1-2 inches above the three carbon filters)
