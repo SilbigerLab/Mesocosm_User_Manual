@@ -15,9 +15,10 @@
 Update GitBook and the .pdf and .epub files:
 1. If you have not already, install the following packages:
     * install.packages("bookdown")
-    * install.packages("gitbook")
-    * install.packages("TinyTex")
     * install.packages("rsconnect")
+    * the following are only  necessary for older versions of R (before 4.0.2)
+        * install.packages("gitbook")
+        * install.packages("TinyTex")
 1. In the Environment window in R, click the Build tab.
 1. Under the tab, click Build Book
 1. Within the **docs** folder,commit and push the updated Mesocosm_Manual.pdf, Mesocosm_Manual.epub, and Mesocosm_Manual.tex files to GitHub.
@@ -28,4 +29,7 @@ Update GitBook and the .pdf and .epub files:
     1. Call bookdown::publish_book() in your R Console
         1. You will be prompted to configure a bookdown.org publishing account on this system.  Choose Y (yes). 
         1. The first time you publish, you will be redirected to RStudio Connect and prompted to confirm packages connection. 
+    1. For publishing once you've already established an RStudio Connect connection, you will prompted to "Update application currently deployed at https://bookdown.org/contect/####/?"
+        1. Choose Y (yes) to update and overwrite previous bookdown files
     1. After a complete rendering, you will be redirected to your published book in your internet browser.
+    
