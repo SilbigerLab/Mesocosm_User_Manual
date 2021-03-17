@@ -12,8 +12,9 @@
   * [Controlling pH](chapters/08-controlling_ph.md)
   * [Controlling Temperature](chapters/09-controlling_temperature.md)
   * [Apex Programming Guide](chapters/10-apex_programming_guide.md)
-  * [Apex Fusion](chapters/11-apex_fusion_guide.md)
-  * [Breaker Box Connections](chapters/12-breaker_box_connections.md)
-  * [Troubleshooting Guide](chapters/13-troubleshooting_guide.md)
+  * [Apex Connection Guide](chapters/11-apex_connection_guide.md)
+  * [Apex Fusion](chapters/12-apex_fusion_guide.md)
+  * [Breaker Box Connections](chapters/13-breaker_box_connections.md)
+  * [Troubleshooting Guide](chapters/14-troubleshooting_guide.md)
 * [References](references.md)
 
