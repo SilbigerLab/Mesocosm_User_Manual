@@ -12,7 +12,7 @@
 | :--- | :--- | :--- |
 | Experimental Aquarium | 20 | 
 | Aquarium Lid | 20 | 
-| Lid Holding Pegs | 80 |
+| Lid- and tube-holding Pegs | 80 |
 | 200W Heater | 20 | [$24.99 Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B00061UQ7K) |
 | Suction Cup Heater Holder | 40 |
 | Halo Light | 20 | [$299.99 Amazon](https://www.amazon.com/Aquatic-Life-Halo-Basic-Fixture/dp/B00T6FGDJW) |
@@ -49,7 +49,7 @@
 | Apex PM1 | 1 | [$84.95 Bulk Reef Supply](https://www.bulkreefsupply.com/ph-orp-probe-module-pm1-neptune-systems.html) |
 | PhosBan Reactor 550 | 2 | [$85.14 Bulk Reef Supply](https://www.bulkreefsupply.com/phosban-reactor-550.html) |
 | PhosBan CDX Carbon Dioxide Absorption Media 3L | 0 | [$44.38 Bulk Reef Supply](https://www.bulkreefsupply.com/cdx-carbon-dioxide-adsorption-media-two-little-fishies.html) |
-| Cascade Water Pump | 1 | 
+| Cascade Water Pump (Model C1, 1HP, 3450RPM 115/230V, 60Hz, 5.7A) | 1 | 
 | UV Sterilizer | 1 | 
 | UV Light (UV-BULB-095W-1) | 1 | [$110 AquaLogic](https://aqualogicinc.com/product/aqua-logic-uv-lamps/)
 | Air Pump | 2 |
