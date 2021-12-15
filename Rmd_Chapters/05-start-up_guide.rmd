@@ -6,7 +6,9 @@
 - [**Sump Flow**](#Sump_Flow)  
 - [**Mesocosm Tank Flow**](#Meso_Flow)  
 - [**CO2 Scrubber to Elevate pH**](#CO2_Scrubber)  
-- [**Draining the Meso and Sump**](#Draining_Sump)
+- [**Daily Checks of Sump and Tank Operation**](#Daily_Checks)  
+- [**Draining the Meso and Sump**](#Draining_Sump)  
+- [**Overflow into Seconday Sump (tidal cycling)**](#Overflow_into_Secondary_Sump)
 
 <a name="Basic_Operation"></a> **Basic Operation**  
 
@@ -66,6 +68,36 @@
     1. Screw the lid back on, finger tight, and replace the Reactor on the side of the sump.  Reconnect the tubing from the airpump to the side of the Reactor and from the air splitter to the front of the Reactor.  Submerge the airstones connected to the air splitter tubing in the holding reservoir of the sump.
     1. Once you're sure everything's securely placed, plug in the air pump.
     1. Listen and feel for any air leaks and adjust tubing as necessary.
+
+<a name="Daily_Checks"></a> **Daily Checks of Sump and Tank Operation**
+
+While the system is powered on and cycling water through the sump and mesocosm tanks, there are certain operations and parameters that should be checked for daily.  This is a basic list of items that should be assessed, although you may need to incorporate additional items depending on your experimental design.
+1. Is sump level normal (2 inches above white carbon filters)?
+    - If no, immediately unplug the Cascade pump and UV light to avoid damage
+    - Troubleshooting:
+        - Is the outside sump pump functioning? Did water overflow out of the hole?
+        - Are any of the mesocosm tanks overflowing?
+1. Is there any overflow of water from the mesocosm tanks?
+    - If yes:
+        - Check outflow pipe blockage
+        - If water is being siphoned from any tanks via the tubing and lid holder, wipe off tank edges (particularly undernear the black holders) to dry off and stop the siphoning action
+1. Is there adequate flow to tanks (visual check)?
+    - Lift up each tube enough to make sure there is relatively decent flow (for your needs) in each tank
+    - If no, is there inadequate flow in one tank or all tanks?
+        - One tank: need to increase flow via needle valve
+        - All tanks: may need to increase flow to mesocosm from the sump
+    - Using a stopwatch and graduated cylinder, measure flow rate from each tube and adjust as necessary using the needle valve above each tube
+1. Is the dehumidifier full?
+    - The dehumidifier tray should be emptied every day to avoid humidity buildup and condensation on electronics
+1. Are the tank parameters within range?
+    - Using handheld probes for temperature, salinity, and pH, each tank should be checked for parameter values (log these values)
+    - If values read by the handheld probes do not match values read by the apex (see the Apex Fusion Guide), recalibrate the incorrect probes
+    - If handheld probes and apex are both showing values outside of your desired range, check the apex programming (see Apex Programming Guide and Apex Fusion Guide)
+        - Adjust programming as necessary
+        - If programming is correct, check if instruments have failed
+            - Temperature: check heater fail or poor plug connection
+            - pH: check if air stones (aka bubblers) are dosing or 'leaking' CO2. May need to adjust pressure on the CO2 tank to avoid CO2 pressure in tubing forcing CO2 through the solenoids if pH is too low
+            - Salinity: may need to schedule a water collection day to refresh the system water if salinity values are too high
 
 <a name="Draining_Sump"></a> **Draining the Mesocosm and Sump**  
 
