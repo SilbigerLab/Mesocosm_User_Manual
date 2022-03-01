@@ -4,9 +4,9 @@
 | Name | Involvement | Contact Information | Notes |
 | :------------------ | :-------------------------- | :------------------------------ | :------------------ |
 | Nyssa Silbiger | System Design <br>Asst. Professor, CSUN<br/> | nyssa.silbiger@csun.edu <br>818-677-4427<br/> |
-| Danielle Barnas | System Installation and Maintenance <br>Silbiger Lab Tech, CSUN<br/> | danielle.barnas@csun.edu |
+| Jennifer Fields | Silbiger Lab Tech, CSUN | jennifer.fields.855@my.csun.edu |
+| Danielle Barnas | System Installation and Maintenance <br>Silbiger Lab Graduate Student, CSUN<br/> | danielle.barnas@csun.edu |
 | Louis Dang | Systems Engineer | louis@aqualogicinc.com | [www.aqualogicinc.com](http://www.aqualogicinc.com) |
-| Bill Krohmer | Administrative Operations | william.krohmer@csun.edu |
 | Science Shop | CSUN College of Science and Math Machine Shop | 818-677-3055 | Location: EH 2014 <br>Available M-Th 0600-1630<br/>  [www.csun.edu/Science-Shop](http://www.csun.edu/science-mathematics/science-shop) |
 | Wendy Dunbarr | Support Technician, CSUN Stockroom | wendy.dunbarr@csun.edu <br>818-677-2056<br/> | Location: CH 5108 |
 | Perry Martin | Supervising Plumber, PPM | perry.martin@csun.edu <br>818-677-2222 (PPM)<br/> 818-677-2237 |
