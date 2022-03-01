@@ -1,4 +1,5 @@
 # Connecting the Apex Jr. and Apex El to a PC/Mac computer
+### Using wifi or LAN (via ethernet cable)
 
 **Contents:**  
 - [Connecting to Apex Jr.](#connect_apex_jr)  

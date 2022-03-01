@@ -1,7 +1,7 @@
 # Start-up Guide
 
 **Contents**  
-- [**Basic Operation**](#Basic_Operation)  
+- [**Preparation inside the Mesocosm**](#Preparation)  
 - [**Filtration**](#Filtration)  
 - [**Sump Flow**](#Sump_Flow)  
 - [**Mesocosm Tank Flow**](#Meso_Flow)  
@@ -10,17 +10,50 @@
 - [**Draining the Meso and Sump**](#Draining_Sump)  
 - [**Overflow into Seconday Sump (tidal cycling)**](#Overflow_into_Secondary_Sump)
 
-<a name="Basic_Operation"></a> **Basic Operation**  
+<a name="Preparation"></a> **Preparation inside the Mesocosm**  
 
-1. Operating water level in the filtration sump should be at least 7" in the filter cell compartment, about 2 inches above the three carbon filters.
-1. Outflow water from the tanks feeds down to the outside underground sump pump, then into to the filtration system inside the Citrus Hall Field Room.
-1. Water pumped into the Field Room flows through three 50um bag filters and eight matala mesh filters before overflowing into the main holding reservoir. Reservoir water is pumped through three carbon filters, a UV sterilizer, and chiller, then either back into the holding reservoir or to the tanks.
-1. Water directed toward the tanks has two potential inflow ports (one constant flow and one controlled by a solenoid) and two potential outflow ports (one overflow port and one controlled by a manual open/close needle valve to adjust tank volume)
+1. Examine all 20 tanks to make sure each tank has each necessary component:
+  * 1 Submersible powerhead pump
+  * 1 200 W Heater
+  * 1 Light
+  * 1 Temperature probe (Apex, short black slender probe with rubber tip. **Do not attempt to remove rubber tip.**)
+  * 1 pH probe (Apex, long blue slender probe with sensitive glass electrode tip, tip stored in KCl solution in removable clear rubber cap)
+  * 1 Conductivity probe for every set of four tanks (Apex, long black slender probe) 
+  * 1 air stone and tubing to bubble CO2
+  * 1 Overflow drain port PVC
+  * 1 Controlled drain port PVC (~ 1/2 tank height)
+  * For a complete list of all items associated with each tank, view the [System Details chapter](03-system_details.md).
+1. Remove the long black conductivity probe and blue pH probe from each tank in preparation for [calibrating the probes](#probe_calibrations). These two probes can dangle gently next to the tank until you begin the calibrations. To keep organized, dangle each probe to the right of its respective tank. **Keep the clear cap on the pH probe until you begin the calibration. The glass electrode tip must not dry out**
+1. Once all tanks are equipped with the above items, make sure:
+    1. The two PVC pipes are in place (screw in the large pipe, just finger tight; wedge in the shorter pipe).
+    1. The two in-flow tubes are threaded through the holes on the front black lid holders.
+    1. The acrylic lid is placed on top of the four black lid holders and steady.
+    1. The black needle valve for at least the N flow port (the primary continuous inflow port) is fully opened (turned counter-clockwise) with a half turn back closed (clockwise).  At this point you can also open the S flow port (the solenoid-controlled inflow port) the same way as the N flow port.  
+        1. N flow ports are always the 'inner' ports, while S flow ports are always 'outer' ports for each tank couplet.
+    1. The black needle valve for the D flow port (the outflow port for the short outflow pipe, located underneath each tank) is fully closed (turned all the way clockwise, just finger-tight). This ensures the tanks will fill completely initially.
+1. To fill the system with seawater, follow the [water collection guide](06-water_collection.md).
+    1. As the sump is being filled, keep eyes on the water level to make sure the sump will not overflow
+    1. Once the water level is at least 2 inches above the three carbon filters, turn on the main sump pump to just circulate flow within the sump (refer to the water collection guide for exact positioning of the t-valves for this configuration.)
+    1. Once the water level of the sump is about 2/3 full, slowly open flow to the mesocosm tanks (again, refer to the [water collection guide](06-water_collection.md) for exact positioning. Do not fully open or fully close any valves when redirecting flow to the mesocosm tanks.)
+1. Frequently walk between the mesocosm tanks and the sump to make sure there are no spills or leaks, and that every tank is filling, while also making sure the water level in the sump is not falling too low (should not reach the carbon filters) or too high (should not rise much above the matala filters). 
+    1. Before or while the mesocosm tanks are filling, you can also log into ApexFusion and turn ON flow from the S port (via SOL-TNK-# on the home dashboard for each Apex). [Directions for navigating ApexFusion are here.](12-apex_fusion_guide.md)
+1. Once all tanks are mostly or completely filled, begin positioning tank elements on the walls of each tank (suction cups often will not hold well enough until submerged in water).
+    1. Place the heater horizontally along the back wall, with the power head along this same wall off to one side, not touching the heater.
+    1. Place the temperature probes along any wall where the value will not be skewed (not directly next to the heater, but near the powerhead can be a good location)
+    1. Once the pH and conductivity probes have been calibrated, these can also be stuck along the wall, following similar guidelines to the temperature probe.
+1. Once the tanks are completely filled, turn ON the powerheads via [ApexFusion](apexfusion.com).
+1. Full tanks with continuous inflow will drain out through the tall wide PVC pipe (back left) and pour into the ground well behind the container. The pump in this ground well will pump water to the sump using a float switch. Monitor this pump to make sure it is periodically pumping water back to the sump. If this pump fails, refer to the [troubleshooting guide](14-troubleshooting_guide.md) to replace the pump.
+1. Plug in the UV light as the final filtration unit for the system.
+1. Make sure there is a CO2 cylinder inside the mesocosm container (if planning to manipulate pH) and that the tank is connected to the system with the Tunze valve (image below).
+    1. ![CO2 Tank Tunze Valve](images/Gas_Valve.png)
+1. The system is now ready for manipulative experiments.
+
+
+    
 
 <a name="Filtration"></a> **Filtration**  
 
-* Biological and Mechanical Filtration: Water from the Mesocosm tanks is pumped into the sump while passing through three 50um bag filters and eight matala mesh filters (high and low density) to pick up debris.  These filters have an accumulated biofilm to biologically filter the water before entering the sump and returning to the tanks.
-* Chemical and Mechanical Filtration: Water in the sump is pulled through three carbon filters with mesh filter sleeves and pumped into a UV sterilizer before entering the sump and returning to the tanks.
+
 
 <a name="Sump_Flow"></a> **Sump Flow**  
 

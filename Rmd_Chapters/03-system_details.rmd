@@ -1,7 +1,7 @@
 # System Details
 
 **Contents**  
-- [**Aquaria System**](#Aquaria_System_List)  
+- [**Aquaria System Item List**](#Aquaria_System_Item_List)  
 - [**Filtration and Recirculation System**](#Filtration_and_Recirculation_System)  
 - [**System Operational Parameters**](#System_Operation_Parameters)  
 - [**Apex Connection Series**](#Apex_Connection_Series)  
@@ -23,7 +23,7 @@
   * 1 Solenoid Supply line: "S"  
   * 1 Drain line: "D"  
   * 1 Overflow drain port  
-  * 1 Controlled drain port  
+  * 1 Controlled drain port (PVC ~ 1/2 tank height)  
   * 1 Gate valve (solenoid for water inflow)  
   * 1 VDM ([Apex Variable Dimming Module](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/VDM_manual.pdf), 1 unit for 2 tanks)  
   * 1 FMM ([Apex Fluid Metering Module](https://www.neptunesystems.com/getstarted/fmk/))  
@@ -58,9 +58,14 @@
 * Normal High Tide operating water level is approximately 12.5"H for a total water volume of 14.37 gal per tank (total of 287.4 gal to fill the available 20 tanks).  
 * Normal Low Tide operating water level is approximately 4"H for a total water volume of 4.60 gal per tank (92.0 gal total for the 20-tank-system).  
 * Excess water drained to the sump at low tide is 9.77 gal per tank (195.4 gal total for the 20-tank-system).  
-* Normal sump operating water level is 7" water in the filter cell compartment, which has an approximate volume of 82.32 gal.  Sump freeboard volume (max before overflow) is 107.39 gal.  
+* Normal sump operating water level is 7" water in the filter cell compartment, about 2 inches above the three carbon filters. The sump at this level has an approximate volume of 82.32 gal.  Sump freeboard volume (max before overflow) is 107.39 gal.  
 * Secondary sump available volume is 250 gal. To operate from a High Tide water level to a Low Tide water level, excess water must be redirected to the secondary sump to accomodate the excess volume (see below).  
 * Aquaria drain pipe is in line with a 30 gal sump pump, which will draw water from the aquaria drain line and pump water to the sump.  
+* Outflow water from the tanks feeds down to the outside underground sump pump, then into to the filtration system inside the Citrus Hall Field Room.  
+* Water pumped into the Field Room flows through three 50um bag filters and eight matala mesh filters before overflowing into the main holding reservoir. Reservoir water is pumped through three carbon filters, a UV sterilizer, and chiller, then either back into the holding reservoir or to the tanks.
+    * Biological and Mechanical Filtration: Water from the Mesocosm tanks is pumped into the sump while passing through three 50um bag filters and eight matala mesh filters (high and low density) to pick up debris.  These filters have an accumulated biofilm to biologically filter the water before entering the sump and returning to the tanks.
+    * Chemical and Mechanical Filtration: Water in the sump is pulled through three carbon filters with mesh filter sleeves and pumped into a UV sterilizer before entering the sump and returning to the tanks.  
+* Water directed toward the tanks has two potential inflow ports (one constant flow and one controlled by a solenoid) and two potential outflow ports (one overflow port and one controlled by a manual open/close needle valve to adjust tank volume)  
 * Sump is in line with a secondary holding tank for sump overflow at Low Tide.
     * 195.4 gal returning to sump in a Low Tide scenario will be split between the main and secondary sumps so that water level is the same in each.  
 * **Total system water volume should not exceed 390 gal - ideal water volume for this scenario is 375 gal total throughout the system**
@@ -68,7 +73,7 @@
 * Chiller is plumbed inline with the [filtration skid](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Filtration_Skid_Build_Package.pdf), which includes mechanical/biological filtration as well as UV sterilization (chemical filtration).  
 * One main pump recirculates the water flow throughout the experimental tanks and the main holding reservoir.  
 * Each tank has an immersion heater that allows tank temperatures to be set ~15 degF (8.3 degC) above the main holding tank reservoir.  
-    * **Note: The tank needs to have low flow or be static in order to initially heat up to desired temperatures much higher than the sump.  Once the temperature has been reached in the system, then flow can be set to the normal operating rate.**  
+    * **Note: The tank needs to have low flow or be static in order to initially heat up to desired temperatures _much_ higher than the sump.  Once the temperature has been reached in the system, then flow can be set to the normal operating rate.**  
 * A small sumbersible powerhead in each tank provides water circulation throughout the tank.  
 * Each tank has (2) water supply lines, each with (1) Neptune Systems flow sensor and (1) needle valve for manual flow rate control, and (1) gate solenoid valve in line with (1) supply line for programmable tidal effect.  Each tank also has (2) drain lines with (1) flow sensor in line with (1) needle valve for outgoing flow rate control, and (1) 'overflow' line for maintaining maximum tank volume.  Incoming and outgoing flow rates have to be manually adjusted for tidal effect.  
 * Flow metered water lines
