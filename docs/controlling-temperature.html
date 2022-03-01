@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>9 Controlling Temperature | Silbiger Lab Mesocosm User Manual</title>
+  <meta name="description" content="This is a guide for understanding the design, purpose, and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="9 Controlling Temperature | Silbiger Lab Mesocosm User Manual" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="/images/Inside_Container.png" />
+  <meta property="og:description" content="This is a guide for understanding the design, purpose, and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge." />
+  <meta name="github-repo" content="SilbigerLab/Mesocosm_User_Manual" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="9 Controlling Temperature | Silbiger Lab Mesocosm User Manual" />
+  
+  <meta name="twitter:description" content="This is a guide for understanding the design, purpose, and use of the experimental tank system, conceptualized and funded by the Silbiger Lab and located in the Loading Bay of Citrus Hall at California State University, Northridge." />
+  <meta name="twitter:image" content="/images/Inside_Container.png" />
+
+<meta name="author" content="Dr. Nyssa Silbiger  and Danielle Barnas" />
+
+
+<meta name="date" content="2022-03-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="controlling-ph.html"/>
+<link rel="next" href="apex-programming-guide.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Mesocosm User Manual</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="summary.html"><a href="summary.html"><i class="fa fa-check"></i><b>1</b> Summary</a></li>
+<li class="chapter" data-level="2" data-path="contacts.html"><a href="contacts.html"><i class="fa fa-check"></i><b>2</b> Contacts</a></li>
+<li class="chapter" data-level="3" data-path="system-details.html"><a href="system-details.html"><i class="fa fa-check"></i><b>3</b> System Details</a></li>
+<li class="chapter" data-level="4" data-path="inventory.html"><a href="inventory.html"><i class="fa fa-check"></i><b>4</b> Inventory</a></li>
+<li class="chapter" data-level="5" data-path="start-up-guide.html"><a href="start-up-guide.html"><i class="fa fa-check"></i><b>5</b> Start-up Guide</a></li>
+<li class="chapter" data-level="6" data-path="water-collection-procedures.html"><a href="water-collection-procedures.html"><i class="fa fa-check"></i><b>6</b> Water Collection Procedures</a></li>
+<li class="chapter" data-level="7" data-path="tidal-manipulation.html"><a href="tidal-manipulation.html"><i class="fa fa-check"></i><b>7</b> Tidal Manipulation</a></li>
+<li class="chapter" data-level="8" data-path="controlling-ph.html"><a href="controlling-ph.html"><i class="fa fa-check"></i><b>8</b> Controlling pH</a></li>
+<li class="chapter" data-level="9" data-path="controlling-temperature.html"><a href="controlling-temperature.html"><i class="fa fa-check"></i><b>9</b> Controlling Temperature</a></li>
+<li class="chapter" data-level="10" data-path="apex-programming-guide.html"><a href="apex-programming-guide.html"><i class="fa fa-check"></i><b>10</b> Apex Programming Guide</a></li>
+<li class="chapter" data-level="11" data-path="connecting-the-apex-jr.-and-apex-el-to-a-pcmac-computer.html"><a href="connecting-the-apex-jr.-and-apex-el-to-a-pcmac-computer.html"><i class="fa fa-check"></i><b>11</b> Connecting the Apex Jr. and Apex El to a PC/Mac computer</a>
+<ul>
+<li class="chapter" data-level="11.0.1" data-path="connecting-the-apex-jr.-and-apex-el-to-a-pcmac-computer.html"><a href="connecting-the-apex-jr.-and-apex-el-to-a-pcmac-computer.html#using-wifi-or-lan-via-ethernet-cable"><i class="fa fa-check"></i><b>11.0.1</b> Using wifi or LAN (via ethernet cable)</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="apex-fusion.html"><a href="apex-fusion.html"><i class="fa fa-check"></i><b>12</b> Apex Fusion</a></li>
+<li class="chapter" data-level="13" data-path="breaker-box-connections.html"><a href="breaker-box-connections.html"><i class="fa fa-check"></i><b>13</b> Breaker Box Connections</a></li>
+<li class="chapter" data-level="14" data-path="troubleshooting-guide.html"><a href="troubleshooting-guide.html"><i class="fa fa-check"></i><b>14</b> Troubleshooting Guide</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/SilbigerLab/Mesocosm_User_Manual" target="blank">Full Manual on GitHub</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Silbiger Lab Mesocosm User Manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="controlling-temperature" class="section level1" number="9">
+<h1><span class="header-section-number">9</span> Controlling Temperature</h1>
+<p>The temperature is controlled by a single 200-W Hydor heater programmed via Neptune Apex to raise the temperature, while incoming cooler sump water lowers temperature (more or less depending on flow rate in and sump set temperature).</p>
+<ul>
+<li><p>Programming the heater for a consistent temperature: HEATER-TNK#</p>
+<p>Control type: Heater Control<br />
+Probe name: Tmp-#<br />
+Fallback: OFF<br />
+On Temperature: 24.9<br />
+Off Temperature: 25.0</p></li>
+<li><p>Programming the heater for diel variance:</p>
+<ul>
+<li>Using Advanced programming and Virtual outlets</li>
+<li>Create a unique virtual outlet for every time block which requires a different temperature, and for every tank/probe which requires that temperature treatment.
+<ol style="list-style-type: decimal">
+<li>From your Apex Fusion dashboard, click the icon for Outlets</li>
+<li>Find the gear icon in the upper right-hand corner of the Outlets page and select “Add a Virtual Outlet”</li>
+<li>Label the outlet to be specific for the tank and treatment for a particular time block (see example below)</li>
+</ol></li>
+<li>Virtual Outlet Example
+<ul>
+<li>For the 4 hours between 7:01am and 11:00am, the heater will remain on in the specified tank while the temp probe reads 16.9 or below</li>
+</ul></li>
+</ul>
+<p>**#_morning**<br />
+Control type: Advanced<br />
+Fallback OFF<br />
+Set OFF<br />
+If Time 07:01 to 11:00 Then ON<br />
+If Tmp-# &gt; 17.0 Then OFF<br />
+**#_midday**<br />
+Fallback OFF<br />
+Set OFF<br />
+If Time 11:01 to 15:00 Then ON<br />
+If Tmp-# &gt; 18.5 Then OFF<br />
+**#_afternoon**<br />
+Fallback OFF<br />
+Set OFF<br />
+If Time 15:01 to 18:00 Then ON<br />
+If Tmp-# &gt; 17.0 Then OFF<br />
+**#_night**<br />
+Fallback OFF<br />
+Set OFF<br />
+If Time 18:01 to 07:00 Then ON<br />
+If Tmp-# &gt; 15.5 Then OFF</p>
+<ul>
+<li>Advanced Program Example
+<ul>
+<li>For each time block specified in each unique Virtual Outlet, the temperature setpoint changes, and each of the time blocks has a unique virtual outlet name, as presented below in the four programming lines. The heater will turn on only when the conditions of the virtual outlet program are met</li>
+</ul></li>
+</ul>
+<p>Fallback OFF<br />
+Set OFF<br />
+If Output 1_morning = ON Then ON<br />
+If Output 1_midday = ON Then ON<br />
+If Output 1_afternoon = ON Then ON<br />
+If Output 1_night = ON Then ON</p></li>
+</ul>
+<p>Refer to <a href="https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/7503b88686aef920c4a4ed473b1efe37b34dae10/Manuals/Apex_Comprehensive_Reference_Manual.pdf">Comprehensive Manual</a> for set point programming.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="controlling-ph.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="apex-programming-guide.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Mesocosm_User_Manual.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection",
+"scroll_highlight": true,
+"toolbar": {
+"position": "fixed"
+},
+"search": true,
+"sharing": {
+"facebook": true,
+"twitter": true
+}
+}
+});
+});
+</script>
+
+</body>
+
+</html>
