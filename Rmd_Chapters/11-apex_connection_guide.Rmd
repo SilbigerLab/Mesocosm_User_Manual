@@ -1,5 +1,5 @@
-# Connecting the Apex Jr. and Apex El to a PC/Mac computer
-### Using wifi or LAN (via ethernet cable)
+# Connecting to the Apex
+### Using internet or LAN (via ethernet cable)
 
 **Contents:**  
 - [Apex Display Configuration](#apex_display_configuration)  

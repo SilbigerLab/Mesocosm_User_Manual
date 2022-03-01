@@ -100,9 +100,10 @@
     1. Once you're sure everything's securely placed, plug in the air pump.
     1. Listen and feel for any air leaks and adjust tubing as necessary.
 
-<a name="Daily_Checks"></a> **Daily Checks of Sump and Tank Operation**
+<a name="Daily_Checks"></a> **Daily Checks of Sump and Tank Operation**  
 
-While the system is powered on and cycling water through the sump and mesocosm tanks, there are certain operations and parameters that should be checked for daily.  This is a basic list of items that should be assessed, although you may need to incorporate additional items depending on your experimental design.
+While the system is powered on and cycling water through the sump and mesocosm tanks, there are certain operations and parameters that should be checked for daily.  This is a basic list of items that should be assessed, although you may need to incorporate additional items depending on your experimental design.  
+
 1. Is sump level normal (2 inches above white carbon filters)?
     - If no, immediately unplug the Cascade pump and UV light to avoid damage
     - Troubleshooting:
