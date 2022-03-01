@@ -83,9 +83,9 @@
 <li class="chapter" data-level="8" data-path="controlling-ph.html"><a href="controlling-ph.html"><i class="fa fa-check"></i><b>8</b> Controlling pH</a></li>
 <li class="chapter" data-level="9" data-path="controlling-temperature.html"><a href="controlling-temperature.html"><i class="fa fa-check"></i><b>9</b> Controlling Temperature</a></li>
 <li class="chapter" data-level="10" data-path="apex-programming-guide.html"><a href="apex-programming-guide.html"><i class="fa fa-check"></i><b>10</b> Apex Programming Guide</a></li>
-<li class="chapter" data-level="11" data-path="connecting-the-apex-jr.-and-apex-el-to-a-pcmac-computer.html"><a href="connecting-the-apex-jr.-and-apex-el-to-a-pcmac-computer.html"><i class="fa fa-check"></i><b>11</b> Connecting the Apex Jr. and Apex El to a PC/Mac computer</a>
+<li class="chapter" data-level="11" data-path="connecting-to-the-apex.html"><a href="connecting-to-the-apex.html"><i class="fa fa-check"></i><b>11</b> Connecting to the Apex</a>
 <ul>
-<li class="chapter" data-level="11.0.1" data-path="connecting-the-apex-jr.-and-apex-el-to-a-pcmac-computer.html"><a href="connecting-the-apex-jr.-and-apex-el-to-a-pcmac-computer.html#using-wifi-or-lan-via-ethernet-cable"><i class="fa fa-check"></i><b>11.0.1</b> Using wifi or LAN (via ethernet cable)</a></li>
+<li class="chapter" data-level="11.0.1" data-path="connecting-to-the-apex.html"><a href="connecting-to-the-apex.html#using-internet-or-lan-via-ethernet-cable"><i class="fa fa-check"></i><b>11.0.1</b> Using internet or LAN (via ethernet cable)</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="apex-fusion.html"><a href="apex-fusion.html"><i class="fa fa-check"></i><b>12</b> Apex Fusion</a></li>
 <li class="chapter" data-level="13" data-path="breaker-box-connections.html"><a href="breaker-box-connections.html"><i class="fa fa-check"></i><b>13</b> Breaker Box Connections</a></li>
@@ -241,33 +241,55 @@
 </ol></li>
 </ol>
 <p><a name="Daily_Checks"></a> <strong>Daily Checks of Sump and Tank Operation</strong></p>
-<p>While the system is powered on and cycling water through the sump and mesocosm tanks, there are certain operations and parameters that should be checked for daily. This is a basic list of items that should be assessed, although you may need to incorporate additional items depending on your experimental design.
-1. Is sump level normal (2 inches above white carbon filters)?
-- If no, immediately unplug the Cascade pump and UV light to avoid damage
-- Troubleshooting:
-- Is the outside sump pump functioning? Did water overflow out of the hole?
-- Are any of the mesocosm tanks overflowing?
-1. Is there any overflow of water from the mesocosm tanks?
-- If yes:
-- Check outflow pipe blockage
-- If water is being siphoned from any tanks via the tubing and lid holder, wipe off tank edges (particularly undernear the black holders) to dry off and stop the siphoning action
-1. Is there adequate flow to tanks (visual check)?
-- Lift up each tube enough to make sure there is relatively decent flow (for your needs) in each tank
-- If no, is there inadequate flow in one tank or all tanks?
-- One tank: need to increase flow via needle valve
-- All tanks: may need to increase flow to mesocosm from the sump
-- Using a stopwatch and graduated cylinder, measure flow rate from each tube and adjust as necessary using the needle valve above each tube
-1. Is the dehumidifier full?
-- The dehumidifier tray should be emptied every day to avoid humidity buildup and condensation on electronics
-1. Are the tank parameters within range?
-- Using handheld probes for temperature, salinity, and pH, each tank should be checked for parameter values (log these values)
-- If values read by the handheld probes do not match values read by the apex (see the Apex Fusion Guide), recalibrate the incorrect probes
-- If handheld probes and apex are both showing values outside of your desired range, check the apex programming (see Apex Programming Guide and Apex Fusion Guide)
-- Adjust programming as necessary
-- If programming is correct, check if instruments have failed
-- Temperature: check heater fail or poor plug connection
-- pH: check if air stones (aka bubblers) are dosing or ‘leaking’ CO2. May need to adjust pressure on the CO2 tank to avoid CO2 pressure in tubing forcing CO2 through the solenoids if pH is too low
-- Salinity: may need to schedule a water collection day to refresh the system water if salinity values are too high</p>
+<p>While the system is powered on and cycling water through the sump and mesocosm tanks, there are certain operations and parameters that should be checked for daily. This is a basic list of items that should be assessed, although you may need to incorporate additional items depending on your experimental design.</p>
+<ol style="list-style-type: decimal">
+<li>Is sump level normal (2 inches above white carbon filters)?
+<ul>
+<li>If no, immediately unplug the Cascade pump and UV light to avoid damage</li>
+<li>Troubleshooting:
+<ul>
+<li>Is the outside sump pump functioning? Did water overflow out of the hole?</li>
+<li>Are any of the mesocosm tanks overflowing?</li>
+</ul></li>
+</ul></li>
+<li>Is there any overflow of water from the mesocosm tanks?
+<ul>
+<li>If yes:
+<ul>
+<li>Check outflow pipe blockage</li>
+<li>If water is being siphoned from any tanks via the tubing and lid holder, wipe off tank edges (particularly undernear the black holders) to dry off and stop the siphoning action</li>
+</ul></li>
+</ul></li>
+<li>Is there adequate flow to tanks (visual check)?
+<ul>
+<li>Lift up each tube enough to make sure there is relatively decent flow (for your needs) in each tank</li>
+<li>If no, is there inadequate flow in one tank or all tanks?
+<ul>
+<li>One tank: need to increase flow via needle valve</li>
+<li>All tanks: may need to increase flow to mesocosm from the sump</li>
+</ul></li>
+<li>Using a stopwatch and graduated cylinder, measure flow rate from each tube and adjust as necessary using the needle valve above each tube</li>
+</ul></li>
+<li>Is the dehumidifier full?
+<ul>
+<li>The dehumidifier tray should be emptied every day to avoid humidity buildup and condensation on electronics</li>
+</ul></li>
+<li>Are the tank parameters within range?
+<ul>
+<li>Using handheld probes for temperature, salinity, and pH, each tank should be checked for parameter values (log these values)</li>
+<li>If values read by the handheld probes do not match values read by the apex (see the Apex Fusion Guide), recalibrate the incorrect probes</li>
+<li>If handheld probes and apex are both showing values outside of your desired range, check the apex programming (see Apex Programming Guide and Apex Fusion Guide)
+<ul>
+<li>Adjust programming as necessary</li>
+<li>If programming is correct, check if instruments have failed
+<ul>
+<li>Temperature: check heater fail or poor plug connection</li>
+<li>pH: check if air stones (aka bubblers) are dosing or ‘leaking’ CO2. May need to adjust pressure on the CO2 tank to avoid CO2 pressure in tubing forcing CO2 through the solenoids if pH is too low</li>
+<li>Salinity: may need to schedule a water collection day to refresh the system water if salinity values are too high</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ol>
 <p><a name="Draining_Sump"></a> <strong>Draining the Mesocosm and Sump</strong></p>
 <ol style="list-style-type: decimal">
 <li>The first step before draining any water is to turn off the powerheads, heaters, and CO2 solenoids in all mesocosm tanks. <strong>The powerheads and heaters cannot be ON when dry or they may be damaged</strong>.</li>
