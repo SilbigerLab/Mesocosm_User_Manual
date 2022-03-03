@@ -1,6 +1,14 @@
 # Tidal Manipulation
 
-Controling the tidal cycle of each experimental tank with the Apex. This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needle valves described in the [System Details], and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
+**Controlling the tidal cycle of each experimental tank with the Apex.** 
+
+This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needle valves described in the [System Details], and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
+
+**Initial setup**  
+
+1. Refer to the [start up guide](05-start-up_guide.md/#Overflow_into_Secondary_Sump) for more details on initial system setup.
+
+**Setting the flow cycle**  
 
 1. Set the flow rate of the supply line N[#]FLW (without the solenoid), for example 10.5 Liters/Hr, by slowly turning the black knob counterclockwise to increase flow or clockwise to decrease flow.
     1. You can view rates on the Fusion dashboard.
