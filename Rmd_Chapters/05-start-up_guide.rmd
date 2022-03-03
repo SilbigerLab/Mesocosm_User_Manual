@@ -5,10 +5,11 @@
 - [**Filtration**](#Filtration)  
 - [**Sump Flow**](#Sump_Flow)  
 - [**Mesocosm Tank Flow**](#Meso_Flow)  
+- [**Overflow into Seconday Sump (tidal cycling)**](#Overflow_into_Secondary_Sump)  
 - [**CO2 Scrubber to Elevate pH**](#CO2_Scrubber)  
 - [**Daily Checks of Sump and Tank Operation**](#Daily_Checks)  
 - [**Draining the Meso and Sump**](#Draining_Sump)  
-- [**Overflow into Seconday Sump (tidal cycling)**](#Overflow_into_Secondary_Sump)
+
 
 <a name="Preparation"></a> **Preparation inside the Mesocosm**  
 
@@ -30,17 +31,18 @@
     1. The acrylic lid is placed on top of the four black lid holders and steady.
     1. The black needle valve for at least the N flow port (the primary continuous inflow port) is fully opened (turned counter-clockwise) with a half turn back closed (clockwise).  At this point you can also open the S flow port (the solenoid-controlled inflow port) the same way as the N flow port.  
         1. N flow ports are always the 'inner' ports, while S flow ports are always 'outer' ports for each tank couplet.
-    1. The black needle valve for the D flow port (the outflow port for the short outflow pipe, located underneath each tank) is fully closed (turned all the way clockwise, just finger-tight). This ensures the tanks will fill completely initially.
+    1. The black needle valve for the D flow port (the outflow port for the short outflow pipe, located underneath each tank) is fully closed (turned all the way clockwise, just finger-tight). This ensures the tanks will fill completely initially. If you plan to use tidal cycling, refer to the [Secondary Sump Overflow section](#Overflow_into_Secondary_Sump) for a different N, S, and D flow port configuration.
 1. To fill the system with seawater, follow the [water collection guide](06-water_collection.rmd).
     1. As the sump is being filled, keep eyes on the water level to make sure the sump will not overflow
     1. Once the water level is at least 2 inches above the three carbon filters, turn on the main sump pump to just circulate flow within the sump (refer to the water collection guide for exact positioning of the t-valves for this configuration.)
     1. Once the water level of the sump is about 2/3 full, slowly open flow to the mesocosm tanks (again, refer to the [water collection guide](06-water_collection.rmd) for exact positioning. Do not fully open or fully close any valves when redirecting flow to the mesocosm tanks.)
+    1. If you are planning to use the system for tidal cycling, please refer to the [Secondary Sump Overflow section](#Overflow_into_Secondary_Sump) for more specific information on this setup.
 1. Frequently walk between the mesocosm tanks and the sump to make sure there are no spills or leaks, and that every tank is filling, while also making sure the water level in the sump is not falling too low (should not reach the carbon filters) or too high (should not rise much above the matala filters). 
     1. Before or while the mesocosm tanks are filling, you can also log into ApexFusion and turn ON flow from the S port (via SOL-TNK-# on the home dashboard for each Apex). [Directions for navigating ApexFusion are here.](12-apex_fusion_guide.rmd)
 1. Once all tanks are mostly or completely filled, begin positioning tank elements on the walls of each tank (suction cups often will not hold well enough until submerged in water).
-    1. Place the heater horizontally along the back wall, with the power head along this same wall off to one side, not touching the heater.
+    1. Place the heater horizontally along the back wall, with the power head along this same wall off to one side, not touching the heater. **For tidal cycling, both the heater and powerhead should be below the top of the small PVC.**
     1. Place the temperature probes along any wall where the value will not be skewed (not directly next to the heater, but near the powerhead can be a good location)
-    1. Once the pH and conductivity probes have been calibrated, these can also be stuck along the wall, following similar guidelines to the temperature probe.
+    1. Once the pH and conductivity probes have been calibrated, these can also be stuck along the wall, following similar guidelines to the temperature probe. **For tidal cycling, the temp, pH, and conductivity probes should all be placed with probe tips below the top of the small PVC.**
 1. Once the tanks are completely filled, turn ON the powerheads via [ApexFusion](apexfusion.com).
 1. Full tanks with continuous inflow will drain out through the tall wide PVC pipe (back left) and pour into the ground well behind the container. The pump in this ground well will pump water to the sump using a float switch. Monitor this pump to make sure it is periodically pumping water back to the sump. If this pump fails, refer to the [troubleshooting guide](14-troubleshooting_guide.rmd) to replace the pump.
 1. Plug in the UV light as the final filtration unit for the system.
@@ -49,16 +51,13 @@
 1. The system is now ready for manipulative experiments.
 
 
-<a name="Filtration"></a> **Filtration**  
-
-
 
 <a name="Sump_Flow"></a> **Sump Flow**  
 
 1. Preparing flow in the sump
     1. Before turning on the pump, make sure the correct channels of flow are opened to direct the water where it needs to go.
     1. The Meso Return valve should be vertical in the "closed" position (perpendicular to the PVC), and the Sump Return valve should also be vertical in the "open" position (in line with the PVC). See [Figure 1](#Figure1) to identify valves.
-    1. The Pump Return valve should be veritcal in the "open" position to allow flow from the sump through the pump to the UV filter and chiller compartments. See [Figure 2](#Figure2).
+    1. The Pump Return valve should be vertical in the "open" position to allow flow from the sump through the pump to the UV filter and chiller compartments. See [Figure 2](#Figure2).
         1. If you do not intend to utilize the Secondary Sump at this time, close the Sump Exchange valve (as shown in [Figure 2](#Figure2) )
     1. The two UV Flow valves and the Chiller Bypass valve should all be vertical.  This directs flow down through the UV light chamber before pushing through to the chiller compartment.  See [Figure 3](#Figure3).  
     <a name="Figure1"></a>
@@ -89,6 +88,27 @@
         1. Using the example above: 13.75 L/hr = 229.2 mL/min = 38.2 mL/10 seconds to efficiently check each tank's flow using a graduated cylinder
     1. While higher flow is more stable, lower flow may change slightly throughout the day, so it is recommended to check and set flow twice per day: once in the morning and once in the afternoon/evening.
 
+
+
+<a name="Overflow_into_Secondary_Sump"></a> **Overflow into Secondary Sump**  
+
+If you need to contain more water in the system than the tanks and main reservoir can hold at one time (ex. during a "low tide event" when half of the tank water is drained into the sump), then you will need to incorporate flow to and from the secondary sump.  
+
+1. First unplug the sump's main water pump to make sure the pump will not run dry if the water level drops too low.
+1. Open the Secondary Sump Return valve ( [Figure 1](#Figure1) ), so that the t-valve runs parallel with the PVC. Filtered sump water will then be simultaneously directed into the mesocosm and the secondary sump, via PVC tubing that diverts water into the top of the secondary reservoir.
+1. To then open flow between both the main holding reservoir and the secondary sump, open the Sump Exchange valve ( [Figure 2](#Figure2) ), so the t-valve runs parallel with the PVC.
+    1. This pipe will allow water to flow between both reservoirs, establishing water level equilibrium.
+1. If you have not already filled the mesocosm tanks, make sure the black needle valve for the D flow port (the outflow port for the short outflow pipe, located underneath each tank) is fully opened (turned all the way counterclockwise, and then one half turn back). The goal is to only fill the tanks to the halfway point ('low tide' level).
+    1. If you have filled the mesocosm tanks completely, fully open the D flow port as described above and reduce flow from the N and S inflow ports to initiate an ebb tide event (drains tank halfway).
+    1. Periodically check on the sump water level to make sure the sump will not overflow, though this is unlikely if the Sump Exchange Valve is opened (see above).
+1. The black needle valve for the N flow port (the primary continuous inflow port) should be partially opened (turn counter-clockwise to open). Leave the S valve closed completely (turned clockwise, just finger tight).
+    1. This configuration allows the tank to fill to the 'low tide' level, but not exceed this level, as long as the flow in is less than flow out through the small PVC pipe.
+1. When filling the sump reservoirs (by just filling into the main reservoir), fill the main reservoir to just below the overflow gate to the matala filters (blue and black mesh).
+1. Follow remaining details for [System Preparation](#Preparation) and [Sump Flow Preparation](#Sump_Flow) before continuing to ensure all flow channels are appropriately setup.
+    1. Make sure the heater, powerhead, and probe tips are all below the top of the short PVC pipe to ensure submersion during a 'low tide' level.
+    1. Make sure the water level in the main reservoir is still at least 2 inches above the carbon filters before turning on the main sump pump.  If not, add more seawater to the system until the carbon filters are once again submerged **to avoid the pump running dry**.
+    1. The full system requires ~ 400 gallons of sea water to maintain tank volume and submersion of carbon filters while including use of the secondary sump.
+    
 
 <a name="CO2_Scrubber"></a> **CO2 Scrubber to Elevate pH**  
 
@@ -130,6 +150,8 @@ While the system is powered on and cycling water through the sump and mesocosm t
             - Temperature: check heater fail or poor plug connection
             - pH: check if air stones (aka bubblers) are dosing or 'leaking' CO2. May need to adjust pressure on the CO2 tank to avoid CO2 pressure in tubing forcing CO2 through the solenoids if pH is too low
             - Salinity: may need to schedule a water collection day to refresh the system water if salinity values are too high
+
+
 
 <a name="Draining_Sump"></a> **Draining the Mesocosm and Sump**  
 
@@ -191,12 +213,3 @@ While the system is powered on and cycling water through the sump and mesocosm t
     1. Rinse all pH, conductivity, and temperature probes in DI water.
     1. Use a KCl storage solution for capping the pH probes, ensuring the probe tips are fully submerged in the solution.
 
-<a name="Overflow_into_Secondary_Sump"></a> **Overflow into Secondary Sump**  
-
-1. If you need to contain more water in the system than the tanks and main reservoir can hold at one time (ex. during a "low tide event" when half of the tank water is drained into the sump), then you will need to incorporate flow to and from the secondary sump.
-1. First unplug the sump's main water pump to make sure the pump will not run dry if the water level drops too low (see details below).
-1. To direct some flow from the mesocosm system into the secondary sump, partially or fully open the Secondary Sump Return valve ( [Figure 1](#Figure1) ), so that the t-valve runs parallel with the PVC.  Filtered sump water will then be simultaniously directed into the mesocosm and the secondary sump, via PVC tubing that diverts water into the top of the secondary reservoir.
-1. To then open flow between both the main holding reservoir and the secondary sump, open the Sump Exchange valve ( [Figure 2](#Figure2) ), so the t-valve runs parallel with the PVC.
-    1. Because this flow-through connection will allow water to flow between both reservoirs to establish water level equilibrium, make sure the water level in the main reservoir is still about 2 inches above the carbon filters after this water exchange has occurred.  If not, add more seawater to the system until the carbon filters are once again submerged **to avoid the pump running dry**.
-    1. Once the carbon filters are appropriately submerged (seawater just two inches above the filters, not much more), turn the main pump back on.
-    1. The full system requires ~ 400 gallons of sea water to maintain tank volume and submersion of carbon filters while including use of the secondary sump.
