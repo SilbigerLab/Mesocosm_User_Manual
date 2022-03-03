@@ -19,3 +19,5 @@ danielle.barnas@csun.edu
 [Full Manual \(pdf\)](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/docs/Mesocosm_User_Manual.pdf)
 
 [See Inside](images/)
+
+![First look](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/images/Tanks_with_Apex.png)  
