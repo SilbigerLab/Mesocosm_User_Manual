@@ -115,6 +115,8 @@
       IP Address: 172.24.113.75  
       Subnet Mask: 255.255.255.0  
       Default Gate: 172.24.113.1  
+      DNS (if required): 130.166.1.242  
+      Alternate DNS (if required): 130.166.252.242  
     1. Click OK  
     1. Click OK in Local Area Connection Properties  
 
