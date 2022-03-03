@@ -7,7 +7,7 @@ bookdown::gitbook:
       toolbar:
         position: fixed
       search: yes
-      sharing: 
+      sharing:
         facebook: yes
         twitter: yes
       before: |
