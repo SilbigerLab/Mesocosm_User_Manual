@@ -1,6 +1,23 @@
 book_filename: "Mesocosm_User_Manual"
 delete_merged_file: true
 rmd_subdir: true
+rmd_files: [
+  "index.Rmd",
+  "Rmd_Chapters/01-summary.rmd",
+  "Rmd_Chapters/02-contacts.rmd",
+  "Rmd_Chapters/03-system_details.rmd",
+  "Rmd_Chapters/04-inventory.rmd",
+  "Rmd_Chapters/05-start-up_guide.rmd",
+  "Rmd_Chapters/06-water_collection.rmd",
+  "Rmd_Chapters/07-tidal_manipulation.rmd",
+  "Rmd_Chapters/08-controlling_ph.rmd",
+  "Rmd_Chapters/09-controlling_temperature.rmd",
+  "Rmd_Chapters/10-apex_connection_guide.rmd",
+  "Rmd_Chapters/11-apex_programming_guide.rmd",
+  "Rmd_Chapters/12-apex_fusion_guide.rmd",
+  "Rmd_Chapters/13-breaker_box_connections.rmd",
+  "Rmd_Chapters/14-troubleshooting_guide.rmd"
+  ]
 language:
   ui:
     chapter_name: ""
