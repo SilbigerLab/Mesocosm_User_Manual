@@ -11,6 +11,7 @@
     * chapters/
     * Rmd_chapters/
 
+Gitbook requires Rmd files, while GitHub requires Md files to adopt markdown formatting.  
 
 Update GitBook and the .pdf and .epub files:
 1. If you have not already, install the following packages:
@@ -29,7 +30,7 @@ Update GitBook and the .pdf and .epub files:
     1. Call bookdown::publish_book() in your R Console
         1. You will be prompted to configure a bookdown.org publishing account on this system.  Choose Y (yes). 
         1. The first time you publish, you will be redirected to RStudio Connect and prompted to confirm packages connection. 
-    1. For publishing once you've already established an RStudio Connect connection, you will prompted to "Update application currently deployed at https://bookdown.org/contect/####/?"
+    1. For publishing once you've already established an RStudio Connect connection, you will prompted to "Update application currently deployed at https://bookdown.org/content/####/?"
         1. Choose Y (yes) to update and overwrite previous bookdown files
     1. After a complete rendering, you will be redirected to your published book in your internet browser.
     
