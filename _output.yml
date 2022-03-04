@@ -14,7 +14,7 @@ bookdown::gitbook:
         <li><a href="./">Mesocosm User Manual</a></li>
       after: |
         <li><a href="https://github.com/SilbigerLab/Mesocosm_User_Manual" target="blank">Full Manual on GitHub</a></li>
-    download: ["pdf"]
+    download: ["epub"]
     search: yes
 bookdown::pdf_book:
   includes:

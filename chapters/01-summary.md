@@ -5,4 +5,4 @@ This manual describes the design, operation, and maintenance of the Silbiger Lab
 Requests for use of the mesocosm system can be made [here](https://docs.google.com/forms/d/1LCZG39k8dJmIDLb5l6XBP8-Ow2yxawrKlUB2wUDesqg/edit)
 
 
-![First look](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/images/Tanks_with_Apex.png)  
+![First look](images/Tanks_with_Apex.png)  
