@@ -6,7 +6,7 @@
 ]{book}
 \title{Silbiger Lab Mesocosm User Manual}
 \author{Dr.~Nyssa Silbiger and Danielle Barnas}
-\date{2022-03-01}
+\date{2022-03-03}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -99,6 +99,12 @@
 This manual describes the design, operation, and maintenance of the Silbiger Lab mesocosm system, located in the loading bay between Citrus Hall and Eucalyptus Hall at California State University, Northridge, funded and operated by Dr.~Nyssa Silbiger.
 
 Requests for use of the mesocosm system can be made \href{https://docs.google.com/forms/d/1LCZG39k8dJmIDLb5l6XBP8-Ow2yxawrKlUB2wUDesqg/edit}{here}
+
+\begin{figure}
+\centering
+\includegraphics{images/Tanks_with_Apex.png}
+\caption{First look}
+\end{figure}
 
 \hypertarget{contacts}{%
 \chapter{Contacts}\label{contacts}}
@@ -522,10 +528,10 @@ Apex 53,000 uS Conductivity Calibration Pack & 5 & \href{https://www.bulkreefsup
 - \protect\hyperlink{Filtration}{\textbf{Filtration}}\\
 - \protect\hyperlink{Sump_Flow}{\textbf{Sump Flow}}\\
 - \protect\hyperlink{Meso_Flow}{\textbf{Mesocosm Tank Flow}}\\
+- \protect\hyperlink{Overflow_into_Secondary_Sump}{\textbf{Overflow into Seconday Sump (tidal cycling)}}\\
 - \protect\hyperlink{CO2_Scrubber}{\textbf{CO2 Scrubber to Elevate pH}}\\
 - \protect\hyperlink{Daily_Checks}{\textbf{Daily Checks of Sump and Tank Operation}}\\
-- \protect\hyperlink{Draining_Sump}{\textbf{Draining the Meso and Sump}}\\
-- \protect\hyperlink{Overflow_into_Secondary_Sump}{\textbf{Overflow into Seconday Sump (tidal cycling)}}
+- \protect\hyperlink{Draining_Sump}{\textbf{Draining the Meso and Sump}}
 
 \textbf{Preparation inside the Mesocosm}
 
@@ -587,7 +593,7 @@ Apex 53,000 uS Conductivity Calibration Pack & 5 & \href{https://www.bulkreefsup
       N flow ports are always the `inner' ports, while S flow ports are always `outer' ports for each tank couplet.
     \end{enumerate}
   \item
-    The black needle valve for the D flow port (the outflow port for the short outflow pipe, located underneath each tank) is fully closed (turned all the way clockwise, just finger-tight). This ensures the tanks will fill completely initially.
+    The black needle valve for the D flow port (the outflow port for the short outflow pipe, located underneath each tank) is fully closed (turned all the way clockwise, just finger-tight). This ensures the tanks will fill completely initially. If you plan to use tidal cycling, refer to the \protect\hyperlink{Overflow_into_Secondary_Sump}{Secondary Sump Overflow section} for a different N, S, and D flow port configuration.
   \end{enumerate}
 \item
   To fill the system with seawater, follow the \href{06-water_collection.rmd}{water collection guide}.
@@ -601,6 +607,8 @@ Apex 53,000 uS Conductivity Calibration Pack & 5 & \href{https://www.bulkreefsup
     Once the water level is at least 2 inches above the three carbon filters, turn on the main sump pump to just circulate flow within the sump (refer to the water collection guide for exact positioning of the t-valves for this configuration.)
   \item
     Once the water level of the sump is about 2/3 full, slowly open flow to the mesocosm tanks (again, refer to the \href{06-water_collection.rmd}{water collection guide} for exact positioning. Do not fully open or fully close any valves when redirecting flow to the mesocosm tanks.)
+  \item
+    If you are planning to use the system for tidal cycling, please refer to the \protect\hyperlink{Overflow_into_Secondary_Sump}{Secondary Sump Overflow section} for more specific information on this setup.
   \end{enumerate}
 \item
   Frequently walk between the mesocosm tanks and the sump to make sure there are no spills or leaks, and that every tank is filling, while also making sure the water level in the sump is not falling too low (should not reach the carbon filters) or too high (should not rise much above the matala filters).
@@ -618,11 +626,11 @@ Apex 53,000 uS Conductivity Calibration Pack & 5 & \href{https://www.bulkreefsup
   \def\labelenumii{\arabic{enumii}.}
   \tightlist
   \item
-    Place the heater horizontally along the back wall, with the power head along this same wall off to one side, not touching the heater.
+    Place the heater horizontally along the back wall, with the power head along this same wall off to one side, not touching the heater. \textbf{For tidal cycling, both the heater and powerhead should be below the top of the small PVC.}
   \item
     Place the temperature probes along any wall where the value will not be skewed (not directly next to the heater, but near the powerhead can be a good location)
   \item
-    Once the pH and conductivity probes have been calibrated, these can also be stuck along the wall, following similar guidelines to the temperature probe.
+    Once the pH and conductivity probes have been calibrated, these can also be stuck along the wall, following similar guidelines to the temperature probe. \textbf{For tidal cycling, the temp, pH, and conductivity probes should all be placed with probe tips below the top of the small PVC.}
   \end{enumerate}
 \item
   Once the tanks are completely filled, turn ON the powerheads via \href{apexfusion.com}{ApexFusion}.
@@ -643,8 +651,6 @@ Apex 53,000 uS Conductivity Calibration Pack & 5 & \href{https://www.bulkreefsup
   The system is now ready for manipulative experiments.
 \end{enumerate}
 
-\textbf{Filtration}
-
 \textbf{Sump Flow}
 
 \begin{enumerate}
@@ -661,7 +667,7 @@ Apex 53,000 uS Conductivity Calibration Pack & 5 & \href{https://www.bulkreefsup
   \item
     The Meso Return valve should be vertical in the ``closed'' position (perpendicular to the PVC), and the Sump Return valve should also be vertical in the ``open'' position (in line with the PVC). See \protect\hyperlink{Figure1}{Figure 1} to identify valves.
   \item
-    The Pump Return valve should be veritcal in the ``open'' position to allow flow from the sump through the pump to the UV filter and chiller compartments. See \protect\hyperlink{Figure2}{Figure 2}.
+    The Pump Return valve should be vertical in the ``open'' position to allow flow from the sump through the pump to the UV filter and chiller compartments. See \protect\hyperlink{Figure2}{Figure 2}.
 
     \begin{enumerate}
     \def\labelenumiii{\arabic{enumiii}.}
@@ -745,6 +751,63 @@ Apex 53,000 uS Conductivity Calibration Pack & 5 & \href{https://www.bulkreefsup
     \end{enumerate}
   \item
     While higher flow is more stable, lower flow may change slightly throughout the day, so it is recommended to check and set flow twice per day: once in the morning and once in the afternoon/evening.
+  \end{enumerate}
+\end{enumerate}
+
+\textbf{Overflow into Secondary Sump}
+
+If you need to contain more water in the system than the tanks and main reservoir can hold at one time (ex. during a ``low tide event'' when half of the tank water is drained into the sump), then you will need to incorporate flow to and from the secondary sump.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  First unplug the sump's main water pump to make sure the pump will not run dry if the water level drops too low.
+\item
+  Open the Secondary Sump Return valve ( \protect\hyperlink{Figure1}{Figure 1} ), so that the t-valve runs parallel with the PVC. Filtered sump water will then be simultaneously directed into the mesocosm and the secondary sump, via PVC tubing that diverts water into the top of the secondary reservoir.
+\item
+  To then open flow between both the main holding reservoir and the secondary sump, open the Sump Exchange valve ( \protect\hyperlink{Figure2}{Figure 2} ), so the t-valve runs parallel with the PVC.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    This pipe will allow water to flow between both reservoirs, establishing water level equilibrium.
+  \end{enumerate}
+\item
+  If you have not already filled the mesocosm tanks, make sure the black needle valve for the D flow port (the outflow port for the short outflow pipe, located underneath each tank) is fully opened (turned all the way counterclockwise, and then one half turn back). The goal is to only fill the tanks to the halfway point (`low tide' level).
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    If you have filled the mesocosm tanks completely, fully open the D flow port as described above and reduce flow from the N and S inflow ports to initiate an ebb tide event (drains tank halfway).
+  \item
+    Periodically check on the sump water level to make sure the sump will not overflow, though this is unlikely if the Sump Exchange Valve is opened (see above).
+  \end{enumerate}
+\item
+  The black needle valve for the N flow port (the primary continuous inflow port) should be partially opened (turn counter-clockwise to open). Leave the S valve closed completely (turned clockwise, just finger tight).
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    This configuration allows the tank to fill to the `low tide' level, but not exceed this level, as long as the flow in is less than flow out through the small PVC pipe.
+  \end{enumerate}
+\item
+  When filling the sump reservoirs (by just filling into the main reservoir), fill the main reservoir to just below the overflow gate to the matala filters (blue and black mesh).
+\item
+  Follow remaining details for \protect\hyperlink{Preparation}{System Preparation} and \protect\hyperlink{Sump_Flow}{Sump Flow Preparation} before continuing to ensure all flow channels are appropriately setup.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Make sure the heater, powerhead, and probe tips are all below the top of the short PVC pipe to ensure submersion during a `low tide' level.
+  \item
+    Make sure the water level in the main reservoir is still at least 2 inches above the carbon filters before turning on the main sump pump. If not, add more seawater to the system until the carbon filters are once again submerged \textbf{to avoid the pump running dry}.
+  \item
+    The full system requires \textasciitilde{} 400 gallons of sea water to maintain tank volume and submersion of carbon filters while including use of the secondary sump.
   \end{enumerate}
 \end{enumerate}
 
@@ -1056,32 +1119,6 @@ While the system is powered on and cycling water through the sump and mesocosm t
   \end{enumerate}
 \end{enumerate}
 
-\textbf{Overflow into Secondary Sump}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  If you need to contain more water in the system than the tanks and main reservoir can hold at one time (ex. during a ``low tide event'' when half of the tank water is drained into the sump), then you will need to incorporate flow to and from the secondary sump.
-\item
-  First unplug the sump's main water pump to make sure the pump will not run dry if the water level drops too low (see details below).
-\item
-  To direct some flow from the mesocosm system into the secondary sump, partially or fully open the Secondary Sump Return valve ( \protect\hyperlink{Figure1}{Figure 1} ), so that the t-valve runs parallel with the PVC. Filtered sump water will then be simultaniously directed into the mesocosm and the secondary sump, via PVC tubing that diverts water into the top of the secondary reservoir.
-\item
-  To then open flow between both the main holding reservoir and the secondary sump, open the Sump Exchange valve ( \protect\hyperlink{Figure2}{Figure 2} ), so the t-valve runs parallel with the PVC.
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    Because this flow-through connection will allow water to flow between both reservoirs to establish water level equilibrium, make sure the water level in the main reservoir is still about 2 inches above the carbon filters after this water exchange has occurred. If not, add more seawater to the system until the carbon filters are once again submerged \textbf{to avoid the pump running dry}.
-  \item
-    Once the carbon filters are appropriately submerged (seawater just two inches above the filters, not much more), turn the main pump back on.
-  \item
-    The full system requires \textasciitilde{} 400 gallons of sea water to maintain tank volume and submersion of carbon filters while including use of the secondary sump.
-  \end{enumerate}
-\end{enumerate}
-
 \hypertarget{water-collection-procedures}{%
 \chapter{Water Collection Procedures}\label{water-collection-procedures}}
 
@@ -1323,7 +1360,20 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
 \hypertarget{tidal-manipulation}{%
 \chapter{Tidal Manipulation}\label{tidal-manipulation}}
 
-Controling the tidal cycle of each experimental tank with the Apex. This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needle valves described in the \protect\hyperlink{system-details}{System Details}, and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
+\textbf{Controlling the tidal cycle of each experimental tank with the Apex.}
+
+This is achieved by manipulating the incoming and outgoing flow rates of each individual tank with the needle valves described in the \protect\hyperlink{system-details}{System Details}, and setting the ON/OFF time cycle of the supply line with the solenoid. The basic procedure is outlined below.
+
+\textbf{Initial setup}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Refer to the \href{05-start-up_guide.rmd/\#Overflow_into_Secondary_Sump}{start up guide} for more details on initial system setup.
+\end{enumerate}
+
+\textbf{Setting the flow cycle}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1542,6 +1592,338 @@ The temperature is controlled by a single 200-W Hydor heater programmed via Nept
 \end{itemize}
 
 Refer to \href{https://github.com/SilbigerLab/Mesocosm_User_Manual/tree/7503b88686aef920c4a4ed473b1efe37b34dae10/Manuals/Apex_Comprehensive_Reference_Manual.pdf}{Comprehensive Manual} for set point programming.
+
+\hypertarget{connecting-to-the-apex}{%
+\chapter{Connecting to the Apex}\label{connecting-to-the-apex}}
+
+\hypertarget{using-internet-or-lan-via-ethernet-cable}{%
+\subsection{Using internet or LAN (via ethernet cable)}\label{using-internet-or-lan-via-ethernet-cable}}
+
+\textbf{Contents:}\\
+- \protect\hyperlink{apex_display_configuration}{Apex Display Configuration}\\
+- \protect\hyperlink{display_module_network_settings}{Display Module network settings}\\
+- \protect\hyperlink{connect_apex}{Connecting to Apex}\\
+- \protect\hyperlink{apex_fusion_link}{Connect via Apex Fusion}\\
+- \protect\hyperlink{network_settings}{Changing computer network settings}\\
+- \protect\hyperlink{pc}{PC}\\
+- \protect\hyperlink{mac}{Mac}\\
+- \protect\hyperlink{apex_classic_dashboard}{Accessing the Apex Classic Dashboard}\\
+- \protect\hyperlink{references}{References}
+
+\textbf{Apex Display Configuration}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Using Apex Display
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    The Apex Display plugs into any available AquaBus ports (look like USB, but \textbf{is not compatible with standard USB. Only use ports for Apex modules connected by AquaBus cables}.\\
+  \item
+    The display module can display 4 different status screens that you can configure (use the LEFT and RIGHT arrows on the HOME screen to switch between each). This enables you to use the Apex on multiple tanks where each one has its own screen or a single tank with up to 4 screens showing different data. The top right of each screen has a series of 4 small blocks to represent the respective numbered screen.\\
+  \item
+    From the HOME screen, pressing either the UP or DOWN arrow keys will activate one of the four feed cycles, A-D. You do not select a feed cycle from a list of choices - simply stopping on the appropriate letter is sufficient to activate it. If you get here by mistake, simply let it select a feed cycle then immediately press the CANCEL key (right function key).\\
+  \item
+    Plug in your Heater/Chiller/etc. Into any of the four (4) outlets available.\\
+  \end{enumerate}
+\item
+  Modifying Outlets
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    From Home press the center button to enter the main menu. SELECT Setup → Outlet Setup → Manage Outlets\\
+  \item
+    Use the UP and DOWN arrows to chose which of the four outlets you would like to edit (\textbf{On the AquaBus, the outlets are numbered 1, 2, 3, 4, arranged as top left, top right, bottom left, bottom right, respectively})\\
+  \item
+    Press SELECT to edit the desired outlet.\\
+  \item
+    Name: Use the RIGHT and LEFT arrows to move between character places, and the UP and DOWN arrows to change each character. Once finished with your edits for each line, press SELECT or the right functional key labeled SAVE\\
+  \item
+    Ctrl Type: Use the UP/DOWN arrows to change type. Use ``Advanced'' to modify your own code for this outlet, or choose a pre-programmed type (eg. ``Heater'' or ``Chiller'')\\
+  \item
+    Icon: Use the UP/DOWN arrows to change icon. Choose something relevant to the equipment utilizing the outlet (eg. for a Heater, choose ``Thermometer''; for a Chiller, choose ``Fan'')\\
+  \item
+    Addr: Refers to which outlet you are Modifying.\\
+  \end{enumerate}
+\item
+  Programming Outlets
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    From the ``Outlet Setup'' menu, choose ``Program Outlets''. Again choose which outlet you'd like to program and press SELECT.\\
+  \item
+    UP/DOWN arrow to SELECT which outlet you want to program. The program will vary depending on which preset you chose or if you chose ``Advanced''\\
+  \item
+    ``Heater'' and ``Chiller'' preset programs have four lines:\\
+    Fallback: On / Off (Choose ``Off'' if your heater/chiller doesn't have an internal thermostat\\
+    Temp Probe: Tmp\\
+    Outlet On: (The temp to turn your heater or chiller on)\\
+    Outlet Off: (The temp to turn your heater or chiller off)\\
+  \item
+    ``Advanced'' program specific for our Heater and Chiller\\
+    Fallback: OFF\\
+    Set: OFF\\
+    If Tmp \textless{} (desired temp)\\
+    Then ON\\
+  \end{enumerate}
+\item
+  Controlling Outlets
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    From the Home screen, press the center round button → ``Control/Status'' → ``Manual Control''\\
+  \item
+    Use UP/DOWN arrows to choose which outlet you'd like to control and SELECT\\
+  \item
+    Choose ON, OFF, or AUTO
+
+    \begin{enumerate}
+    \def\labelenumiii{\arabic{enumiii}.}
+    \tightlist
+    \item
+      ON turns on the outlet regardless of programming\\
+    \item
+      OFF turns off the outlet regardless of programming\\
+    \item
+      AUTO uses the set program to determine ON/OFF status of outlet
+    \end{enumerate}
+  \end{enumerate}
+\end{enumerate}
+
+\textbf{Apex Display Module Network Settings}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  System =\textgreater{} Net Setup =\textgreater{} turn DHCP ON, if not already, by pressing the center button\\
+\item
+  Go to IP Address in the same menu\\
+\item
+  Ensure the IP address is one of the following (for each respective Apex unit):
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Apex\_1 (SN 39106): 172.24.113.25\\
+    Apex\_2 (SN 40216): 172.24.113.22\\
+    Apex\_3 (SN 39952): 172.24.113.23\\
+    Apex\_4 (SN 37810): 172.24.113.21\\
+    Apex\_5 (SN 41239): 172.24.113.24\\
+  \end{enumerate}
+\item
+  Press OK\\
+\item
+  Go to Gateway menu\\
+\item
+  If needed, change Gateway to 172.24.113.1\\
+\item
+  Press OK\\
+\item
+  In the same menu, select Restart
+\end{enumerate}
+
+\textbf{Connecting to the Mesocosm Apex}
+
+\textbf{Getting Apex online}
+1. Turn on the Apex unit(s) before plugging in any ethernet cables.
+1. The base unit status light will go from Green \textgreater{} Purple \textgreater{} Green \textgreater{} Orange \textgreater{} Blue.
+1. Blue indicates the unit is ready to connect to the internet via wifi or ethernet cable.
+1. The EB8 status light will flash rapidly while establishing communications with the base, then will turn solid Orange\\
+1. EB8 LED State and Status\\
+- Off: Apex unit is not powered\\
+- Blinking Yellow: EB8 is in boot loader mode and has not been configured by the Apex\\
+- Solid Yellow: EB8 is in boot loader mode and has been configured by the Apex\\
+- Blinking Green: EB8 is running but has not received commands from the Apex. Outlets are in Fallback mode\\
+- Solid Green: EB8 is running and is receiving commands from the Apex base unit\\
+1. Once the Apex base unit is showing a steady blue color, plug in the blue ethernet cable. Once the unit has established a network connection with a blue ethernet cable, the light will return to steady Orange.
+1. If the apex does not show a stable orange, use a push pin to reset the apex (hold the pin on the reset button - underside of the base module - for a couple seconds until the base module colrs begin to change.)
+
+\textbf{Connect via Apex Fusion:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Type into an internet browser \href{apexfusion.com}{http://www.apexfusion.com}\\
+\item
+  If not already logged in, click Get Control on the Fusion Home Page to access the login screen.\\
+\item
+  If you haven't already created an account, click Create Account and follow the steps through Fusion\\
+\item
+  Once logged in, you will be directed to a Home Page with your Linked Apex List\\
+\item
+  To link the Apex for the first time, click the upper left Link Apex icon (image of a link chain). You will only need to do this once, after which your Apex will then always be available in your List.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    To Link Apex to Fusion from the Apex Dashboard: Choose Link to Fusion on your Apex Dashboard\\
+  \item
+    To Link Apex to Fusion from the Apex Display Module: Go to Main Menu by pressing the Center Button on the Module, select ApexFusion: Link using the Center Button.\\
+  \end{enumerate}
+\item
+  You'll be provided a token ID\\
+\item
+  Within 10 minutes, enter that token in the box provided to link your Apex to Apex Fusion and click Link Apex\\
+\item
+  You should now see your apex in your Apex List\\
+\item
+  Select your Apex from your Apex List and begin controlling from your computer
+\end{enumerate}
+
+\textbf{Changing Computer Network Settings}\\
+1. To establish a local area network (LAN), plug a free blue ethernet cable into your computer.
+1. If your computer network is already set up for the Apex, refer to the \protect\hyperlink{apex_display_configuration}{Apex Display Module configuration} to view and control your system.
+
+\textbf{For a local area network (LAN) connection to Apex:}
+
+\textbf{PC Network Settings:}
+
+\begin{itemize}
+\tightlist
+\item
+  For Windows 10 (on the Yoga)
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Right click the network Icon in the lower right corner of the dashboard task bar (small wifi symbol), and click Open Network and Internet Settings.\\
+  \item
+    Click on Change Adapter Options\\
+  \item
+    Find the Local Area Connection/Ethernet and right click\\
+  \item
+    Go to Properties\\
+  \item
+    Double click on Internet protocol Version 4(TCP/IPv4)\\
+    1. If nothing happens click Properties in the new window\\
+  \item
+    Change to `Use the Following IP address'\\
+  \item
+    Write in the following:\\
+    IP Address: 172.24.113.75\\
+    Subnet Mask: 255.255.255.0\\
+    Default Gate: 172.24.113.1\\
+    DNS (if required): 130.166.1.242\\
+    Alternate DNS (if required): 130.166.252.242\\
+  \item
+    Click OK\\
+  \item
+    Click OK in Local Area Connection Properties
+  \end{enumerate}
+\item
+  For Windows 7 and Windows Server 2008 R2, do one of the following, and then follow steps to change IP address as shown above:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    In Control Panel, in Adjust your computer's settings, when View by is set to Category, click Network and Internet, and then click Network and Sharing Center.\\
+  \item
+    In Control Panel, in Adjust your computer's settings, when View by is set to either Large icons or Small icons, click Network and Sharing Center.
+  \end{itemize}
+\item
+  For Windows Vista and Windows Server 2008, do one of the following, and then follow steps to change IP address as shown above:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you use the Control Panel Home view, under Network and Internet section, click View network status and tasks.\\
+  \item
+    If you use the Classic View, double-click Network and Sharing Center.
+  \end{itemize}
+\end{itemize}
+
+Optional: If you think the computer may not be recognizing the Apex, check connection status by downloading the Apex Browse Utilities Tool. There is a Windows PC and Mac version.\\
+- PC: \url{http://www.neptunesystems.com/ApexBrowse_pc.zip}\\
+- Mac: \url{http://www.neptunesystems.com/ApexBrowse_mac.zip}
+
+\textbf{Mac Network Settings:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Open System Preferences =\textgreater{} Network\\
+\item
+  Select the Ethernet connection\\
+\item
+  Change Configure IPv4 to Manually\\
+\item
+  Write in the following:\\
+  IP Address: 172.24.113.75\\
+  Subnet Mask: 255.255.255.0\\
+  Router: 172.24.113.1\\
+\item
+  Click Apply
+\end{enumerate}
+
+\textbf{Accessing and using the Apex Classic Dashboard}\\
+Once the above settings are preset for the computer and apex, any future connections should be as simple as connecting your computer via blue ethernet cable.
+
+\textbf{Accessing Classic Dashboard}\\
+1. Open an internet web browser page\\
+1. Type into the address bar \url{http://172.24.113.\#\#} for the respective Apex unit you want to access (see above for IP address endings).\\
+1. Enter the default Username: \textbf{admin} and Password: \textbf{1234}\\
+1. Begin controlling your Apex from your computer
+
+\textbf{Using Classic Dashboard}
+1. Classic Dashboard\\
+1. Observe current and recorded temperature\\
+1. Manually turn on/off your outlets/devices\\
+1. Set your outlets/devices to automatic programming\\
+1. Modifying Outlet\\
+1. Click ``Configuration'' → Outlet Setup\\
+1. Select Base Outlet 1,2,3,or 4\\
+1. Outlet Name: name the outlet for the device which will be plugged in (ex. Heater, chiller, etc)\\
+1. Control type: match this to the device type or choose Advanced\\
+1. Icon: useful visual on the Display Module, match with device used (ex. Heater = thermometer, Chiller = fan)\\
+1. Log: ENABLE\\
+1. Programming Outlets\\
+1. From the home dashboard or Outlets page, click the small gear symbol to adjust program settings.\\
+1. Choose the program type: ex. ``Heater'' or ``Chiller'' or Advanced\\
+1. Heater and Chiller types have four preset lines:\\
+Fallback: On / Off (Choose ``Off'' if your heater/chiller doesn't have an internal thermostat\\
+Temp Probe: Tmp\\
+Outlet On: (The temp to turn your heater or chiller on)\\
+Outlet Off: (The temp to turn your heater or chiller off)\\
+- Probe name: must match the probe input setup name (ex. ``Tmp'' for temperature probe)\\
+1. Choose the ``Advanced'' program type to have more control over your device program\\
+Fallback: OFF\\
+Set: OFF\\
+If Tmp \textless{} (desired temp)\\
+Then ON\\
+1. Controlling Outlets\\
+1. From the Home screen, press the center round button → ``Control/Status'' → ``Manual Control''\\
+1. Use UP/DOWN arrows to choose which outlet you'd like to control and SELECT\\
+1. Choose ON, OFF, or AUTO\\
+1. ON turns on the outlet regardless of programming\\
+1. OFF turns off the outlet regardless of programming\\
+1. AUTO uses the set program to determine ON/OFF status of outlet
+
+\textbf{References:}\\
+- \url{https://www.neptunesystems.com/getstarted/apex-el/}\\
+- \url{https://www.neptunesystems.com/getstarted/apexng/apex-wifi/pc-wifi-el/}\\
+- Help Service: Neptune Systems Contact Number:\\
+- (408) 779-4090 (press 1, then press 1 again to be transferred to a Tech Representative)\\
+- \href{https://www.neptunesystems.com/getstarted/apexjr/}{Apex Jr.~Get Started Guide}\\
+- \href{https://www.neptunesystems.com/downloads/docs/Comprehensive_Reference_Manual.pdf}{Apex Comprehensive Reference Manual (Apex, Apex Lite, Apex Jr)}\\
+- \href{https://www.neptunesystems.com/downloads/docs/AquaController-Apex-Jr-Quickstart.pdf}{Aquacontroller Apex Jr Quick Start Guide}\\
+- \href{https://www.neptunesystems.com/downloads/docs/Quick-Start-Apex-Jr-Fullsheet-v1-web.pdf}{Apex Jr Ultra-Quick Setup Guide}\\
+- \href{https://www.neptunesystems.com/downloads/docs/EB4_manual.pdf}{EnergyBar 4 Setup Guide}
 
 \hypertarget{apex-programming-guide}{%
 \chapter{Apex Programming Guide}\label{apex-programming-guide}}
@@ -1915,336 +2297,6 @@ All configurations are for Control Type: Advanced
     End Intensity: 100
   \end{itemize}
 \end{itemize}
-
-\hypertarget{connecting-to-the-apex}{%
-\chapter{Connecting to the Apex}\label{connecting-to-the-apex}}
-
-\hypertarget{using-internet-or-lan-via-ethernet-cable}{%
-\subsection{Using internet or LAN (via ethernet cable)}\label{using-internet-or-lan-via-ethernet-cable}}
-
-\textbf{Contents:}\\
-- \protect\hyperlink{apex_display_configuration}{Apex Display Configuration}\\
-- \protect\hyperlink{display_module_network_settings}{Display Module network settings}\\
-- \protect\hyperlink{connect_apex}{Connecting to Apex}\\
-- \protect\hyperlink{apex_fusion_link}{Connect via Apex Fusion}\\
-- \protect\hyperlink{network_settings}{Changing computer network settings}\\
-- \protect\hyperlink{pc}{PC}\\
-- \protect\hyperlink{mac}{Mac}\\
-- \protect\hyperlink{apex_classic_dashboard}{Accessing the Apex Classic Dashboard}\\
-- \protect\hyperlink{references}{References}
-
-\textbf{Apex Display Configuration}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Using Apex Display
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    The Apex Display plugs into any available AquaBus ports (look like USB, but \textbf{is not compatible with standard USB. Only use ports for Apex modules connected by AquaBus cables}.\\
-  \item
-    The display module can display 4 different status screens that you can configure (use the LEFT and RIGHT arrows on the HOME screen to switch between each). This enables you to use the Apex on multiple tanks where each one has its own screen or a single tank with up to 4 screens showing different data. The top right of each screen has a series of 4 small blocks to represent the respective numbered screen.\\
-  \item
-    From the HOME screen, pressing either the UP or DOWN arrow keys will activate one of the four feed cycles, A-D. You do not select a feed cycle from a list of choices - simply stopping on the appropriate letter is sufficient to activate it. If you get here by mistake, simply let it select a feed cycle then immediately press the CANCEL key (right function key).\\
-  \item
-    Plug in your Heater/Chiller/etc. Into any of the four (4) outlets available.\\
-  \end{enumerate}
-\item
-  Modifying Outlets
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    From Home press the center button to enter the main menu. SELECT Setup → Outlet Setup → Manage Outlets\\
-  \item
-    Use the UP and DOWN arrows to chose which of the four outlets you would like to edit (\textbf{On the AquaBus, the outlets are numbered 1, 2, 3, 4, arranged as top left, top right, bottom left, bottom right, respectively})\\
-  \item
-    Press SELECT to edit the desired outlet.\\
-  \item
-    Name: Use the RIGHT and LEFT arrows to move between character places, and the UP and DOWN arrows to change each character. Once finished with your edits for each line, press SELECT or the right functional key labeled SAVE\\
-  \item
-    Ctrl Type: Use the UP/DOWN arrows to change type. Use ``Advanced'' to modify your own code for this outlet, or choose a pre-programmed type (eg. ``Heater'' or ``Chiller'')\\
-  \item
-    Icon: Use the UP/DOWN arrows to change icon. Choose something relevant to the equipment utilizing the outlet (eg. for a Heater, choose ``Thermometer''; for a Chiller, choose ``Fan'')\\
-  \item
-    Addr: Refers to which outlet you are Modifying.\\
-  \end{enumerate}
-\item
-  Programming Outlets
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    From the ``Outlet Setup'' menu, choose ``Program Outlets''. Again choose which outlet you'd like to program and press SELECT.\\
-  \item
-    UP/DOWN arrow to SELECT which outlet you want to program. The program will vary depending on which preset you chose or if you chose ``Advanced''\\
-  \item
-    ``Heater'' and ``Chiller'' preset programs have four lines:\\
-    Fallback: On / Off (Choose ``Off'' if your heater/chiller doesn't have an internal thermostat\\
-    Temp Probe: Tmp\\
-    Outlet On: (The temp to turn your heater or chiller on)\\
-    Outlet Off: (The temp to turn your heater or chiller off)\\
-  \item
-    ``Advanced'' program specific for our Heater and Chiller\\
-    Fallback: OFF\\
-    Set: OFF\\
-    If Tmp \textless{} (desired temp)\\
-    Then ON\\
-  \end{enumerate}
-\item
-  Controlling Outlets
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    From the Home screen, press the center round button → ``Control/Status'' → ``Manual Control''\\
-  \item
-    Use UP/DOWN arrows to choose which outlet you'd like to control and SELECT\\
-  \item
-    Choose ON, OFF, or AUTO
-
-    \begin{enumerate}
-    \def\labelenumiii{\arabic{enumiii}.}
-    \tightlist
-    \item
-      ON turns on the outlet regardless of programming\\
-    \item
-      OFF turns off the outlet regardless of programming\\
-    \item
-      AUTO uses the set program to determine ON/OFF status of outlet
-    \end{enumerate}
-  \end{enumerate}
-\end{enumerate}
-
-\textbf{Apex Display Module Network Settings}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  System =\textgreater{} Net Setup =\textgreater{} turn DHCP ON, if not already, by pressing the center button\\
-\item
-  Go to IP Address in the same menu\\
-\item
-  Ensure the IP address is one of the following (for each respective Apex unit):
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    Apex\_1 (SN 39106): 172.24.113.25\\
-    Apex\_2 (SN 40216): 172.24.113.22\\
-    Apex\_3 (SN 39952): 172.24.113.23\\
-    Apex\_4 (SN 37810): 172.24.113.21\\
-    Apex\_5 (SN 41239): 172.24.113.24\\
-  \end{enumerate}
-\item
-  Press OK\\
-\item
-  Go to Gateway menu\\
-\item
-  If needed, change Gateway to 172.24.113.1\\
-\item
-  Press OK\\
-\item
-  In the same menu, select Restart
-\end{enumerate}
-
-\textbf{Connecting to the Mesocosm Apex}
-
-\textbf{Getting Apex online}
-1. Turn on the Apex unit(s) before plugging in any ethernet cables.
-1. The base unit status light will go from Green \textgreater{} Purple \textgreater{} Green \textgreater{} Orange \textgreater{} Blue.
-1. Blue indicates the unit is ready to connect to the internet via wifi or ethernet cable.
-1. The EB8 status light will flash rapidly while establishing communications with the base, then will turn solid Orange\\
-1. EB8 LED State and Status\\
-- Off: Apex unit is not powered\\
-- Blinking Yellow: EB8 is in boot loader mode and has not been configured by the Apex\\
-- Solid Yellow: EB8 is in boot loader mode and has been configured by the Apex\\
-- Blinking Green: EB8 is running but has not received commands from the Apex. Outlets are in Fallback mode\\
-- Solid Green: EB8 is running and is receiving commands from the Apex base unit\\
-1. Once the Apex base unit is showing a steady blue color, plug in the blue ethernet cable. Once the unit has established a network connection with a blue ethernet cable, the light will return to steady Orange.
-1. If the apex does not show a stable orange, use a push pin to reset the apex (hold the pin on the reset button - underside of the base module - for a couple seconds until the base module colrs begin to change.)
-
-\textbf{Connect via Apex Fusion:}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Type into an internet browser \href{apexfusion.com}{http://www.apexfusion.com}\\
-\item
-  If not already logged in, click Get Control on the Fusion Home Page to access the login screen.\\
-\item
-  If you haven't already created an account, click Create Account and follow the steps through Fusion\\
-\item
-  Once logged in, you will be directed to a Home Page with your Linked Apex List\\
-\item
-  To link the Apex for the first time, click the upper left Link Apex icon (image of a link chain). You will only need to do this once, after which your Apex will then always be available in your List.
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    To Link Apex to Fusion from the Apex Dashboard: Choose Link to Fusion on your Apex Dashboard\\
-  \item
-    To Link Apex to Fusion from the Apex Display Module: Go to Main Menu by pressing the Center Button on the Module, select ApexFusion: Link using the Center Button.\\
-  \end{enumerate}
-\item
-  You'll be provided a token ID\\
-\item
-  Within 10 minutes, enter that token in the box provided to link your Apex to Apex Fusion and click Link Apex\\
-\item
-  You should now see your apex in your Apex List\\
-\item
-  Select your Apex from your Apex List and begin controlling from your computer
-\end{enumerate}
-
-\textbf{Changing Computer Network Settings}\\
-1. To establish a local area network (LAN), plug a free blue ethernet cable into your computer.
-1. If your computer network is already set up for the Apex, refer to the \protect\hyperlink{apex_display_configuration}{Apex Display Module configuration} to view and control your system.
-
-\textbf{For a local area network (LAN) connection to Apex:}
-
-\textbf{PC Network Settings:}
-
-\begin{itemize}
-\tightlist
-\item
-  For Windows 10 (on the Yoga)
-
-  \begin{enumerate}
-  \def\labelenumi{\arabic{enumi}.}
-  \tightlist
-  \item
-    Right click the network Icon in the lower right corner of the dashboard task bar (small wifi symbol), and click Open Network and Internet Settings.\\
-  \item
-    Click on Change Adapter Options\\
-  \item
-    Find the Local Area Connection/Ethernet and right click\\
-  \item
-    Go to Properties\\
-  \item
-    Double click on Internet protocol Version 4(TCP/IPv4)\\
-    1. If nothing happens click Properties in the new window\\
-  \item
-    Change to `Use the Following IP address'\\
-  \item
-    Write in the following:\\
-    IP Address: 172.24.113.75\\
-    Subnet Mask: 255.255.255.0\\
-    Default Gate: 172.24.113.1\\
-  \item
-    Click OK\\
-  \item
-    Click OK in Local Area Connection Properties
-  \end{enumerate}
-\item
-  For Windows 7 and Windows Server 2008 R2, do one of the following, and then follow steps to change IP address as shown above:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    In Control Panel, in Adjust your computer's settings, when View by is set to Category, click Network and Internet, and then click Network and Sharing Center.\\
-  \item
-    In Control Panel, in Adjust your computer's settings, when View by is set to either Large icons or Small icons, click Network and Sharing Center.
-  \end{itemize}
-\item
-  For Windows Vista and Windows Server 2008, do one of the following, and then follow steps to change IP address as shown above:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    If you use the Control Panel Home view, under Network and Internet section, click View network status and tasks.\\
-  \item
-    If you use the Classic View, double-click Network and Sharing Center.
-  \end{itemize}
-\end{itemize}
-
-Optional: If you think the computer may not be recognizing the Apex, check connection status by downloading the Apex Browse Utilities Tool. There is a Windows PC and Mac version.\\
-- PC: \url{http://www.neptunesystems.com/ApexBrowse_pc.zip}\\
-- Mac: \url{http://www.neptunesystems.com/ApexBrowse_mac.zip}
-
-\textbf{Mac Network Settings:}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Open System Preferences =\textgreater{} Network\\
-\item
-  Select the Ethernet connection\\
-\item
-  Change Configure IPv4 to Manually\\
-\item
-  Write in the following:\\
-  IP Address: 172.24.113.75\\
-  Subnet Mask: 255.255.255.0\\
-  Router: 172.24.113.1\\
-\item
-  Click Apply
-\end{enumerate}
-
-\textbf{Accessing and using the Apex Classic Dashboard}\\
-Once the above settings are preset for the computer and apex, any future connections should be as simple as connecting your computer via blue ethernet cable.
-
-\textbf{Accessing Classic Dashboard}\\
-1. Open an internet web browser page\\
-1. Type into the address bar \url{http://172.24.113.\#\#} for the respective Apex unit you want to access (see above for IP address endings).\\
-1. Enter the default Username: \textbf{admin} and Password: \textbf{1234}\\
-1. Begin controlling your Apex from your computer
-
-\textbf{Using Classic Dashboard}
-1. Classic Dashboard\\
-1. Observe current and recorded temperature\\
-1. Manually turn on/off your outlets/devices\\
-1. Set your outlets/devices to automatic programming\\
-1. Modifying Outlet\\
-1. Click ``Configuration'' → Outlet Setup\\
-1. Select Base Outlet 1,2,3,or 4\\
-1. Outlet Name: name the outlet for the device which will be plugged in (ex. Heater, chiller, etc)\\
-1. Control type: match this to the device type or choose Advanced\\
-1. Icon: useful visual on the Display Module, match with device used (ex. Heater = thermometer, Chiller = fan)\\
-1. Log: ENABLE\\
-1. Programming Outlets\\
-1. From the home dashboard or Outlets page, click the small gear symbol to adjust program settings.\\
-1. Choose the program type: ex. ``Heater'' or ``Chiller'' or Advanced\\
-1. Heater and Chiller types have four preset lines:\\
-Fallback: On / Off (Choose ``Off'' if your heater/chiller doesn't have an internal thermostat\\
-Temp Probe: Tmp\\
-Outlet On: (The temp to turn your heater or chiller on)\\
-Outlet Off: (The temp to turn your heater or chiller off)\\
-- Probe name: must match the probe input setup name (ex. ``Tmp'' for temperature probe)\\
-1. Choose the ``Advanced'' program type to have more control over your device program\\
-Fallback: OFF\\
-Set: OFF\\
-If Tmp \textless{} (desired temp)\\
-Then ON\\
-1. Controlling Outlets\\
-1. From the Home screen, press the center round button → ``Control/Status'' → ``Manual Control''\\
-1. Use UP/DOWN arrows to choose which outlet you'd like to control and SELECT\\
-1. Choose ON, OFF, or AUTO\\
-1. ON turns on the outlet regardless of programming\\
-1. OFF turns off the outlet regardless of programming\\
-1. AUTO uses the set program to determine ON/OFF status of outlet
-
-\textbf{References:}\\
-- \url{https://www.neptunesystems.com/getstarted/apex-el/}\\
-- \url{https://www.neptunesystems.com/getstarted/apexng/apex-wifi/pc-wifi-el/}\\
-- Help Service: Neptune Systems Contact Number:\\
-- (408) 779-4090 (press 1, then press 1 again to be transferred to a Tech Representative)\\
-- \href{https://www.neptunesystems.com/getstarted/apexjr/}{Apex Jr.~Get Started Guide}\\
-- \href{https://www.neptunesystems.com/downloads/docs/Comprehensive_Reference_Manual.pdf}{Apex Comprehensive Reference Manual (Apex, Apex Lite, Apex Jr)}\\
-- \href{https://www.neptunesystems.com/downloads/docs/AquaController-Apex-Jr-Quickstart.pdf}{Aquacontroller Apex Jr Quick Start Guide}\\
-- \href{https://www.neptunesystems.com/downloads/docs/Quick-Start-Apex-Jr-Fullsheet-v1-web.pdf}{Apex Jr Ultra-Quick Setup Guide}\\
-- \href{https://www.neptunesystems.com/downloads/docs/EB4_manual.pdf}{EnergyBar 4 Setup Guide}
 
 \hypertarget{apex-fusion}{%
 \chapter{Apex Fusion}\label{apex-fusion}}
