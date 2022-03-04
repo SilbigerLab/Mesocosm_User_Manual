@@ -9,7 +9,10 @@ Northridge, CA 91330 USA
 Dr. Nyssa Silbiger, Assistant Professor  
 nyssa.silbiger@csun.edu
 
-Danielle Barnas, Lab Technician  
+Jennifer Fields, Lab Technician  
+jennifer.fields.855@my.csun.edu
+
+Danielle Barnas, Graduate Student  
 danielle.barnas@csun.edu
 
 **System Information**
