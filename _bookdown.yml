@@ -7,7 +7,7 @@ rmd_files: [
   "Rmd_Chapters/02-contacts.rmd",
   "Rmd_Chapters/03-system_details.rmd",
   "Rmd_Chapters/04-inventory.rmd",
-  "Rmd_Chapters/05-start-up_guide.rmd",
+  "Rmd_Chapters/05-system_operation_guide.rmd",
   "Rmd_Chapters/06-water_collection.rmd",
   "Rmd_Chapters/07-tidal_manipulation.rmd",
   "Rmd_Chapters/08-controlling_ph.rmd",
