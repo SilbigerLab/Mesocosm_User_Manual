@@ -33,7 +33,7 @@ For some quick tutorials on advanced programming in Fusion, check out Neptune Sy
 1. Outlets are arranged by the name you give them, the module they're associated with, the type of output, and whether or not you have chosen to log activity.
 1. Select an outlet to modify its name, display symbol, and program settings.
     1. To use a program template, use the "Control Type" dropdown menu to select which item you intend to use in this outlet location, then fill in the required information to control the outlet state.
-    1. To write your own program, select Advanced from the dropdown menu, and write your progrm in the source code box that appears.
+    1. To write your own program, select Advanced from the dropdown menu, and write your program in the source code box that appears.
 1. Once you've completed your settings and program, click the orange cloud icon in the upper right to send your new settings to the Apex.
 
 
@@ -71,10 +71,10 @@ http://172.24.113.25/cgi-bin/datalog.xml?sdate=191005&days=7
     1. A New Web Query dialog box will open.  Type or copy the url from your browser into the data source Address field.  Click Import.
     1. Your XML data should be imported into your empty spreadsheet and automatic filters created for each column making it easy to select and analyze data.
 1. Import Log Data (Mac)
-    1. Open the web browser for the apex data you want to downlaod
-    1. Wait for the page to fully load (the top line of the page will read "This XML file does not appear to have any style information associated with it.  The documnet tree is shown below.")
+    1. Open the web browser for the apex data you want to download
+    1. Wait for the page to fully load (the top line of the page will read "This XML file does not appear to have any style information associated with it.  The document tree is shown below.")
     1. Right click somewhere on the webpage and click Save As.
-    1. Save your file in an accesible location or in your R workspace with a name identifying the apex unit and date. 
+    1. Save your file in an accessible location or in your R workspace with a name identifying the apex unit and date. 
         1. Manually type .csv to save the file as a csv instead of an xml file.
         1. Ex. datalog_apex1_200804d3.csv identifies Apex_1, the saved data starts on 08-04-2020, and the data is saved through 3 days after the start date (through 08-07-2020).  
 
@@ -87,5 +87,5 @@ http://172.24.113.25/cgi-bin/datalog.xml?sdate=191005&days=7
     1. The popup window will display the current AOS version and the most recent AOS version available for the system.  If the popup says "it's recommended that you update", then make sure the Apex is connected via ethernet cable and click "Update".
 1. From the Dashboard Display
     1. Click the down arrow next to the apex name in the upper left corner and select "Network" from the dropdown menu.
-    1.  Under "Apex Operating System" you can view the installed AOS and Available AOS.  If the installed version is out of date, there will be an orange bar next to "AOS Update" reccommending you "Update AOS".  Click the bar, then make sure your Apex is connected via ethernet cable and click "Update".
+    1.  Under "Apex Operating System" you can view the installed AOS and Available AOS.  If the installed version is out of date, there will be an orange bar next to "AOS Update" recommending you "Update AOS".  Click the bar, then make sure your Apex is connected via ethernet cable and click "Update".
 1. Once the system has completed the update, go to your Modules page.  If any modules need to be updated (under "Status" there will be an error icon rather than a check mark), click that module and change the Configuration Action to "Update Software" then click the orange cloud icon.

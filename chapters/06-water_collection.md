@@ -17,14 +17,14 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
     1. Pool hose (stored inside one of the water bins)
     1. Standard garden hose (from Field Room)
     1. Triple filter and locking ring
-    1. Banjo attachment (PVC to pool hose adaptor)
+    1. Banjo attachment (PVC to pool hose adapter)
     1. Two ratchet straps or sets of rope
 
 <a name="check_list"></a> **Pre-Collection Check List**  
 
 1. Before traveling
     1. Sign out the Ford 450 truck at the Bio Stock Room for your desired day (Biology Department Vehicle ID 440).
-        1. Before driving a univeristy vehicle, be sure to complete the Defensive Drivers course.  Email Wendy Dunbarr (wendy.dunbarr@csun.edu) for details.
+        1. Before driving a university vehicle, be sure to complete the Defensive Drivers course.  Email Wendy Dunbarr (wendy.dunbarr@csun.edu) for details.
     1. At least 24 hours before collecting water, email Mark Loos (mark.loos@csulb.edu) of your intent to get water, and give him an estimated time of arrival. Check in with him or his appointed staff member upon arrival.
     1. Check that all three o-rings of the triple filter are in place and that the filters are placed in order (left to right following direction of flow: 20um, 5um, 1um) before twisting the filters onto the base rack.  Use the locking ring to ensure a tight seal of the filter compartments onto the rack.
     1. Ensure that all components of the sump are prepared for water:
@@ -48,7 +48,7 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
 1. Near the wire fence, there is a large pool hose with a pvc loop attachment. Remove the banjo attachemnt comprising of the PVC "U" on the pool hose and attach the banjo adapter that connects to the triple filter. Before connecting it to the filter, move this end of the hose to the drain port (hole in the concrete flowing under the walkway).
 1. Unwind the SCMI garden hose enough to also place the outflow end at the drain port.
 1. Open the t-valve at the base of the pool hose **half-way (at a 45 degree angle)** and fully open adjacent garden hose (t-valve parallel to the PVC).
-    1. Refernce image for t-valve alignment:
+    1. Reference image for t-valve alignment:
     
     ![Figure 2. Hose T-valve Alignments](images/SCMI_hose_valves.png)  
     
@@ -78,11 +78,11 @@ The water collected for the mesocosm system is filtered (100um mesh filter) unbu
 
 <a name="filling_the_sump"></a> **Filling the Sump**  
 
-1. Once back at CSUN, pull into the laoding bay between Citrus and Eucalyptus, and back up to the Field Room, leaving just enough space to open the door.
+1. Once back at CSUN, pull into the loading bay between Citrus and Eucalyptus, and back up to the Field Room, leaving just enough space to open the door.
 1. Unstrap and remove the lids.  Place one end of the large pool hose in one of the containers, and use a weight to keep it from floating up.
-1. Pull the free end of the hose to the sump, and start a siphon.  Gently wedge the end of the hose in between the matalamesh filters in the sump for hands-free siphoning and to filter the water as it goes into the system.
+1. Pull the free end of the hose to the sump, and start a siphon.  Gently wedge the end of the hose in between the matala mesh filters in the sump for hands-free siphoning and to filter the water as it goes into the system.
     1. To start a gravity-fed siphon, fill the hose with as much water as you can, displacing the air. Keep one end of the hose weighed down in the seawater container and the other end wedged in the sump. Starting near the sump end of the hose and working toward the bin end, lift the hose section by section to redirect the bulk of the water within toward the bin end until at least 1/3 of the hose at the bin end is filled with water. Lower the hose section you are holding to return flow back toward the sump end.
-1. When water volumne in the first bin is nearly at the top of the hose opening, remove the weight while holding down the hose opening toward the bottom of the bin.
+1. When water volume in the first bin is nearly at the top of the hose opening, remove the weight while holding down the hose opening toward the bottom of the bin.
     1. Keep the opening at an angle to the bottom to allow for continued suctioning of water without exposure to air.
 1. When you are ready to switch bins, preserve the siphon by cupping the palm of your hand against the hose end, submerging the hose in the next bin, then removing your hand.  Place the weight again to avoid the hose floating to the surface.
 1. If you plan to collect water again that day, simply replace the lids once you have finished siphoning, and drive back to SCMI for another round.
