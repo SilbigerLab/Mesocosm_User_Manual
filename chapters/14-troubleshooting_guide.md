@@ -1,7 +1,8 @@
 # Troubleshooting Guide
 
 **Contents**  
-- [**Loss of Power to the Sump/Tripped Breaker**](#Tripped_Breaker)  
+- [**Loss of Power to the Sump/Tripped Breaker**](#Tripped_Breaker) 
+- [**Chiller Shutdown**](#Chiller_Off)  
 - [**Flowmeter Misreadings**](#Flowmeter_Misreadings)  
 - [**Rebooting the Apex**](#Reboot_Apex)  
 - [**Sump Pump Malfunction**](#Sump_Pump_Malfunction)  
@@ -21,7 +22,14 @@
     1. Call PPM (818-677- ext. 2222) and let them know a breaker tripped at Citrus Hall in outside room 3114 - the room next to the Mechanics Room on the outside and South side of Citrus Hall.
     1. When PPM arrives, let them know the breaker box is on the 3rd floor of Citrus in Room 3303 and the switch is for EDP C-4
 
-    
+<a name="Chiller_Off"></a> **Chiller Shutdown**  
+
+1. This will occur if the temperature of the sump starts to increase significantly above 14 degrees Celsius. Set an alarm in the Apex to notify you if this error occurs. Currently it will notify if the sump temperature exceeds 17 degrees Celsius.
+1. Check in Sump room if AquaLogic chiller is displaying red numbers on the screen.
+    1. If not, try to unplug and replug in connection at the base of the chiller.
+    1. If that does not work, turn off and on the breaker (breakers 9 and 11 or refer to the [Breaker Box Connections Chapter](13-breaker_box_connections.md) in the mesocosm. 
+1. For resetting the temperature controls, refer to the [AquaLogic Manual](Manuals/AquaLogic_Chiller.pdf)
+
 <a name="Sump_Pump_Malfunction"></a> **Sump Pump Malfunction and Turning off flow to the Mesocosm Tanks**  
 
 1. If the sump pump (the outside underground pump between the Mesocosm container and the Field Room) stops pumping water to the sump, it will overflow out onto the concrete and into the loading bay driveway.

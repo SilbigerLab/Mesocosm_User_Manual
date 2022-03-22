@@ -33,4 +33,6 @@ Update GitBook and the .pdf and .epub files:
     1. For publishing once you've already established an RStudio Connect connection, you may be prompted to "Update application currently deployed at https://bookdown.org/content/####/?"
         1. Choose Y (yes) to update and overwrite previous bookdown files
     1. After a complete rendering, you will be redirected to your published book in your internet browser.
-    
+
+1. For pushing files to Git
+    1. Only select the files in the initial list. Do not select doc folder htmls. Push the .epub and .pdf files
