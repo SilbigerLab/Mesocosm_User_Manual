@@ -6,7 +6,7 @@
   * [Contacts](chapters/02-contacts.md)
   * [System Details](chapters/03-system_details.md)
   * [Inventory](chapters/04-inventory.md)
-  * [Start-up Guide](chapters/05-start-up_guide.md)
+  * [Start-up Guide](chapters/05-system_operation_guide.md)
   * [Water Collection Procedures](chapters/06-water_collection.md)  
   * [Tidal Manipulation](chapters/07-tidal_manipulation.md)
   * [Controlling pH](chapters/08-controlling_ph.md)
