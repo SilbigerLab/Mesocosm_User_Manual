@@ -1,4 +1,4 @@
-# Start-up Guide
+# System Operation Guide
 
 **Contents**  
 - [**Preparation inside the Mesocosm**](#Preparation)  
