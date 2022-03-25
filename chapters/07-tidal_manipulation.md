@@ -6,7 +6,7 @@ This is achieved by manipulating the incoming and outgoing flow rates of each in
 
 **Initial setup**  
 
-1. Refer to the [start up guide](05-start-up_guide.md/#Overflow_into_Secondary_Sump) for more details on initial system setup.
+1. Refer to the [start up guide](05-system_operation_guide.md/#Overflow_into_Secondary_Sump) for more details on initial system setup.
 
 **Setting the flow cycle**  
 
