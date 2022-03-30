@@ -151,8 +151,6 @@ While the system is powered on and cycling water through the sump and mesocosm t
 
 
 
-<a name="Draining_Sump"></a> **Draining the Mesocosm and Sump**  
-
 1. The first step before draining any water is to turn off the powerheads, heaters, and CO2 solenoids in all mesocosm tanks. **The powerheads and heaters cannot be ON when dry or they may be damaged**.
 1. You must also place caps on each pH probe filled with either DI water for temporary storage or KCl storage solution for long-term storage.  **The probe tips cannot dry out or they will be damaged**.
     1. Remove the probe from its holder in the tank, rinse in DI, then carefully slide the DI-filled cap on the probe tip until the diode is fully submerged.
@@ -183,15 +181,17 @@ While the system is powered on and cycling water through the sump and mesocosm t
     1. Attach tubing to the aquarium pump and place both the pump and tubing end into the main reservoir of the sump.
     1. Plug the aquarium pump into the quad outlet behind the sump (where the sump pump and UV light had previoiusly been plugged in).
     1. Use the tubing to fill up a bucket with remaining sump water, and place the tubing end back into the sump when dumping the bucket.
-    1. Do this until the water level is such that the aquarium pump is no longer a viable option.       1. **Do not let this pump run dry, or it may be damaged**
+    1. Do this until the water level is such that the aquarium pump is no longer a viable option.       
+    1. **Do not let this pump run dry, or it may be damaged**
 1. Place the tubing and aquarium pump in the bio-filtration reservoir and continue the process, stopping before the pump runs dry.
-    1. Any additional water can be removed with a small bucket or large sponge.
+    1. Any additional water can be removed with a small bucket or large sponge and using the hand bilge pump. 
 1. Once the system is drained of seawater, place the filters back into the sump (3 50um mesh, 8 bio-filters, and 3 carbon filters).
 1. Clean the mesocosm tanks thoroughly.
     1. Remove any debris or algal grwoth
     1. Wipe off all probes (avoiding sensitive tips), tubes, heaters, and sides of the tanks
     1. Use a brush to clean inside the large and small outflow pipes
     1. Thoroughly clean the powerheads (remove the plastic head and magnetic turbnine within to clean all areas of each unit, removing algal growth and debris)
+    1. Clean all drain and flow ports with pipe cleaners and DI water.
 1. Screw back on the PVC pipe with three outports at the junction by the Meso To Sump valve.
 1. Fill the sump with fresh water.
     1. Follow the instructions in the [Water Collection Guide for filling the sump](06-water_collection.md) with fresh water (attach a hose to the water pipe next to the Field Room door and fill the sump from the hose) and the order of operations for turning flow back on through the sump and tanks.
@@ -206,7 +206,8 @@ While the system is powered on and cycling water through the sump and mesocosm t
     1. Open the Meso to Sump valve and close the System Drain valve.
     1. Allow all tanks to completely fill with fresh water, and once the tanks are full and the sump is filled halfway, turn off and remove the freshwater hose.
 1. Let fresh water run through the system for one to two days before following these same steps for draining the freshwater.
-1. End of experiment
+1. After draining the system, use hand bilge pump to pump the remaining water out of ground pump. 
+3. End of experiment
     1. Remove the water inflow tubes from each tank's N and S ports to be acid washed and rinsed in DI water before next use.
     1. Rinse all pH, conductivity, and temperature probes in DI water.
     1. Use a KCl storage solution for capping the pH probes, ensuring the probe tips are fully submerged in the solution.
