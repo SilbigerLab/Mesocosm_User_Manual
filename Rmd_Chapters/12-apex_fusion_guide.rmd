@@ -60,7 +60,7 @@ http://172.24.113.25/cgi-bin/datalog.xml?sdate=191005&days=7
 * Hours and Minutes are optional in the date parameter.
 
 1. Following the above format, enter the unique IP address for the Apex containing the logs you want to access.
-    1. Apex_1 (SN 39106): 172.24.113.25  
+    1. Apex_1 (SN 39106): 172.24.113.238  
        Apex_2 (SN 40216): 172.24.113.22  
        Apex_3 (SN 39952): 172.24.113.23  
        Apex_4 (SN 37810): 172.24.113.21  
