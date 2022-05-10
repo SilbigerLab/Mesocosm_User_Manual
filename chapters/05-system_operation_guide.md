@@ -154,8 +154,8 @@ While the system is powered on and cycling water through the sump and mesocosm t
 With a group of 3-4 people:
 * Approximate time to drain system including all tanks and sump - 2 hours
 * Approximate time to clean tanks including all ports - 2 hours
-* Approximate time to fill sump up halfway - 30 mins
-* Approximate time to fill entire tank system with frequent checks on sump - 2 hours
+* Approximate time to fill sump up halfway with freshwater - 30 mins
+* Approximate time to fill entire tank system with freshwater including frequent checks on sump - 2 hours
 * Approximate time for meso tank down and restarting the system with freshwater - 6.5 hours
 
 1. The first step before draining any water is to turn off the powerheads, heaters, and CO2 solenoids in all mesocosm tanks. **The powerheads and heaters cannot be ON when dry or they may be damaged**.
