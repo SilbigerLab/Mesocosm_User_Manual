@@ -149,7 +149,13 @@ While the system is powered on and cycling water through the sump and mesocosm t
             - pH: check if air stones (aka bubblers) are dosing or 'leaking' CO2. May need to adjust pressure on the CO2 tank to avoid CO2 pressure in tubing forcing CO2 through the solenoids if pH is too low
             - Salinity: may need to schedule a water collection day to refresh the system water if salinity values are too high
 
+<a name="Draining_Sump"></a> **Draining the Meso and Sump**  
 
+1. With a group of 3-4 people:
+* Approximate time to drain system including all tanks and sump - 2 hours
+* Approximate time to clean tanks including all ports - 2 hours
+* Approximate time to fill sump up halfway - 30 mins
+* Approximate time to fill entire tank system with frequent checks on sump - 2 hours
 
 1. The first step before draining any water is to turn off the powerheads, heaters, and CO2 solenoids in all mesocosm tanks. **The powerheads and heaters cannot be ON when dry or they may be damaged**.
 1. You must also place caps on each pH probe filled with either DI water for temporary storage or KCl storage solution for long-term storage.  **The probe tips cannot dry out or they will be damaged**.
@@ -161,13 +167,13 @@ While the system is powered on and cycling water through the sump and mesocosm t
     1. Second, Close the Meso To Sump valve by turning the valve so it sits perpendicular to the PVC.  This will divert flow from the mesocosm tanks out of the system.
 1. Fully open (parallel to the PVC) the Sump Return valve of the filtration system, then turn off the flow of both the N and S valves for each tank, turning the valves clockwise until finger tight.
 1. Unplug the UV light and air pumps, but leave the water pump on for now.
-1. When draining the tanks, drain one tank at a time, to not overflow the drainage system.
-    1. **Unscrew** the larger outflow pipe until it is fully removed and cover the top opening with your hand to avoid water splashing upward when you remove the pipe.
+1. When draining the tanks, **drain one tank** at a time, to not overflow the drainage system. Have someone at the ground pump to drain each tank if needed.
+    1. To drain the tank, **unscrew** the larger outflow pipe until it is fully removed and cover the top opening with your hand to avoid water splashing upward when you remove the pipe. 
     1. Under each tank is a needle valve controlling drain flow through the smaller outflow pipe in each tank.  Fully open this valve by turning the needle counterclockwise until partially open.
     1. The smaller outflow tube can simply be pulled out from its slot, sometimes needing to be twisted to be unwedged.
 1. The underground sump pump located between the Mesocosm container and the Field Room will continue to push water from the tanks to the Field Room system.
-    1. **Do not allow salt water to overflow the drainage port of the Mechanics room.** Periodically check the drainage port to make sure the water pumped from the tanks is not overflowing onto the floor of the Mechanical Room.
-    1. By only draining one tank at a time, overflow should not be an issue.
+    1. **Do not allow salt water to overflow the drainage port of the Mechanics room.** Periodically check the drainage port to make sure the water pumped from the tanks is not overflowing onto the floor of the Mechanical Room. 
+    1. By only draining **one tank** at a time, overflow should not be an issue.
     1. If you notice water is overflowing, slightly open the Meso To Sump valve to divert some water back into the sump and reduce the water volume diverted to the drainage port.
 1. Once the mesocosm tanks are all drained, unplug the sump's main pump.
     1. **Alternatively**, to drain the sump partially, leave the main pump plugged in, open the N flow valves for mesocosm tanks, then slightly open the Meso Return valve, and slightly close the Sump Return Valve.
