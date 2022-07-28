@@ -57,7 +57,7 @@
        Apex_2 (SN 40216): 172.24.113.22  
        Apex_3 (SN 39952): 172.24.113.23  
        Apex_4 (SN 37810): 172.24.113.21  
-       Apex_5 (SN 41239): 172.24.113.24  
+       Apex_5 (SN 41239): 172.24.113.172
 1. Press OK  
 1. Go to Gateway menu  
 1. If needed, change Gateway to 172.24.113.1  
