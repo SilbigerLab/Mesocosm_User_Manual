@@ -51,7 +51,7 @@
 | PhosBan CDX Carbon Dioxide Absorption Media 3L | 0 | [$44.38 Bulk Reef Supply](https://www.bulkreefsupply.com/cdx-carbon-dioxide-adsorption-media-two-little-fishies.html) |
 | Cascade Water Pump (Model C1, 1HP, 3450RPM 115/230V, 60Hz, 5.7A) | 1 | 
 | UV Sterilizer | 1 | 
-| UV Light (UV-BULB-095W-1) | 1 | [$110 AquaLogic](https://aqualogicinc.com/product/aqua-logic-uv-lamps/)
+| UV Light (UV-BULB-095W-1) | 1 | [$110 AquaLogic](https://aqualogicinc.com/product/aqua-logic-uv-lamps/) *should be checked and maybe replaced every year*
 | Air Pump | 2 |
 | Air Pump tubing to Phosban Reactor 3/8" ID | 2 | [$4.93 Home Depot](https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141) |
 | Airflow Tubing 3/16" ID | 4 | [$2.69 Petsmart](https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html) |
