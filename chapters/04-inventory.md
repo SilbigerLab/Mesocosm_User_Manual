@@ -56,7 +56,7 @@
 | Air Pump tubing to Phosban Reactor 3/8" ID | 2 | [$4.93 Home Depot](https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141) |
 | Airflow Tubing 3/16" ID | 4 | [$2.69 Petsmart](https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html) |
 | Airstone | 10 |
-| Bag Filter, 50um | 3 |
+| Bag Filter, 50um | 3 |[$7.00 Freshwater systems](https://www.freshwatersystems.com/products/pentek-420-polypro-felt-bag-50-micron)
 | Carbon Filter Cell | 3 |
 | Matala Filter, High Density (Blue) | 4 |
 | Matala Filter, Low Density (Black) | 4 |
