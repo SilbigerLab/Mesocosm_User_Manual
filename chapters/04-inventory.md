@@ -2,6 +2,7 @@
 
 **Contents**  
 - [**Mesocosm Tanks**](#Mesocosm_Tanks)  
+  - [**Venturi Pumps](#Venturi_Pumps)
 - [**Filtration**](#Filtration)  
 - [**Additional Items**](#Additional_Items)
   
@@ -18,7 +19,6 @@
 | Suction Cup Heater Holder | 40 |
 | Halo Light | 20 | [$299.99 Amazon](https://www.amazon.com/Aquatic-Life-Halo-Basic-Fixture/dp/B00T6FGDJW) |
 | Halo Light Power Cords | 20 |
-| Hydor Powerhead | 20 | [$34.99 Amazon](https://www.amazon.com/Hydor-Koralia-Nano-Aquarium-Circulation/dp/B0036S70ZG/ref=sr_1_2?keywords=hydor+powerhead&qid=1572981966&s=pet-supplies&sr=1-2) |
 | Apex Temperature Probe | 20 | [$29.95 Bulk Reef Supply](https://www.bulkreefsupply.com/temperature-probe-neptune-systems.html) |
 | Apex pH Probe | 20 | [$74.95 Bulk Reef Supply](https://www.bulkreefsupply.com/lab-grade-double-junction-ph-probe-neptune-systems.html) |
 | Apex Conductivity Probe | 5 | [124.95 Bulk Reef Supply](https://www.bulkreefsupply.com/neptune-systems-lab-grade-conductivity-probe.html) |
@@ -36,8 +36,19 @@
 | Apex Base Unit | 5 | [$399.95 Bulk Reef Supply](https://www.bulkreefsupply.com/apex-controller-base-unit-neptune-systems.html) |
 | Apex EB832 | 10 | [$249.95 Bulk Reef Supply](https://www.bulkreefsupply.com/energybar-832-neptune-systems.html) |
 | Tunze CO2 Regulator Valve | 1 |
-| Bluelight Glasses | 6 |
-  
+| Bluelight Glasses | 3 |
+
+<a name="Venturi_pumps"></a> **Venturi pumps**
+| Item | Quantity | Purchase Replacement |
+| :--- | :--- | :--- |
+| Danner Water Pump | 22 | [Amazon](https://www.amazon.com/Manufacturing-Pondmaster-Pond-Mag-Magnetic-18-Foot/dp/B0002564LW/ref=sr_1_1?crid=2YRXCIQT8IZUQ&keywords=Danner+Manufacturing%2C+Inc.+2525+Pondmaster+Model+5+Pump%2C+2525%2C+Black&qid=1650055267&sprefix=danner+manufacturing%2C+inc.+2525+pondmaster+model+5+pump%2C+2525%2C+black%2Caps%2C146&sr=8-1)
+| Venturi Injectors | 22 | [Amazon](https://www.amazon.com/Venturi-Fertilizer-Injectors-Agriculture-Irrigation/dp/B01KO1C80O/ref=sr_1_4?crid=ZFFCDESNXT5U&keywords=G1%2F2+Irrigation+Fertilizer+Venturi+Fertilizer+Injector+Switch+Water+Tube+Kit&qid=1645827269&sprefix=g1%2F2+irrigation+fertilizer+venturi+fertilizer+injector+switch+water+tube+kit%2Caps%2C181&sr=8-4)
+| 1/2-in FNPT Flex Pipe Coupling | 22 | [Lowes](https://www.lowes.com/pd/Orbit-Barbed-x-1-2-in-FNPT-Flex-Pipe-Coupling/3424698)
+| Tubing for Venturi | 1 roll | [Lowes](https://www.lowes.com/pd/EZ-FLO-3-8-in-Inner-Diameter-x-10-ft-PVC-Clear-Vinyl-Tubing/1000365031)
+| 1/2 x 1/4 Reducing union | 22 | [Fresh Water Systems](https://www.freshwatersystems.com/products/john-guest-reducing-union-1-2-x-1-4)
+| 1/4 push-to-connect for tubing | 22 | [McMaster Carr part 9087K81](https://www.mcmaster.com/push-to-connect-tube-fittings/shape~tee/push-to-connect-fittings-for-plastic-tubing-food-and-beverage/for-tube-od~1-4/type~connector/)
+| 1/4 Flow-Adjustment Value | 22 | [McMaster Carr part 7781K41](https://www.mcmaster.com/catalog/128/533)
+
 <a name="Filtration"></a> **Filtration**
 
 | Item | Quantity | Purchase Replacement |
@@ -48,12 +59,12 @@
 | Apex Temperature Probe | 20 | [$29.95 Bulk Reef Supply](https://www.bulkreefsupply.com/temperature-probe-neptune-systems.html) |
 | Apex pH Probe | 20 | [$74.95 Bulk Reef Supply](https://www.bulkreefsupply.com/lab-grade-double-junction-ph-probe-neptune-systems.html) |
 | Apex PM1 | 1 | [$84.95 Bulk Reef Supply](https://www.bulkreefsupply.com/ph-orp-probe-module-pm1-neptune-systems.html) |
-| PhosBan Reactor 550 | 2 | [$85.14 Bulk Reef Supply](https://www.bulkreefsupply.com/phosban-reactor-550.html) |
-| PhosBan CDX Carbon Dioxide Absorption Media 3L | 0 | [$44.38 Bulk Reef Supply](https://www.bulkreefsupply.com/cdx-carbon-dioxide-adsorption-media-two-little-fishies.html) |
+| PhosBan Reactor 550 | 3 | [$85.14 Bulk Reef Supply](https://www.bulkreefsupply.com/phosban-reactor-550.html) |
+| PhosBan CDX Carbon Dioxide Absorption Media 3L | 12 | [$44.38 Bulk Reef Supply](https://www.bulkreefsupply.com/cdx-carbon-dioxide-adsorption-media-two-little-fishies.html) |
 | Cascade Water Pump (Model C1, 1HP, 3450RPM 115/230V, 60Hz, 5.7A) | 1 | 
 | UV Sterilizer | 1 | 
 | UV Light (UV-BULB-095W-1) | 1 | [$110 AquaLogic](https://aqualogicinc.com/product/aqua-logic-uv-lamps/) *should be checked and maybe replaced every year*
-| Air Pump | 2 |
+| Air Pump | 3 |
 | Air Pump tubing to Phosban Reactor 3/8" ID | 2 | [$4.93 Home Depot](https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141) |
 | Airflow Tubing 3/16" ID | 4 | [$2.69 Petsmart](https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html) |
 | Airstone | 10 |
@@ -72,4 +83,5 @@
 | Apex 53,000 uS Conductivity Calibration Pack | 5 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
 | 400 W Hydro Heaters | 3 | [Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B0006JLPFO/ref=sr_1_2?crid=BCFXEM3W4BLB&keywords=400+watt+hydro+heater&qid=1664836684&qu=eyJxc2MiOiIxLjUxIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=pet-supplies&sprefix=400+watt+hydro+heat%2Cpets%2C179&sr=1-2) |
 | 500 W VivoSun Heaters | 4 | [Amazon](https://www.amazon.com/VIVOSUN-Submersible-Intelligent-Temperature-Over-Temperature/dp/B0B67GXYHM/ref=sr_1_5?crid=3UG470OOQWSSE&keywords=500+W+VivoSun+aquarium&qid=1664836737&qu=eyJxc2MiOiIwLjI1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=500+w+vivosun+aquarium%2Caps%2C106&sr=8-5) |
+| Hydor Powerhead | 20 | [$34.99 Amazon](https://www.amazon.com/Hydor-Koralia-Nano-Aquarium-Circulation/dp/B0036S70ZG/ref=sr_1_2?keywords=hydor+powerhead&qid=1572981966&s=pet-supplies&sr=1-2) |
 
