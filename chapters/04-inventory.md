@@ -13,7 +13,8 @@
 | Experimental Aquarium | 20 | 
 | Aquarium Lid | 20 | 
 | Lid- and tube-holding Pegs | 80 |
-| 200W Heater | 20 | [$24.99 Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B00061UQ7K) |
+| 200W Heater | 17 | [$24.99 Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B00061UQ7K) |
+| 300W Heater | 3 | [Amazon](https://www.amazon.com/INKBIRDPLUS-Submersible-Thermostat-Temperature-Controller/dp/B095VRTSMJ/ref=sr_1_11?crid=13FV6UBTFJO2M&keywords=300+w+aquarium+heater&qid=1664836879&qu=eyJxc2MiOiI0LjA4IiwicXNhIjoiMy42MiIsInFzcCI6IjIuODEifQ%3D%3D&sprefix=300+W+aquariu%2Caps%2C143&sr=8-11) |
 | Suction Cup Heater Holder | 40 |
 | Halo Light | 20 | [$299.99 Amazon](https://www.amazon.com/Aquatic-Life-Halo-Basic-Fixture/dp/B00T6FGDJW) |
 | Halo Light Power Cords | 20 |
@@ -69,4 +70,6 @@
 | Apex pH 7 Calibration Pack | 5 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
 | Apex pH 10 Calibration Pack | 5 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
 | Apex 53,000 uS Conductivity Calibration Pack | 5 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
+| 400 W Hydro Heaters | 3 | [Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B0006JLPFO/ref=sr_1_2?crid=BCFXEM3W4BLB&keywords=400+watt+hydro+heater&qid=1664836684&qu=eyJxc2MiOiIxLjUxIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=pet-supplies&sprefix=400+watt+hydro+heat%2Cpets%2C179&sr=1-2) |
+| 500 W VivoSun Heaters | 4 | [Amazon](https://www.amazon.com/VIVOSUN-Submersible-Intelligent-Temperature-Over-Temperature/dp/B0B67GXYHM/ref=sr_1_5?crid=3UG470OOQWSSE&keywords=500+W+VivoSun+aquarium&qid=1664836737&qu=eyJxc2MiOiIwLjI1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=500+w+vivosun+aquarium%2Caps%2C106&sr=8-5) |
 
