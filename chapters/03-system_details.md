@@ -11,7 +11,8 @@
 <a name="Aquaria_System_List"></a> **Aquaria System Component List**
  
 * Experimental Tanks (21.25” x 12.5” x 13.5”H, 14.37 gal) - Per tank:  
-  * 1 Submersible powerhead pump ([Hydor Nano Koralia 240 powerhead](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Hydor_Nano_Pump.pdf))  
+  * 1 Venturi pump set up (see inventory for components)
+  * Previously used: 1 Submersible powerhead pump ([Hydor Nano Koralia 240 powerhead](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Hydor_Nano_Pump.pdf))  
   * 1 200 W Heater ([Hydor aquarium heater](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Hydor_Heater.pdf))  
   * 1 Light ([Halo Basic M-110](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Apex_Halo.pdf))  
   * 1 Temperature probe (Apex)  
@@ -40,6 +41,7 @@
 * Sump (66.25” x 31.5” x 21”H)  
 * Chiller and Heat Pump ([AquaLogic Multi-Temp and Titan Series](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/AquaLogic_Chiller.pdf))  
 * 1 PM1 ([Apex Probe Module 1](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/PM1_manual.pdf))  
+* 1 Venturi pump set up (see inventory for components) in sump and secondary sump
 * 1 Temperature probe (Apex)  
 * 1 pH probe (Apex)
 * Water pump ([PerformancePro Cascade pump](https://github.com/SilbigerLab/Mesocosm_User_Manual/blob/master/Manuals/Complete_Cascade.pdf))  
@@ -108,8 +110,8 @@
 
 Note: Each horizontal row on an EB832 corresponds to one tank, yielding 4 outlets per aquarium. Current outlet order, left to right:
 
-1. 200W Heater
-2. Hydor Powerhead
+1. 200W or 300W Heater 
+2. Venturi pump
 3. Water supply line "S" Solenoid
 4. Halo Light
 
