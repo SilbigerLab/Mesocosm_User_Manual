@@ -113,6 +113,9 @@
 | Neptune solenoid flow controllers | 3 |
 | Neptune flow sensors | 2 |
 | Neptune temp probe | 2 |
+| Flow solenoid replacements | 6 |
+| Flow solenoid extension cords | 2 | 
+| Misc extension cords | 4 |
 | Teflon tape | 2 |
 | Extra AUX wire connectors | 12 | 
 | Heat shrink connectors for solenoids | | [Amazon](https://www.amazon.com/gp/product/B09F3S8MWR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 
