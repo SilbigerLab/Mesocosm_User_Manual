@@ -4,7 +4,8 @@
 - [**Mesocosm Tanks**](#Mesocosm_Tanks)  
   - [**Venturi Pumps**](#Venturi_Pumps)
 - [**Filtration**](#Filtration)  
-- [**Additional Items**](#Additional_Items)
+- [**Additional Items in Meso**](#Additional_Items_in_Meso)
+- [**Additional Items in Lab**](#Additional_Items_in_Lab)
   
   
 <a name="Mesocosm_Tanks"></a> **Mesocosm Tanks**
@@ -62,26 +63,59 @@
 | PhosBan Reactor 550 | 3 | [$85.14 Bulk Reef Supply](https://www.bulkreefsupply.com/phosban-reactor-550.html) |
 | PhosBan CDX Carbon Dioxide Absorption Media 3L | 12 | [$44.38 Bulk Reef Supply](https://www.bulkreefsupply.com/cdx-carbon-dioxide-adsorption-media-two-little-fishies.html) |
 | Cascade Water Pump (Model C1, 1HP, 3450RPM 115/230V, 60Hz, 5.7A) | 1 | 
+| Ground sump pump | 1 | [Amazon](https://www.amazon.com/dp/B07MW2C546?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 | UV Sterilizer | 1 | 
 | UV Light (UV-BULB-095W-1) | 1 | [$110 AquaLogic](https://aqualogicinc.com/product/aqua-logic-uv-lamps/) *should be checked and maybe replaced every year*
-| Air Pump | 3 |
+| Air Pump | 3 | 
 | Air Pump tubing to Phosban Reactor 3/8" ID | 2 | [$4.93 Home Depot](https://www.homedepot.com/p/UDP-3-8-in-I-D-x-1-2-in-O-D-x-10-ft-Clear-Vinyl-Tubing-T10006008/304185141) |
 | Airflow Tubing 3/16" ID | 4 | [$2.69 Petsmart](https://www.petsmart.com/fish/filters-and-pumps/air-and-water-pumps/grreat-choice-airline-tubing-5202767.html) |
 | Airstone | 10 |
 | Bag Filter, 50um | 3 |[$7.00 Freshwater systems](https://www.freshwatersystems.com/products/pentek-420-polypro-felt-bag-50-micron)
-| Carbon Filter Cell | 3 |
+| Carbon Filter Cell | 3 | Email AquaLogic for Dacron socks replacements; activated carbon at local store
 | Matala Filter, High Density (Blue) | 4 |
 | Matala Filter, Low Density (Black) | 4 |
 
-  
-<a name="Additional_Items"></a> **Additional Items**
+<a name="Additional_Items_in_Meso"></a> **Additional Items in Meso**
 
 | Item | Quantity | Purchase Replacement |
 | :--- | :--- | :--- |
+| Apex 53,000 uS Conductivity Calibration Pack | 8 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
+| Associated cleaning brushes | 7 | 
+| Pipe cleaners for flow tubes | 7 | 
+| Label tape | 3 | 
+| Electrical Tape | 2 | 
+| Scissors and ruler | 1 | 
+| Mini screwdrivers | 2 | 
+| Flow adjusters | 2 | 
+| Silicone sealant | 1 |
+| Extra suction cup holders, connectors, and misc tubing |
+| Zipties |
+
+
+<a name="Additional_Items_in_Lab"></a> **Additional Items in Lab**
+
+| Item | Quantity | Purchase Replacement |
+| :--- | :--- | :--- |
+| Ground sump pump | 2 | [Amazon](https://www.amazon.com/dp/B07MW2C546?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+| Cascade Water Pump (Model C1, 1HP, 3450RPM 115/230V, 60Hz, 5.7A) | 1 | 
 | Apex pH 7 Calibration Pack | 5 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
 | Apex pH 10 Calibration Pack | 5 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
-| Apex 53,000 uS Conductivity Calibration Pack | 5 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
-| 400 W Hydro Heaters | 3 | [Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B0006JLPFO/ref=sr_1_2?crid=BCFXEM3W4BLB&keywords=400+watt+hydro+heater&qid=1664836684&qu=eyJxc2MiOiIxLjUxIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=pet-supplies&sprefix=400+watt+hydro+heat%2Cpets%2C179&sr=1-2) |
-| 500 W VivoSun Heaters | 4 | [Amazon](https://www.amazon.com/VIVOSUN-Submersible-Intelligent-Temperature-Over-Temperature/dp/B0B67GXYHM/ref=sr_1_5?crid=3UG470OOQWSSE&keywords=500+W+VivoSun+aquarium&qid=1664836737&qu=eyJxc2MiOiIwLjI1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=500+w+vivosun+aquarium%2Caps%2C106&sr=8-5) |
+| Apex 53,000 uS Conductivity Calibration Pack | 4 | [Bulk Reef Supply](https://www.bulkreefsupply.com/probe-calibration-kit-ph-7-0-ph-10-0-salinity-53000us-neptune-systems.html) |
+| 200 W Hydro Heaters | 2 | [Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B00061UQ7K) *one maybe broken |
+| 400 W Hydro Heaters | 5 | [Amazon](https://www.amazon.com/Hydor-Submersible-Glass-Aquarium-Heater/dp/B0006JLPFO/ref=sr_1_2?crid=BCFXEM3W4BLB&keywords=400+watt+hydro+heater&qid=1664836684&qu=eyJxc2MiOiIxLjUxIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=pet-supplies&sprefix=400+watt+hydro+heat%2Cpets%2C179&sr=1-2) |
+| 400 W Heaters | 1 | [Amazon](https://www.amazon.com/dp/B08VNGG88D?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
+| 500 W VivoSun Heaters | 4 | [Amazon](https://www.amazon.com/VIVOSUN-Submersible-Intelligent-Temperature-Over-Temperature/dp/B0B67GXYHM/ref=sr_1_5?crid=3UG470OOQWSSE&keywords=500+W+VivoSun+aquarium&qid=1664836737&qu=eyJxc2MiOiIwLjI1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=500+w+vivosun+aquarium%2Caps%2C106&sr=8-5) *one maybe broken |
 | Hydor Powerhead | 20 | [$34.99 Amazon](https://www.amazon.com/Hydor-Koralia-Nano-Aquarium-Circulation/dp/B0036S70ZG/ref=sr_1_2?keywords=hydor+powerhead&qid=1572981966&s=pet-supplies&sr=1-2) |
+| USB-C to ethenet adaptor for Apex Local | 1 | [Amazon](https://www.amazon.com/dp/B0837QGZMY?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+| BulkReef Supply pH probe | 1 | [BulkReef Supply](https://www.bulkreefsupply.com/brs-double-junction-lab-grade-ph-probe.html)
+| Neptune pH probe | 2 | [Neptune Systems](https://www.bulkreefsupply.com/lab-grade-double-junction-ph-probe-neptune-systems.html)
+| Neptune ORP probes | 5 |
+| Neptune solenoid flow controllers | 3 |
+| Neptune flow sensors | 2 |
+| Neptune temp probe | 2 |
+| Teflon tape | 2 |
+| Extra AUX wire connectors | 12 | 
+| Heat shrink connectors for solenoids | | [Amazon](https://www.amazon.com/gp/product/B09F3S8MWR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 
+
+
 
