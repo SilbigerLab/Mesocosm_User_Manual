@@ -1,6 +1,6 @@
 # Controlling pH
 
-The pH is controlled with the addition of CO~2~ gas to the system. The gas is delivered to the tank by air stone and is controlled through the Apex Controls with a solenoid valve connected to the EB832.
+The pH is controlled with the addition of CO~2~ gas to the system. The gas is delivered to the tank by the tubing and Venturi pump and is controlled through the Apex Controls with a solenoid valve connected to the EB832.
 
 1. Once the CO~2~ regulator is connected to a tank, open the main tank valve.
 2. Use the pressure adjusting screw (larger knob in front with Tunze label) to adjust the pressure (in bar) on the pressure gauge. Turning **clockwise to open**, thus increasing pressure, while turning **counterclockwise to close**, thus reducing pressure.
