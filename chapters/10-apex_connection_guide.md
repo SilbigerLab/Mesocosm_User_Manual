@@ -147,11 +147,19 @@ Optional: If you think the computer may not be recognizing the Apex, check conne
 <a name="apex_classic_dashboard"></a> **Accessing and using the Apex Classic Dashboard**  
 Once the above settings are preset for the computer and apex, any future connections should be as simple as connecting your computer via blue ethernet cable.
 
+**Connecting to a new Wifi signal**
+If the Apex controller light is not blue, put it into WiFi Setup Mode by pressing the reset button for 6 seconds until the logo turns blue, or unplug the unit for 10 seconds then plug it back in and wait for the light to turn solid blue. Once the light is blue, follow these steps:
+1. Connect your phone or computer to the Apex_Setup### WiFi network
+1. Copy and paste into your browser: http://172.16.0.1
+1. Select your WiFi name from the list
+1. Enter your password
+1. The Apex will reboot and connect to your WiFi. The logo will turn orange.
+
 **Accessing Classic Dashboard**  
 1. Open an internet web browser page  
 1. Type into the address bar http://172.24.113.## for the respective Apex unit you want to access (see above for IP address endings).    
 1. Enter the default Username: **admin** and Password: **1234**  
-1. Begin controlling your Apex from your computer  
+1. Begin controlling your Apex from your computer
 
 **Using Classic Dashboard**
 1. Classic Dashboard  
